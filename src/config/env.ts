@@ -50,3 +50,16 @@ if (!parsed.success) {
 }
 
 export const env = parsed.data;
+CUSTOMER_SERVICE_ML_URL:
+  z.string()
+    .url()
+    .default(
+      "http://127.0.0.1:8001"
+    ),
+
+CUSTOMER_SERVICE_ML_TIMEOUT_MS:
+  z.coerce
+    .number()
+    .int()
+    .positive()
+    .default(5000),
