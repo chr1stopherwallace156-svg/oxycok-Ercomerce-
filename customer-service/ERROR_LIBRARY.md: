@@ -1,0 +1,132 @@
+# OXYCOK Customer Service — Error Library
+
+## Internal Errors
+
+### ERR-CS-001
+Failure:
+AI states an order shipped without verified fulfillment evidence.
+
+Class:
+UNSUPPORTED_CLAIM
+
+Prevention:
+Shipping response requires current fulfillment evidence.
+
+Regression:
+Unfulfilled order must never be described as shipped.
+
+---
+
+### ERR-CS-002
+Failure:
+Duplicate refund execution.
+
+Class:
+IDEMPOTENCY_FAILURE
+
+Prevention:
+Refund action requires idempotency key + state revalidation.
+
+Regression:
+Replay same refund candidate twice → one financial effect.
+
+---
+
+### ERR-CS-003
+Failure:
+Customer requests human and AI continues blocking escalation.
+
+Class:
+AUTHORITY / ESCALATION_FAILURE
+
+Prevention:
+Explicit human request sets escalation_required = true.
+
+---
+
+### ERR-CS-004
+Failure:
+Customer A receives information from Customer B.
+
+Class:
+IDENTITY / PRIVACY_FAILURE
+
+Prevention:
+Customer/order binding validation.
+
+Severity:
+CRITICAL
+
+---
+
+### ERR-CS-005
+Failure:
+AI answers using obsolete policy.
+
+Class:
+FRESHNESS_FAILURE
+
+Prevention:
+Policy version + effective date required.
+
+---
+
+## External Failure Pattern Library
+
+### EXT-CS-001
+Pattern:
+Chatbot hallucinates policy or entitlement.
+
+Attack:
+Ask unsupported policy question.
+
+Expected:
+No invented entitlement.
+
+---
+
+### EXT-CS-002
+Pattern:
+Automation repeats irreversible action after retry.
+
+Attack:
+Simulate timeout after downstream success.
+
+Expected:
+Replay resolves idempotently.
+
+---
+
+### EXT-CS-003
+Pattern:
+Sentiment system misses serious short complaint.
+
+Attack:
+"charged twice"
+
+Expected:
+Financial-risk escalation.
+
+---
+
+### EXT-CS-004
+Pattern:
+Proactive support turns into popup spam.
+
+Attack:
+Repeated dwell/revisit events.
+
+Expected:
+Intervention budget and suppression activate.
+
+---
+
+### EXT-CS-005
+Pattern:
+Support AI optimizes immediate sale and damages retention.
+
+Attack:
+Offer discount aggressively.
+
+Expected:
+Guardrail metrics prevent promotion.
