@@ -168,3 +168,36 @@ export const CONNECTOR_REGISTRY:
       false
   }
 };
+CREATE TABLE raw_market_observations (
+    observation_id TEXT PRIMARY KEY,
+
+    source_id TEXT NOT NULL,
+
+    connector_id TEXT NOT NULL,
+
+    connector_version TEXT NOT NULL,
+
+    source_record_id TEXT,
+
+    observation_type TEXT NOT NULL,
+
+    entity_type TEXT NOT NULL,
+
+    entity_key TEXT NOT NULL,
+
+    geography TEXT,
+
+    currency TEXT,
+
+    authority_class TEXT NOT NULL,
+
+    observed_at TIMESTAMPTZ NOT NULL,
+
+    fetched_at TIMESTAMPTZ NOT NULL,
+
+    payload JSONB NOT NULL,
+
+    payload_hash TEXT NOT NULL,
+
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
