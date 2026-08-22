@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0.0",
+
+  "proactiveService": {
+    "enabled": false,
+    "maxInterventionsPerSession": 1,
+    "cooldownSeconds": 1800
+  },
+
+  "ml": {
+    "sentiment": {
+      "enabled": true,
+      "negativeEscalationThreshold": null
+    },
+
+    "intent": {
+      "enabled": true,
+      "minimumConfidence": null
+    }
+  },
+
+  "financialActions": {
+    "automaticRefund": false,
+    "automaticDiscount": false,
+    "automaticCancellation": false
+  }
+}
