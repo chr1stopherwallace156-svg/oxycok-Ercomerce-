@@ -1,3 +1,4 @@
+
 doctrine/OPERATING_CONSTITUTION.md
 # OXYCOK Commerce — Operating Constitution
 
@@ -1275,3 +1276,691 @@ DEFAULT_AI_AUTHORITY = OBSERVE_ANALYZE_RECOMMEND
 Documentation alone is not enforcement.
 
 Future runtime guards must progressively convert these rules into executable invariants.
+# OXYCOK Commerce — Exhaustion Protocol
+
+> Defines how OXYCOK systematically explores a problem until remaining unknowns, limitations, risks, and opportunities are explicitly characterized.
+
+---
+
+# 1. Purpose
+
+OXYCOK does not treat the first working implementation as the end of engineering.
+
+For substantial capabilities, the system must ask:
+
+```text
+What else exists?
+
+What have we not considered?
+
+What assumption are we making?
+
+What evidence contradicts us?
+
+What breaks this?
+
+What happens at scale?
+
+What happens under failure?
+
+What happens under adversarial conditions?
+
+What work is still manual?
+
+What knowledge should become reusable?
+
+What becomes limiting next?
+```
+
+The objective is systematic coverage rather than arbitrary complexity.
+
+---
+
+# 2. Exhaustion Is Multi-Dimensional
+
+A capability may require examination across:
+
+```text
+FUNCTION
+DATA
+IDENTITY
+STATE
+TIME
+ORDERING
+CONCURRENCY
+FAILURE
+SECURITY
+PRIVACY
+AUTHORITY
+PROVENANCE
+COMPLIANCE
+ECONOMICS
+PERFORMANCE
+SCALE
+OBSERVABILITY
+REVERSIBILITY
+TRANSFERABILITY
+HUMAN FACTORS
+ADVERSARIAL CONDITIONS
+DURABILITY
+RECOVERY
+GENERALIZATION
+AUTOMATION
+```
+
+Not every dimension applies equally to every capability.
+
+Applicable dimensions must be considered explicitly.
+
+---
+
+# 3. Exhaustion State
+
+Every substantial capability should eventually be able to report:
+
+```text
+KNOWN
+VERIFIED
+QUALIFIED
+UNKNOWN
+UNTESTED
+UNAVAILABLE
+CONTRADICTORY
+OUT_OF_SCOPE
+NOT_APPLICABLE
+```
+
+Absence of investigation must not silently become PASS.
+
+---
+
+# 4. Coverage Matrix
+
+For every important capability, establish a coverage matrix.
+
+Example:
+
+| Dimension | Status | Evidence | Remaining Work |
+|---|---|---|---|
+| Happy path | VERIFIED | test | none |
+| Invalid input | VERIFIED | fixture | none |
+| Duplicate | VERIFIED | replay test | none |
+| Ordering | UNTESTED | none | challenger required |
+| Concurrency | UNTESTED | none | load fixture |
+| Authority | PARTIAL | policy | runtime guard missing |
+| Recovery | UNKNOWN | none | design required |
+| Scale | UNKNOWN | none | load test required |
+
+A green test suite does not erase UNKNOWN cells.
+
+---
+
+# 5. Instance → Mechanism
+
+When a problem is discovered:
+
+```text
+INSTANCE
+   ↓
+FAILURE CLASS
+   ↓
+GENERAL MECHANISM
+   ↓
+GENERAL FIX
+   ↓
+REGRESSION
+```
+
+Do not permanently encode fixture-specific patches unless the domain itself requires fixture-specific behavior.
+
+---
+
+# 6. Mechanism → Repository Capability
+
+When a general mechanism succeeds repeatedly:
+
+```text
+SUCCESS
+   ↓
+REPEAT SUCCESS
+   ↓
+IDENTIFY GENERAL METHOD
+   ↓
+FREEZE BEHAVIOR
+   ↓
+ATTACK METHOD
+   ↓
+QUALIFY
+   ↓
+REPOSITORY CAPABILITY
+```
+
+Future systems should inherit qualified reusable capabilities automatically where appropriate.
+
+---
+
+# 7. Manual Work Is Evidence
+
+Repeated human intervention must be tracked.
+
+Ask:
+
+```text
+Why did a human have to do this?
+
+Was judgment genuinely required?
+
+Was authority required?
+
+Was information missing?
+
+Was tooling missing?
+
+Was methodology missing?
+
+Was the repository unable to remember?
+```
+
+Repeated procedural work is an automation candidate.
+
+Repeated high-consequence judgment is not automatically an automation candidate.
+
+---
+
+# 8. Unknown Registry
+
+Important unknowns must survive.
+
+Each should eventually have:
+
+```text
+unknown_id
+capability
+question
+importance
+risk_if_wrong
+discovered_at
+evidence_needed
+owner
+status
+resolution
+```
+
+The system must not optimize its dashboards by hiding unresolved questions.
+
+---
+
+# 9. Contradiction Search
+
+Research and engineering review should actively seek evidence that would make the current conclusion wrong.
+
+Preferred question:
+
+```text
+What evidence would overturn this conclusion?
+```
+
+Then search for it.
+
+Confirmation-only research is incomplete research.
+
+---
+
+# 10. Negative Space
+
+Exhaustion includes asking what is absent.
+
+Examples:
+
+```text
+missing events
+missing customer states
+missing products
+missing attribution
+missing webhook deliveries
+missing experiments
+missing source coverage
+missing logs
+missing failures
+missing permissions
+missing receipts
+```
+
+A system can appear correct because it never observed what it failed to capture.
+
+---
+
+# 11. False Green Detection
+
+Every qualification system should eventually be challenged for:
+
+```text
+VACUOUS PASS
+DEAD TEST
+UNREACHED ASSERTION
+MOCK-ONLY SUCCESS
+FIXTURE LEAKAGE
+HARDCODED ANSWER
+STALE EXPECTATION
+IGNORED ERROR
+PARTIAL EXECUTION
+TEST / PRODUCTION DIVERGENCE
+```
+
+Tests themselves are systems under test.
+
+---
+
+# 12. Temporal Exhaustion
+
+Evaluate behavior across time.
+
+Consider:
+
+```text
+BEFORE
+DURING
+AFTER
+
+CURRENT
+STALE
+EXPIRED
+
+RETRY
+REPLAY
+
+OUT-OF-ORDER
+
+SEASONAL
+
+LONG-RUN
+```
+
+Correctness at one instant is insufficient for stateful commerce systems.
+
+---
+
+# 13. State Exhaustion
+
+Consider:
+
+```text
+EMPTY
+NORMAL
+PARTIAL
+DUPLICATE
+CONTRADICTORY
+STALE
+DELETED
+ARCHIVED
+FAILED
+RECOVERING
+```
+
+Happy-path state is only one state.
+
+---
+
+# 14. Scale Exhaustion
+
+Ask what changes at:
+
+```text
+1
+10
+100
+1,000
+10,000
+100,000
+1,000,000+
+```
+
+events, products, customers, experiments, sources, or actions.
+
+Scale tests should be proportional to realistic growth rather than arbitrary numbers.
+
+---
+
+# 15. Economic Exhaustion
+
+Technical success does not establish business value.
+
+Evaluate where relevant:
+
+```text
+REVENUE
+MARGIN
+AOV
+CONVERSION
+RETENTION
+REFUNDS
+CAC
+LTV
+INFRASTRUCTURE COST
+MODEL COST
+MESSAGE COST
+OPERATIONAL COST
+OPPORTUNITY COST
+```
+
+Optimization must not maximize one metric while destroying another.
+
+---
+
+# 16. Metric Counterbalances
+
+Important optimization metrics should have counter-metrics.
+
+Examples:
+
+```text
+CONVERSION
+↔ refunds / complaints
+
+AOV
+↔ margin / retention
+
+EMAIL REVENUE
+↔ unsubscribe / spam complaint
+
+RECOMMENDATION CTR
+↔ conversion / diversity / returns
+
+PRICE MARGIN
+↔ conversion / trust / repeat purchase
+
+AUTOMATION RATE
+↔ intervention / error / rollback rate
+```
+
+A local maximum is not necessarily a business optimum.
+
+---
+
+# 17. Research Exhaustion
+
+For significant research questions:
+
+```text
+DEFINE QUESTION
+      ↓
+DEFINE SOURCE CLASSES
+      ↓
+SEARCH MULTIPLE VOCABULARIES
+      ↓
+SEARCH MULTIPLE LANGUAGES WHERE RELEVANT
+      ↓
+SEARCH PRIMARY SOURCES
+      ↓
+SEARCH SECONDARY SOURCES
+      ↓
+SEARCH CONTRADICTORY FINDINGS
+      ↓
+CAPTURE UNAVAILABLE SOURCES
+      ↓
+ASSESS METHODS
+      ↓
+ASSESS TRANSFERABILITY
+      ↓
+IDENTIFY KNOWLEDGE GAPS
+```
+
+Research exhaustion is coverage accounting.
+
+---
+
+# 18. Data Exhaustion
+
+For each data source ask:
+
+```text
+What does it observe?
+
+What does it miss?
+
+What authority does it have?
+
+How fresh is it?
+
+How is identity represented?
+
+Can it duplicate?
+
+Can it arrive late?
+
+Can it contradict another source?
+
+Can it disappear?
+
+What are its retention constraints?
+
+What can legally and ethically consume it?
+```
+
+---
+
+# 19. AI Exhaustion
+
+Every AI capability should eventually be tested against:
+
+```text
+unsupported claims
+missing context
+contradictory context
+prompt injection
+malformed inputs
+extremely long inputs
+ambiguous requests
+stale evidence
+authority escalation
+tool failure
+partial tool results
+duplicate tool results
+incorrect retrieval
+hallucinated identity
+overconfidence
+```
+
+---
+
+# 20. Mutation Exhaustion
+
+Any capability capable of changing external state should be tested against:
+
+```text
+duplicate execution
+replay
+stale approval
+wrong target
+wrong tenant/store
+partial success
+timeout after success
+timeout before success
+retry after unknown outcome
+forged authority
+expired authority
+rollback failure
+concurrent mutation
+```
+
+---
+
+# 21. Recovery Exhaustion
+
+Ask:
+
+```text
+What if the process dies?
+
+What if PostgreSQL dies?
+
+What if Shopify times out?
+
+What if a webhook is redelivered?
+
+What if processing stops halfway?
+
+What if deployment is bad?
+
+What if credentials rotate?
+
+What if schema migration fails?
+
+What if the AI provider is unavailable?
+
+What if a third-party API changes?
+```
+
+Recovery behavior is part of the architecture.
+
+---
+
+# 22. Durability Exhaustion
+
+At important milestones verify:
+
+```text
+required files exist
+working tree understood
+generated artifacts accounted for
+migrations committed
+tests reproducible
+secrets absent
+important evidence durable
+commit exists
+push succeeded
+local/remote agreement
+clean checkout works
+handoff current
+```
+
+---
+
+# 23. Generalization Test
+
+Before promoting a mechanism to reusable capability, test it against something it was not specifically built to solve.
+
+```text
+TRAINING INSTANCE
+      ↓
+GENERAL FIX
+      ↓
+UNSEEN INSTANCE
+```
+
+Success only on the originating fixture is weak evidence of generalization.
+
+---
+
+# 24. Automation Promotion
+
+Repeated success does not automatically authorize automation.
+
+Required conceptual progression:
+
+```text
+REPEATED SUCCESS
+      ↓
+GENERALIZATION
+      ↓
+FAILURE CHARACTERIZATION
+      ↓
+OPERATING ENVELOPE
+      ↓
+MONITORING
+      ↓
+ROLLBACK
+      ↓
+AUTHORITY REVIEW
+      ↓
+BOUNDED AUTOMATION
+```
+
+---
+
+# 25. Exhaustion Stop Condition
+
+Exhaustion does not require infinite work.
+
+A capability may stop when:
+
+```text
+applicable dimensions have been considered
+
+critical risks are tested or explicitly unresolved
+
+remaining unknowns are registered
+
+evidence is sufficient for the declared use
+
+additional investigation has diminishing expected value
+
+authority remains proportional to uncertainty
+```
+
+Stopping must not imply that no unknowns remain.
+
+---
+
+# 26. Next-Bottleneck Extraction
+
+After qualification ask:
+
+```text
+If this capability became perfectly reliable tomorrow,
+what would prevent the business from improving next?
+```
+
+Record the answer.
+
+That becomes input to prioritization.
+
+---
+
+# 27. Exhaustion Output
+
+A substantial qualification campaign should eventually produce:
+
+```text
+CAPABILITY
+DECLARED USE
+OPERATING ENVELOPE
+COVERAGE MATRIX
+PASSING CONDITIONS
+FAILING CONDITIONS
+KNOWN LIMITATIONS
+UNKNOWNS
+CONTRADICTIONS
+FALSE-POSITIVE RATE
+FALSE-NEGATIVE RATE
+RECOVERY STATUS
+AUTHORITY STATUS
+DURABILITY STATUS
+NEXT BOTTLENECK
+```
+
+Not every field applies to every capability.
+
+---
+
+# 28. Final Principle
+
+```text
+EXHAUSTIVENESS
+≠
+DO EVERYTHING
+
+EXHAUSTIVENESS
+=
+KNOW WHAT WAS CONSIDERED
++
+KNOW WHAT WAS PROVEN
++
+KNOW WHAT FAILED
++
+KNOW WHAT REMAINS UNKNOWN
++
+KNOW WHAT IS NOT APPLICABLE
++
+KNOW WHAT SHOULD BE TESTED NEXT
+```
