@@ -36,7 +36,10 @@ app.use(
  * Normal API routes can use JSON parsing.
  */
 app.use(express.json());
-
+app.use(
+  "/api/customer-service",
+  customerServiceRouter
+);
 app.get(
   "/health",
   (_req, res) => {
