@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "kind": "UPSTREAM_ADVANCE_OBSERVATION",
+  "repository": "morluto/rea",
+  "tested_snapshot_commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+  "tested_snapshot_tree": "385edcb1209351e76e8ac0cf05dd23604f101085",
+  "observed_new_main": "63c970812b8b5c6664400c9360e22c427844820c",
+  "disposition": "NEW_UPSTREAM_HEAD_OUTSIDE_TESTED_SNAPSHOT",
+  "source_mutations_by_this_task": false,
+  "tested_snapshot_evidence_preserved": true,
+  "qualification_of_new_head": "NOT_ESTABLISHED",
+  "next_action": "Inventory the upstream delta as a separate subject before transferring any current-main claim."
+}
