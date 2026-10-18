@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "scope": "REA_TO_NORDVPN_APPLICATION_SEED",
+  "suites": [
+    {
+      "suite": "knowledge_validate",
+      "command": ["python3", "scripts/knowledge/knowledge.py", "validate"],
+      "exit_code": 0
+    },
+    {
+      "suite": "knowledge",
+      "command": ["python3", "-m", "unittest", "discover", "-s", "tests/knowledge", "-v"],
+      "exit_code": 0,
+      "tests": 19
+    },
+    {
+      "suite": "transfer",
+      "command": ["python3", "-m", "unittest", "discover", "-s", "tests/transfer", "-v"],
+      "exit_code": 0,
+      "tests": 15
+    },
+    {
+      "suite": "mission",
+      "command": ["python3", "-m", "unittest", "discover", "-s", "tests/mission", "-v"],
+      "exit_code": 0,
+      "tests": 30
+    },
+    {
+      "suite": "reconstruction",
+      "command": ["python3", "-m", "unittest", "discover", "-s", "tests/reconstruction", "-v"],
+      "exit_code": 0,
+      "tests": 15
+    },
+    {
+      "suite": "elektron_bridge",
+      "command": ["python3", "-m", "unittest", "discover", "-s", "tests/elektron_bridge", "-v"],
+      "exit_code": 0,
+      "tests": 24
+    }
+  ],
+  "nordvpn_campaign_audit": "RECONSTRUCTION_OPEN",
+  "nordvpn_product_reverse_engineering": "NOT_PERFORMED",
+  "legal_clearance": "NOT_ESTABLISHED",
+  "independent_qualification": "NOT_GRANTED"
+}

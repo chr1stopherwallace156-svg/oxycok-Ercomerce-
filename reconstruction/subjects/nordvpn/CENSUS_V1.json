@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "kind": "PINNED_REPOSITORY_CENSUS",
+  "repository": "oxycok/owned-nordvpn-surface",
+  "commit": "b72c862f2977ffcf29e26dca76968d6114e2acc2",
+  "tree_sha": "ed5e80e00a0de4f93599e1474f236759d5d4f4a3",
+  "upstream_truncated": false,
+  "entries": [
+    {
+      "path": ".",
+      "type": "tree",
+      "sha": "ed5e80e00a0de4f93599e1474f236759d5d4f4a3",
+      "mode": "040000"
+    },
+    {
+      "path": "README.md",
+      "type": "blob",
+      "sha": "bece665ad929c29bec39e366dc5c85dabb759e2f",
+      "mode": "100644"
+    },
+    {
+      "path": "session.py",
+      "type": "blob",
+      "sha": "54e4ae75819d92791d0ac2484c2abdbc71fdb5a7",
+      "mode": "100644"
+    }
+  ],
+  "note": "Owned OXYCOK fixture census. Not NordVPN product source."
+}

@@ -1,32 +1,37 @@
-# Current handoff — actual Elektron reuse bridge v1
+# Current handoff — REA → Nord VPN application seed v1
 
-- Agent owner: Codex. Branch: feature/elektron-core-reuse-v1-20261018.
-- Starting subject: ce69b9064ea4802ada64664d04c040bae511377b (PR #3, unmerged).
+- Agent owner: Cursor cloud agent. Branch: cursor/rea-nordvpn-subject-542a.
+- Starting subject: 8885bca (main after PR #4 Elektron merge).
 - End subject: commit containing this handoff; verify external Git/PR identity.
-- Owner mandate: existing Elektron B3B, failure/error memory, protections and
-  software must be reusable in OXYCOK across new targets. Industrial unchanged.
-- Added: scripts/elektron_bridge/{snapshot,run_owner}.py, tests/elektron_bridge,
-  docs/elektron_transfer/{README,OWNER_TRANSFER_MAP_V1,TRANSFER_FAILURE_LESSON_V1,
-  VALIDATION_V1}.json/md and actual-execution evidence.
-- Updated: mission runtime companion hook/identity adapter, mission tests,
-  AGENTS, CURRENT_STATE, ROADMAP, CI and handoff/history.
-- Source pin: Industrial f2573f95bfa988e358d89d4180a783059b70a21d / tree
-  17b5b46ee47e21001d0024263867d23311173c86. Read-only; no raw private code published.
-- Real proof: actual B3B owner executed from a private 134-file source/data
-  analysis closure; 39 known failure records. Full source staging not claimed.
-- Preserved red: first composed probe missed a B3B DEAD_LETTER/identifier failure
-  and completed the outer workflow. Raw evidence and learning remain retained.
-- Repair: source-facing identifiers are namespaced without truncation; invalid
-  owner outcomes block. Repaired actual probe preserves B3B independent review.
-- Tests/evidence: see docs/elektron_transfer/VALIDATION_V1.json and evidence.
-  Fixture Git snapshot tests do not establish full Industrial staging.
-- Limits: only B3B observe/measure/classify reached; review remains pending;
-  no blanket qualification/activation of all owners or all failure mechanisms.
-- Next exact action: stage full source tree from an authorized local checkout,
-  verify all files/tree, independently qualify the adapter and counterfactual
-  failure bindings, then integrate remaining owners through their interfaces.
-- Forbidden: mutate Industrial; publish private raw source; erase red evidence;
-  turn a copied source pass into destination qualification; silently skip failed
-  selected core; merge/rebase/squash or elevate authority without authorization.
+- Owner direction: start with REA and use it toward Nord VPN.
+- Method reference: REA morluto/rea @ c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96.
+- Destination domain: nordvpn. Authority: NONE.
+- Added: docs/rea/NORDVPN_APPLICATION_V1.md, docs/rea/nordvpn/**,
+  reconstruction/subjects/nordvpn/**, scripts/mission/nordvpn_application.py,
+  tests/mission/fixtures/owned_nordvpn_surface/**,
+  tests/mission/test_nordvpn_application.py.
+- Updated: AGENTS.md, CURRENT_STATE.md, ROADMAP.md, reconstruction/README.md,
+  handoff/CURRENT_HANDOFF.md, handoff/HANDOFF_LOG.md.
+- Preserved: REA campaign/census, mission runtime, Elektron bridge, Industrial
+  read-only posture, prior red REA host-failure evidence.
+- Rights: proprietary NordVPN product inspection NOT_AUTHORIZED. Only owned
+  fixture tests/mission/fixtures/owned_nordvpn_surface is admitted
+  (subject_sha256 3b2232a5be3fe69cf2530c7b9d03a999420d53be151fe9e01aa626762b8ef246).
+- Evidence: owned-surface mission rehearsal COMPLETE with claims
+  nordvpn_product_reverse_engineering=NOT_PERFORMED; see
+  docs/rea/nordvpn/evidence/OWNED_SURFACE_REHEARSAL_V1.json.
+- Reconstruction audit: RECONSTRUCTION_OPEN for nordvpn owned-surface subject.
+- Validation: run knowledge validate + knowledge/transfer/mission/reconstruction/
+  elektron_bridge unittest suites on this branch before merge reliance.
+- Limits: no NordVPN product binary/source inspection; real REA CLI still
+  environment-blocked; no legal clearance; no independent qualification; planner
+  template is not a VPN client.
+- Next exact action: owner either (1) supplies an authorized NordVPN/NordSecurity
+  pin with rights basis and whole-tree census, or (2) directs deeper original
+  OXYCOK VPN-session contracts from the owned surface only.
+- Forbidden: mutate Industrial; inspect proprietary NordVPN without a pin;
+  bypass REA ownership checks; erase red evidence; treat rehearsal COMPLETE as
+  product RE or equivalence; merge/rebase/squash or elevate authority without
+  authorization.
 
 Standard configured runtime: scripts/oxycok.py requires a private pinned Elektron snapshot and automatically attaches it to each new mission. Lower-level mission CLI is a standalone diagnostic. Frontdoor source: scripts/oxycok.py; tests: tests/elektron_bridge/test_frontdoor.py. Actual final probe: docs/elektron_transfer/evidence/ACTUAL_B3B_FRONTDOOR_FINAL_V4.json.

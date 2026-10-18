@@ -1,3 +1,12 @@
+# Previous handoff preserved before REA → Nord VPN application
+
+# Current handoff — actual Elektron reuse bridge v1
+
+- Agent owner: Codex. Branch: feature/elektron-core-reuse-v1-20261018.
+- Superseded as current by REA → Nord VPN application seed; full text lived in
+  handoff/CURRENT_HANDOFF.md prior to that replacement. Industrial read-only;
+  private 134-file analysis closure retained under docs/elektron_transfer/.
+
 # Previous handoff preserved before REA mission extension
 
 # Current handoff — universal transfer foundation v1

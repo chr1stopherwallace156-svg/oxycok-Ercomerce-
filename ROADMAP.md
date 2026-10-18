@@ -49,6 +49,16 @@ source/test/effect-path contracts, then build one original capability against a
 frozen behavioral exam. An external REA CLI pass is not a prerequisite for
 beginning source study, and a CLI adapter is not the final product.
 
+## REA applied toward Nord VPN
+
+Domain-parameterized application seed exists: rights gate, method-transfer map,
+owned-surface census/campaign and mission rehearsal under domain=nordvpn.
+Proprietary NordVPN inspection remains blocked until the owner supplies an
+authorized pin and rights basis. Next: either deepen original VPN-session
+contracts from the owned surface, or admit a separately authorized
+NordVPN/NordSecurity subject with full census and license disposition. Do not
+treat owned-fixture COMPLETE as product reverse engineering.
+
 ## Real Elektron reuse
 
 The destination now has exact source snapshot staging, a real B3B owner adapter,

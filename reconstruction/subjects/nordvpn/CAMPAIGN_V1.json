@@ -1,0 +1,417 @@
+{
+  "version": 1,
+  "kind": "ORIGINAL_RECONSTRUCTION_CAMPAIGN",
+  "domain": "nordvpn",
+  "authority": "NONE",
+  "method": "REFERENCE_EVIDENCE_TO_ABSTRACT_REQUIREMENTS_TO_ORIGINAL_DESIGN",
+  "reference": {
+    "repository": "oxycok/owned-nordvpn-surface",
+    "commit": "b72c862f2977ffcf29e26dca76968d6114e2acc2",
+    "census_sha256": "5929ab56559b98779ac9e757c412d0ee39a439ed7ec4ea8a046150597d5bfc55"
+  },
+  "scope": "WHOLE_PINNED_TREE",
+  "file_reviews": {
+    "README.md": {
+      "source_sha": "bece665ad929c29bec39e366dc5c85dabb759e2f",
+      "disposition": "ANALYZED",
+      "basis": "Owned fixture boundary statement was authored in this repository and read in full.",
+      "evidence_refs": [
+        "tests/mission/fixtures/owned_nordvpn_surface/README.md",
+        "reconstruction/subjects/nordvpn/RIGHTS_V1.json"
+      ],
+      "mechanism_summary": "Declares the fixture as OXYCOK-authored rehearsal material and forbids treating it as NordVPN reverse-engineering evidence."
+    },
+    "session.py": {
+      "source_sha": "54e4ae75819d92791d0ac2484c2abdbc71fdb5a7",
+      "disposition": "ANALYZED",
+      "basis": "Owned Python session model was authored here; static structure and failure paths were read for contract seeding.",
+      "evidence_refs": [
+        "tests/mission/fixtures/owned_nordvpn_surface/session.py",
+        "reconstruction/subjects/nordvpn/METHOD_TRANSFER_V1.json"
+      ],
+      "mechanism_summary": "In-memory VPN session transitions require profile identity, reject invalid connect/disconnect ordering, and track an explicit kill-switch boolean without performing network I/O."
+    }
+  },
+  "capabilities": [
+    {
+      "id": "CAP-001",
+      "objective": "Authorized target identity and ownership gate",
+      "reference_paths": [
+        "README.md"
+      ],
+      "contract": {
+        "inputs": [
+          "absolute analysis target path",
+          "rights disposition record"
+        ],
+        "outputs": [
+          "AUTHORIZED admission with subject hash",
+          "or explicit BLOCKED error"
+        ],
+        "invariants": [
+          "authority remains NONE",
+          "only listed authorized targets may proceed"
+        ],
+        "failure_modes": [
+          "ANALYSIS_TARGET_NOT_AUTHORIZED",
+          "PROPRIETARY_NORDVPN_TARGET_NOT_AUTHORIZED",
+          "AUTHORIZED_TARGET_SUBJECT_DRIFT"
+        ],
+        "hard_negatives": [
+          "Proprietary NordVPN install paths are not authorized by name similarity",
+          "Owned-fixture pass does not authorize product reverse engineering"
+        ],
+        "side_effects": [
+          "No target mutation",
+          "No Industrial repository writes"
+        ],
+        "measurements": [
+          "admission disposition",
+          "subject_sha256 equality to pin"
+        ]
+      },
+      "design": {
+        "owner": "scripts/mission/nordvpn_application.py",
+        "original_design": "Explicit rights JSON gate before mission start; path and optional hash pins; proprietary name markers only block unauthorized targets.",
+        "alternatives": "Embed gate inside runtime.start for all domains; rejected for this increment to keep commerce/python missions unchanged.",
+        "reuse_boundary": "Gate is OXYCOK-authored; REA is method reference only."
+      },
+      "implementation": {
+        "status": "CANDIDATE",
+        "subject_sha256": "85e69a89aef573152a2aff3ac5822878884aef9d5f8fcbb47518b7cef2f6d526",
+        "artifact_refs": [
+          "scripts/mission/nordvpn_application.py",
+          "reconstruction/subjects/nordvpn/RIGHTS_V1.json"
+        ]
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-002",
+      "objective": "Static inspection of owned VPN session surface",
+      "reference_paths": [
+        "session.py"
+      ],
+      "contract": {
+        "inputs": [
+          "authorized owned surface directory"
+        ],
+        "outputs": [
+          "static observation artifact",
+          "module and syntax-call edges"
+        ],
+        "invariants": [
+          "target bytes unchanged",
+          "no Python import or execution of target"
+        ],
+        "failure_modes": [
+          "unsupported or empty target",
+          "subject drift during inspection"
+        ],
+        "hard_negatives": [
+          "Observation is not NordVPN product evidence",
+          "Real REA CLI success is not claimed by the Python provider path"
+        ],
+        "side_effects": [
+          "Mission state written outside target"
+        ],
+        "measurements": [
+          "file count",
+          "byte count",
+          "observation digest"
+        ]
+      },
+      "design": {
+        "owner": "scripts/mission/runtime.py + providers.python_static",
+        "original_design": "Reuse existing bounded Python AST provider against the owned Nord VPN domain fixture.",
+        "alternatives": "Wait for supported-host REA JS provider; deferred because current fixture is Python.",
+        "reuse_boundary": "Mission runtime reused; fixture and domain gate are new."
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-003",
+      "objective": "Abstract Nord VPN domain behavior contracts for original construction",
+      "reference_paths": [
+        "session.py"
+      ],
+      "contract": {
+        "inputs": [
+          "target-evidence object",
+          "declared domain facts"
+        ],
+        "outputs": [
+          "abstract brief without source text",
+          "contract seeds for session lifecycle"
+        ],
+        "invariants": [
+          "constructor receives no target source bytes",
+          "unknown coverage cannot become equality"
+        ],
+        "failure_modes": [
+          "EVIDENCE_INCOMPLETE",
+          "NEEDS_CONTEXT",
+          "EXCLUDED hard negatives"
+        ],
+        "hard_negatives": [
+          "Brief text is not a NordVPN clone specification",
+          "Public VPN product vocabulary is not mechanism proof"
+        ],
+        "side_effects": [
+          "Content-addressed brief retained in mission store"
+        ],
+        "measurements": [
+          "brief hash",
+          "coverage_status"
+        ]
+      },
+      "design": {
+        "owner": "evidence runtime brief v2",
+        "original_design": "Domain-parameterized brief carrying Nord VPN destination label and owned-fixture evidence metadata only.",
+        "alternatives": "Hand-authored product requirements document without mission linkage; deferred to keep custody connected.",
+        "reuse_boundary": "No NordVPN source expression may cross into construction."
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-004",
+      "objective": "Kill-switch and disconnect failure modes",
+      "reference_paths": [
+        "session.py"
+      ],
+      "contract": {
+        "inputs": [
+          "session state",
+          "kill_switch boolean",
+          "disconnect request"
+        ],
+        "outputs": [
+          "deterministic status object",
+          "SessionError on invalid transitions"
+        ],
+        "invariants": [
+          "disconnect while disconnected fails",
+          "connect while connected fails",
+          "kill_switch accepts only bool"
+        ],
+        "failure_modes": [
+          "already connected",
+          "not connected",
+          "invalid endpoint",
+          "invalid kill_switch type"
+        ],
+        "hard_negatives": [
+          "In-memory kill_switch is not a host network kill switch",
+          "No packet routing or firewall mutation is performed"
+        ],
+        "side_effects": [
+          "In-memory fields only"
+        ],
+        "measurements": [
+          "connected flag",
+          "kill_switch flag",
+          "endpoint identity"
+        ]
+      },
+      "design": {
+        "owner": "tests/mission/fixtures/owned_nordvpn_surface/session.py",
+        "original_design": "Small explicit state machine for rehearsal and future original VPN-session workers.",
+        "alternatives": "OS-level kill switch; excluded until separately authorized and qualified.",
+        "reuse_boundary": "Fixture behavior is not NordVPN kill-switch equivalence."
+      },
+      "implementation": {
+        "status": "CANDIDATE",
+        "subject_sha256": "3b2232a5be3fe69cf2530c7b9d03a999420d53be151fe9e01aa626762b8ef246",
+        "artifact_refs": [
+          "tests/mission/fixtures/owned_nordvpn_surface/session.py"
+        ]
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-005",
+      "objective": "Evidence custody, unknowns and hard negatives for proprietary exclusion",
+      "reference_paths": [
+        "README.md"
+      ],
+      "contract": {
+        "inputs": [
+          "admission result",
+          "mission events"
+        ],
+        "outputs": [
+          "retained blocked attempts",
+          "learning record with unknowns"
+        ],
+        "invariants": [
+          "failed admissions remain explicit",
+          "proprietary exclusion cannot be rewritten to pass"
+        ],
+        "failure_modes": [
+          "missing rights record",
+          "duplicate JSON keys",
+          "authority escalation"
+        ],
+        "hard_negatives": [
+          "Absent NordVPN product pin is not treated as empty success",
+          "Industrial remains read-only"
+        ],
+        "side_effects": [
+          "Append-only mission events when rehearsal runs"
+        ],
+        "measurements": [
+          "blocked error codes",
+          "unknowns retained"
+        ]
+      },
+      "design": {
+        "owner": "mission store + nordvpn application gate",
+        "original_design": "Combine existing mission FAILURE_PRESERVED behavior with domain rights forbidden list.",
+        "alternatives": "Silent skip of unauthorized targets; rejected.",
+        "reuse_boundary": "No private Industrial bytes published."
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-006",
+      "objective": "Original planner construction from abstract brief only",
+      "reference_paths": [
+        "session.py"
+      ],
+      "contract": {
+        "inputs": [
+          "validated abstract brief"
+        ],
+        "outputs": [
+          "new offline planner project",
+          "construction receipt"
+        ],
+        "invariants": [
+          "code reuse PROHIBITED in brief",
+          "legal clearance NOT_ESTABLISHED"
+        ],
+        "failure_modes": [
+          "malformed brief",
+          "hash drift",
+          "partial constructor output"
+        ],
+        "hard_negatives": [
+          "Planner is not a VPN client",
+          "Planner pass is not NordVPN reconstruction"
+        ],
+        "side_effects": [
+          "Files created only under mission construction output path"
+        ],
+        "measurements": [
+          "construction receipt hash",
+          "behavioral guard verdict"
+        ]
+      },
+      "design": {
+        "owner": "construction runtime template",
+        "original_design": "Reuse existing abstract-brief constructor with domain=nordvpn facts.",
+        "alternatives": "Hand-written VPN client; out of scope for this seed.",
+        "reuse_boundary": "Constructor remains project-authored template, not REA or NordVPN code."
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "from": "CAP-001",
+      "to": "CAP-002",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "from": "CAP-002",
+      "to": "CAP-003",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "from": "CAP-003",
+      "to": "CAP-006",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "from": "CAP-004",
+      "to": "CAP-003",
+      "relation": "DERIVED_FROM"
+    },
+    {
+      "from": "CAP-005",
+      "to": "CAP-001",
+      "relation": "COMPOSES_WITH"
+    }
+  ],
+  "lessons": [
+    {
+      "failure": "Starting Nord VPN work by pointing REA at proprietary product paths without an ownership pin.",
+      "positive_method": "Pin REA as method reference, authorize an owned rehearsal surface, and keep proprietary NordVPN inspection blocked until rights and census exist.",
+      "hard_negative": "A successful owned-fixture mission is not NordVPN reverse engineering, legal clearance or product equivalence.",
+      "inheritance": "Future Nord VPN domain workers must call the admission gate and retain blocked proprietary attempts.",
+      "evidence_ref": "reconstruction/subjects/nordvpn/RIGHTS_V1.json"
+    }
+  ],
+  "unknowns": [
+    "No authorized NordVPN product source pin exists yet.",
+    "Real REA 6.7.0 remains ENVIRONMENT_BLOCKED on this host.",
+    "Public VPN product behavior claims are not mechanism-validated here.",
+    "Original VPN-client implementation and independent qualification remain open."
+  ],
+  "rights": {
+    "source_code_translation": "NOT_A_CONSTRUCTION_METHOD",
+    "legal_clearance": "NOT_ESTABLISHED",
+    "third_party_reuse": "EXPLICITLY_RECORD_LICENSE_AND_ATTRIBUTION",
+    "nordvpn_product_inspection": "NOT_AUTHORIZED"
+  }
+}

@@ -1,3 +1,23 @@
+# REA → Nord VPN application assessment — 2026-10-18
+
+- Owner direction accepted: start with REA and apply the method toward Nord VPN.
+- REA remains the method/reference subject (morluto/rea @
+  c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96). Nord VPN is a destination domain.
+- R0 rights gate added: proprietary NordVPN product inspection is NOT_AUTHORIZED.
+  Only the OXYCOK-authored owned surface fixture is admitted for rehearsal.
+- Connected rehearsal: mission runtime with domain=nordvpn against
+  tests/mission/fixtures/owned_nordvpn_surface completed locally. Claims explicitly
+  record nordvpn_product_reverse_engineering=NOT_PERFORMED.
+- Reconstruction subject: reconstruction/subjects/nordvpn (owned-surface census,
+  campaign, audit). Audit status RECONSTRUCTION_OPEN; legal clearance and
+  independent qualification NOT_ESTABLISHED / NOT_GRANTED.
+- Real REA 6.7.0 host lane remains ENVIRONMENT_BLOCKED; not bypassed.
+- Industrial remains read-only. No NordVPN product binaries were inspected.
+- See docs/rea/NORDVPN_APPLICATION_V1.md and reconstruction/subjects/nordvpn/.
+- Older assessments below are preserved historical records.
+
+---
+
 # Actual Elektron transfer assessment — 2026-10-18
 
 - Added a pinned read-only Git snapshot materializer and actual-owner B3B bridge.

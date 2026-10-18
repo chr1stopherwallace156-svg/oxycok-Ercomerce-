@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "kind": "REA_TO_NORDVPN_METHOD_TRANSFER",
+  "authority": "NONE",
+  "relation": "ANALOGY_UNDER_CONDITIONS",
+  "conditions": [
+    "REA remains the method/reference subject",
+    "Nord VPN is the destination domain parameter",
+    "Only authorized targets may be inspected",
+    "Owned-fixture rehearsal does not imply NordVPN product understanding"
+  ],
+  "does_not_imply": [
+    "REA reconstruction completeness",
+    "NordVPN source availability",
+    "Legal clearance to reverse engineer NordVPN",
+    "Behavioral equivalence between OXYCOK artifacts and NordVPN"
+  ],
+  "transfers": [
+    {
+      "rea_capability": "CAP-001",
+      "rea_objective": "Target identity, artifact inventory and declared inspection coverage",
+      "nordvpn_application": "Admit only authorized Nord VPN domain targets; inventory owned surface identity before inspection",
+      "applicability": "APPLICABLE_TO_AUTHORIZED_TARGETS",
+      "exclusion": "Proprietary NordVPN installs without an authorized pin"
+    },
+    {
+      "rea_capability": "CAP-002",
+      "rea_objective": "Static JavaScript and Electron structure inspection",
+      "nordvpn_application": "Use REA provider only on authorized JS/Electron subjects when available; current rehearsal uses OXYCOK Python static provider",
+      "applicability": "CONDITIONAL",
+      "exclusion": "Current host REA 6.7.0 path remains ENVIRONMENT_BLOCKED; do not simulate as real-provider success"
+    },
+    {
+      "rea_capability": "CAP-003",
+      "rea_objective": "Native binary analysis through separately licensed provider adapters",
+      "nordvpn_application": "Future authorized native VPN client analysis would require separate provider qualification and rights pin",
+      "applicability": "NOT_AUTHORIZED_YET",
+      "exclusion": "No NordVPN binary analysis in this increment"
+    },
+    {
+      "rea_capability": "CAP-007",
+      "rea_objective": "Evidence custody, unknowns, contradictions and provenance",
+      "nordvpn_application": "Preserve admission decisions, blocked proprietary attempts and mission artifacts outside the target",
+      "applicability": "APPLICABLE",
+      "exclusion": "Custody is not tamper-proof against privileged editors"
+    },
+    {
+      "rea_capability": "CAP-010",
+      "rea_objective": "Abstract behavioral requirements and source-to-contract traceability",
+      "nordvpn_application": "Write Nord VPN domain contracts from authorized evidence and public product-behavior statements, then construct originally",
+      "applicability": "APPLICABLE_WITH_OPEN_CONTRACTS",
+      "exclusion": "Public marketing claims are not mechanism proof"
+    },
+    {
+      "rea_capability": "CAP-012",
+      "rea_objective": "Original destination implementation distinct from reference expression",
+      "nordvpn_application": "Destination implementations must be OXYCOK-authored from abstract briefs, not NordVPN source translation",
+      "applicability": "APPLICABLE",
+      "exclusion": "MIT or any third-party license is not blanket clearance"
+    }
+  ],
+  "first_executable_path": {
+    "provider": "python",
+    "domain": "nordvpn",
+    "target": "tests/mission/fixtures/owned_nordvpn_surface",
+    "gate": "scripts/mission/nordvpn_application.py",
+    "status": "REHEARSAL_ONLY"
+  }
+}
