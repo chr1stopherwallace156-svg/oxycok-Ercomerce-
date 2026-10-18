@@ -1,0 +1,37 @@
+name: Knowledge foundation
+
+on:
+  pull_request:
+    paths:
+      - "knowledge/**"
+      - "docs/knowledge_transfer/**"
+      - "scripts/knowledge/**"
+      - "scripts/transfer/**"
+      - "tests/knowledge/**"
+      - "tests/transfer/**"
+      - ".github/workflows/knowledge.yml"
+  push:
+    branches: [main]
+    paths:
+      - "knowledge/**"
+      - "docs/knowledge_transfer/**"
+      - "scripts/knowledge/**"
+      - "scripts/transfer/**"
+      - "tests/knowledge/**"
+      - "tests/transfer/**"
+      - ".github/workflows/knowledge.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  knowledge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python3 scripts/knowledge/knowledge.py validate
+      - run: python3 -m unittest discover -s tests/knowledge -v
+      - run: python3 -m unittest discover -s tests/transfer -v
