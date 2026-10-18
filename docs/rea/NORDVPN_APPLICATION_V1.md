@@ -33,6 +33,19 @@ REA method pin
     → future authorized NordVPN/NordSecurity pin (pending)
 ```
 
+## Simple phone URL intake
+
+iPhone-friendly page: paste a URL and tap Start.
+
+```bash
+python3 scripts/mission/url_intake.py serve --host 127.0.0.1 --port 8787
+# open http://127.0.0.1:8787/ on the phone (same network / tunnel as needed)
+```
+
+Authorized starter URL: `https://github.com/morluto/rea`  
+That selects the REA method and runs the owned-surface rehearsal. Proprietary
+NordVPN product URLs remain blocked.
+
 CLI:
 
 ```bash
@@ -41,6 +54,7 @@ python3 scripts/mission/nordvpn_application.py admit --target tests/mission/fixt
 python3 scripts/mission/nordvpn_application.py rehearse \
   --target tests/mission/fixtures/owned_nordvpn_surface \
   --state-root /tmp/oxycok-nordvpn-rehearsal
+python3 scripts/mission/url_intake.py resolve --url https://github.com/morluto/rea
 python3 scripts/reconstruction/campaign.py \
   --census reconstruction/subjects/nordvpn/CENSUS_V1.json \
   audit --campaign reconstruction/subjects/nordvpn/CAMPAIGN_V1.json

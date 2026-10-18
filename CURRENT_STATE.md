@@ -1,5 +1,8 @@
 # REA → Nord VPN application assessment — 2026-10-18
 
+- Phone-simple URL intake added: `web/rea-intake/` + `scripts/mission/url_intake.py`.
+  Paste `https://github.com/morluto/rea`, tap Start; selects REA method and runs
+  the owned-surface rehearsal. Proprietary NordVPN URLs stay blocked.
 - Owner direction accepted: start with REA and apply the method toward Nord VPN.
 - REA remains the method/reference subject (morluto/rea @
   c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96). Nord VPN is a destination domain.

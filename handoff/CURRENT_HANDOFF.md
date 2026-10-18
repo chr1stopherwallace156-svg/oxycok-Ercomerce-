@@ -4,6 +4,8 @@
 - Starting subject: 8885bca (main after PR #4 Elektron merge).
 - End subject: commit containing this handoff; verify external Git/PR identity.
 - Owner direction: start with REA and use it toward Nord VPN.
+- Follow-up: iPhone-simple URL intake (`web/rea-intake/`, `scripts/mission/url_intake.py`).
+  Paste https://github.com/morluto/rea → method select + owned rehearsal.
 - Method reference: REA morluto/rea @ c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96.
 - Destination domain: nordvpn. Authority: NONE.
 - Added: docs/rea/NORDVPN_APPLICATION_V1.md, docs/rea/nordvpn/**,

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#d9ebe3" />
+  <title>OXYCOK — Paste a URL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Sora:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #14231c;
+      --muted: #3d5348;
+      --line: rgba(20, 35, 28, 0.18);
+      --accent: #0f7a5f;
+      --accent-deep: #0a5a46;
+      --wash: #d9ebe3;
+      --wash-2: #f3f7f1;
+      --danger: #8a2f2f;
+      --ok: #0f7a5f;
+      --radius: 0;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      color: var(--ink);
+      font-family: "Sora", sans-serif;
+      background:
+        radial-gradient(120% 80% at 10% -10%, #eef8f2 0%, transparent 55%),
+        radial-gradient(90% 70% at 110% 10%, #cfe5da 0%, transparent 50%),
+        linear-gradient(160deg, var(--wash-2), var(--wash) 55%, #c5dcd1);
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.22;
+      background-image:
+        linear-gradient(rgba(20, 35, 28, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(20, 35, 28, 0.05) 1px, transparent 1px);
+      background-size: 28px 28px;
+      mask-image: radial-gradient(ellipse at 50% 20%, #000 30%, transparent 75%);
+    }
+
+    .shell {
+      position: relative;
+      min-height: 100dvh;
+      display: grid;
+      align-content: center;
+      padding:
+        max(1.5rem, env(safe-area-inset-top))
+        max(1.25rem, env(safe-area-inset-right))
+        max(1.75rem, env(safe-area-inset-bottom))
+        max(1.25rem, env(safe-area-inset-left));
+    }
+
+    .hero {
+      width: min(100%, 28rem);
+      margin: 0 auto;
+      animation: rise 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    }
+
+    .brand {
+      font-family: "Fraunces", serif;
+      font-size: clamp(2.8rem, 12vw, 4.4rem);
+      line-height: 0.92;
+      letter-spacing: -0.04em;
+      margin: 0 0 1.25rem;
+      animation: brand-in 900ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    }
+
+    .brand span {
+      display: block;
+      color: var(--accent-deep);
+    }
+
+    h1 {
+      font-family: "Fraunces", serif;
+      font-weight: 600;
+      font-size: clamp(1.45rem, 5.5vw, 1.85rem);
+      letter-spacing: -0.02em;
+      margin: 0 0 0.55rem;
+    }
+
+    .lede {
+      margin: 0 0 1.75rem;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.45;
+      max-width: 22rem;
+    }
+
+    form {
+      display: grid;
+      gap: 0.85rem;
+    }
+
+    label {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+    }
+
+    .field {
+      position: relative;
+    }
+
+    .field::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 2px;
+      background: var(--accent);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 280ms ease;
+    }
+
+    .field:focus-within::after {
+      transform: scaleX(1);
+    }
+
+    input[type="url"] {
+      width: 100%;
+      appearance: none;
+      border: 0;
+      border-bottom: 1px solid var(--line);
+      background: transparent;
+      color: var(--ink);
+      font: inherit;
+      font-size: 1.125rem;
+      padding: 1rem 0.1rem;
+      outline: none;
+    }
+
+    input[type="url"]::placeholder {
+      color: rgba(61, 83, 72, 0.55);
+    }
+
+    button {
+      appearance: none;
+      border: 0;
+      margin: 0.35rem 0 0;
+      min-height: 3.4rem;
+      padding: 0.95rem 1.2rem;
+      background: var(--ink);
+      color: #f4faf6;
+      font: inherit;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      cursor: pointer;
+      transition: transform 160ms ease, background 160ms ease;
+    }
+
+    button:active { transform: scale(0.985); }
+    button:disabled {
+      opacity: 0.55;
+      cursor: wait;
+    }
+
+    .status {
+      min-height: 4.5rem;
+      margin-top: 1.25rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.45;
+      opacity: 0;
+      transform: translateY(8px);
+      transition: opacity 280ms ease, transform 280ms ease;
+    }
+
+    .status.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .status.ok { color: var(--ok); }
+    .status.bad { color: var(--danger); }
+
+    .status strong {
+      display: block;
+      color: var(--ink);
+      font-family: "Fraunces", serif;
+      font-size: 1.15rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .hint {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: rgba(61, 83, 72, 0.8);
+    }
+
+    .hint code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.78rem;
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes brand-in {
+      from { opacity: 0; letter-spacing: 0.08em; transform: translateY(10px); }
+      to { opacity: 1; letter-spacing: -0.04em; transform: translateY(0); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hero, .brand, .status { animation: none !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero" aria-label="URL intake">
+      <p class="brand">OXY<span>COK</span></p>
+      <h1>Paste a URL</h1>
+      <p class="lede">REA method, one target. Built for a phone thumb.</p>
+      <form id="intake" autocomplete="on">
+        <label for="url">Target URL</label>
+        <div class="field">
+          <input
+            id="url"
+            name="url"
+            type="url"
+            inputmode="url"
+            enterkeyhint="go"
+            autocapitalize="off"
+            autocomplete="url"
+            spellcheck="false"
+            required
+            placeholder="https://github.com/morluto/rea"
+            value="https://github.com/morluto/rea"
+          />
+        </div>
+        <button type="submit" id="go">Start</button>
+      </form>
+      <div class="status" id="status" aria-live="polite"></div>
+      <p class="hint">Authorized starter: <code>https://github.com/morluto/rea</code></p>
+    </section>
+  </main>
+  <script>
+    const form = document.getElementById("intake");
+    const input = document.getElementById("url");
+    const button = document.getElementById("go");
+    const status = document.getElementById("status");
+
+    function show(kind, title, detail) {
+      status.className = "status show " + kind;
+      status.innerHTML = "<strong>" + title + "</strong>" + detail;
+    }
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const url = input.value.trim();
+      if (!url) return;
+      button.disabled = true;
+      show("", "Working…", "Selecting method and checking the target.");
+      try {
+        const response = await fetch("/api/start", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ url, rehearse: true }),
+        });
+        const data = await response.json();
+        if (!response.ok || data.status === "BLOCKED") {
+          show("bad", "Blocked", data.error || "This URL is not authorized.");
+          return;
+        }
+        const stage = data.rehearsal ? data.rehearsal.stage : data.disposition;
+        show(
+          "ok",
+          "Ready",
+          (data.message || "URL accepted.") +
+            (stage ? " · " + stage : "")
+        );
+      } catch (error) {
+        show("bad", "Unavailable", "Could not reach the local intake server.");
+      } finally {
+        button.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
