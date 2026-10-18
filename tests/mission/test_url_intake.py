@@ -58,22 +58,39 @@ class UrlIntakeTests(unittest.TestCase):
             page = request.urlopen(f"http://{host}:{port}/", timeout=5).read()
             self.assertIn(b"Paste a URL", page)
             self.assertIn(b"OXY", page)
+            self.assertIn(b'method="post"', page.lower())
             req = request.Request(
                 f"http://{host}:{port}/api/start",
                 data=json.dumps({
                     "url": "https://github.com/morluto/rea",
                     "rehearse": False,
                 }).encode(),
-                headers={"Content-Type": "application/json"},
+                headers={
+                    "Content-Type": "application/json",
+                    "Accept": "application/json",
+                },
                 method="POST",
             )
             body = json.loads(request.urlopen(req, timeout=10).read())
             self.assertEqual(body["disposition"], "METHOD_REFERENCE_SELECTED")
+            form = request.Request(
+                f"http://{host}:{port}/api/start",
+                data=b"url=https%3A%2F%2Fgithub.com%2Fmorluto%2Frea&rehearse=0",
+                headers={"Content-Type": "application/x-www-form-urlencoded"},
+                method="POST",
+            )
+            html = request.urlopen(form, timeout=10).read()
+            self.assertIn(b"<h1>Ready</h1>", html)
+            self.assertIn(b"REA selected", html)
+            self.assertIn(b"text/html", form.get_header("Content-type") or b"")
             with self.assertRaises(error.HTTPError) as ctx:
                 bad = request.Request(
                     f"http://{host}:{port}/api/start",
                     data=json.dumps({"url": "https://nordvpn.com"}).encode(),
-                    headers={"Content-Type": "application/json"},
+                    headers={
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                    },
                     method="POST",
                 )
                 request.urlopen(bad, timeout=5)

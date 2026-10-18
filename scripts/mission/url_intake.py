@@ -10,9 +10,10 @@ import argparse
 import json
 import re
 import tempfile
+from html import escape
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parents[2]
 WEB_ROOT = ROOT / "web" / "rea-intake"
@@ -102,6 +103,44 @@ def resolve_url(raw, rehearse=True, state_root=None):
     raise ValueError("URL_NOT_AUTHORIZED")
 
 
+def result_page(result=None, error=None):
+    if error:
+        title, detail, kind = "Blocked", str(error), "bad"
+    else:
+        stage = ""
+        if result and result.get("rehearsal"):
+            stage = result["rehearsal"].get("stage") or ""
+        title = "Ready"
+        detail = (result or {}).get("message") or "URL accepted."
+        if stage:
+            detail = detail + " · " + stage
+        kind = "ok"
+    return f"""<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<title>OXYCOK — {escape(title)}</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Sora:wght@400;600&display=swap" rel="stylesheet"/>
+<style>
+body{{margin:0;min-height:100dvh;font-family:Sora,sans-serif;color:#14231c;
+background:linear-gradient(160deg,#f3f7f1,#d9ebe3 55%,#c5dcd1);
+display:grid;align-content:center;padding:1.5rem}}
+.card{{width:min(100%,28rem);margin:0 auto}}
+.brand{{font-family:Fraunces,serif;font-size:2.8rem;line-height:.92;margin:0 0 1rem}}
+.brand span{{display:block;color:#0a5a46}}
+h1{{font-family:Fraunces,serif;font-size:1.6rem;margin:0 0 .4rem}}
+p{{color:#3d5348;line-height:1.45}}
+.ok h1{{color:#0f7a5f}}.bad h1{{color:#8a2f2f}}
+a{{display:inline-block;margin-top:1.25rem;color:#14231c;font-weight:600}}
+</style></head><body><div class="card {kind}">
+<p class="brand">OXY<span>COK</span></p>
+<h1>{escape(title)}</h1>
+<p>{escape(detail)}</p>
+<a href="/">Paste another URL</a>
+</div></body></html>
+"""
+
+
 class IntakeHandler(BaseHTTPRequestHandler):
     server_version = "OXYCOKUrlIntake/1.0"
 
@@ -133,15 +172,47 @@ class IntakeHandler(BaseHTTPRequestHandler):
         length = int(self.headers.get("Content-Length") or "0")
         if length <= 0 or length > 8192:
             return self._send(400, json.dumps({"status": "BLOCKED", "error": "BAD_BODY"}))
+        raw = self.rfile.read(length)
+        content_type = (self.headers.get("Content-Type") or "").split(";")[0].strip().lower()
+        wants_html = "application/json" not in (self.headers.get("Accept") or "")
         try:
-            payload = json.loads(self.rfile.read(length).decode("utf-8"))
-        except (UnicodeDecodeError, json.JSONDecodeError):
-            return self._send(400, json.dumps({"status": "BLOCKED", "error": "BAD_JSON"}))
+            if content_type == "application/json":
+                payload = json.loads(raw.decode("utf-8"))
+                url = payload.get("url")
+                rehearse = bool(payload.get("rehearse", True))
+                wants_html = False
+            elif content_type in ("application/x-www-form-urlencoded", "multipart/form-data"):
+                if content_type == "multipart/form-data":
+                    raise ValueError("MULTIPART_NOT_SUPPORTED")
+                form = parse_qs(raw.decode("utf-8"), keep_blank_values=False)
+                url = (form.get("url") or [None])[0]
+                rehearse = (form.get("rehearse") or ["1"])[0] != "0"
+                wants_html = True
+            else:
+                # Prefer form fields when posted from the phone page.
+                try:
+                    payload = json.loads(raw.decode("utf-8"))
+                    url = payload.get("url")
+                    rehearse = bool(payload.get("rehearse", True))
+                    wants_html = False
+                except json.JSONDecodeError:
+                    form = parse_qs(raw.decode("utf-8"), keep_blank_values=False)
+                    url = (form.get("url") or [None])[0]
+                    rehearse = (form.get("rehearse") or ["1"])[0] != "0"
+                    wants_html = True
+        except (UnicodeDecodeError, json.JSONDecodeError, ValueError) as exc:
+            if wants_html:
+                return self._send(400, result_page(error=str(exc) or "BAD_BODY"),
+                                  "text/html; charset=utf-8")
+            return self._send(400, json.dumps({"status": "BLOCKED", "error": str(exc) or "BAD_BODY"}))
         try:
-            result = resolve_url(payload.get("url"),
-                                 rehearse=bool(payload.get("rehearse", True)))
+            result = resolve_url(url, rehearse=rehearse)
+            if wants_html:
+                return self._send(200, result_page(result=result), "text/html; charset=utf-8")
             return self._send(200, json.dumps(result))
         except (ValueError, OSError, TypeError, KeyError) as exc:
+            if wants_html:
+                return self._send(403, result_page(error=str(exc)), "text/html; charset=utf-8")
             return self._send(403, json.dumps({"status": "BLOCKED", "error": str(exc)}))
 
 
