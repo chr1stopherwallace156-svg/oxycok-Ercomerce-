@@ -6,12 +6,15 @@ on:
       - "knowledge/**"
       - "docs/knowledge_transfer/**"
       - "docs/rea/**"
+      - "reconstruction/**"
       - "scripts/knowledge/**"
       - "scripts/transfer/**"
       - "scripts/mission/**"
+      - "scripts/reconstruction/**"
       - "tests/knowledge/**"
       - "tests/transfer/**"
       - "tests/mission/**"
+      - "tests/reconstruction/**"
       - ".github/workflows/knowledge.yml"
   push:
     branches: [main]
@@ -19,12 +22,15 @@ on:
       - "knowledge/**"
       - "docs/knowledge_transfer/**"
       - "docs/rea/**"
+      - "reconstruction/**"
       - "scripts/knowledge/**"
       - "scripts/transfer/**"
       - "scripts/mission/**"
+      - "scripts/reconstruction/**"
       - "tests/knowledge/**"
       - "tests/transfer/**"
       - "tests/mission/**"
+      - "tests/reconstruction/**"
       - ".github/workflows/knowledge.yml"
 
 permissions:
@@ -42,3 +48,4 @@ jobs:
       - run: python3 -m unittest discover -s tests/knowledge -v
       - run: python3 -m unittest discover -s tests/transfer -v
       - run: python3 -m unittest discover -s tests/mission -v
+      - run: python3 -m unittest discover -s tests/reconstruction -v

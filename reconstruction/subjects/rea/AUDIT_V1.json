@@ -1,0 +1,368 @@
+{
+  "authority": "NONE",
+  "status": "RECONSTRUCTION_OPEN",
+  "repository": "morluto/rea",
+  "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+  "inventory_entries": 4712,
+  "review_units": 4345,
+  "pending_review_count": 4339,
+  "excluded_count": 0,
+  "blocked_count": 4,
+  "capability_gaps": [
+    {
+      "capability": "CAP-001",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-002",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-003",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-004",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-005",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-006",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-007",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-008",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-009",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-010",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-011",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-012",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-013",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-014",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-015",
+      "missing": [
+        "contract.inputs",
+        "contract.outputs",
+        "contract.invariants",
+        "contract.failure_modes",
+        "contract.hard_negatives",
+        "contract.side_effects",
+        "contract.measurements",
+        "design.owner",
+        "design.original_design",
+        "design.alternatives",
+        "design.reuse_boundary",
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "SYSTEM",
+      "missing": [
+        "cross_component_graph"
+      ]
+    },
+    {
+      "capability": "SYSTEM",
+      "missing": [
+        "positive_negative_learning"
+      ]
+    }
+  ],
+  "pending_preview": [
+    ".agents/skills/rea-analysis-optimization/SKILL.md",
+    ".agents/skills/rea-analysis-optimization/agents/openai.yaml",
+    ".agents/skills/rea-analysis-optimization/references/kuna-case-study.md",
+    ".agents/skills/rea-changelog-update/SKILL.md",
+    ".agents/skills/rea-ci-tests-audit/SKILL.md",
+    ".agents/skills/rea-ci-tests-audit/agents/openai.yaml",
+    ".agents/skills/rea-ci-tests-audit/references/measurement-and-ci.md",
+    ".agents/skills/rea-tool-design/SKILL.md",
+    ".agents/skills/reverse-engineer-anything/SKILL.md",
+    ".agents/skills/reverse-engineer-anything/references/android-applications.md",
+    ".agents/skills/reverse-engineer-anything/references/connection-and-recovery.md",
+    ".agents/skills/reverse-engineer-anything/references/evidence-workflows.md",
+    ".agents/skills/reverse-engineer-anything/references/javascript-applications.md",
+    ".agents/skills/reverse-engineer-anything/references/native-and-artifacts.md",
+    ".agents/skills/reverse-engineer-anything/references/runtime-observation.md",
+    ".gitattributes",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/design_discussion.yml",
+    ".github/ISSUE_TEMPLATE/documentation.yml"
+  ],
+  "pending_preview_truncated": true,
+  "submodule_references": 5,
+  "whole_source_semantic_understanding": "NOT_ESTABLISHED_BY_STRUCTURAL_AUDIT",
+  "originality_and_legal_clearance": "NOT_ESTABLISHED",
+  "independent_qualification": "NOT_GRANTED",
+  "note": "Evidence references are worker assertions, not automatically verified evidence."
+}

@@ -41,3 +41,17 @@ and partial evidence; never bypass provider ownership checks or call simulated
 results real-provider proof. Unknown coverage must affect readiness.
 Run `python3 -m unittest discover -s tests/mission -v` as well as both prior suites.
 Industrial remains read-only. No REA source code is vendored in this change.
+
+## Universal reconstruction product boundary
+
+The owner requests understanding reference mechanisms and authoring original
+implementations, with REA as the first subject and domains as parameters.
+An adapter, planner, renamed source, MIT permission or file census is not the
+requested full reconstruction. Read reconstruction/README.md and PROTOCOL_V1.json.
+Use scripts/reconstruction/campaign.py for campaign templates and coverage audits.
+Keep source evidence, abstract behavior contracts, original design, implementation,
+execution, qualification and authority distinct. Preserve negative/positive
+methods, actual consumer effects, exact subjects and historical red evidence.
+No structural audit certifies semantic understanding, authorship or legal clearance.
+Run `python3 -m unittest discover -s tests/reconstruction -v` for this component.
+Industrial remains read-only.
