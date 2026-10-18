@@ -79,10 +79,11 @@ class UrlIntakeTests(unittest.TestCase):
                 headers={"Content-Type": "application/x-www-form-urlencoded"},
                 method="POST",
             )
-            html = request.urlopen(form, timeout=10).read()
+            form_resp = request.urlopen(form, timeout=10)
+            self.assertIn("text/html", form_resp.headers.get("Content-Type", ""))
+            html = form_resp.read()
             self.assertIn(b"<h1>Ready</h1>", html)
             self.assertIn(b"REA selected", html)
-            self.assertIn(b"text/html", form.get_header("Content-type") or b"")
             with self.assertRaises(error.HTTPError) as ctx:
                 bad = request.Request(
                     f"http://{host}:{port}/api/start",
