@@ -1,0 +1,445 @@
+{
+  "version": 1,
+  "probe": "ACTUAL_PINNED_ELEKTRON_VIA_CONFIGURED_OXYCOK_FRONTDOOR",
+  "mission": {
+    "mission_id": "25894b010e347301b37070d75678fde48f0c44488b5f053f9f636c159478d2a0",
+    "stage": "COMPLETE",
+    "error": null,
+    "request": {
+      "attempt": 1,
+      "domain": "unfamiliar-domain",
+      "elektron_allow_bounded_analysis": true,
+      "elektron_snapshot": "/workspace/scratch/6bb7fb0e98ea/private-elektron-analysis",
+      "facts": [
+        "artifact-produced",
+        "downstream-consumer"
+      ],
+      "implementation_sha256": "729f8ab7888322e7fae3f543caf1a6538fea66d0c49ae66acf6b1a507cd1a1a4",
+      "mechanisms": [
+        "evidence-consumption"
+      ],
+      "provider": "python",
+      "rea_executable": null,
+      "subject_sha256": "118a67d794b4dca4ca59403e57dbd6c33356ea38ca2c097a114b93f561ff3731",
+      "target": "/workspace/scratch/6bb7fb0e98ea/oxycok-Ercomerce-/tests/mission/fixtures/owned_python"
+    },
+    "outputs": {
+      "brief": "37a0bbe6cddb9a7171d90b8bc34c21cac3917d93ddfd0b8f0b9fe50d3e25a9c6",
+      "candidate": "c43ac3e76df3f3c88080dfc3926090a831e7b412fa1d6b15912912785b59ff39",
+      "elektron_b3b": "a75804f6a746ad5c1aff9170f231309e938256ba52739cac6ada8275ef019626",
+      "learning": "91e53cabaf735c44f551dfe8038b57d3c2dbd6814e70024a14eceb7df080f57d",
+      "observation": "bb8a26b67e04dc7ff4da530afa708998694705ca76d9623729ba171edced1d4b",
+      "qualification": "dc42640afd3747cd13f21ecf54814f42aa49c35e74f75c8024b18ddd2d257014"
+    },
+    "authority": "NONE",
+    "independent_qualification": "NOT_ESTABLISHED"
+  },
+  "events": [
+    {
+      "seq": 1,
+      "kind": "ADMITTED",
+      "body": {
+        "attempt": 1,
+        "domain": "unfamiliar-domain",
+        "elektron_allow_bounded_analysis": true,
+        "elektron_snapshot": "/workspace/scratch/6bb7fb0e98ea/private-elektron-analysis",
+        "facts": [
+          "artifact-produced",
+          "downstream-consumer"
+        ],
+        "implementation_sha256": "729f8ab7888322e7fae3f543caf1a6538fea66d0c49ae66acf6b1a507cd1a1a4",
+        "mechanisms": [
+          "evidence-consumption"
+        ],
+        "provider": "python",
+        "rea_executable": null,
+        "subject_sha256": "118a67d794b4dca4ca59403e57dbd6c33356ea38ca2c097a114b93f561ff3731",
+        "target": "/workspace/scratch/6bb7fb0e98ea/oxycok-Ercomerce-/tests/mission/fixtures/owned_python"
+      }
+    },
+    {
+      "seq": 2,
+      "kind": "TRANSITION",
+      "body": {
+        "from": "NEW",
+        "outputs": {
+          "elektron_b3b": "a75804f6a746ad5c1aff9170f231309e938256ba52739cac6ada8275ef019626",
+          "observation": "bb8a26b67e04dc7ff4da530afa708998694705ca76d9623729ba171edced1d4b"
+        },
+        "to": "INSPECTED"
+      }
+    },
+    {
+      "seq": 3,
+      "kind": "TRANSITION",
+      "body": {
+        "from": "INSPECTED",
+        "outputs": {
+          "brief": "37a0bbe6cddb9a7171d90b8bc34c21cac3917d93ddfd0b8f0b9fe50d3e25a9c6",
+          "elektron_b3b": "a75804f6a746ad5c1aff9170f231309e938256ba52739cac6ada8275ef019626",
+          "observation": "bb8a26b67e04dc7ff4da530afa708998694705ca76d9623729ba171edced1d4b"
+        },
+        "to": "ABSTRACTED"
+      }
+    },
+    {
+      "seq": 4,
+      "kind": "TRANSITION",
+      "body": {
+        "from": "ABSTRACTED",
+        "outputs": {
+          "brief": "37a0bbe6cddb9a7171d90b8bc34c21cac3917d93ddfd0b8f0b9fe50d3e25a9c6",
+          "candidate": "c43ac3e76df3f3c88080dfc3926090a831e7b412fa1d6b15912912785b59ff39",
+          "elektron_b3b": "a75804f6a746ad5c1aff9170f231309e938256ba52739cac6ada8275ef019626",
+          "observation": "bb8a26b67e04dc7ff4da530afa708998694705ca76d9623729ba171edced1d4b"
+        },
+        "to": "CONSTRUCTED"
+      }
+    },
+    {
+      "seq": 5,
+      "kind": "TRANSITION",
+      "body": {
+        "from": "CONSTRUCTED",
+        "outputs": {
+          "brief": "37a0bbe6cddb9a7171d90b8bc34c21cac3917d93ddfd0b8f0b9fe50d3e25a9c6",
+          "candidate": "c43ac3e76df3f3c88080dfc3926090a831e7b412fa1d6b15912912785b59ff39",
+          "elektron_b3b": "a75804f6a746ad5c1aff9170f231309e938256ba52739cac6ada8275ef019626",
+          "observation": "bb8a26b67e04dc7ff4da530afa708998694705ca76d9623729ba171edced1d4b",
+          "qualification": "dc42640afd3747cd13f21ecf54814f42aa49c35e74f75c8024b18ddd2d257014"
+        },
+        "to": "TESTED"
+      }
+    },
+    {
+      "seq": 6,
+      "kind": "TRANSITION",
+      "body": {
+        "from": "TESTED",
+        "outputs": {
+          "brief": "37a0bbe6cddb9a7171d90b8bc34c21cac3917d93ddfd0b8f0b9fe50d3e25a9c6",
+          "candidate": "c43ac3e76df3f3c88080dfc3926090a831e7b412fa1d6b15912912785b59ff39",
+          "elektron_b3b": "a75804f6a746ad5c1aff9170f231309e938256ba52739cac6ada8275ef019626",
+          "learning": "91e53cabaf735c44f551dfe8038b57d3c2dbd6814e70024a14eceb7df080f57d",
+          "observation": "bb8a26b67e04dc7ff4da530afa708998694705ca76d9623729ba171edced1d4b",
+          "qualification": "dc42640afd3747cd13f21ecf54814f42aa49c35e74f75c8024b18ddd2d257014"
+        },
+        "to": "RECORDED"
+      }
+    },
+    {
+      "seq": 7,
+      "kind": "TRANSITION",
+      "body": {
+        "from": "RECORDED",
+        "outputs": {
+          "brief": "37a0bbe6cddb9a7171d90b8bc34c21cac3917d93ddfd0b8f0b9fe50d3e25a9c6",
+          "candidate": "c43ac3e76df3f3c88080dfc3926090a831e7b412fa1d6b15912912785b59ff39",
+          "elektron_b3b": "a75804f6a746ad5c1aff9170f231309e938256ba52739cac6ada8275ef019626",
+          "learning": "91e53cabaf735c44f551dfe8038b57d3c2dbd6814e70024a14eceb7df080f57d",
+          "observation": "bb8a26b67e04dc7ff4da530afa708998694705ca76d9623729ba171edced1d4b",
+          "qualification": "dc42640afd3747cd13f21ecf54814f42aa49c35e74f75c8024b18ddd2d257014"
+        },
+        "to": "COMPLETE"
+      }
+    }
+  ],
+  "graph": [
+    {
+      "source": "25894b010e347301b37070d75678fde48f0c44488b5f053f9f636c159478d2a0",
+      "relation": "INSPECTS_SUBJECT",
+      "target": "118a67d794b4dca4ca59403e57dbd6c33356ea38ca2c097a114b93f561ff3731"
+    },
+    {
+      "source": "37a0bbe6cddb9a7171d90b8bc34c21cac3917d93ddfd0b8f0b9fe50d3e25a9c6",
+      "relation": "USES_OBSERVATION",
+      "target": "bb8a26b67e04dc7ff4da530afa708998694705ca76d9623729ba171edced1d4b"
+    },
+    {
+      "source": "91e53cabaf735c44f551dfe8038b57d3c2dbd6814e70024a14eceb7df080f57d",
+      "relation": "LEARNS_FROM",
+      "target": "dc42640afd3747cd13f21ecf54814f42aa49c35e74f75c8024b18ddd2d257014"
+    },
+    {
+      "source": "a75804f6a746ad5c1aff9170f231309e938256ba52739cac6ada8275ef019626",
+      "relation": "OBSERVED_BY_PINNED_ELEKTRON_B3B",
+      "target": "25894b010e347301b37070d75678fde48f0c44488b5f053f9f636c159478d2a0"
+    },
+    {
+      "source": "bb8a26b67e04dc7ff4da530afa708998694705ca76d9623729ba171edced1d4b",
+      "relation": "OBSERVED_FROM",
+      "target": "118a67d794b4dca4ca59403e57dbd6c33356ea38ca2c097a114b93f561ff3731"
+    },
+    {
+      "source": "c43ac3e76df3f3c88080dfc3926090a831e7b412fa1d6b15912912785b59ff39",
+      "relation": "CONSTRUCTED_FROM",
+      "target": "37a0bbe6cddb9a7171d90b8bc34c21cac3917d93ddfd0b8f0b9fe50d3e25a9c6"
+    },
+    {
+      "source": "dc42640afd3747cd13f21ecf54814f42aa49c35e74f75c8024b18ddd2d257014",
+      "relation": "EXAMINES",
+      "target": "c43ac3e76df3f3c88080dfc3926090a831e7b412fa1d6b15912912785b59ff39"
+    },
+    {
+      "source": "target.py:5",
+      "relation": "SYNTAX_CALL_TARGET",
+      "target": "sum"
+    }
+  ],
+  "artifacts": {
+    "brief": {
+      "action_authorized": false,
+      "authority": "NONE",
+      "brief_sha256": "e039c2f6ddd8c67c9de510d6cbed35284f5ac98c0e97e3ca677a26354595f902",
+      "coverage": "BOUNDED_SEED_NOT_EXHAUSTIVE",
+      "domain": "unfamiliar-domain",
+      "evidence_pins": [
+        {
+          "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+          "git_blob_sha": "706e8fd6aa38e07f40d511422218be23faf4c76e",
+          "id": "industrial-028",
+          "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-028-INQUIRY-OUTPUT-PRESENT-NE-SHARED-EPISTEMIC-INPUT.json",
+          "repository": "chr1stopherwallace156-svg/oxyballs-Industrial"
+        }
+      ],
+      "facts": [
+        "artifact-produced",
+        "downstream-consumer"
+      ],
+      "facts_basis": "CALLER_DECLARED_NOT_INDEPENDENTLY_VERIFIED",
+      "kind": "ABSTRACT_TRANSFER_BRIEF",
+      "relations": [
+        {
+          "conditions": [
+            "the consumer must receive and use semantic content"
+          ],
+          "id": "REL-002",
+          "left": "artifact-produced",
+          "lesson_id": "UKL-002",
+          "relation": "DOES_NOT_IMPLY",
+          "right": "evidence-consumed",
+          "status": "CANDIDATE"
+        }
+      ],
+      "rights": {
+        "code_reuse": "PROHIBITED",
+        "legal_clearance": "NOT_ESTABLISHED",
+        "origin": "PROJECT_AUTHORED_ABSTRACTION"
+      },
+      "rules": [
+        {
+          "adapter": "Verify retrieved inventory uncertainty changes a recommendation's readiness or blockers, rather than only its timestamp or citation count.",
+          "excludes_any": [
+            "storage-only-contract"
+          ],
+          "failure": "Inquiry output existed while downstream observers did not receive its contradictions and missing evidence.",
+          "id": "UKL-002",
+          "mechanism": "evidence-consumption",
+          "positive": "Use typed consumer inputs and a counterfactual that changes a meaningful downstream field.",
+          "principle": "Produced or persisted evidence is not proof that a downstream consumer used its meaning.",
+          "requires_all": [
+            "artifact-produced",
+            "downstream-consumer"
+          ],
+          "status": "TRANSFER_CANDIDATE",
+          "test_obligations": [
+            "Withhold relevant evidence and require a semantic result difference.",
+            "Keep an irrelevant artifact from changing the conclusion.",
+            "Test every declared consumer separately."
+          ]
+        }
+      ],
+      "target_evidence": {
+        "artifact_sha256": "118a67d794b4dca4ca59403e57dbd6c33356ea38ca2c097a114b93f561ff3731",
+        "coverage_status": "BOUNDED_STATIC",
+        "limitations": [
+          "Syntax relationships do not prove runtime call resolution or behavior."
+        ],
+        "observation_sha256": "bb8a26b67e04dc7ff4da530afa708998694705ca76d9623729ba171edced1d4b",
+        "provider": "OXYCOK_PYTHON_AST_V1"
+      },
+      "version": 2
+    },
+    "candidate": {
+      "action_authorized": false,
+      "authority": "NONE",
+      "brief_sha256": "e039c2f6ddd8c67c9de510d6cbed35284f5ac98c0e97e3ca677a26354595f902",
+      "construction": "PROJECT_AUTHORED_DECLARATIVE_PLANNER_TEMPLATE",
+      "files": {
+        "README.md": "5951b881f3d8ea9cb8f716516f7c3f4543c8044e850190ed765156cd7e650856",
+        "contract.json": "c2448a1a252eb441b052b3b3754a0eec50370fe02235c338d27c8a809e54ce31",
+        "runtime.py": "b6c25cacc013bff213e0419b4ae6bd70e1115b1533ca3f2cc651ce84e21d435c"
+      },
+      "legal_clearance": "NOT_ESTABLISHED",
+      "qualification": "NOT_ESTABLISHED",
+      "version": 1
+    },
+    "elektron_b3b": {
+      "actual_owner": "scripts.ai_worker_observatory.supervisor.B3BRuntimeSupervisor",
+      "authority": "NONE",
+      "destination_qualification": "NOT_ESTABLISHED",
+      "failure_preflight": {
+        "authority": "NONE",
+        "bindings": "DESTINATION_CANDIDATES_NOT_IMPORTED_QUALIFICATION",
+        "blockers": [],
+        "fact_basis": "CALLER_DECLARED_NOT_INDEPENDENTLY_VERIFIED",
+        "reference_record_count": 39,
+        "untriggered_rules": "NOT_TRIGGERED_OR_MISSING_CONTEXT_NEVER_A_PASS"
+      },
+      "known_failure_record_count": 39,
+      "qualification_note": "Observed/ measured/ classified is not independent review or experiment qualification.",
+      "scope": "BOUNDED_ANALYSIS_CLOSURE",
+      "source_commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "source_result": {
+        "admitted": true,
+        "duplicate_suppressed": false,
+        "steps": [
+          {
+            "action": "ADVANCED",
+            "stage": "MEASURE_PENDING"
+          },
+          {
+            "action": "ADVANCED",
+            "stage": "CLASSIFY_PENDING"
+          },
+          {
+            "action": "ADVANCED",
+            "stage": "REVIEW_PENDING"
+          },
+          {
+            "action": "PENDING_INDEPENDENT_REVIEW",
+            "stage": "REVIEW_PENDING_INDEPENDENT"
+          }
+        ],
+        "work_item": {
+          "admitted_at": "2026-10-18T10:55:37Z",
+          "assessment_id": "CLA-RT-74aa95cd6c77",
+          "authority": "NONE",
+          "backfill_window_id": null,
+          "capture_mode": "QUALIFICATION",
+          "chain_of_thought_stored": false,
+          "completed_stages": [
+            "OBSERVED",
+            "MEASURED",
+            "CLASSIFIED"
+          ],
+          "created_at": "2026-10-18T10:55:37Z",
+          "current_stage": "REVIEW_PENDING_INDEPENDENT",
+          "engineering_authority": "NONE",
+          "evidence_refs": [
+            {
+              "id": "OBS-RT-121b36e26bcf",
+              "kind": "observation"
+            }
+          ],
+          "experiment_eligibility": null,
+          "experiment_eligibility_reasons": [],
+          "experiment_id": null,
+          "failed_stages": [],
+          "last_error": null,
+          "metric_record_ids": [
+            "MET-RT-UNIQUE-TOOL-COUNT-abd55a3eac27",
+            "MET-RT-MEMORY-USED-COUNT-0671426c061f"
+          ],
+          "mission_id": "OXYCOK-MISSION-25894b010e347301b37070d75678fde48f0c44488b5f053f9f636c159478d2a0",
+          "mode": "STUDY_SHADOW",
+          "next_retry_at": null,
+          "observation_id": "OBS-RT-121b36e26bcf",
+          "origin": "EXTERNAL",
+          "pending_stages": [
+            "REVIEW_PENDING",
+            "EXPERIMENT_ELIGIBILITY_PENDING"
+          ],
+          "processing_version": "B3B-FULL-RUNTIME-V1",
+          "replay_id": null,
+          "retry_count": 0,
+          "review_id": null,
+          "review_independence_claim": null,
+          "schema_version": "1.0.0",
+          "source_event_id": "OXYCOK-25894b010e347301b37070d75678fde48f0c44488b5f053f9f636c159478d2a0",
+          "source_hash": "82681750c33a3894d01308c9fdfb6c71dbd08a6823fe516fb5aea7c11b5f1e22",
+          "source_kind": "TASK_STARTED",
+          "source_ref": "OXYCOK-TARGET-25894b010e347301b37070d75678fde48f0c44488b5f053f9f636c159478d2a0",
+          "updated_at": "2026-10-18T10:55:37Z",
+          "work_item_id": "WI-3676ae8bc57bc92f0cd98175"
+        }
+      }
+    },
+    "learning": {
+      "authority": "NONE",
+      "candidate": "c43ac3e76df3f3c88080dfc3926090a831e7b412fa1d6b15912912785b59ff39",
+      "lesson_ids": [
+        "UKL-002"
+      ],
+      "negative": "Static inspection and guard PASS do not establish target behavior equivalence.",
+      "outcome": "PASS",
+      "positive": "Applicable/missing/excluded conditions preserved by a generated consumer.",
+      "promotion": "NONE",
+      "subject": "118a67d794b4dca4ca59403e57dbd6c33356ea38ca2c097a114b93f561ff3731",
+      "unknowns": [
+        "Independent unfamiliar transfer not run.",
+        "General code reconstruction not implemented.",
+        "Legal clearance not established."
+      ]
+    },
+    "observation": {
+      "coverage_status": "BOUNDED_STATIC",
+      "edges": [
+        {
+          "relation": "SYNTAX_CALL_TARGET",
+          "source": "target.py:5",
+          "target": "sum"
+        }
+      ],
+      "limitations": [
+        "Syntax relationships do not prove runtime call resolution or behavior."
+      ],
+      "metrology": {
+        "bytes": 131,
+        "call_sites": 1,
+        "files": 1,
+        "modules": 1
+      },
+      "modules": [
+        {
+          "path": "target.py",
+          "symbols": [
+            {
+              "line": 4,
+              "name": "total"
+            }
+          ]
+        }
+      ],
+      "provider": "OXYCOK_PYTHON_AST_V1",
+      "scope": "REGULAR_WORKTREE_FILES_EXCLUDING_GIT",
+      "target_sha256": "118a67d794b4dca4ca59403e57dbd6c33356ea38ca2c097a114b93f561ff3731"
+    },
+    "qualification": {
+      "authority": "NONE",
+      "cases": [
+        {
+          "expected": "REVIEW_REQUIRED",
+          "passed": true,
+          "rule": "UKL-002"
+        },
+        {
+          "expected": "NEEDS_CONTEXT",
+          "passed": true,
+          "rule": "UKL-002"
+        },
+        {
+          "expected": "EXCLUDED",
+          "passed": true,
+          "rule": "UKL-002"
+        }
+      ],
+      "independent": false,
+      "scope": "GENERATED_PLANNER_BEHAVIORAL_GUARDS_ONLY",
+      "verdict": "PASS"
+    }
+  },
+  "full_industrial_snapshot_staged_here": false,
+  "source_worktree_mutated": false,
+  "independent_destination_qualification": "NOT_ESTABLISHED"
+}

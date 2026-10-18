@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "status": "DESTINATION_REPAIR_CANDIDATE_AWAITING_INDEPENDENT_REVIEW",
+  "observed_failure": "First composed mission completed while the actual B3B source owner had DEAD_LETTER due to mission_id grammar mismatch.",
+  "violated_assumption": "Receiving an owner result object means the requested semantic stage succeeded.",
+  "root_mechanism": "Missing cross-owner identifier adaptation plus missing semantic result admission in the destination wrapper.",
+  "shared_owner": "scripts/mission/runtime.py elektron_event; scripts/elektron_bridge/run_owner.py require_usable_core_result",
+  "exposed_capabilities": [
+    "Cross-domain mission-to-core adapters",
+    "B3B observation pipelines",
+    "Any composed workflow passing typed identities and result objects"
+  ],
+  "same_family_instances": [
+    "A raw hash beginning with a digit as a source-facing identifier",
+    "Nonadmission, DEAD_LETTER, partial stages or source errors returned inside an otherwise valid JSON object"
+  ],
+  "hard_negatives": [
+    "REVIEW_PENDING_INDEPENDENT is a preserved gate, not a failed experiment or a qualified success",
+    "Valid identifiers preserve the complete destination identity; do not truncate or rename the original mission record"
+  ],
+  "historical_artifacts": [
+    "evidence/ACTUAL_B3B_MISSION_FAIL_ATTEMPT_001.json",
+    "evidence/ACTUAL_B3B_MISSION_V1.json"
+  ],
+  "authority_impact": "NONE; destination qualification remains NOT_ESTABLISHED",
+  "adversarial_controls": [
+    "Dead-letter object must be rejected",
+    "Missing core must block without fallback",
+    "Namespace identities beginning with digits without losing the original hash",
+    "Preserve source errors in typed diagnostics"
+  ],
+  "forward_holdout": "Fresh independently chosen cross-owner event/identity and negative boundary cases required.",
+  "inherited_behavior": "All selected Elektron mission companion calls pass through the corrected event adapter and semantic result gate.",
+  "positive_method": "Reuse the original source owner, preserve its independent-review boundary, and test the destination adapter's failure semantics.",
+  "source_software_modified": false,
+  "prior_failure_preserved": true,
+  "local_problem_closed": "BOUNDED_IMPLEMENTER_EVIDENCE",
+  "repository_learning_closed": "PENDING_INDEPENDENT_TRANSFER_REVIEW"
+}

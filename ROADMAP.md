@@ -48,3 +48,13 @@ Next: review REA source families completely, replace navigation anchors with
 source/test/effect-path contracts, then build one original capability against a
 frozen behavioral exam. An external REA CLI pass is not a prerequisite for
 beginning source study, and a CLI adapter is not the final product.
+
+## Real Elektron reuse
+
+The destination now has exact source snapshot staging, a real B3B owner adapter,
+mission companion selection and four known-failure candidate bindings. The real
+134-file analysis probe is separate from a full 9,233-file source transfer.
+Next: stage the full selected source tree from an authorized local Git checkout;
+verify its tree; independently qualify B3B adapter/holdouts; integrate remaining
+owner interfaces and failure bindings through existing owners. Do not call all
+Elektron functionality active merely because source files are copied.

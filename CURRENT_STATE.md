@@ -1,3 +1,28 @@
+# Actual Elektron transfer assessment — 2026-10-18
+
+- Added a pinned read-only Git snapshot materializer and actual-owner B3B bridge.
+- OXYCOK missions can explicitly select a private Elektron snapshot. Missing or
+  failed selected core blocks; no fallback is claimed as source execution.
+- Real private analysis closure: 70 Python files + 64 data files, all source
+  blob identities verified. It contains 39 failure-learning records.
+- The first composed probe reached B3B DEAD_LETTER but outer completion. That
+  failed evidence is preserved. Destination adapter repair namespaces IDs and
+  rejects invalid source result states. Industrial source was not patched.
+- Repaired real-owner probe: OXYCOK bounded workflow COMPLETE; actual B3B owner
+  OBSERVED/MEASURED/CLASSIFIED then REVIEW_PENDING_INDEPENDENT. This is not
+  independent destination qualification or experiment completion.
+- Four candidate failure bindings execute from preserved mechanisms; all other
+  records and software owners still need explicit integration/qualification.
+- Full selected source tree: 9,233 tracked files, 673,221,796 bytes. Full snapshot
+  staging is implemented/tested on fixture Git repositories but NOT performed
+  against all Industrial files here. Newer branches/history are separate scope.
+- See docs/elektron_transfer/README.md, owner map, evidence and validation.
+- Industrial remains read-only; no raw private source code is published; no
+  source pass is promoted into OXYCOK qualification.
+- Older assessments below are preserved historical records.
+
+---
+
 # Universal reconstruction assessment — 2026-10-18
 
 - Product goal clarified: derive reference mechanisms and abstract requirements,
@@ -901,3 +926,5 @@ A stale `CURRENT_STATE.md` is itself a repository defect.
 
 **Last established stage:** Gen0 Foundation  
 **Next exact artifact:** `ROADMAP.md`
+
+Standard configured runtime: scripts/oxycok.py requires a private pinned Elektron snapshot and automatically attaches it to each new mission. Lower-level mission CLI is a standalone diagnostic. Frontdoor source: scripts/oxycok.py; tests: tests/elektron_bridge/test_frontdoor.py. Actual final probe: docs/elektron_transfer/evidence/ACTUAL_B3B_FRONTDOOR_FINAL_V4.json.

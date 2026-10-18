@@ -55,3 +55,18 @@ methods, actual consumer effects, exact subjects and historical red evidence.
 No structural audit certifies semantic understanding, authorship or legal clearance.
 Run `python3 -m unittest discover -s tests/reconstruction -v` for this component.
 Industrial remains read-only.
+
+## Actual Elektron software reuse
+
+Read docs/elektron_transfer/README.md and OWNER_TRANSFER_MAP_V1.json. The owner
+requires real Elektron software and failure-learning reuse, not another parallel
+B3B implementation. Stage pinned source snapshots outside both repositories;
+Industrial remains read-only. Do not publish raw private source code.
+Selected mission core calls must verify snapshot identity, run actual owners,
+retain original diagnostics and honor independent-review/lock boundaries.
+A returned object or copied qualification label is not semantic success.
+Full source availability, owner activation and destination qualification are
+separate claims; current private proof is a bounded 134-file analysis closure.
+Run `python3 -m unittest discover -s tests/elektron_bridge -v`.
+
+Standard configured runtime: scripts/oxycok.py requires a private pinned Elektron snapshot and automatically attaches it to each new mission. Lower-level mission CLI is a standalone diagnostic. Frontdoor source: scripts/oxycok.py; tests: tests/elektron_bridge/test_frontdoor.py. Actual final probe: docs/elektron_transfer/evidence/ACTUAL_B3B_FRONTDOOR_FINAL_V4.json.
