@@ -1,3 +1,25 @@
+# Universal reconstruction assessment — 2026-10-18
+
+- Product goal clarified: derive reference mechanisms and abstract requirements,
+  then author an original implementation using OXYCOK conventions. A REA adapter
+  or the current planner is not the full requested reconstruction.
+- Universal campaign generator/auditor: implemented, domain-parameterized.
+  See reconstruction/README.md and reconstruction/PROTOCOL_V1.json.
+- Whole pinned REA Git census: 4,340 file entries, 367 tree entries, five submodule
+  references; upstream tree response not truncated. Submodule contents not read
+  by listing their pointers.
+- REA reconstruction: OPEN. 4,345 review units; 4,339 pending, four blocked and
+  two with earlier worker analysis records. All 15 capability contracts/designs/
+  implementations remain open. Whole-source understanding is NOT established.
+- The structural auditor rejects stale subjects, silent scope reduction and
+  unsupported promotion. Its strongest result admits worker records for
+  independent review; it cannot certify originality or legal clearance.
+- Existing bounded mission runtime and its real REA host failures remain
+  preserved. No source repository writes, merges or authority changes.
+- Prior assessments below are historical snapshots.
+
+---
+
 # Connected REA mission assessment — 2026-10-18
 
 - REA resolved: https://github.com/morluto/rea (Reverse Engineer Anything).

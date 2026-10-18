@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "kind": "UNIVERSAL_RECONSTRUCTION_PROTOCOL",
+  "authority": "NONE",
+  "domain_parameterized": true,
+  "reference_implementation_is_not_target_implementation": true,
+  "stages": [
+    {
+      "id": "R0",
+      "purpose": "Pin authorized reference identity, scope and rights basis",
+      "deliverables": [
+        "reference manifest",
+        "scope",
+        "rights disposition"
+      ]
+    },
+    {
+      "id": "R1",
+      "purpose": "Account for the whole declared source universe",
+      "deliverables": [
+        "census",
+        "per-unit dispositions",
+        "nested dependency scopes"
+      ]
+    },
+    {
+      "id": "R2",
+      "purpose": "Recover behavior and mechanisms from source and observations",
+      "deliverables": [
+        "ownership topology",
+        "data/state flow",
+        "error paths",
+        "evidence graph",
+        "unknowns"
+      ]
+    },
+    {
+      "id": "R3",
+      "purpose": "Express abstract target requirements independent of source expression",
+      "deliverables": [
+        "behavior contracts",
+        "invariants",
+        "hard negatives",
+        "failure modes",
+        "measurements"
+      ]
+    },
+    {
+      "id": "R4",
+      "purpose": "Design original components using destination conventions",
+      "deliverables": [
+        "design alternatives",
+        "ownership map",
+        "storage/recovery design",
+        "composition interfaces"
+      ]
+    },
+    {
+      "id": "R5",
+      "purpose": "Author and execute isolated implementation candidates",
+      "deliverables": [
+        "new implementation subject",
+        "build evidence",
+        "runtime receipts",
+        "declared reuse provenance"
+      ]
+    },
+    {
+      "id": "R6",
+      "purpose": "Attack and qualify the exact target subject",
+      "deliverables": [
+        "broken controls",
+        "regressions",
+        "unfamiliar holdouts",
+        "independent qualification",
+        "preserved red history"
+      ]
+    },
+    {
+      "id": "R7",
+      "purpose": "Inherit bounded methods and continue",
+      "deliverables": [
+        "positive/negative lessons",
+        "applicability/exclusions",
+        "worker context",
+        "durable handoff",
+        "next unknowns"
+      ]
+    }
+  ],
+  "distinct_claims": [
+    "ENUMERATED",
+    "CONTENT_READ",
+    "MECHANISM_ANALYZED",
+    "BEHAVIOR_CONTRACTED",
+    "ORIGINAL_DESIGN_AUTHORED",
+    "IMPLEMENTED",
+    "EXECUTED",
+    "INDEPENDENTLY_QUALIFIED",
+    "AUTHORIZED"
+  ],
+  "forbidden_shortcuts": [
+    "RENAMING_AS_ORIGINALITY_PROOF",
+    "MIT_AS_BLANKET_CLEARANCE",
+    "SOURCE_PASS_AS_TARGET_PASS",
+    "FILE_LIST_AS_UNDERSTANDING",
+    "PLANNER_AS_COMPLETE_REIMPLEMENTATION",
+    "SIMILARITY_AS_EQUIVALENCE"
+  ],
+  "limits": "A universal procedure and record format do not supply universal semantic understanding, implementation generation or legal clearance."
+}

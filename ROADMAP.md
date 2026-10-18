@@ -36,3 +36,15 @@ feature-level behavioral contracts; independent unfamiliar holdouts; broader
 authorized method ingestion; original implementation workers beyond the current
 planner template; then action-specific autonomy. Existing commerce package/build
 baseline remains a separate open task.
+
+## Universal original reconstruction
+
+The reusable campaign method now separates census, semantic analysis, abstract
+requirements, original design, implementation, hostile examination, independent
+qualification and future inheritance. REA is the first subject, not a special
+case in the generator/auditor. Complete pinned corpus accounting is present;
+semantic analysis and target capability reconstruction remain open.
+Next: review REA source families completely, replace navigation anchors with
+source/test/effect-path contracts, then build one original capability against a
+frozen behavioral exam. An external REA CLI pass is not a prerequisite for
+beginning source study, and a CLI adapter is not the final product.

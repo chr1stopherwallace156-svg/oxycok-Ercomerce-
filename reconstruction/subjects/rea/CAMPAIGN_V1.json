@@ -1,0 +1,586 @@
+{
+  "version": 1,
+  "kind": "ORIGINAL_RECONSTRUCTION_CAMPAIGN",
+  "domain": "reverse-engineering-software",
+  "authority": "NONE",
+  "method": "REFERENCE_EVIDENCE_TO_ABSTRACT_REQUIREMENTS_TO_ORIGINAL_DESIGN",
+  "reference": {
+    "repository": "morluto/rea",
+    "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+    "census_sha256": "eae281b9d603fb2f59d5237e0b30bfcdcbf8775f893e6c337eb4fb22a009d0fb"
+  },
+  "scope": "WHOLE_PINNED_TREE",
+  "file_reviews": {
+    "LICENSE": {
+      "source_sha": "2d476d24fa5a9ae2ab35e5fd121494049eb2ee5d",
+      "disposition": "ANALYZED",
+      "basis": "Permission and notice conditions were read; this is a rights record, not copyright clearance.",
+      "evidence_refs": [
+        "docs/rea/SOURCE_PINS_V1.json",
+        "docs/rea/SOURCE_REVIEW_V1.md"
+      ],
+      "mechanism_summary": "Permission and notice conditions were read; this is a rights record, not copyright clearance."
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "source_sha": "2648af329b7e1c4cbb3e139d9f6474cceaa99f3d",
+      "disposition": "BLOCKED",
+      "basis": "Only the earlier selected range was examined; dependency rights review remains incomplete.",
+      "evidence_refs": [
+        "docs/rea/SOURCE_PINS_V1.json",
+        "docs/rea/SOURCE_REVIEW_V1.md"
+      ],
+      "mechanism_summary": "Only the earlier selected range was examined; dependency rights review remains incomplete."
+    },
+    "docs/architecture.mermaid": {
+      "source_sha": "94b31723e0aafeb3ef33db8256df184980299b67",
+      "disposition": "BLOCKED",
+      "basis": "Prior architecture reading is not a complete implementation-path reconstruction.",
+      "evidence_refs": [
+        "docs/rea/SOURCE_PINS_V1.json",
+        "docs/rea/SOURCE_REVIEW_V1.md"
+      ],
+      "mechanism_summary": "Prior architecture reading is not a complete implementation-path reconstruction."
+    },
+    "docs/mcp-contracts.md": {
+      "source_sha": "7cb3a7cdc7aaf1dd2cb915b4a2e360b89a5c2f7b",
+      "disposition": "BLOCKED",
+      "basis": "Partial contract reading; complete behaviors, errors and consumer paths remain unmapped.",
+      "evidence_refs": [
+        "docs/rea/SOURCE_PINS_V1.json",
+        "docs/rea/SOURCE_REVIEW_V1.md"
+      ],
+      "mechanism_summary": "Partial contract reading; complete behaviors, errors and consumer paths remain unmapped."
+    },
+    "docs/testing.md": {
+      "source_sha": "1987abe58b432324ce707ad6c80ea8b024605272",
+      "disposition": "BLOCKED",
+      "basis": "Partial testing guidance read; full test and qualification reconstruction not completed.",
+      "evidence_refs": [
+        "docs/rea/SOURCE_PINS_V1.json",
+        "docs/rea/SOURCE_REVIEW_V1.md"
+      ],
+      "mechanism_summary": "Partial testing guidance read; full test and qualification reconstruction not completed."
+    },
+    "src/server/runDerivedOperation.ts": {
+      "source_sha": "f34a2b21e3834a258e1cf84f1e00e91c2e36c5fb",
+      "disposition": "ANALYZED",
+      "basis": "Observed pattern: cancellation checks bracket derived computation and publication; target-specific requalification remains required.",
+      "evidence_refs": [
+        "docs/rea/SOURCE_PINS_V1.json",
+        "docs/rea/SOURCE_REVIEW_V1.md"
+      ],
+      "mechanism_summary": "Observed pattern: cancellation checks bracket derived computation and publication; target-specific requalification remains required."
+    }
+  },
+  "capabilities": [
+    {
+      "id": "CAP-001",
+      "objective": "Target identity, artifact inventory and declared inspection coverage",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-002",
+      "objective": "Static JavaScript and Electron structure inspection",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-003",
+      "objective": "Native binary analysis through separately licensed provider adapters",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-004",
+      "objective": "Managed, mobile and other format-specific inspection adapters",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-005",
+      "objective": "Authorized browser, network and runtime observations",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-006",
+      "objective": "Session routing, provider admission, lifecycle and cancellation",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-007",
+      "objective": "Evidence custody, unknowns, contradictions and provenance",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-008",
+      "objective": "Relationship graphs and bounded comparison semantics",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-009",
+      "objective": "Measurements, limits, diagnostics and partial-result recovery",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-010",
+      "objective": "Abstract behavioral requirements and source-to-contract traceability",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-011",
+      "objective": "Original component design and composition into OXYCOK",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-012",
+      "objective": "Original implementation workers and isolated candidate execution",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-013",
+      "objective": "Hostile controls, regressions, holdouts and independent qualification",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-014",
+      "objective": "Failure and positive-method learning with future inheritance",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    },
+    {
+      "id": "CAP-015",
+      "objective": "CLI/MCP boundaries, packaging, dependency and rights accounting",
+      "reference_paths": [
+        "docs/architecture.mermaid"
+      ],
+      "contract": {
+        "inputs": [],
+        "outputs": [],
+        "invariants": [],
+        "failure_modes": [],
+        "hard_negatives": [],
+        "side_effects": [],
+        "measurements": []
+      },
+      "design": {
+        "owner": "",
+        "original_design": "",
+        "alternatives": "",
+        "reuse_boundary": ""
+      },
+      "implementation": {
+        "status": "NOT_IMPLEMENTED",
+        "subject_sha256": null,
+        "artifact_refs": []
+      },
+      "qualification": {
+        "status": "NOT_RUN",
+        "evidence_refs": [],
+        "broken_control_refs": [],
+        "holdout_refs": []
+      }
+    }
+  ],
+  "graph_edges": [],
+  "lessons": [],
+  "unknowns": [
+    "Source understanding is not established by enumeration.",
+    "Source tests have not been run by this campaign.",
+    "Original implementation and independent target qualification remain open.",
+    "Initial capability outline requires decomposition against every source family.",
+    "Five submodule references require their own pinned nested scope dispositions."
+  ],
+  "rights": {
+    "source_code_translation": "NOT_A_CONSTRUCTION_METHOD",
+    "legal_clearance": "NOT_ESTABLISHED",
+    "third_party_reuse": "EXPLICITLY_RECORD_LICENSE_AND_ATTRIBUTION"
+  }
+}
