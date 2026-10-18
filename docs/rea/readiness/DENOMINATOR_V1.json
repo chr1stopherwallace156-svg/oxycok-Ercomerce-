@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "status": "WORKER_PREREGISTERED_NOT_INDEPENDENT",
+  "base_subject": "4aff90d14e0fe92c3e3619bb88977ff556797f40",
+  "reference_commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+  "scope": "OXYCOK_STATIC_MISSION_LEARNING_POLICY_RECOVERY_AND_READINESS_NOT_FULL_REA_REIMPLEMENTATION",
+  "cases": [
+    {
+      "id": "RQ01",
+      "requirement": "Every new mission loads a pinned reusable reference-learning context automatically."
+    },
+    {
+      "id": "RQ02",
+      "requirement": "Missing or changed learning corpus blocks selected context; caller facts never authorize actions."
+    },
+    {
+      "id": "RQ03",
+      "requirement": "UNKNOWN, unsupported, truncated and unresolved cleanup cannot yield use readiness."
+    },
+    {
+      "id": "RQ04",
+      "requirement": "Preserve primary/provider failure and partial observation; cleanup errors cannot replace them."
+    },
+    {
+      "id": "RQ05",
+      "requirement": "Readiness is bound to target, implementation and corpus identities; a stale subject blocks."
+    },
+    {
+      "id": "RQ06",
+      "requirement": "Unavailable selected REA or Elektron core blocks without fallback to a different provider."
+    },
+    {
+      "id": "RQ07",
+      "requirement": "Recovery uses an explicit successor identity and preserves the blocked predecessor and its events."
+    },
+    {
+      "id": "RQ08",
+      "requirement": "Report workflow completion, bounded static use, REA-provider usability and independent qualification separately."
+    },
+    {
+      "id": "RQ09",
+      "requirement": "A controlled guard-neutralized subject must fail at least one unchanged adversarial assertion; preserve red and intact results."
+    },
+    {
+      "id": "RQ10",
+      "requirement": "Apply the same reusable mechanism to unfamiliar domains with positive controls and hard negatives."
+    },
+    {
+      "id": "RQ11",
+      "requirement": "Retrieved lessons must change typed consumer decisions, including missing-context and exclusion results."
+    },
+    {
+      "id": "RQ12",
+      "requirement": "Run the actual configured entrypoint with the real core and actual REA CLI; blocked host result is not readiness PASS."
+    }
+  ],
+  "pass_criteria": {
+    "implementer_regressions": "All frozen cases have actual evidence or explicit BLOCKED disposition. Blocked cases do not count as passed.",
+    "teeth": "Guard-neutralized invalid-observation control produces a failing assertion and intact subject passes.",
+    "rea_ready": "Actual REA command succeeds, observation matches subject, coverage normalized and no remaining use blockers.",
+    "independent_qualification": "Requires an independent qualifier and remains NOT_ESTABLISHED in this implementer run."
+  },
+  "forbidden": [
+    "Source changes",
+    "Guard bypass",
+    "Test result as full reconstruction",
+    "Replacing failed evidence",
+    "Promoting source claims into target qualification"
+  ]
+}
