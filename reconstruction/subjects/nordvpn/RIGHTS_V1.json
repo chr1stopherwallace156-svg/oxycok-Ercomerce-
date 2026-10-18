@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "kind": "NORDVPN_APPLICATION_RIGHTS",
+  "authority": "NONE",
+  "status": "R0_BOUNDED_APPLICATION_SEED",
+  "method_reference": {
+    "name": "REA",
+    "repository": "morluto/rea",
+    "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+    "role": "METHOD_AND_INSPECTION_REFERENCE",
+    "campaign_ref": "reconstruction/subjects/rea/CAMPAIGN_V1.json"
+  },
+  "destination_domain": "nordvpn",
+  "product_boundary": {
+    "requested_direction": "Apply REA method toward Nord VPN domain work",
+    "oxycok_product": "Original OXYCOK capabilities derived from abstract contracts",
+    "not_product": [
+      "NordVPN binary reverse engineering without authorization",
+      "NordVPN license, authentication or payment bypass",
+      "Copying or renaming NordVPN source as originality",
+      "Claiming NordVPN behavioral equivalence from owned-fixture rehearsal"
+    ]
+  },
+  "authorized_targets": [
+    {
+      "id": "AUTH-OWNED-SURFACE-001",
+      "kind": "OWNED_FIXTURE_PATH",
+      "relative_path": "tests/mission/fixtures/owned_nordvpn_surface",
+      "subject_sha256": "3b2232a5be3fe69cf2530c7b9d03a999420d53be151fe9e01aa626762b8ef246",
+      "basis": "OXYCOK-authored fixture for domain rehearsal only"
+    }
+  ],
+  "pending_authorization": [
+    {
+      "id": "PEND-NORDVPN-PRODUCT-PIN",
+      "kind": "PROPRIETARY_OR_THIRD_PARTY_PRODUCT",
+      "requirement": "Owner must supply an authorized pinned subject, rights basis and scope before any NordVPN product inspection",
+      "status": "NOT_AUTHORIZED"
+    },
+    {
+      "id": "PEND-NORDSECURITY-OSS-PIN",
+      "kind": "OPEN_SOURCE_COMPONENT",
+      "requirement": "If an open NordSecurity component is selected later, pin exact repository/commit/census and record license obligations separately",
+      "status": "NOT_SELECTED"
+    }
+  ],
+  "forbidden": [
+    "INSPECT_PROPRIETARY_NORDVPN_BINARIES_WITHOUT_PIN",
+    "BYPASS_REA_PROCESS_OWNERSHIP_CHECKS",
+    "TREAT_OWNED_FIXTURE_AS_NORDVPN_EVIDENCE",
+    "PUBLISH_RAW_PRIVATE_INDUSTRIAL_SOURCE",
+    "MUTATE_INDUSTRIAL_REPOSITORY",
+    "ELEVATE_AUTHORITY_FROM_REHEARSAL_PASS"
+  ],
+  "legal_clearance": "NOT_ESTABLISHED",
+  "independent_qualification": "NOT_GRANTED"
+}

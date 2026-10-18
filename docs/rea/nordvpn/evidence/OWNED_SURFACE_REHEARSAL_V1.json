@@ -1,0 +1,56 @@
+{
+  "authority": "NONE",
+  "admission": {
+    "disposition": "AUTHORIZED",
+    "basis": "OXYCOK-authored fixture for domain rehearsal only",
+    "target": "/workspace/tests/mission/fixtures/owned_nordvpn_surface",
+    "subject_sha256": "3b2232a5be3fe69cf2530c7b9d03a999420d53be151fe9e01aa626762b8ef246",
+    "authorization_id": "AUTH-OWNED-SURFACE-001"
+  },
+  "mission": {
+    "mission_id": "15239b0b4ef4c244e9ebc2e78ad63b4d6cfedc0e5a7644d34dd361edd7cad7f9",
+    "stage": "COMPLETE",
+    "error": null,
+    "request": {
+      "attempt": 1,
+      "domain": "nordvpn",
+      "elektron_allow_bounded_analysis": false,
+      "elektron_snapshot": null,
+      "facts": [
+        "artifact-produced",
+        "downstream-consumer",
+        "owned-fixture-rehearsal"
+      ],
+      "implementation_sha256": "51d6dd75ab23320bd3f3ec493a1bd47ab04c09159770dabe99a4d10ed263bbc2",
+      "mechanisms": [
+        "evidence-consumption",
+        "failure-learning-dual-closure"
+      ],
+      "provider": "python",
+      "rea_executable": null,
+      "subject_sha256": "3b2232a5be3fe69cf2530c7b9d03a999420d53be151fe9e01aa626762b8ef246",
+      "target": "/workspace/tests/mission/fixtures/owned_nordvpn_surface"
+    },
+    "outputs": {
+      "brief": "5eec1bd2166f2eaa89df9a982384eac4974219a782f7e7575ad1be7ab9f408af",
+      "candidate": "5df0dc63c578ccfc76ea3ab5671fbb40764cd43d95c1969f49c7857a4191c4bd",
+      "learning": "2881b4a0f8734830bd06d3ff1a4ae88b1b641d0601125d6a5086c75500f54f9b",
+      "observation": "b16e4bcd11d1fe11e5fac1dd61dc2f3bc7893dab461218f11f79e3e46ea53a6c",
+      "qualification": "dc42640afd3747cd13f21ecf54814f42aa49c35e74f75c8024b18ddd2d257014"
+    },
+    "authority": "NONE",
+    "independent_qualification": "NOT_ESTABLISHED"
+  },
+  "claims": {
+    "nordvpn_product_reverse_engineering": "NOT_PERFORMED",
+    "rea_method_reference": {
+      "name": "REA",
+      "repository": "morluto/rea",
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "role": "METHOD_AND_INSPECTION_REFERENCE",
+      "campaign_ref": "reconstruction/subjects/rea/CAMPAIGN_V1.json"
+    },
+    "legal_clearance": "NOT_ESTABLISHED",
+    "independent_qualification": "NOT_GRANTED"
+  }
+}

@@ -134,6 +134,10 @@ whole-tree accounting baseline, not a claim to have read all 4,340 files.
 The earlier external REA host failure remains preserved; this universal
 source-study layer does not require running REA to begin source analysis.
 
+A second domain-parameterized subject, `subjects/nordvpn`, applies the same
+method toward Nord VPN using an OXYCOK-owned rehearsal surface. Proprietary
+NordVPN product inspection is explicitly not authorized there.
+
 Next: perform complete source/effect-path reviews family by family, replace the
 navigation-only capability outline with evidence-bound contracts and graphs,
 freeze a bounded target capability's behavioral exam, then author and execute

@@ -1,0 +1,78 @@
+{
+  "authority": "NONE",
+  "status": "RECONSTRUCTION_OPEN",
+  "repository": "oxycok/owned-nordvpn-surface",
+  "commit": "b72c862f2977ffcf29e26dca76968d6114e2acc2",
+  "inventory_entries": 3,
+  "review_units": 2,
+  "pending_review_count": 0,
+  "excluded_count": 0,
+  "blocked_count": 0,
+  "capability_gaps": [
+    {
+      "capability": "CAP-001",
+      "missing": [
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-002",
+      "missing": [
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-003",
+      "missing": [
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-004",
+      "missing": [
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-005",
+      "missing": [
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    },
+    {
+      "capability": "CAP-006",
+      "missing": [
+        "original_implementation",
+        "evidence_refs",
+        "broken_control_refs",
+        "holdout_refs",
+        "qualification_record"
+      ]
+    }
+  ],
+  "pending_preview": [],
+  "pending_preview_truncated": false,
+  "submodule_references": 0,
+  "whole_source_semantic_understanding": "NOT_ESTABLISHED_BY_STRUCTURAL_AUDIT",
+  "originality_and_legal_clearance": "NOT_ESTABLISHED",
+  "independent_qualification": "NOT_GRANTED",
+  "note": "Evidence references are worker assertions, not automatically verified evidence."
+}

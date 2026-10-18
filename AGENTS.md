@@ -39,6 +39,10 @@ Continuity means resumable bounded workflow, not mandatory 24/7 operation.
 Use only owned/authorized analysis targets. Retain original provider failures
 and partial evidence; never bypass provider ownership checks or call simulated
 results real-provider proof. Unknown coverage must affect readiness.
+For Nord VPN domain work, read docs/rea/NORDVPN_APPLICATION_V1.md and admit
+targets only through scripts/mission/nordvpn_application.py; proprietary NordVPN
+product paths remain blocked without an authorized pin.
+Phone-simple URL intake: `web/rea-intake/` via `scripts/mission/url_intake.py serve`.
 Run `python3 -m unittest discover -s tests/mission -v` as well as both prior suites.
 Industrial remains read-only. No REA source code is vendored in this change.
 
