@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "files": [
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/1ebee8f0e6e4341ebb36fbcb0c511ec6aae1cb0dcab838b5e22497cfc6f14ae2.json",
+      "bytes": 3474969,
+      "sha256": "dead71d7ee9815659e20f5b50751838782f654c419683807b6757db32486562b"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/2abd37f944ae0e72379f11b4bf8df1a56ac6eb4037092781f9e63728531ac213.json",
+      "bytes": 745,
+      "sha256": "7137c32b60a98a570a13c212d32efaade4714eaa435a2234a8d0d126a8948d35"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/3c42fab9753e52a9ca4d9bff198c1e5f736adf9cc5cc3671c1938053418b0b83.json",
+      "bytes": 887,
+      "sha256": "a40bcfa96cb14d04dbc106867c8c75a91adb40362a25ad09fa9348d1e668c208"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/4bfed63f7e7d9a95f26d3bf9f62a5a16769c5b9c29a314ee67f57744a375b350.json",
+      "bytes": 2460,
+      "sha256": "a7f38c64735293a4469ddc0495e621145ad96930d230d507cb97bf30b9d7caaa"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/512c763943ef8097456818bfbede79be8ba00d610bb0371ee03d5357cff42377.json",
+      "bytes": 104544,
+      "sha256": "8be323f7adb0d616ecf13e9ce735a8f31d8cffd130884f7cc2cedd48a235a391"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/5b53e32f842bda915a8459d17f6c003aeebc8df9cddd757a7ae6d7d64e404f45.json",
+      "bytes": 188570,
+      "sha256": "d5336bbb2a6a2bc83650fc0c138b1c5989a43b04928bc7f5cd35bb9049573e93"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/6139a26d49a5bb121d341ef89928f5af1d49a0ab9ffead8e31ce852e4604ba1d.json",
+      "bytes": 203330,
+      "sha256": "111ce8c95879c94c257ae13f1ca3dcd72b36feb07c953cafc280f724945aca28"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/71a223d3264f28a5cca1a53b4eb11e89e7375a59324f46440c8a286c07e5ea10.json",
+      "bytes": 211428,
+      "sha256": "86cbb56e31f0a8bfb8939d34a6b65a3ae1ad9395c2a7edf20fe366f28e0c4466"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/74a00222c17d03afd8c57772a0513387cb2e785903aa292075a3114ea677ea54.json",
+      "bytes": 6271,
+      "sha256": "1012be836c2042c125d94245114ba6322ce03dd1083fd47ffcea1260c0448071"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/77a20a1a4bca63ea7e1c0724800245235c677b4e12e6b78e3c3bac43db269c44.json",
+      "bytes": 209451,
+      "sha256": "7791324fec4d138a5d0a50702107f6cd0737da17a4606ce0718ab64a038fb91f"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/90ed2a851d901ae8d173ce541e74d11cb0bf9ede1cd37fab7a99cf8db9331f70.json",
+      "bytes": 209355,
+      "sha256": "ed9a91c522b3a041afafb74545993f12a98fa8caf8e0d06040d530b03610786c"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/a1f6a96b8e5f2d23a8f60e5087a64a7b7fecabb3b1a0556825e400bf1df5543c.json",
+      "bytes": 208096,
+      "sha256": "8d25ea73fdba6887f9b636215b948a7408b03b82b97a84216f7be5b8fdf3ea29"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/a3c78eceb54840d59184ceeae99c146379c3ab55025601f6a260aea1b12ddcba.json",
+      "bytes": 269,
+      "sha256": "192ae63440d075f17e2a9e864cae7486344655f73080c92f1fb8ddceba895191"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/a41c6669c157b49d1e12e60ffcc9543d12df0c8720afbb473042239022885f39.json",
+      "bytes": 212847,
+      "sha256": "566f40c2274d275890f395b512532a38a6dcc7b81bf7e928b2bbedffebb60f48"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/aa57eb317460abe8c5595a9cc5a3d848fd927af65a6076ceb6c2039f251ba289.json",
+      "bytes": 180758,
+      "sha256": "35426a6b8a0b15b565a5e027796d0a5271136d12afda2fab80c66bc2e4770845"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/b3ab9099b14f8f73d12c0ad62a98e0655019401f92de3b7ec4bce295670b2d3b.json",
+      "bytes": 200962,
+      "sha256": "b37ea6c3664e939c412ba94f288c624106ecb074d31919612d5290f5ecb0129c"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/b91db579a5ee5b86fec36496197889009a2349437df15d3ff9cd61ddb6ecb39c.json",
+      "bytes": 186023,
+      "sha256": "6b7cab679d161d3c39d21b6b6afd7138307943eede1d53ef655562ecab52f62e"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/c41c56616b73f8840d2261b47d319bbe7fe9cbcef2905a7be291736257ccd873.json",
+      "bytes": 212686,
+      "sha256": "64dd4ab312defbce3ec6e6d2a1635e8740c5303d925c8a8c68e487f91b2e33c0"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/dd77c619ba526554333d7e29bc4b222eef8ebd31a5b2ff1059374281842a8586.json",
+      "bytes": 203438,
+      "sha256": "097b23220337b74f3c4a03403ab621354b3d83b91d698442091df5bbb105b836"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+      "bytes": 82946,
+      "sha256": "3a097b33f8be61ef31e21056a92f6a5ada4aa23b9d2f88e37e7a500b9ff2b7dd"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/f2c36ce2893b002d4738a95ece3d2f9421aa52833f775725a034c33cdb5ee579.json",
+      "bytes": 192432,
+      "sha256": "bb59a332d2e91032cbca2c6bc3926faf99454cd35be264585db4232bcc12155f"
+    },
+    {
+      "path": "reconstruction/subjects/rea/learning/evidence/f59553f5379b1b2d5a2e68e427fd55fd403b0f22c2f6e2ed093a2955e9086ab7.json",
+      "bytes": 1038,
+      "sha256": "aae4909ac8872a12040904b8d61ab6be02c2bc99f552b7dba9794ac92dede016"
+    }
+  ],
+  "limits": "Byte custody only; index/subject externality and semantic truth require separate review."
+}

@@ -1,3 +1,16 @@
+# REA failure/process learning campaign — 2026-10-18
+
+- Starting canonical main: 8885bca6c34a30bdc302abac63cc9a9b273c0cf8; PRs #1–#4 are merged.
+- Selected Elektron source process owners inspected; 39 root RFL records plus three archival variants and collision audit indexed by full provenance.
+- All 4,340 REA blobs read and identity-verified; five nested Git references remain open. Lexical scan is not semantic exhaustion.
+- Ten reusable candidate records and 23 worker-reviewed files; actual source/worker probes retained. See reconstruction/subjects/rea/learning/README.md.
+- Fresh source test failure and isolated repeat preserved: worker /proc identity is unavailable (ENOENT); ordinary standalone read succeeds. No source defect or introduced regression inferred.
+- Broad domain/services tests: 5,418 pass, 3 skipped, zero failed. Selected 165 tests include one red; overlap is not additive unique coverage.
+- No REA/Industrial mutations; no repair, independent seal, runtime-default promotion or full reconstruction claim.
+- Older assessments below are historical snapshots.
+
+---
+
 # Actual Elektron transfer assessment — 2026-10-18
 
 - Added a pinned read-only Git snapshot materializer and actual-owner B3B bridge.

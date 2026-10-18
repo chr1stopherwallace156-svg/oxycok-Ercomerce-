@@ -1,32 +1,36 @@
-# Current handoff — actual Elektron reuse bridge v1
+# REA process-learning continuation snapshot
 
-- Agent owner: Codex. Branch: feature/elektron-core-reuse-v1-20261018.
-- Starting subject: ce69b9064ea4802ada64664d04c040bae511377b (PR #3, unmerged).
-- End subject: commit containing this handoff; verify external Git/PR identity.
-- Owner mandate: existing Elektron B3B, failure/error memory, protections and
-  software must be reusable in OXYCOK across new targets. Industrial unchanged.
-- Added: scripts/elektron_bridge/{snapshot,run_owner}.py, tests/elektron_bridge,
-  docs/elektron_transfer/{README,OWNER_TRANSFER_MAP_V1,TRANSFER_FAILURE_LESSON_V1,
-  VALIDATION_V1}.json/md and actual-execution evidence.
-- Updated: mission runtime companion hook/identity adapter, mission tests,
-  AGENTS, CURRENT_STATE, ROADMAP, CI and handoff/history.
-- Source pin: Industrial f2573f95bfa988e358d89d4180a783059b70a21d / tree
-  17b5b46ee47e21001d0024263867d23311173c86. Read-only; no raw private code published.
-- Real proof: actual B3B owner executed from a private 134-file source/data
-  analysis closure; 39 known failure records. Full source staging not claimed.
-- Preserved red: first composed probe missed a B3B DEAD_LETTER/identifier failure
-  and completed the outer workflow. Raw evidence and learning remain retained.
-- Repair: source-facing identifiers are namespaced without truncation; invalid
-  owner outcomes block. Repaired actual probe preserves B3B independent review.
-- Tests/evidence: see docs/elektron_transfer/VALIDATION_V1.json and evidence.
-  Fixture Git snapshot tests do not establish full Industrial staging.
-- Limits: only B3B observe/measure/classify reached; review remains pending;
-  no blanket qualification/activation of all owners or all failure mechanisms.
-- Next exact action: stage full source tree from an authorized local checkout,
-  verify all files/tree, independently qualify the adapter and counterfactual
-  failure bindings, then integrate remaining owners through their interfaces.
-- Forbidden: mutate Industrial; publish private raw source; erase red evidence;
-  turn a copied source pass into destination qualification; silently skip failed
-  selected core; merge/rebase/squash or elevate authority without authorization.
+HANDOFF_DOCUMENT_ROLE=HANDOFF_SNAPSHOT
+LIVE_STATE_AUTHORITY=GIT
+Branch: feature/rea-failure-learning-v1-20261018
+Starting main: 8885bca6c34a30bdc302abac63cc9a9b273c0cf8 (PRs #1–#4 merged).
+End container: commit carrying this snapshot; re-establish live refs before work.
 
-Standard configured runtime: scripts/oxycok.py requires a private pinned Elektron snapshot and automatically attaches it to each new mission. Lower-level mission CLI is a standalone diagnostic. Frontdoor source: scripts/oxycok.py; tests: tests/elektron_bridge/test_frontdoor.py. Actual final probe: docs/elektron_transfer/evidence/ACTUAL_B3B_FRONTDOOR_FINAL_V4.json.
+Owner: Codex. Scope: reconstruction/learning, reconstruction/subjects/rea/learning,
+scripts/reconstruction/learning.py, tests/reconstruction/test_learning.py,
+CI, AGENTS, CURRENT_STATE and handoff. Existing failed evidence unchanged.
+Industrial pinned f2573f95bfa988e358d89d4180a783059b70a21d stays read-only;
+REA pinned c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96 stays read-only.
+
+Source process owner review covers failure schemas/lifecycle, closure/propagation,
+novel handoff, worker internalization, promotion/scope rollback, signaling and
+completeness. Full Industrial history/owners are not reviewed. The record index
+retains all 43 JSON identities in its learning-record directory (39 root RFL,
+three historical variants, one collision audit); IDs alone are insufficient.
+
+REA whole-tree byte scan: 4,340 blobs plus five nested references; semantic
+review remains open beyond 23 worker-reviewed files. Ten method/failure/negative/
+unknown records; source runner assertions and original red receipts preserved.
+Selected tests 164/165 pass; same identity red reproduced in isolated run (8/9).
+Domain/services 5,418 pass, three skipped; overlapping runs not additive.
+Six worker probes invoke real source owners; twelve-field presence checked by
+actual private Elektron schema owner. Both are implementer evidence only.
+
+Next: independent ordinary-Linux worker identity comparison; remaining semantic
+reviews and nested scopes; reconstruct bounded effect graphs before repair;
+independent holdout/hostile review before promotion. Run five local test suites,
+knowledge validation and custody verification; see VALIDATION_V1.json.
+Forbidden: Industrial or REA writes; erase/rewrite red evidence; classify scan
+hits as defects; equate record presence with learning closure; claim universal
+coverage, independent qualification or automatically promote a runtime default.
+No merge is implied by this snapshot.

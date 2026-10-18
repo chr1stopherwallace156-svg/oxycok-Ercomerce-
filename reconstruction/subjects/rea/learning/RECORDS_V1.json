@@ -1,0 +1,532 @@
+[
+  {
+    "id": "REA-LRN-001",
+    "kind": "FAILURE",
+    "authority": "NONE",
+    "reference": {
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "repository": "morluto/rea",
+      "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+    },
+    "classification": "ENVIRONMENT",
+    "mechanism": "host-process-identity-unavailable",
+    "observation": "Unmodified source identity test failed in both the selected run and isolated repeat. Diagnostic worker could not read its own /proc/43/stat (ENOENT); a standalone Node process could read its own stat.",
+    "positive_method": "Preflight identity visibility in the actual worker context; retain typed unavailability and block ownership-dependent execution without bypassing it.",
+    "applicability": [
+      "process-ownership",
+      "linux-worker"
+    ],
+    "exclusions": [
+      "host-identity-readable"
+    ],
+    "source_paths": [
+      {
+        "path": "src/process/ProcessOwnership.identity.test.ts",
+        "sha": "8f6ea72239c0c180174b6fa494babd0b40833787"
+      },
+      {
+        "path": "src/process/ProcessOwnershipObservation.ts",
+        "sha": "3b4311c94e7df9d4e0dd61e5ca44fec135d7b270"
+      }
+    ],
+    "evidence_refs": [
+      "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+      "reconstruction/subjects/rea/learning/evidence/74a00222c17d03afd8c57772a0513387cb2e785903aa292075a3114ea677ea54.json",
+      "reconstruction/subjects/rea/learning/evidence/3c42fab9753e52a9ca4d9bff198c1e5f736adf9cc5cc3671c1938053418b0b83.json",
+      "docs/rea/evidence/REA_HOST_FAILURE_V2.json"
+    ],
+    "consumer_effect": "Worker readiness must become blocked or context-limited when its own ownership evidence is inaccessible.",
+    "test_obligations": [
+      "Run same source test on an ordinary Linux host and this restricted worker.",
+      "Keep a readable-host positive control and unverifiable-owner negative control.",
+      "Do not infer global REA defect from this host result."
+    ],
+    "unknowns": [
+      "Root host namespace/mount implementation and portability responsibility remain unresolved.",
+      "Independent ordinary-host comparison not performed."
+    ],
+    "maturity": "TRANSFER_CANDIDATE",
+    "local_problem_closed": false,
+    "repository_learning_closed": false,
+    "rollback": "Demote only the future automatic binding if a counterexample appears; retain all source pins, failures, methods and receipts.",
+    "analysis": {
+      "analysis_id": "OXYCOK-REA-HOST-IDENTITY-V1",
+      "local_manifestation": "Unmodified source identity test failed in both the selected run and isolated repeat. Diagnostic worker could not read its own /proc/43/stat (ENOENT); a standalone Node process could read its own stat.",
+      "violated_assumption": "The test worker can read Linux process metadata for the PID exposed by its runtime.",
+      "root_mechanism": "Observed process identity and accessible proc filesystem do not share a usable visibility boundary in this worker context; exact host cause unresolved.",
+      "shared_owner": "REA ProcessOwnershipObservation at acquisition; test host owns proc visibility.",
+      "exposed_capabilities": [
+        "owned subprocess admission",
+        "identity baseline",
+        "ownership cleanup"
+      ],
+      "bounded_same_family_instances": [
+        "selected identity test red",
+        "isolated identity repeat red"
+      ],
+      "hard_negatives": [
+        "ordinary standalone Node read succeeds",
+        "source mocked-host ownership tests passed",
+        "prior ps inspection failure is related environment evidence, not proven identical root cause"
+      ],
+      "historical_artifacts_predating_fix": [
+        "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+        "reconstruction/subjects/rea/learning/evidence/74a00222c17d03afd8c57772a0513387cb2e785903aa292075a3114ea677ea54.json"
+      ],
+      "downstream_authority_impact": "No source repair or process-ownership bypass; no cleanup release or independent qualification inferred.",
+      "guard_adversarial_failures": [
+        "Force identity-unavailable into readable without evidence",
+        "Treat repeated same-host red as introduced source regression"
+      ],
+      "forward_holdout_warranted": true,
+      "forward_holdout_rationale": "Compare unchanged source in an independently visible ordinary Linux worker.",
+      "inherited_behavior": [
+        "Actual-worker identity preflight must affect readiness; keep raw red evidence and host limits."
+      ],
+      "regression_tests": []
+    }
+  },
+  {
+    "id": "REA-LRN-002",
+    "kind": "POSITIVE_METHOD",
+    "authority": "NONE",
+    "reference": {
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "repository": "morluto/rea",
+      "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+    },
+    "classification": "OBSERVATION_ONLY",
+    "mechanism": "primary-error-and-cleanup-custody",
+    "observation": "REA retains the primary typed error together with cleanup diagnostics; live owner release changes outstanding cleanup without erasing history.",
+    "positive_method": "Model failure and cleanup as separate owned facts and preserve both across projection.",
+    "applicability": [
+      "resource-cleanup",
+      "primary-error"
+    ],
+    "exclusions": [
+      "no-owned-resource"
+    ],
+    "source_paths": [
+      {
+        "path": "src/domain/analysisErrorBase.ts",
+        "sha": "86e6a99395e12aeb19b3c5b5390467410933e545"
+      },
+      {
+        "path": "src/domain/analysisErrorCleanup.ts",
+        "sha": "ab7b6d43ea1ed8dbbfad9e4be0231607046aee43"
+      },
+      {
+        "path": "src/domain/analysisErrorCleanup.test.ts",
+        "sha": "41ce5abcfa936ca2ba9bdfc68176b6699fdf9c2c"
+      }
+    ],
+    "evidence_refs": [
+      "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+      "reconstruction/subjects/rea/learning/evidence/2abd37f944ae0e72379f11b4bf8df1a56ac6eb4037092781f9e63728531ac213.json"
+    ],
+    "consumer_effect": "User-visible primary failure returns after confirmed cleanup; unresolved resources remain blockers.",
+    "test_obligations": [
+      "Nested owners released in both orders",
+      "Unbound cleanup remains incomplete",
+      "Primary partial output and history survive"
+    ],
+    "unknowns": [
+      "Native provider/resource paths outside tested boundary remain unqualified."
+    ],
+    "maturity": "TRANSFER_CANDIDATE",
+    "local_problem_closed": false,
+    "repository_learning_closed": false,
+    "rollback": "Demote only the future automatic binding if a counterexample appears; retain all source pins, failures, methods and receipts."
+  },
+  {
+    "id": "REA-LRN-003",
+    "kind": "POSITIVE_METHOD",
+    "authority": "NONE",
+    "reference": {
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "repository": "morluto/rea",
+      "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+    },
+    "classification": "OBSERVATION_ONLY",
+    "mechanism": "derived-summary-integrity",
+    "observation": "REA completion ledgers authenticate record ordering, IDs and counts and keep fail/unknown/unsupported/truncated separate from pass.",
+    "positive_method": "Recompute derived summaries and reject contradictory serialized status fields.",
+    "applicability": [
+      "completion-ledger",
+      "derived-summary"
+    ],
+    "exclusions": [
+      "ordinary-display-counter"
+    ],
+    "source_paths": [
+      {
+        "path": "src/domain/evidenceCompletionLedger.ts",
+        "sha": "bf3e0f9e9800970592fffeb9120deac5d86213ff"
+      },
+      {
+        "path": "src/domain/evidenceCompletionLedger.test.ts",
+        "sha": "10b49539f47d73c54032ffa47f574dc5a3c1412a"
+      }
+    ],
+    "evidence_refs": [
+      "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+      "reconstruction/subjects/rea/learning/evidence/2abd37f944ae0e72379f11b4bf8df1a56ac6eb4037092781f9e63728531ac213.json"
+    ],
+    "consumer_effect": "A forged complete field is rejected; nonpass claims keep readiness open.",
+    "test_obligations": [
+      "Tamper summary",
+      "Duplicate claims/evidence IDs",
+      "Valid all-pass positive control"
+    ],
+    "unknowns": [
+      "An all-pass supplied subset alone does not prove an external denominator was enumerated."
+    ],
+    "maturity": "TRANSFER_CANDIDATE",
+    "local_problem_closed": false,
+    "repository_learning_closed": false,
+    "rollback": "Demote only the future automatic binding if a counterexample appears; retain all source pins, failures, methods and receipts."
+  },
+  {
+    "id": "REA-LRN-004",
+    "kind": "POSITIVE_METHOD",
+    "authority": "NONE",
+    "reference": {
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "repository": "morluto/rea",
+      "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+    },
+    "classification": "OBSERVATION_ONLY",
+    "mechanism": "immutable-evidence-and-atomic-import",
+    "observation": "REA validates records and candidate bundles before committing additions; conflicting content fails while prior ledger state remains intact.",
+    "positive_method": "Authenticate identity at ingestion, seal retained data, and stage an import before changing durable consumer state.",
+    "applicability": [
+      "evidence-import",
+      "shared-state"
+    ],
+    "exclusions": [
+      "independent-records-no-shared-state"
+    ],
+    "source_paths": [
+      {
+        "path": "src/application/investigation/EvidenceLedger.ts",
+        "sha": "c025295a995ae9358f58541039db0ea7be45d1bd"
+      },
+      {
+        "path": "src/application/investigation/EvidenceLedger.test.ts",
+        "sha": "99558019480ca28cde53ec21423d4296a17f3feb"
+      },
+      {
+        "path": "src/domain/evidenceBundle.ts",
+        "sha": "4ffd1401286682c1f9719bad66a4f0b55c16bcc3"
+      }
+    ],
+    "evidence_refs": [
+      "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+      "reconstruction/subjects/rea/learning/evidence/2abd37f944ae0e72379f11b4bf8df1a56ac6eb4037092781f9e63728531ac213.json"
+    ],
+    "consumer_effect": "Conflicting input must not partially change the prior ledger.",
+    "test_obligations": [
+      "Good duplicate remains idempotent",
+      "Tampered content rejected",
+      "No partial state change on failed import"
+    ],
+    "unknowns": [
+      "Crash-safe backing storage is outside the in-memory ledger probe."
+    ],
+    "maturity": "TRANSFER_CANDIDATE",
+    "local_problem_closed": false,
+    "repository_learning_closed": false,
+    "rollback": "Demote only the future automatic binding if a counterexample appears; retain all source pins, failures, methods and receipts."
+  },
+  {
+    "id": "REA-LRN-005",
+    "kind": "POSITIVE_METHOD",
+    "authority": "NONE",
+    "reference": {
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "repository": "morluto/rea",
+      "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+    },
+    "classification": "OBSERVATION_ONLY",
+    "mechanism": "revisioned-unknowns",
+    "observation": "REA unknown records carry supporting/contradicting evidence, authority requirements, predecessor revisions and explicit resolution.",
+    "positive_method": "Preserve uncertainty as revisioned first-class state with resolution evidence.",
+    "applicability": [
+      "unknown-state",
+      "evidence-resolution"
+    ],
+    "exclusions": [
+      "display-only-note"
+    ],
+    "source_paths": [
+      {
+        "path": "src/domain/residualUnknown.ts",
+        "sha": "e5db1cc549bbec701a9a57ffcb1f3977b56c6cdc"
+      },
+      {
+        "path": "src/application/investigation/EvidenceLedger.residualUnknown.test.ts",
+        "sha": "2885c1906f8187c2f31344853db6f555bcfc64aa"
+      }
+    ],
+    "evidence_refs": [
+      "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+      "reconstruction/subjects/rea/learning/evidence/4bfed63f7e7d9a95f26d3bf9f62a5a16769c5b9c29a314ee67f57744a375b350.json"
+    ],
+    "consumer_effect": "An unresolved or contradicted question continues to restrict dependent conclusions.",
+    "test_obligations": [
+      "Conflicting revision rejected",
+      "Insufficient resolution authority cannot close unknown",
+      "Retain prior revisions on import"
+    ],
+    "unknowns": [
+      "All external persistence and cross-client race paths are unqualified here."
+    ],
+    "maturity": "TRANSFER_CANDIDATE",
+    "local_problem_closed": false,
+    "repository_learning_closed": false,
+    "rollback": "Demote only the future automatic binding if a counterexample appears; retain all source pins, failures, methods and receipts."
+  },
+  {
+    "id": "REA-LRN-006",
+    "kind": "HARD_NEGATIVE",
+    "authority": "NONE",
+    "reference": {
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "repository": "morluto/rea",
+      "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+    },
+    "classification": "OBSERVATION_ONLY",
+    "mechanism": "authority-is-not-a-total-order",
+    "observation": "REA proof authority distinguishes unit, native ABI, live process and other boundaries; unit evidence cannot stand in for native proof.",
+    "positive_method": "Compare evidence authority against the specific obligation, not a single stronger/weaker ranking.",
+    "applicability": [
+      "reconstruction-proof",
+      "authority-boundary"
+    ],
+    "exclusions": [
+      "no-proof-claim"
+    ],
+    "source_paths": [
+      {
+        "path": "src/application/ReconstructionObligationAuthority.ts",
+        "sha": "e85f7f39e393706b74fa9b759807920b3abfad85"
+      },
+      {
+        "path": "src/application/ReconstructionObligationLedger.authority.test.ts",
+        "sha": "401088add3eaa68c93c9a508b4d15e9b6a66eb4e"
+      }
+    ],
+    "evidence_refs": [
+      "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+      "reconstruction/subjects/rea/learning/evidence/2abd37f944ae0e72379f11b4bf8df1a56ac6eb4037092781f9e63728531ac213.json"
+    ],
+    "consumer_effect": "An incompatible proof leaves the obligation open.",
+    "test_obligations": [
+      "Unit proof rejected for native ABI",
+      "Compatible native ABI control admitted",
+      "Missing original evidence cannot be supplied by reconstruction evidence"
+    ],
+    "unknowns": [
+      "Independent truth of evidence producer assertions still needs qualification."
+    ],
+    "maturity": "TRANSFER_CANDIDATE",
+    "local_problem_closed": false,
+    "repository_learning_closed": false,
+    "rollback": "Demote only the future automatic binding if a counterexample appears; retain all source pins, failures, methods and receipts."
+  },
+  {
+    "id": "REA-LRN-007",
+    "kind": "POSITIVE_METHOD",
+    "authority": "NONE",
+    "reference": {
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "repository": "morluto/rea",
+      "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+    },
+    "classification": "OBSERVATION_ONLY",
+    "mechanism": "explicit-obligation-denominator",
+    "observation": "REA obligation evaluation carries ownership/dependency graphs, orphan bindings, limitations and diagnostics; no candidates cannot establish closure.",
+    "positive_method": "Keep expected obligations, actual evidence and dependency blockers distinct; make missing obligations visible.",
+    "applicability": [
+      "obligation-closure",
+      "coverage"
+    ],
+    "exclusions": [
+      "single-result-no-completeness-claim"
+    ],
+    "source_paths": [
+      {
+        "path": "src/application/ReconstructionObligationLedgerEvaluation.ts",
+        "sha": "ea54a3608bad921eac133de6664398d4816f0af8"
+      },
+      {
+        "path": "src/application/ReconstructionObligationLedger.closure.test.ts",
+        "sha": "d3404ad13f024e28c0e78a178f1ddc696cf5a631"
+      },
+      {
+        "path": "src/domain/reconstructionObligationLedgerIntegrity.ts",
+        "sha": "c0f9dd0993f0c17354a34ec9556e4aa47b823a34"
+      }
+    ],
+    "evidence_refs": [
+      "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+      "reconstruction/subjects/rea/learning/evidence/4bfed63f7e7d9a95f26d3bf9f62a5a16769c5b9c29a314ee67f57744a375b350.json"
+    ],
+    "consumer_effect": "Unsupported/contradictory obligations or incomplete generation prevent a blanket closure claim.",
+    "test_obligations": [
+      "Empty candidate negative",
+      "Orphan manifest binding",
+      "Dependency blocker propagation",
+      "Valid bounded closure control"
+    ],
+    "unknowns": [
+      "Full upstream requirement recovery and completeness of generated candidates remain open."
+    ],
+    "maturity": "TRANSFER_CANDIDATE",
+    "local_problem_closed": false,
+    "repository_learning_closed": false,
+    "rollback": "Demote only the future automatic binding if a counterexample appears; retain all source pins, failures, methods and receipts."
+  },
+  {
+    "id": "REA-LRN-008",
+    "kind": "POSITIVE_METHOD",
+    "authority": "NONE",
+    "reference": {
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "repository": "morluto/rea",
+      "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+    },
+    "classification": "OBSERVATION_ONLY",
+    "mechanism": "recovery-does-not-erase-earlier-outcomes",
+    "observation": "REA setup reports each client outcome even after earlier failure and retains rollback destination/backup information.",
+    "positive_method": "Continue independent safe work while retaining each failed stage and recovery instruction.",
+    "applicability": [
+      "multi-target-setup",
+      "partial-failure"
+    ],
+    "exclusions": [
+      "all-or-nothing-transaction"
+    ],
+    "source_paths": [
+      {
+        "path": "src/application/Setup.recovery.test.ts",
+        "sha": "244aee26b5569ffc26cf88b80b943828cedef0e5"
+      },
+      {
+        "path": "src/application/Setup.ts",
+        "sha": "117238fa2a8c841b0ae719c5eda841bb3c6f9754"
+      }
+    ],
+    "evidence_refs": [
+      "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json"
+    ],
+    "consumer_effect": "Mixed setup returns needs_human while retaining successful actions and failed destinations.",
+    "test_obligations": [
+      "One failure followed by independent success",
+      "Rollback failure retains backup location",
+      "Unsupported runtime performs no action"
+    ],
+    "unknowns": [
+      "Real client installation paths and permissions not exercised; tests use recording hosts."
+    ],
+    "maturity": "TRANSFER_CANDIDATE",
+    "local_problem_closed": false,
+    "repository_learning_closed": false,
+    "rollback": "Demote only the future automatic binding if a counterexample appears; retain all source pins, failures, methods and receipts."
+  },
+  {
+    "id": "REA-LRN-009",
+    "kind": "HARD_NEGATIVE",
+    "authority": "NONE",
+    "reference": {
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "repository": "morluto/rea",
+      "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+    },
+    "classification": "OBSERVATION_ONLY",
+    "mechanism": "safe-projection-is-not-raw-evidence-deletion",
+    "observation": "REA redacts explicitly sensitive values from exported typed failures while retaining error type and relevant diagnostics.",
+    "positive_method": "Keep safe projections separate from protected raw custody, preserving enough typed information for recovery.",
+    "applicability": [
+      "diagnostic-export",
+      "sensitive-values"
+    ],
+    "exclusions": [
+      "no-sensitive-value"
+    ],
+    "source_paths": [
+      {
+        "path": "src/domain/explicitSensitiveFailure.ts",
+        "sha": "7bb7c6170385a4a3945e2394f4b8fbf62414a1e6"
+      },
+      {
+        "path": "src/domain/explicitSensitiveFailure.test.ts",
+        "sha": "757e9887a40864514f31d27b43eddfce260063d3"
+      }
+    ],
+    "evidence_refs": [
+      "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json"
+    ],
+    "consumer_effect": "Export can hide a marked literal without losing cleanup requirements or retryability.",
+    "test_obligations": [
+      "Sensitive path excluded",
+      "Cleanup ownership retained",
+      "Malformed and unsupported remain distinct"
+    ],
+    "unknowns": [
+      "Global information-flow noninterference is not established by selected tests."
+    ],
+    "maturity": "TRANSFER_CANDIDATE",
+    "local_problem_closed": false,
+    "repository_learning_closed": false,
+    "rollback": "Demote only the future automatic binding if a counterexample appears; retain all source pins, failures, methods and receipts."
+  },
+  {
+    "id": "REA-LRN-010",
+    "kind": "UNKNOWN",
+    "authority": "NONE",
+    "reference": {
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "repository": "morluto/rea",
+      "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+    },
+    "classification": "OBSERVATION_ONLY",
+    "mechanism": "whole-repository-semantic-coverage-open",
+    "observation": "All 4,340 source blobs were byte-verified and scanned; five nested Git references remain separate scopes. Lexical coverage does not establish all mechanisms or failures.",
+    "positive_method": "Carry every source unit in a denominator and leave unreviewed mechanisms open rather than filling gaps from names.",
+    "applicability": [
+      "repository-analysis",
+      "completeness-claim"
+    ],
+    "exclusions": [
+      "explicitly-bounded-local-review"
+    ],
+    "source_paths": [
+      {
+        "path": ".gitmodules",
+        "sha": "fe17cfba812b65a808e99434a4b8d635dce41459"
+      },
+      {
+        "path": "package.json",
+        "sha": "1e112fcb8146e73762958665d3e2bbb50a7b3d1d"
+      }
+    ],
+    "evidence_refs": [
+      "reconstruction/subjects/rea/learning/evidence/1ebee8f0e6e4341ebb36fbcb0c511ec6aae1cb0dcab838b5e22497cfc6f14ae2.json",
+      "reconstruction/subjects/rea/learning/evidence/4bfed63f7e7d9a95f26d3bf9f62a5a16769c5b9c29a314ee67f57744a375b350.json"
+    ],
+    "consumer_effect": "A repository-wide readiness claim stays open even when selected suites pass.",
+    "test_obligations": [
+      "Delete one surface from inventory and require tree mismatch",
+      "Keep nested scopes open",
+      "Separate skipped tests and unexecuted projects"
+    ],
+    "unknowns": [
+      "Five submodule contents, full history, native/provider integration, every transitive effect graph and independent review remain open."
+    ],
+    "maturity": "TRANSFER_CANDIDATE",
+    "local_problem_closed": false,
+    "repository_learning_closed": false,
+    "rollback": "Demote only the future automatic binding if a counterexample appears; retain all source pins, failures, methods and receipts."
+  }
+]

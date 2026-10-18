@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "status": "OPEN",
+  "authority": "NONE",
+  "inventory_sha256": "1ebee8f0e6e4341ebb36fbcb0c511ec6aae1cb0dcab838b5e22497cfc6f14ae2",
+  "records_sha256": "244042cbd4e9b9da9f53671764c288fdb161d3acba0aead71a03e1a6b848d800",
+  "reference": {
+    "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+    "repository": "morluto/rea",
+    "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+  },
+  "record_count": 10,
+  "worker_reviewed_files": 23,
+  "total_units": 4345,
+  "remaining_semantic_review_units": 4322,
+  "independent_qualification": "NOT_ESTABLISHED",
+  "repository_learning_closed": false,
+  "runtime_default_promotion": false,
+  "inventory_ref": "reconstruction/subjects/rea/learning/evidence/1ebee8f0e6e4341ebb36fbcb0c511ec6aae1cb0dcab838b5e22497cfc6f14ae2.json",
+  "evidence": {
+    "selected": "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+    "identity_repeat": "reconstruction/subjects/rea/learning/evidence/74a00222c17d03afd8c57772a0513387cb2e785903aa292075a3114ea677ea54.json",
+    "broad": "reconstruction/subjects/rea/learning/evidence/4bfed63f7e7d9a95f26d3bf9f62a5a16769c5b9c29a314ee67f57744a375b350.json",
+    "mechanisms": "reconstruction/subjects/rea/learning/evidence/2abd37f944ae0e72379f11b4bf8df1a56ac6eb4037092781f9e63728531ac213.json",
+    "host_diagnostic": "reconstruction/subjects/rea/learning/evidence/3c42fab9753e52a9ca4d9bff198c1e5f736adf9cc5cc3671c1938053418b0b83.json",
+    "standalone_positive_context": "reconstruction/subjects/rea/learning/evidence/a3c78eceb54840d59184ceeae99c146379c3ab55025601f6a260aea1b12ddcba.json",
+    "actual_elektron_schema": "reconstruction/subjects/rea/learning/evidence/f59553f5379b1b2d5a2e68e427fd55fd403b0f22c2f6e2ed093a2955e9086ab7.json"
+  },
+  "executions": {
+    "selected": {
+      "total": 165,
+      "pass": 164,
+      "fail": 1
+    },
+    "identity_repeat": {
+      "total": 9,
+      "pass": 8,
+      "fail": 1
+    },
+    "domain_services": {
+      "numTotalTests": 5421,
+      "numPassedTests": 5418,
+      "numFailedTests": 0,
+      "numPendingTests": 3
+    },
+    "worker_authored_mechanisms": {
+      "pass": 6,
+      "fail": 0
+    },
+    "warning": "Overlapping suites are not additive unique test coverage. Upstream tests and worker controls are not independent qualification."
+  }
+}

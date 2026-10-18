@@ -1,0 +1,437 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "records": [
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/IDENTIFIER_COLLISION_AUDIT_PR117_CURRENT_MAIN_V1.json",
+      "sha": "d2445cc39f8e260fa01cdb9acbfa39dcc98b90c0",
+      "source_id": "IDENTIFIER_COLLISION_AUDIT_PR117_CURRENT_MAIN_V1",
+      "role": "COLLISION_AUDIT",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-001-FINDING-RECALL-VS-SOURCE-EXHAUSTION.json",
+      "sha": "8b28dd02e0baea5df9a51035e27d740de746bd46",
+      "source_id": "RFL-2026-001-FINDING-RECALL-VS-SOURCE-EXHAUSTION",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-002-OWNER-DIRECTIVE-SCOPE-NARROWING.json",
+      "sha": "b1e97b737937a6d77f35509149b1289e868ac604",
+      "source_id": "RFL-2026-002-OWNER-DIRECTIVE-SCOPE-NARROWING",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-003-CANONICAL-REQUIREMENT-FIDELITY-AND-SELF-CERTIFICATION.json",
+      "sha": "b041a3a0fd0a60dc1a89cda25e4ef97e05baa3ad",
+      "source_id": "RFL-2026-003-CANONICAL-REQUIREMENT-FIDELITY-AND-SELF-CERTIFICATION",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-004-FAILURE-LEARNING-RECORD-SET-INTEGRITY.json",
+      "sha": "64cdedae00bb4a6019c2283e9a552e7b748d6e9e",
+      "source_id": "RFL-2026-004-FAILURE-LEARNING-RECORD-SET-INTEGRITY",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-005-QUALIFICATION-PERSISTENCE-SELF-STALENESS.json",
+      "sha": "6074829619f8a366daa4e9c5f9e82062be51323d",
+      "source_id": "RFL-2026-005-QUALIFICATION-PERSISTENCE-SELF-STALENESS",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-006-REFRESH-CONTAINER-VS-SUBJECT-FRESHNESS.json",
+      "sha": "7b1fce0a310aa997a60e75fca63f47d2ff7c378e",
+      "source_id": "RFL-2026-006-REFRESH-CONTAINER-VS-SUBJECT-FRESHNESS",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-007-SEMANTIC-DENOMINATOR-CIRCUMVENTION.json",
+      "sha": "816340a2da764dc4cfb75fa89b6a443b419fa52f",
+      "source_id": "RFL-2026-007-SEMANTIC-DENOMINATOR-CIRCUMVENTION",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-008-HANDOFF-SNAPSHOT-AND-DETECTOR-FALSE-GREEN.json",
+      "sha": "c9154e93505bb3994dc4e3351ec967c0a2b39571",
+      "source_id": "RFL-2026-008-HANDOFF-SNAPSHOT-AND-DETECTOR-FALSE-GREEN",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-009-PR110-OPERATIONAL-QUALIFICATION-AND-PUBLICATION-LESSONS.json",
+      "sha": "b42c14459d23564df0913396e481c13c8b94f990",
+      "source_id": "RFL-2026-009-PR110-OPERATIONAL-QUALIFICATION-AND-PUBLICATION-LESSONS",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-010-ACCEPTED-CHILD-PR-NOT-ANCESTOR-CLOSURE.json",
+      "sha": "ed10433c06972d425a8a91670df60e9fbde47289",
+      "source_id": "RFL-2026-010-ACCEPTED-CHILD-PR-NOT-ANCESTOR-CLOSURE",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-011-HISTORICAL-UNMERGED-CAPABILITY-DISCOVERY.json",
+      "sha": "b6d19a6c891ed11a397d2ebdc795088b0c3231de",
+      "source_id": "RFL-2026-011-HISTORICAL-UNMERGED-CAPABILITY-DISCOVERY",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-012-PR111-SAME-PR-HISTORICAL-FAIL-CANONICALIZATION.json",
+      "sha": "4c55f007bb62440ba31301b6f461781a3e8924e9",
+      "source_id": "RFL-2026-012-PR111-SAME-PR-HISTORICAL-FAIL-CANONICALIZATION",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-013-LARGE-BRANCH-SAME-PR-INTEGRATION.json",
+      "sha": "ab95da1a9682d16e711a6012cda18e8e9e5ab556",
+      "source_id": "RFL-2026-013-LARGE-BRANCH-SAME-PR-INTEGRATION",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-014-STACKED-QUALIFIER-PACKAGE-SAME-PR-CANONICALIZATION.json",
+      "sha": "2e4802c7531172905cd9b83dd5cecfa50bc45063",
+      "source_id": "RFL-2026-014-STACKED-QUALIFIER-PACKAGE-SAME-PR-CANONICALIZATION",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-015-HISTORICAL-QUALIFICATION-FAIL-SAME-PR-CANONICALIZATION.json",
+      "sha": "c1778d881240325c5578d662cca14948fa3f48f5",
+      "source_id": "RFL-2026-015-HISTORICAL-QUALIFICATION-FAIL-SAME-PR-CANONICALIZATION",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-016-EXCLUSION-FIRST-CANDIDATE-SAME-PR-CANONICALIZATION.json",
+      "sha": "28c99d0edbab0e2bb379d204e0afb7883c90d007",
+      "source_id": "RFL-2026-016-EXCLUSION-FIRST-CANDIDATE-SAME-PR-CANONICALIZATION",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-017-PR118-HISTORICAL-QUALIFICATION-CURRENT-MAIN-INTEGRATION.json",
+      "sha": "8a93eeb0702ef5ff102973cf6c6f9bfe1527b072",
+      "source_id": "RFL-2026-017-PR118-HISTORICAL-QUALIFICATION-CURRENT-MAIN-INTEGRATION",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-018-B3B1-HISTORICAL-PASS-VS-CURRENT-MAIN-QUALIFICATION.json",
+      "sha": "e3b491ae3f9505948c74449142ead50932a3e309",
+      "source_id": "RFL-2026-018-B3B1-HISTORICAL-PASS-VS-CURRENT-MAIN-QUALIFICATION",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-019-B3B1-PRISTINE-QUAL-FAIL-DELTA-AND-RUNTIME-STATE.json",
+      "sha": "5a6e6063c13b49e07ec5aa0efdc5b89583635b3e",
+      "source_id": "RFL-2026-019-B3B1-PRISTINE-QUAL-FAIL-DELTA-AND-RUNTIME-STATE",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-020-B3B1-HOSTILE-HARDCODE-BLOCKS-PROMOTION.json",
+      "sha": "52a6696a6c9a365d37968ac11d6881b803203a97",
+      "source_id": "RFL-2026-020-B3B1-HOSTILE-HARDCODE-BLOCKS-PROMOTION",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-021-POST-QUALIFICATION-EXECUTABLE-TEST-DRIFT-MISLABELED-PROMOTION-ONLY.json",
+      "sha": "73b2670a9ccbc63096302b474ce7cb5d80ffc499",
+      "source_id": "RFL-2026-021-POST-QUALIFICATION-EXECUTABLE-TEST-DRIFT-MISLABELED-PROMOTION-ONLY",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-022-EXAM-SUBJECT-PRECEDES-IMPLEMENTATION-FALSE-GREEN.json",
+      "sha": "1c3459e3b90bac0d7cdbdec0975c776e2ffdcf88",
+      "source_id": "RFL-2026-022-EXAM-SUBJECT-PRECEDES-IMPLEMENTATION-FALSE-GREEN",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-023-OFFLINE-CATCHUP-PROXY-TEST-FALSE-GREEN.json",
+      "sha": "5142bdbc22bf5573a8a3923769fded50ce8f7513",
+      "source_id": "RFL-2026-023-OFFLINE-CATCHUP-PROXY-TEST-FALSE-GREEN",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-024-TEST-CONFIGURATION-ESCAPED-INTO-DEPLOYMENT.json",
+      "sha": "5e6667584ca0e9e220d679c615b454317d57f20a",
+      "source_id": "RFL-2026-024-TEST-CONFIGURATION-ESCAPED-INTO-DEPLOYMENT",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-025-DENOMINATOR-EXTERNALITY-IS-PART-OF-CORRECTNESS.json",
+      "sha": "ed4c8ed6257cd2e3719b4d6a1f188d2b37bb433d",
+      "source_id": "RFL-2026-025-DENOMINATOR-EXTERNALITY-IS-PART-OF-CORRECTNESS",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-026-LIVE-RUNTIME-STATE-ESCAPED-INTO-TRACKED-SOURCE.json",
+      "sha": "e6a83576af66abbe42b4fa87f1318ba54ac00009",
+      "source_id": "RFL-2026-026-LIVE-RUNTIME-STATE-ESCAPED-INTO-TRACKED-SOURCE",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-027-ADMITTED-SPECIALIST-NE-EXECUTED-SPECIALIST.json",
+      "sha": "91e9b51a11975068f7a5b9d3056327c9851afb78",
+      "source_id": "RFL-2026-027-ADMITTED-SPECIALIST-NE-EXECUTED-SPECIALIST",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-028-INQUIRY-OUTPUT-PRESENT-NE-SHARED-EPISTEMIC-INPUT.json",
+      "sha": "706e8fd6aa38e07f40d511422218be23faf4c76e",
+      "source_id": "RFL-2026-028-INQUIRY-OUTPUT-PRESENT-NE-SHARED-EPISTEMIC-INPUT",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-029-ESER-EVIDENCE-CUSTODY-BOUNDARY-NEAR-MISS.json",
+      "sha": "35d570dcc4eaef5e179d1324de91360e21d519fc",
+      "source_id": "RFL-2026-029-ESER-EVIDENCE-CUSTODY-BOUNDARY-NEAR-MISS",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-030-QUALIFIED-EDGE-NE-COMPLETE-PARTICIPATION.json",
+      "sha": "4085e53a1262c40caa05f28fc50cce17b5ad0ab6",
+      "source_id": "RFL-2026-030-QUALIFIED-EDGE-NE-COMPLETE-PARTICIPATION",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-031-HISTORICAL-STAMP-GUARD-APPLIED-TO-LIVE-HEAD.json",
+      "sha": "8226c81bdce495535c8b21b29f6dab66f87997d6",
+      "source_id": "RFL-2026-031-HISTORICAL-STAMP-GUARD-APPLIED-TO-LIVE-HEAD",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-032-REPEATED-LOCAL-REPAIR-BEFORE-COMPLETE-SYSTEMIC-SURFACE.json",
+      "sha": "004aa10194cdba955e5cddeca9f04cddea30a2ad",
+      "source_id": "RFL-2026-032-REPEATED-LOCAL-REPAIR-BEFORE-COMPLETE-SYSTEMIC-SURFACE",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-037-QUALIFICATION-EXECUTION-IMPORT-ORIGIN-DRIFT.json",
+      "sha": "36ecc3a33856be8447140915315c1e91a3209469",
+      "source_id": "RFL-2026-037-QUALIFICATION-EXECUTION-IMPORT-ORIGIN-DRIFT",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-038-FRESH-HOST-QUALIFICATION-IDENTITY-BASELINE-AND-PATH-DRIFT.json",
+      "sha": "6495c110ab08f845fb8c5a7b65dcd733a5a56020",
+      "source_id": "RFL-2026-038-FRESH-HOST-QUALIFICATION-IDENTITY-BASELINE-AND-PATH-DRIFT",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-INQUIRY-929e7d73.json",
+      "sha": "96fbf5847b8e839a6b7a3b2b330e3d17c1e56cdd",
+      "source_id": "RFL-INQUIRY-929e7d73",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-INQUIRY-95538820.json",
+      "sha": "484447f032aeea9011e099876c84d8f80080ddb1",
+      "source_id": "RFL-INQUIRY-95538820",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-INQUIRY-9cfe69ee.json",
+      "sha": "cfa30bd20d0d8e251fce7b6f2db60cc37c933d0a",
+      "source_id": "RFL-INQUIRY-9cfe69ee",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-INQUIRY-da18ea27.json",
+      "sha": "3f8cfe1f143ce5aefd5dc3aa150c1004c19a857f",
+      "source_id": "RFL-INQUIRY-da18ea27",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-INQUIRY-dd7656d5.json",
+      "sha": "1751c5b6c3d9bc99d38a608ae30e2f064c7deeeb",
+      "source_id": "RFL-INQUIRY-dd7656d5",
+      "role": "ROOT_REFERENCE_RECORD",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/historical_unmerged_pr117/RFL-2026-005-HANDOFF-SNAPSHOT-AND-DETECTOR-FALSE-GREEN.json",
+      "sha": "b5f6bbf3797fe85a18ea737af871116ced2e6d34",
+      "source_id": "RFL-2026-005-HANDOFF-SNAPSHOT-AND-DETECTOR-FALSE-GREEN",
+      "role": "ARCHIVAL_VARIANT_NOT_CANONICAL_ID_ALIAS",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/historical_unmerged_pr117/RFL-2026-006-PR110-OPERATIONAL-QUALIFICATION-AND-PUBLICATION-LESSONS.json",
+      "sha": "1e8485bc9ade45ad3ebdae7bbe80faf7f998f6e9",
+      "source_id": "RFL-2026-006-PR110-OPERATIONAL-QUALIFICATION-AND-PUBLICATION-LESSONS",
+      "role": "ARCHIVAL_VARIANT_NOT_CANONICAL_ID_ALIAS",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/historical_unmerged_pr117/RFL-2026-007-ACCEPTED-CHILD-PR-NOT-ANCESTOR-CLOSURE.json",
+      "sha": "060076c8b588a820f37a9126a63c8b64ee117639",
+      "source_id": "RFL-2026-007-ACCEPTED-CHILD-PR-NOT-ANCESTOR-CLOSURE",
+      "role": "ARCHIVAL_VARIANT_NOT_CANONICAL_ID_ALIAS",
+      "disposition": "REFERENCE_FOR_MECHANISM_RETRIEVAL_NOT_TARGET_FACT",
+      "target_qualification": "NOT_ESTABLISHED"
+    }
+  ],
+  "limits": "Identity index of all JSON in selected learning_records directory, not all private failure evidence. Main snapshot only; no automatic deduplication or promotion."
+}

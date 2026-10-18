@@ -70,3 +70,13 @@ separate claims; current private proof is a bounded 134-file analysis closure.
 Run `python3 -m unittest discover -s tests/elektron_bridge -v`.
 
 Standard configured runtime: scripts/oxycok.py requires a private pinned Elektron snapshot and automatically attaches it to each new mission. Lower-level mission CLI is a standalone diagnostic. Frontdoor source: scripts/oxycok.py; tests: tests/elektron_bridge/test_frontdoor.py. Actual final probe: docs/elektron_transfer/evidence/ACTUAL_B3B_FRONTDOOR_FINAL_V4.json.
+
+## Reference failure/process learning
+
+Read reconstruction/learning/README.md and the current subject's learning/AUDIT_V1.json.
+Retrieve candidate methods with scripts/reconstruction/learning.py, retaining applicability,
+exclusions, positive controls, consumer effects and unknowns. Preserve original red
+receipts and successor links with create-only evidence; no source-pass promotion.
+Lexical scan covers immutable bytes, not semantic completeness. Runtime defaults,
+Failure Trap release and independent qualification remain with their existing owners.
+Run the reconstruction suite and learning.py verify-custody for this component.

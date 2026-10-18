@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "kind": "DESTINATION_METADATA_FAILURE",
+  "classification": "NON_FAMILY_BOUNDED_DEFECT",
+  "failed_subject": "ce69b9064ea4802ada64664d04c040bae511377b",
+  "failed_artifact": "reconstruction/subjects/rea/CENSUS_V1.json",
+  "failed_blob_sha": "1f2df44f95bddc1a64d97b71e20e1992677b5188",
+  "observation": "Historical census tree_sha contains the REA commit ID rather than its Git tree ID. The old validator only checks 40-hex shape.",
+  "correct_reference": {
+    "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+    "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+  },
+  "mechanism": "Syntactic hash validation cannot prove the object kind or relationship represented by a field.",
+  "positive_method": "Resolve commit^{tree} and recompute the tree from the full inventory; retain the historical erroneous record as evidence.",
+  "hard_negatives": [
+    "A commit ID correctly stored in a commit field is valid.",
+    "All historical entry blob identities remain usable; this is not proof they are wrong."
+  ],
+  "successor": "learning.py scanner resolves actual tree and its auditor recomputes tree identity. Existing campaign remains historical and keeps its prior denominator hash.",
+  "tests": [
+    "tests/reconstruction/test_learning.py:test_dropped_surface_cannot_reduce_denominator",
+    "tests/reconstruction/test_learning.py:test_immutable_git_scan_ignores_dirty_worktree"
+  ],
+  "unknowns": [
+    "Independent review of the new scanner and historical metadata impact is pending."
+  ],
+  "local_problem_closed": false,
+  "repository_learning_closed": false,
+  "runtime_default_promotion": false
+}

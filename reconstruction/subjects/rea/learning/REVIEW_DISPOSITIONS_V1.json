@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "reference": {
+    "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+    "repository": "morluto/rea",
+    "tree": "385edcb1209351e76e8ac0cf05dd23604f101085"
+  },
+  "authority": "NONE",
+  "files": [
+    {
+      "path": ".gitmodules",
+      "sha": "fe17cfba812b65a808e99434a4b8d635dce41459",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-010"
+      ]
+    },
+    {
+      "path": "package.json",
+      "sha": "1e112fcb8146e73762958665d3e2bbb50a7b3d1d",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-010"
+      ]
+    },
+    {
+      "path": "src/application/ReconstructionObligationAuthority.ts",
+      "sha": "e85f7f39e393706b74fa9b759807920b3abfad85",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-006"
+      ]
+    },
+    {
+      "path": "src/application/ReconstructionObligationLedger.authority.test.ts",
+      "sha": "401088add3eaa68c93c9a508b4d15e9b6a66eb4e",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-006"
+      ]
+    },
+    {
+      "path": "src/application/ReconstructionObligationLedger.closure.test.ts",
+      "sha": "d3404ad13f024e28c0e78a178f1ddc696cf5a631",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-007"
+      ]
+    },
+    {
+      "path": "src/application/ReconstructionObligationLedgerEvaluation.ts",
+      "sha": "ea54a3608bad921eac133de6664398d4816f0af8",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-007"
+      ]
+    },
+    {
+      "path": "src/application/Setup.recovery.test.ts",
+      "sha": "244aee26b5569ffc26cf88b80b943828cedef0e5",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-008"
+      ]
+    },
+    {
+      "path": "src/application/Setup.ts",
+      "sha": "117238fa2a8c841b0ae719c5eda841bb3c6f9754",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-008"
+      ]
+    },
+    {
+      "path": "src/application/investigation/EvidenceLedger.residualUnknown.test.ts",
+      "sha": "2885c1906f8187c2f31344853db6f555bcfc64aa",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-005"
+      ]
+    },
+    {
+      "path": "src/application/investigation/EvidenceLedger.test.ts",
+      "sha": "99558019480ca28cde53ec21423d4296a17f3feb",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-004"
+      ]
+    },
+    {
+      "path": "src/application/investigation/EvidenceLedger.ts",
+      "sha": "c025295a995ae9358f58541039db0ea7be45d1bd",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-004"
+      ]
+    },
+    {
+      "path": "src/domain/analysisErrorBase.ts",
+      "sha": "86e6a99395e12aeb19b3c5b5390467410933e545",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-002"
+      ]
+    },
+    {
+      "path": "src/domain/analysisErrorCleanup.test.ts",
+      "sha": "41ce5abcfa936ca2ba9bdfc68176b6699fdf9c2c",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-002"
+      ]
+    },
+    {
+      "path": "src/domain/analysisErrorCleanup.ts",
+      "sha": "ab7b6d43ea1ed8dbbfad9e4be0231607046aee43",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-002"
+      ]
+    },
+    {
+      "path": "src/domain/evidenceBundle.ts",
+      "sha": "4ffd1401286682c1f9719bad66a4f0b55c16bcc3",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-004"
+      ]
+    },
+    {
+      "path": "src/domain/evidenceCompletionLedger.test.ts",
+      "sha": "10b49539f47d73c54032ffa47f574dc5a3c1412a",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-003"
+      ]
+    },
+    {
+      "path": "src/domain/evidenceCompletionLedger.ts",
+      "sha": "bf3e0f9e9800970592fffeb9120deac5d86213ff",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-003"
+      ]
+    },
+    {
+      "path": "src/domain/explicitSensitiveFailure.test.ts",
+      "sha": "757e9887a40864514f31d27b43eddfce260063d3",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-009"
+      ]
+    },
+    {
+      "path": "src/domain/explicitSensitiveFailure.ts",
+      "sha": "7bb7c6170385a4a3945e2394f4b8fbf62414a1e6",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-009"
+      ]
+    },
+    {
+      "path": "src/domain/reconstructionObligationLedgerIntegrity.ts",
+      "sha": "c0f9dd0993f0c17354a34ec9556e4aa47b823a34",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-007"
+      ]
+    },
+    {
+      "path": "src/domain/residualUnknown.ts",
+      "sha": "e5db1cc549bbec701a9a57ffcb1f3977b56c6cdc",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-005"
+      ]
+    },
+    {
+      "path": "src/process/ProcessOwnership.identity.test.ts",
+      "sha": "8f6ea72239c0c180174b6fa494babd0b40833787",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-001"
+      ]
+    },
+    {
+      "path": "src/process/ProcessOwnershipObservation.ts",
+      "sha": "3b4311c94e7df9d4e0dd61e5ca44fec135d7b270",
+      "status": "WORKER_MECHANISM_REVIEW_NOT_INDEPENDENT_QUALIFICATION",
+      "record_ids": [
+        "REA-LRN-001"
+      ]
+    }
+  ],
+  "remaining_units": 4322,
+  "prior_campaign": "reconstruction/subjects/rea/CAMPAIGN_V1.json",
+  "prior_campaign_not_rewritten": true
+}

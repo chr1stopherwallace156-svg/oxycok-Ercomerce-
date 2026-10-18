@@ -1,0 +1,32 @@
+{
+  "authority": "NONE",
+  "independent_qualification": "NOT_ESTABLISHED",
+  "probe": "OXYCOK_AUTHORED_REAL_REA_MECHANISMS",
+  "results": [
+    {
+      "id": "nonpass_statuses_keep_completion_open",
+      "outcome": "PASS"
+    },
+    {
+      "id": "tampered_derived_summary_is_rejected",
+      "outcome": "PASS"
+    },
+    {
+      "id": "cleanup_completion_preserves_primary_failure_and_history",
+      "outcome": "PASS"
+    },
+    {
+      "id": "unbound_cleanup_cannot_self_certify_release",
+      "outcome": "PASS"
+    },
+    {
+      "id": "evidence_conflict_rejection_preserves_prior_state",
+      "outcome": "PASS"
+    },
+    {
+      "id": "unit_authority_does_not_cover_native_boundary",
+      "outcome": "PASS"
+    }
+  ],
+  "version": 1
+}

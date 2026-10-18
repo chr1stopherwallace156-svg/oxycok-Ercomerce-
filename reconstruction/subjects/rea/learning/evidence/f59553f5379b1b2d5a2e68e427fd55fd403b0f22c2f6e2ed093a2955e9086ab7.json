@@ -1,0 +1,29 @@
+{
+  "authority": "NONE",
+  "claim": "STRUCTURAL_SOURCE_OWNER_EXECUTION_NOT_LEARNING_CLOSURE_OR_SEMANTIC_QUALIFICATION",
+  "owner": "scripts.failure_learning.schemas.SystemicFailureAnalysis.field_completeness",
+  "results": [
+    {
+      "all_fields_present": true,
+      "id": "REA-LRN-001",
+      "source_schema_fields": {
+        "10_guard_adversarial_failures": true,
+        "11_forward_holdout": true,
+        "12_inherited_behavior": true,
+        "1_exact_observed_failure": true,
+        "2_violated_assumption": true,
+        "3_root_mechanism": true,
+        "4_shared_owner": true,
+        "5_exposed_capabilities": true,
+        "6_bounded_same_family_instances": true,
+        "7_hard_negatives": true,
+        "8_historical_artifacts": true,
+        "9_downstream_authority_impact": true
+      }
+    }
+  ],
+  "source_blob_sha": "c3a34589517faca166ec6d968850322905fa3f99",
+  "source_commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+  "source_repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+  "version": 1
+}

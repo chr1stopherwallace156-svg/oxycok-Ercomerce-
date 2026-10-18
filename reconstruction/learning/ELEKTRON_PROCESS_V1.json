@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "source_commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+  "review_scope": "SELECTED_OWNER_CONTENT_AND_ALL_43_LEARNING_DIRECTORY_JSON_IDENTITIES_NOT_ALL_INDUSTRIAL_HISTORY",
+  "source_refs": [
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/failure_learning/schemas.py",
+      "sha": "c3a34589517faca166ec6d968850322905fa3f99"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/failure_learning/failure_trap.py",
+      "sha": "537f5521d5d9de0bf042be57b10301de4736b353"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/failure_learning/closure.py",
+      "sha": "3a680faf75d008fcd77d9c6b953eae401e9f7367"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/failure_learning/inheritance.py",
+      "sha": "1b244f01d7b82d8caf0314c820e51dfde916e698"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/failure_learning/propagation.py",
+      "sha": "30966eec014e523fff13bce883ef4ea5499ce703"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/failure_learning/runtime/learning_handoff.py",
+      "sha": "2028bf3b8b293ba938b3b21803f8359b8aebbca3"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/repository_learning/inquiry/method_promotion_eligibility.py",
+      "sha": "90f2db587e040ba1180d2199ba8e686f8874878b"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/repository_learning/inquiry/method_scope_rollback_review.py",
+      "sha": "383579017871913bfe6b1fbd72ef4997426ef626"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/system_method/worker_internalization_validator.py",
+      "sha": "804d4c689bb390f23a344204d290c97f2fc5254c"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/system_continuity/failure_observation.py",
+      "sha": "066ae8a0f192909b0bed9141bc877882dc25be2e"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/source_exhaustion/completeness_claim_gate.py",
+      "sha": "e7df25c75fb3e4aa6a36e355e97ed8ad1c8425e8"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/repository_learning/systemic_failure_surface_closure_v1/SYSTEMIC_FAILURE_SURFACE_CLOSURE_PROTOCOL_V1.md",
+      "sha": "b19a3aedf4824eb1dd3d9995029d882a3fc2cd86"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/methodology/RUNTIME_DEFAULTS.json",
+      "sha": "28590c0a041d5f491abdf6602498182771e0e7ef"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/methodology/MATURITY_MODEL.md",
+      "sha": "ed2336ccc48f2f61e054b2e330d8f17c74c730c4"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/system_method/worker_internalization.py",
+      "sha": "7a9f45aefa39939bea70c4aa1aae0944bbc20dd0"
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "scripts/failure_learning/axioms.py",
+      "sha": "367def5cd3be53f63c460be59f787e6b33ee6760"
+    }
+  ],
+  "phases": [
+    {
+      "id": "pin_and_recover",
+      "process": "Bind reference, implementation, environment, baseline and custody; recover live state before acting.",
+      "source_path": "scripts/failure_learning/schemas.py",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "capture_and_lock",
+      "process": "Keep exact failed subject, input, output, partial evidence and affected lineage; prevent unsupported release.",
+      "source_path": "scripts/failure_learning/failure_trap.py",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "classify",
+      "process": "Distinguish mechanism family, bounded defect, existing baseline, host restriction and observation. Unknown classification remains explicit.",
+      "source_path": "scripts/failure_learning/axioms.py",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "minimize_and_reproduce",
+      "process": "Isolate a safe target and reduce the reproduction while retaining the original; a small reproducer does not replace broad evidence.",
+      "source_path": "scripts/failure_learning/failure_trap.py",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "retrieve_and_exclude",
+      "process": "Retrieve prior method candidates by mechanism; carry applicability and hard negatives rather than replaying an old patch.",
+      "source_path": "scripts/failure_learning/propagation.py",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "surface_before_systemic_repair",
+      "process": "Map transitive effects and freeze a bounded denominator before another systemic closure repair; a falsified census requires a successor census.",
+      "source_path": "docs/doctrine/repository_learning/systemic_failure_surface_closure_v1/SYSTEMIC_FAILURE_SURFACE_CLOSURE_PROTOCOL_V1.md",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "repair_and_attack",
+      "process": "Repair in isolation; use broken controls, positive controls, baseline comparison and semantic consumer effects.",
+      "source_path": "scripts/failure_learning/failure_trap.py",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "independent_exam",
+      "process": "Freeze implementation/test semantics and request fresh qualification; a different process alone does not prove independence.",
+      "source_path": "docs/doctrine/methodology/MATURITY_MODEL.md",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "learn_and_propagate",
+      "process": "Record the systemic analysis, bounded siblings, exclusions, historical effects, candidate inherited behavior and open questions.",
+      "source_path": "scripts/failure_learning/closure.py",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "handoff_existing_owners",
+      "process": "Translate eligible novel evidence into the existing RFL/RLR owners; persisting a candidate does not release a failure.",
+      "source_path": "scripts/failure_learning/runtime/learning_handoff.py",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "worker_consumption",
+      "process": "Bind retrieved evidence to the worker context and measure changed downstream decisions rather than storage alone.",
+      "source_path": "scripts/system_method/worker_internalization.py",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "promote_challenge_rollback",
+      "process": "Separate method review eligibility from owner promotion; counterexamples can demote a future binding without deleting its evidence.",
+      "source_path": "scripts/repository_learning/inquiry/method_scope_rollback_review.py",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "signal_and_continue",
+      "process": "Signal adverse observations through the existing owner edge even when admission is disabled; resume with identity and evidence.",
+      "source_path": "scripts/system_continuity/failure_observation.py",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    },
+    {
+      "id": "bounded_completeness",
+      "process": "Require evidence for completeness-bearing claims; recall, counts and historical passes cannot supply source exhaustion.",
+      "source_path": "scripts/source_exhaustion/completeness_claim_gate.py",
+      "destination_binding": "RECONSTRUCTION_LEARNING_CANDIDATE_NOT_NEW_FAILURE_TRAP_OWNER"
+    }
+  ],
+  "record_namespace": {
+    "root_rfl_records": 39,
+    "archival_rfl_records": 3,
+    "collision_audits": 1,
+    "deduplicate_by": "repository+commit+full_path+blob_sha; never short lesson ID alone"
+  },
+  "promotion": "NO_AUTOMATIC_DEFAULT_OR_RELEASE",
+  "unreviewed": [
+    "Other Industrial owner implementations and unmerged branches/history",
+    "Independent execution of entire Failure Trap/RLR/ETR chain",
+    "All runtime-default source qualification claims"
+  ]
+}

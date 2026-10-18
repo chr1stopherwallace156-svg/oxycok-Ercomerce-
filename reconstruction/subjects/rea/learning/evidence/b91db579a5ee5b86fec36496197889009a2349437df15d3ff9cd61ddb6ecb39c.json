@@ -1,0 +1,4759 @@
+{
+  "kind": "SOURCE_RUNNER_FILE_RESULTS",
+  "results": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.873204999996233,
+          "failureMessages": [],
+          "fullName": "excludes sensitive path text even when a replacement marker would collide: REDACTED",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes sensitive path text even when a replacement marker would collide: REDACTED"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.212241000001086,
+          "failureMessages": [],
+          "fullName": "excludes sensitive path text even when a replacement marker would collide: [",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes sensitive path text even when a replacement marker would collide: ["
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5717869999934919,
+          "failureMessages": [],
+          "fullName": "excludes sensitive path text even when a replacement marker would collide: ]",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes sensitive path text even when a replacement marker would collide: ]"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.552746000001207,
+          "failureMessages": [],
+          "fullName": "excludes sensitive path text even when a replacement marker would collide: /capture.har",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes sensitive path text even when a replacement marker would collide: /capture.har"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.054206000000704,
+          "failureMessages": [],
+          "fullName": "keeps observed artifact identity when the entire sensitive path is excluded",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps observed artifact identity when the entire sensitive path is excluded"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.43540600000415,
+          "failureMessages": [],
+          "fullName": "marks an explicitly sensitive artifact digest unknown without inventing another identity: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "marks an explicitly sensitive artifact digest unknown without inventing another identity: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.1695789999939734,
+          "failureMessages": [],
+          "fullName": "marks an explicitly sensitive artifact digest unknown without inventing another identity: aaaa",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "marks an explicitly sensitive artifact digest unknown without inventing another identity: aaaa"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9267110000073444,
+          "failureMessages": [],
+          "fullName": "projects the unknown-subject explanation before generating its Evidence ID",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the unknown-subject explanation before generating its Evidence ID"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.30185899999924,
+          "failureMessages": [],
+          "fullName": "rejects an adapter omitting its original observed digest before caller projection",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an adapter omitting its original observed digest before caller projection"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8171690000017406,
+          "failureMessages": [],
+          "fullName": "retains valid completed capture Evidence on late cancellation and preserves invalid output",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains valid completed capture Evidence on late cancellation and preserves invalid output"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.0865059999923687,
+          "failureMessages": [],
+          "fullName": "excludes declared literals from all authored limitations: \"producer\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes declared literals from all authored limitations: \"producer\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7091809999983525,
+          "failureMessages": [],
+          "fullName": "excludes declared literals from all authored limitations: \"artifact\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes declared literals from all authored limitations: \"artifact\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6352049999986775,
+          "failureMessages": [],
+          "fullName": "excludes declared literals from all authored limitations: \"coordinates\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes declared literals from all authored limitations: \"coordinates\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.48220100000617094,
+          "failureMessages": [],
+          "fullName": "excludes declared literals from all authored limitations: \"producer\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes declared literals from all authored limitations: \"producer\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8172540000086883,
+          "failureMessages": [],
+          "fullName": "excludes declared literals from all authored limitations: \"producer\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes declared literals from all authored limitations: \"producer\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9236049999890383,
+          "failureMessages": [],
+          "fullName": "keeps explicitly sensitive values out of Evidence parameters and preserves historical authority",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps explicitly sensitive values out of Evidence parameters and preserves historical authority"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2989340000058291,
+          "failureMessages": [],
+          "fullName": "omits a format parameter containing a declared sensitive literal: har",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a format parameter containing a declared sensitive literal: har"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5156219999917084,
+          "failureMessages": [],
+          "fullName": "omits a format parameter containing a declared sensitive literal: ha",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a format parameter containing a declared sensitive literal: ha"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.25906100000429433,
+          "failureMessages": [],
+          "fullName": "rejects invalid caller selection {\"record_ordinals\":[0,0]}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid caller selection {\"record_ordinals\":[0,0]}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.20445099999778904,
+          "failureMessages": [],
+          "fullName": "rejects invalid caller selection {\"record_ordinals\":[1]}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid caller selection {\"record_ordinals\":[1]}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.07799299999896903,
+          "failureMessages": [],
+          "fullName": "rejects invalid caller selection {\"capture_path\":\"relative.har\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid caller selection {\"capture_path\":\"relative.har\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4664270000066608,
+          "failureMessages": [],
+          "fullName": "rejects a port changing the artifact identity or producer ordinal sequence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects a port changing the artifact identity or producer ordinal sequence"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.712509000004502,
+          "failureMessages": [],
+          "fullName": "applies an explicit sensitive path literal after verifying the selected artifact",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "applies an explicit sensitive path literal after verifying the selected artifact"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7152869999990799,
+          "failureMessages": [],
+          "fullName": "excludes a sensitive producer coordinate without inventing a replacement: log",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes a sensitive producer coordinate without inventing a replacement: log"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8733760000031907,
+          "failureMessages": [],
+          "fullName": "excludes a sensitive producer coordinate without inventing a replacement: entries",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes a sensitive producer coordinate without inventing a replacement: entries"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8129569999873638,
+          "failureMessages": [],
+          "fullName": "excludes an escaped sensitive sidecar coordinate while preserving its reported field",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes an escaped sensitive sidecar coordinate while preserving its reported field"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.729191999998875,
+          "failureMessages": [],
+          "fullName": "excludes declared text from application-generated input errors: 12345",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes declared text from application-generated input errors: 12345"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4217730000091251,
+          "failureMessages": [],
+          "fullName": "excludes declared text from application-generated input errors: Each",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes declared text from application-generated input errors: Each"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.24479799999971874,
+          "failureMessages": [],
+          "fullName": "excludes declared text from application-generated input errors: absolute",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes declared text from application-generated input errors: absolute"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6309010000113631,
+          "failureMessages": [],
+          "fullName": "excludes declared text from application-generated input errors: secret",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes declared text from application-generated input errors: secret"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1530640000128187,
+          "failureMessages": [],
+          "fullName": "excludes sensitive native byte-range coordinates: 12345",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes sensitive native byte-range coordinates: 12345"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.907943999991403,
+          "failureMessages": [],
+          "fullName": "excludes sensitive native byte-range coordinates: 67890",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes sensitive native byte-range coordinates: 67890"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7285389999888139,
+          "failureMessages": [],
+          "fullName": "excludes sensitive native byte-range coordinates: 234",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes sensitive native byte-range coordinates: 234"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9229659999982687,
+          "failureMessages": [],
+          "fullName": "excludes sensitive native byte-range coordinates: 789",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes sensitive native byte-range coordinates: 789"
+        }
+      ],
+      "endTime": 1792321760821.9229,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/WebNetworkCaptureService.test.ts",
+      "startTime": 1792321760787,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7969750000047497,
+          "failureMessages": [],
+          "fullName": "rejects malformed input and prior cancellation without calling a provider",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects malformed input and prior cancellation without calling a provider"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.9471820000035223,
+          "failureMessages": [],
+          "fullName": "preserves actual provider failures and rejects changed target/selector identities",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves actual provider failures and rejects changed target/selector identities"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.897158000007039,
+          "failureMessages": [],
+          "fullName": "converts raw execution retained by provider cleanup failure into partial Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "converts raw execution retained by provider cleanup failure into partial Evidence"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.9127650000009453,
+          "failureMessages": [],
+          "fullName": "retains completed execution Evidence on late abort and keeps invalid output primary",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains completed execution Evidence on late abort and keeps invalid output primary"
+        }
+      ],
+      "endTime": 1792321763082.9128,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/WebRuntimeService.test.ts",
+      "startTime": 1792321763074,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.71078700000362,
+          "failureMessages": [],
+          "fullName": "rejects invalid selected context before acquiring artifacts: {\"manifest_path\":\"relative.json\",\"script_index\":0,\"source_map\":{\"path\":\"/analysis/app.js.map\",\"url\":\"https://app.test/app.js.map?v=1#context\"},\"generated_position\":{\"line\":1,\"column\":0}}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid selected context before acquiring artifacts: {\"manifest_path\":\"relative.json\",\"script_index\":0,\"source_map\":{\"path\":\"/analysis/app.js.map\",\"url\":\"https://app.test/app.js.map?v=1#context\"},\"generated_position\":{\"line\":1,\"column\":0}}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6114340000058291,
+          "failureMessages": [],
+          "fullName": "rejects invalid selected context before acquiring artifacts: {\"manifest_path\":\"/analysis/manifest.json\",\"script_index\":-1,\"source_map\":{\"path\":\"/analysis/app.js.map\",\"url\":\"https://app.test/app.js.map?v=1#context\"},\"generated_position\":{\"line\":1,\"column\":0}}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid selected context before acquiring artifacts: {\"manifest_path\":\"/analysis/manifest.json\",\"script_index\":-1,\"source_map\":{\"path\":\"/analysis/app.js.map\",\"url\":\"https://app.test/app.js.map?v=1#context\"},\"generated_position\":{\"line\":1,\"column\":0}}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.42737999999371823,
+          "failureMessages": [],
+          "fullName": "rejects invalid selected context before acquiring artifacts: {\"manifest_path\":\"/analysis/manifest.json\",\"script_index\":0,\"source_map\":{\"path\":\"relative.map\",\"url\":\"https://app.test/app.js.map?v=1#context\"},\"generated_position\":{\"line\":1,\"column\":0}}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid selected context before acquiring artifacts: {\"manifest_path\":\"/analysis/manifest.json\",\"script_index\":0,\"source_map\":{\"path\":\"relative.map\",\"url\":\"https://app.test/app.js.map?v=1#context\"},\"generated_position\":{\"line\":1,\"column\":0}}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.13622200000099838,
+          "failureMessages": [],
+          "fullName": "rejects invalid selected context before acquiring artifacts: {\"manifest_path\":\"/analysis/manifest.json\",\"script_index\":0,\"source_map\":{\"path\":\"/analysis/app.js.map\",\"url\":\"relative.map\"},\"generated_position\":{\"line\":1,\"column\":0}}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid selected context before acquiring artifacts: {\"manifest_path\":\"/analysis/manifest.json\",\"script_index\":0,\"source_map\":{\"path\":\"/analysis/app.js.map\",\"url\":\"relative.map\"},\"generated_position\":{\"line\":1,\"column\":0}}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.2562469999975292,
+          "failureMessages": [],
+          "fullName": "rejects invalid selected context before acquiring artifacts: {\"manifest_path\":\"/analysis/manifest.json\",\"script_index\":0,\"source_map\":{\"path\":\"/analysis/app.js.map\",\"url\":\"https://app.test/app.js.map?v=1#context\"},\"generated_position\":{\"line\":0,\"column\":0}}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid selected context before acquiring artifacts: {\"manifest_path\":\"/analysis/manifest.json\",\"script_index\":0,\"source_map\":{\"path\":\"/analysis/app.js.map\",\"url\":\"https://app.test/app.js.map?v=1#context\"},\"generated_position\":{\"line\":0,\"column\":0}}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 12.500007999988156,
+          "failureMessages": [],
+          "fullName": "retains an absolute inert map context without fetching: file:///analysis/app.map",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an absolute inert map context without fetching: file:///analysis/app.map"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.279190999994171,
+          "failureMessages": [],
+          "fullName": "retains an absolute inert map context without fetching: webpack:///bundle/app.map",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an absolute inert map context without fetching: webpack:///bundle/app.map"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.063422999999602,
+          "failureMessages": [],
+          "fullName": "retains an absolute inert map context without fetching: https://selected-user:selected-value@app.test/maps/app.map",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an absolute inert map context without fetching: https://selected-user:selected-value@app.test/maps/app.map"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3461760000063805,
+          "failureMessages": [],
+          "fullName": "rejects changed artifact identity before decoding: source",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects changed artifact identity before decoding: source"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7714520000008633,
+          "failureMessages": [],
+          "fullName": "rejects changed artifact identity before decoding: map",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects changed artifact identity before decoding: map"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.43777799999224953,
+          "failureMessages": [],
+          "fullName": "rejects changed artifact identity before decoding: map-path",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects changed artifact identity before decoding: map-path"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.2712679999967804,
+          "failureMessages": [],
+          "fullName": "rejects changed artifact identity before decoding: map-url",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects changed artifact identity before decoding: map-url"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8639939999993658,
+          "failureMessages": [],
+          "fullName": "rejects changed codec identity: digest",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects changed codec identity: digest"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.9676029999973252,
+          "failureMessages": [],
+          "fullName": "rejects changed codec identity: url",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects changed codec identity: url"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.5241709999972954,
+          "failureMessages": [],
+          "fullName": "rejects changed codec identity: point",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects changed codec identity: point"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8354289999988396,
+          "failureMessages": [],
+          "fullName": "states the codec memory bound its runtime enforced: 192 MiB old-generation heap and one V8 …",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "states the codec memory bound its runtime enforced: 192 MiB old-generation heap and one V8 …"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.886593000002904,
+          "failureMessages": [],
+          "fullName": "states the codec memory bound its runtime enforced: a Windows Job Object limited its commit…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "states the codec memory bound its runtime enforced: a Windows Job Object limited its commit…"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.0127340000035474,
+          "failureMessages": [],
+          "fullName": "states the codec memory bound its runtime enforced: so no codec heap limit is established",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "states the codec memory bound its runtime enforced: so no codec heap limit is established"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.31772499998624,
+          "failureMessages": [],
+          "fullName": "honors cancellation both before acquisition and across decoder completion",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "honors cancellation both before acquisition and across decoder completion"
+        }
+      ],
+      "endTime": 1792321762515.3176,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/WebSourceLocationService.test.ts",
+      "startTime": 1792321762467,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.2200400000001537,
+          "failureMessages": [],
+          "fullName": "keeps Evidence identity stable when dependent branches finish in opposite orders",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps Evidence identity stable when dependent branches finish in opposite orders"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.4154039999993984,
+          "failureMessages": [],
+          "fullName": "retains unique upstream limits in canonical order across concurrent observations",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains unique upstream limits in canonical order across concurrent observations"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.43682499999704305,
+          "failureMessages": [],
+          "fullName": "deduplicates exact source caveats without merging providers or operations",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "deduplicates exact source caveats without merging providers or operations"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.2625349999871105,
+          "failureMessages": [],
+          "fullName": "preserves a failed composed operation without an extra provider read",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a failed composed operation without an extra provider read"
+        },
+        {
+          "ancestorTitles": [
+            "workflow residual question retention"
+          ],
+          "benchmarks": [],
+          "duration": 4.849158999990323,
+          "failureMessages": [],
+          "fullName": "workflow residual question retention keeps questions linked to workflow Evidence and records repeats idempotently",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps questions linked to workflow Evidence and records repeats idempotently"
+        },
+        {
+          "ancestorTitles": [
+            "workflow residual question retention"
+          ],
+          "benchmarks": [],
+          "duration": 1.1950639999995474,
+          "failureMessages": [],
+          "fullName": "workflow residual question retention normalizes edge whitespace from spaces without changing workflow Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "normalizes edge whitespace from spaces without changing workflow Evidence"
+        },
+        {
+          "ancestorTitles": [
+            "workflow residual question retention"
+          ],
+          "benchmarks": [],
+          "duration": 0.5455329999967944,
+          "failureMessages": [],
+          "fullName": "workflow residual question retention normalizes edge whitespace from line feed and tab without changing workflow Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "normalizes edge whitespace from line feed and tab without changing workflow Evidence"
+        },
+        {
+          "ancestorTitles": [
+            "workflow residual question retention"
+          ],
+          "benchmarks": [],
+          "duration": 1.4703169999993406,
+          "failureMessages": [],
+          "fullName": "workflow residual question retention normalizes edge whitespace from byte order mark without changing workflow Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "normalizes edge whitespace from byte order mark without changing workflow Evidence"
+        },
+        {
+          "ancestorTitles": [
+            "workflow residual question retention"
+          ],
+          "benchmarks": [],
+          "duration": 1.0364580000023125,
+          "failureMessages": [],
+          "fullName": "workflow residual question retention rejects questions that are empty after whitespace normalization",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects questions that are empty after whitespace normalization"
+        },
+        {
+          "ancestorTitles": [
+            "workflow residual question retention"
+          ],
+          "benchmarks": [],
+          "duration": 0.18190800001320895,
+          "failureMessages": [],
+          "fullName": "workflow residual question retention preserves registry failures rather than presenting a completed workflow",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves registry failures rather than presenting a completed workflow"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 9.719825000007404,
+          "failureMessages": [],
+          "fullName": "retains contract-accepted question \"  Which boundary?  \" without rewriting workflow Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains contract-accepted question \"  Which boundary?  \" without rewriting workflow Evidence"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8843590000033146,
+          "failureMessages": [],
+          "fullName": "retains contract-accepted question \"\\nWhich boundary?\\t\" without rewriting workflow Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains contract-accepted question \"\\nWhich boundary?\\t\" without rewriting workflow Evidence"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.0144640000071377,
+          "failureMessages": [],
+          "fullName": "retains contract-accepted question \"﻿Which boundary?﻿\" without rewriting workflow Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains contract-accepted question \"﻿Which boundary?﻿\" without rewriting workflow Evidence"
+        }
+      ],
+      "endTime": 1792321761287.0144,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/WorkflowEvidence.test.ts",
+      "startTime": 1792321761257,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9330029999982798,
+          "failureMessages": [],
+          "fullName": "rejects invalid device selection before any effect: {\"serial\":\"\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid device selection before any effect: {\"serial\":\"\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.19191600001067854,
+          "failureMessages": [],
+          "fullName": "rejects invalid device selection before any effect: {\"serial\":\"has space\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid device selection before any effect: {\"serial\":\"has space\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.12760700000217184,
+          "failureMessages": [],
+          "fullName": "rejects invalid device selection before any effect: {\"serial\":\"emulator-5554\",\"scope\":\"unknown\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid device selection before any effect: {\"serial\":\"emulator-5554\",\"scope\":\"unknown\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.08905800001230091,
+          "failureMessages": [],
+          "fullName": "rejects invalid device selection before any effect: {\"serial\":\"emulator-5554\",\"extra\":true}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid device selection before any effect: {\"serial\":\"emulator-5554\",\"extra\":true}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5542909999930998,
+          "failureMessages": [],
+          "fullName": "rejects an unknown operation before any effect",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an unknown operation before any effect"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6800599999987753,
+          "failureMessages": [],
+          "fullName": "composes observed Evidence with the caller parameters inline",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "composes observed Evidence with the caller parameters inline"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.18338600000424776,
+          "failureMessages": [],
+          "fullName": "preserves cancellation before execution",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves cancellation before execution"
+        }
+      ],
+      "endTime": 1792321764949.6802,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/adb/AdbDeviceAnalysisService.test.ts",
+      "startTime": 1792321764947,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 19.962933000002522,
+          "failureMessages": [],
+          "fullName": "carries the retained layout source snapshot into repeatable shared views",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "carries the retained layout source snapshot into repeatable shared views"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 9.429782999999588,
+          "failureMessages": [],
+          "fullName": "carries the retained javascript source snapshot into repeatable shared views",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "carries the retained javascript source snapshot into repeatable shared views"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.711074999999255,
+          "failureMessages": [],
+          "fullName": "preserves recorded empty native identity fields: path=\"/fixtures/unknown.exe\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves recorded empty native identity fields: path=\"/fixtures/unknown.exe\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.377938000005088,
+          "failureMessages": [],
+          "fullName": "preserves recorded empty native identity fields: path=\"\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves recorded empty native identity fields: path=\"\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.815295000000333,
+          "failureMessages": [],
+          "fullName": "reports inline Evidence identity failures at the complete source path",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports inline Evidence identity failures at the complete source path"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 78.05120299999544,
+          "failureMessages": [],
+          "fullName": "projects a small native view from an authenticated >10 MiB retained dossier",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects a small native view from an authenticated >10 MiB retained dossier"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.470381999999518,
+          "failureMessages": [],
+          "fullName": "projects inline layout Evidence and retains a derived view record",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects inline layout Evidence and retains a derived view record"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 9.55677299999661,
+          "failureMessages": [],
+          "fullName": "resolves same-session retained JavaScript Evidence without re-running analysis",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves same-session retained JavaScript Evidence without re-running analysis"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.774996000000101,
+          "failureMessages": [],
+          "fullName": "rejects stale retained IDs and unsupported parent operations",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects stale retained IDs and unsupported parent operations"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.63245299999835,
+          "failureMessages": [],
+          "fullName": "preserves an absent parent subject instead of guessing its format",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an absent parent subject instead of guessing its format"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.32911499999318,
+          "failureMessages": [],
+          "fullName": "rejects contradictory subject and analysis artifact digests",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects contradictory subject and analysis artifact digests"
+        },
+        {
+          "ancestorTitles": [
+            "summarizeRetainedAnalysis"
+          ],
+          "benchmarks": [],
+          "duration": 2.1741469999979017,
+          "failureMessages": [],
+          "fullName": "summarizeRetainedAnalysis retains the complete Evidence before projecting its summary",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the complete Evidence before projecting its summary"
+        },
+        {
+          "ancestorTitles": [
+            "summarizeRetainedAnalysis"
+          ],
+          "benchmarks": [],
+          "duration": 0.8767829999997048,
+          "failureMessages": [],
+          "fullName": "summarizeRetainedAnalysis refuses a summary whose complete Evidence cannot be retained",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "refuses a summary whose complete Evidence cannot be retained"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 19.729027000001224,
+          "failureMessages": [],
+          "fullName": "seals inferred and literal HAR pages, including a null artifact digest",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "seals inferred and literal HAR pages, including a null artifact digest"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.263950000000477,
+          "failureMessages": [],
+          "fullName": "rejects a null projected digest under a present parent subject",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects a null projected digest under a present parent subject"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 766.9255799999955,
+          "failureMessages": [],
+          "fullName": "refuses an object-dense borrowed capture before making a full schema clone",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "refuses an object-dense borrowed capture before making a full schema clone"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 12.640163000003668,
+          "failureMessages": [],
+          "fullName": "rejects inline accessors before parsing a summary view",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects inline accessors before parsing a summary view"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 7.458373000001302,
+          "failureMessages": [],
+          "fullName": "rejects inline accessors before parsing a capture view",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects inline accessors before parsing a capture view"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.342779999999038,
+          "failureMessages": [],
+          "fullName": "rejects inline accessors before parsing a api-surface view",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects inline accessors before parsing a api-surface view"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.4541169999938575,
+          "failureMessages": [],
+          "fullName": "rejects nested, hidden and inherited inline accessors for summary",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects nested, hidden and inherited inline accessors for summary"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.2445429999934277,
+          "failureMessages": [],
+          "fullName": "rejects nested, hidden and inherited inline accessors for capture",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects nested, hidden and inherited inline accessors for capture"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.6126750000039465,
+          "failureMessages": [],
+          "fullName": "rejects nested, hidden and inherited inline accessors for api-surface",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects nested, hidden and inherited inline accessors for api-surface"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.6244489999953657,
+          "failureMessages": [],
+          "fullName": "rejects array own map accessors without invoking them",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects array own map accessors without invoking them"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4428839999964111,
+          "failureMessages": [],
+          "fullName": "rejects array own iterator accessors without invoking them",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects array own iterator accessors without invoking them"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.275246999997762,
+          "failureMessages": [],
+          "fullName": "rejects array own constructor accessors without invoking them",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects array own constructor accessors without invoking them"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.9506800000017392,
+          "failureMessages": [],
+          "fullName": "rejects array inherited map accessors without invoking them",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects array inherited map accessors without invoking them"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.713872000000265,
+          "failureMessages": [],
+          "fullName": "rejects array inherited iterator accessors without invoking them",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects array inherited iterator accessors without invoking them"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.6321089999983087,
+          "failureMessages": [],
+          "fullName": "rejects callable array overrides and subclass species before parsing",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects callable array overrides and subclass species before parsing"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.184818000001542,
+          "failureMessages": [],
+          "fullName": "preserves ordinary inline Evidence for summary",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves ordinary inline Evidence for summary"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.702698000000964,
+          "failureMessages": [],
+          "fullName": "preserves ordinary inline Evidence for capture",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves ordinary inline Evidence for capture"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.537432000004628,
+          "failureMessages": [],
+          "fullName": "preserves ordinary inline Evidence for api-surface",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves ordinary inline Evidence for api-surface"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8586559999966994,
+          "failureMessages": [],
+          "fullName": "rejects executable constructor values before schema plain-object checks",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects executable constructor values before schema plain-object checks"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.009114000000409,
+          "failureMessages": [],
+          "fullName": "rejects inline proxy values before reflection or parsing can run traps",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects inline proxy values before reflection or parsing can run traps"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 27.876116000006732,
+          "failureMessages": [],
+          "fullName": "keeps ignored array metadata inert through parsing and projection",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps ignored array metadata inert through parsing and projection"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 996.7746299999999,
+          "failureMessages": [],
+          "fullName": "keeps inline-envelope admission live alongside capture validation and grouping",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps inline-envelope admission live alongside capture validation and grouping"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 201.28764400000364,
+          "failureMessages": [],
+          "fullName": "admits raw_result and parameters before authenticating a portable capture",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "admits raw_result and parameters before authenticating a portable capture"
+        }
+      ],
+      "endTime": 1792321750028.2876,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/analysisView/AnalysisViewService.test.ts",
+      "startTime": 1792321747791,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9527700000035111,
+          "failureMessages": [],
+          "fullName": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"include_strings\":\"yes\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"include_strings\":\"yes\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3060540000005858,
+          "failureMessages": [],
+          "fullName": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"string_tables_only\":\"yes\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"string_tables_only\":\"yes\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4073540000099456,
+          "failureMessages": [],
+          "fullName": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"locale\":\"not a locale\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"locale\":\"not a locale\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3055759999988368,
+          "failureMessages": [],
+          "fullName": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"locales\":[\"not a locale\"]}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"locales\":[\"not a locale\"]}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.24776800000108778,
+          "failureMessages": [],
+          "fullName": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"locales\":[]}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"locales\":[]}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.183032999993884,
+          "failureMessages": [],
+          "fullName": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"locales\":[\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\"]}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"locales\":[\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\",\"de\"]}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.2375800000008894,
+          "failureMessages": [],
+          "fullName": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"extra\":true}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid decode selection before any effect: {\"path\":\"/targets/app.apk\",\"extra\":true}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.43311300000641495,
+          "failureMessages": [],
+          "fullName": "admits valid batched locales and forwards them to provider",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "admits valid batched locales and forwards them to provider"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7656710000010207,
+          "failureMessages": [],
+          "fullName": "composes observed Evidence with the caller parameters inline",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "composes observed Evidence with the caller parameters inline"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.21633700000529643,
+          "failureMessages": [],
+          "fullName": "preserves cancellation before execution",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves cancellation before execution"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6069250000000466,
+          "failureMessages": [],
+          "fullName": "preserves a cancellation that races a completed observation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a cancellation that races a completed observation"
+        }
+      ],
+      "endTime": 1792321763057.607,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/apktool/ApktoolResourceAnalysisService.test.ts",
+      "startTime": 1792321763052,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.46802900001057424,
+          "failureMessages": [],
+          "fullName": "keeps the leftover resources a typed cleanup failure names",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the leftover resources a typed cleanup failure names"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.21679999999469146,
+          "failureMessages": [],
+          "fullName": "still reports an untyped close rejection as the provider client",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "still reports an untyped close rejection as the provider client"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1999660000001313,
+          "failureMessages": [],
+          "fullName": "preserves the original explanation and collected output alongside cleanup uncertainty",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the original explanation and collected output alongside cleanup uncertainty"
+        }
+      ],
+      "endTime": 1792321765013.2,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/binary/AnalysisClientCleanup.test.ts",
+      "startTime": 1792321765011,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.191913000002387,
+          "failureMessages": [],
+          "fullName": "rejects malformed provider capability declarations",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects malformed provider capability declarations"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.3419639999992796,
+          "failureMessages": [],
+          "fullName": "uses one owner readiness snapshot for candidate availability and capabilities",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses one owner readiness snapshot for candidate availability and capabilities"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 8.385220999996818,
+          "failureMessages": [],
+          "fullName": "selects the sole available provider and honors explicit selection precedence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "selects the sole available provider and honors explicit selection precedence"
+        },
+        {
+          "ancestorTitles": [
+            "inspection without deep binding"
+          ],
+          "benchmarks": [],
+          "duration": 1.1358409999957075,
+          "failureMessages": [],
+          "fullName": "inspection without deep binding retains discovery facts without resolving a deep profile for covered automatic inspection",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains discovery facts without resolving a deep profile for covered automatic inspection"
+        },
+        {
+          "ancestorTitles": [
+            "inspection without deep binding"
+          ],
+          "benchmarks": [],
+          "duration": 2.369674000001396,
+          "failureMessages": [],
+          "fullName": "inspection without deep binding keeps explicit request and environment choices even when auxiliary inspection covers the target",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps explicit request and environment choices even when auxiliary inspection covers the target"
+        },
+        {
+          "ancestorTitles": [
+            "inspection without deep binding"
+          ],
+          "benchmarks": [],
+          "duration": 1.3046400000021094,
+          "failureMessages": [],
+          "fullName": "inspection without deep binding preserves ordinary ambiguity when auxiliary inspection does not cover the target",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves ordinary ambiguity when auxiliary inspection does not cover the target"
+        },
+        {
+          "ancestorTitles": [
+            "analysis provider registry: selection failures"
+          ],
+          "benchmarks": [],
+          "duration": 2.456512999997358,
+          "failureMessages": [],
+          "fullName": "analysis provider registry: selection failures returns actionable unknown, unavailable, and unsupported failures",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "returns actionable unknown, unavailable, and unsupported failures"
+        },
+        {
+          "ancestorTitles": [
+            "analysis provider registry: selection failures"
+          ],
+          "benchmarks": [],
+          "duration": 2.679464000000735,
+          "failureMessages": [],
+          "fullName": "analysis provider registry: selection failures keeps artifact-only targets unbound under auto or environment preference",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps artifact-only targets unbound under auto or environment preference"
+        },
+        {
+          "ancestorTitles": [
+            "analysis provider registry: selection failures"
+          ],
+          "benchmarks": [],
+          "duration": 1.2203150000059395,
+          "failureMessages": [],
+          "fullName": "analysis provider registry: selection failures rejects an unknown environment preference even when every candidate rejects the target",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an unknown environment preference even when every candidate rejects the target"
+        },
+        {
+          "ancestorTitles": [
+            "analysis provider registry: profile and cleanup failures"
+          ],
+          "benchmarks": [],
+          "duration": 2.0688609999997425,
+          "failureMessages": [],
+          "fullName": "analysis provider registry: profile and cleanup failures does not bind a profile with unresolved version or adapter failure",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not bind a profile with unresolved version or adapter failure"
+        },
+        {
+          "ancestorTitles": [
+            "analysis provider registry: profile and cleanup failures"
+          ],
+          "benchmarks": [],
+          "duration": 1.3336989999952493,
+          "failureMessages": [],
+          "fullName": "analysis provider registry: profile and cleanup failures aborts automatic selection when a provider reports unconfirmed cleanup",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "aborts automatic selection when a provider reports unconfirmed cleanup"
+        },
+        {
+          "ancestorTitles": [
+            "analysis provider registry: profile and cleanup failures"
+          ],
+          "benchmarks": [],
+          "duration": 5.017503000002762,
+          "failureMessages": [],
+          "fullName": "analysis provider registry: profile and cleanup failures owns a signal-ignoring profile probe until final completion and joins shutdown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "owns a signal-ignoring profile probe until final completion and joins shutdown"
+        },
+        {
+          "ancestorTitles": [
+            "profile resolution terminal facts"
+          ],
+          "benchmarks": [],
+          "duration": 2.0205690000002505,
+          "failureMessages": [],
+          "fullName": "profile resolution terminal facts preserves a physical profile failure across late caller abort (throws: false)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a physical profile failure across late caller abort (throws: false)"
+        },
+        {
+          "ancestorTitles": [
+            "profile resolution terminal facts"
+          ],
+          "benchmarks": [],
+          "duration": 2.0841050000017276,
+          "failureMessages": [],
+          "fullName": "profile resolution terminal facts preserves a physical profile failure across late caller abort (throws: true)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a physical profile failure across late caller abort (throws: true)"
+        },
+        {
+          "ancestorTitles": [
+            "profile resolution terminal facts"
+          ],
+          "benchmarks": [],
+          "duration": 1.8618229999992764,
+          "failureMessages": [],
+          "fullName": "profile resolution terminal facts preserves exact cancellation with cleanup and blocks admission until its owner confirms release",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact cancellation with cleanup and blocks admission until its owner confirms release"
+        },
+        {
+          "ancestorTitles": [
+            "automatic profile cleanup ownership"
+          ],
+          "benchmarks": [],
+          "duration": 5.358637000004819,
+          "failureMessages": [],
+          "fullName": "automatic profile cleanup ownership keeps automatic mixed-child cleanup conjunctive when alpha releases first",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps automatic mixed-child cleanup conjunctive when alpha releases first"
+        },
+        {
+          "ancestorTitles": [
+            "automatic profile cleanup ownership"
+          ],
+          "benchmarks": [],
+          "duration": 2.6082839999944554,
+          "failureMessages": [],
+          "fullName": "automatic profile cleanup ownership keeps automatic mixed-child cleanup conjunctive when beta releases first",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps automatic mixed-child cleanup conjunctive when beta releases first"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.2079739999971935,
+          "failureMessages": [],
+          "fullName": "registers before production and gates fresh selections until shutdown has joined finalization",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "registers before production and gates fresh selections until shutdown has joined finalization"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.8352040000027046,
+          "failureMessages": [],
+          "fullName": "joins cancelled readiness finalization and shutdown before admitting another observation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "joins cancelled readiness finalization and shutdown before admitting another observation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.260066000002553,
+          "failureMessages": [],
+          "fullName": "joins every candidate and retains physical failure with exact mixed cleanup owners",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "joins every candidate and retains physical failure with exact mixed cleanup owners"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.570743999996921,
+          "failureMessages": [],
+          "fullName": "registers selection before async readiness can race shutdown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "registers selection before async readiness can race shutdown"
+        }
+      ],
+      "endTime": 1792321746325.5708,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/binary/AnalysisProviderRegistry.test.ts",
+      "startTime": 1792321746257,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 15.00381099999504,
+          "failureMessages": [],
+          "fullName": "exports independent nested query, workflow and Evidence payloads",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "exports independent nested query, workflow and Evidence payloads"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2888780000066618,
+          "failureMessages": [],
+          "fullName": "rebinds replayed target subjects while preserving child artifact subjects",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rebinds replayed target subjects while preserving child artifact subjects"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache capacity"
+          ],
+          "benchmarks": [],
+          "duration": 1628.1622110000026,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache capacity shares capacity across query kinds while allowing replacements and fresh partitions",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "shares capacity across query kinds while allowing replacements and fresh partitions"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache policy"
+          ],
+          "benchmarks": [],
+          "duration": 0.4436329999953159,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache policy keeps explicit cache policy within immutable and state-independent boundaries: {\"cacheable\":false}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps explicit cache policy within immutable and state-independent boundaries: {\"cacheable\":false}"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache policy"
+          ],
+          "benchmarks": [],
+          "duration": 0.11045300000114366,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache policy keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"snapshot\",\"cacheable\":true}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"snapshot\",\"cacheable\":true}"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache policy"
+          ],
+          "benchmarks": [],
+          "duration": 0.06289599999581696,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache policy keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"live\",\"cacheable\":false}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"live\",\"cacheable\":false}"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache policy"
+          ],
+          "benchmarks": [],
+          "duration": 0.05631600000197068,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache policy keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"live\",\"effects\":{\"mayWriteFilesystem\":false},\"cacheable\":false}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"live\",\"effects\":{\"mayWriteFilesystem\":false},\"cacheable\":false}"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache policy"
+          ],
+          "benchmarks": [],
+          "duration": 0.05076999999437248,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache policy keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"snapshot\",\"effects\":{\"mutatesArtifact\":true},\"cacheable\":false}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"snapshot\",\"effects\":{\"mutatesArtifact\":true},\"cacheable\":false}"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache policy"
+          ],
+          "benchmarks": [],
+          "duration": 0.24558999999862863,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache policy keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"snapshot\",\"effects\":{\"changesPermissions\":true},\"cacheable\":false}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"snapshot\",\"effects\":{\"changesPermissions\":true},\"cacheable\":false}"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache policy"
+          ],
+          "benchmarks": [],
+          "duration": 0.07858200000191573,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache policy keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"snapshot\",\"operation\":\"list_documents\",\"cacheable\":false}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"snapshot\",\"operation\":\"list_documents\",\"cacheable\":false}"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache policy"
+          ],
+          "benchmarks": [],
+          "duration": 0.057894000005035195,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache policy keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"snapshot\",\"operation\":\"list_strings\",\"cacheable\":false}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"snapshot\",\"operation\":\"list_strings\",\"cacheable\":false}"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache policy"
+          ],
+          "benchmarks": [],
+          "duration": 0.05923600000096485,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache policy keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"snapshot\",\"operation\":\"address_name\",\"parameters\":{\"document\":\"fixture\"},\"cacheable\":false}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps explicit cache policy within immutable and state-independent boundaries: {\"policy\":\"snapshot\",\"operation\":\"address_name\",\"parameters\":{\"document\":\"fixture\"},\"cacheable\":false}"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache partitioning"
+          ],
+          "benchmarks": [],
+          "duration": 0.21947499999805586,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache partitioning retains explicit document and cursor requirements for list_strings",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains explicit document and cursor requirements for list_strings"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache partitioning"
+          ],
+          "benchmarks": [],
+          "duration": 0.0815370000054827,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache partitioning retains explicit document and cursor requirements for list_strings",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains explicit document and cursor requirements for list_strings"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache partitioning"
+          ],
+          "benchmarks": [],
+          "duration": 0.058504000000539236,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache partitioning retains explicit document and cursor requirements for address_name",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains explicit document and cursor requirements for address_name"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache partitioning"
+          ],
+          "benchmarks": [],
+          "duration": 0.05879599999752827,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache partitioning retains explicit document and cursor requirements for address_name",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains explicit document and cursor requirements for address_name"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache partitioning"
+          ],
+          "benchmarks": [],
+          "duration": 0.09525099999882514,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache partitioning retains explicit document and cursor requirements for binary_overview",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains explicit document and cursor requirements for binary_overview"
+        },
+        {
+          "ancestorTitles": [
+            "analysis snapshot cache partitioning"
+          ],
+          "benchmarks": [],
+          "duration": 3.940197999996599,
+          "failureMessages": [],
+          "fullName": "analysis snapshot cache partitioning returns detached data only from the exact provider/profile partition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "returns detached data only from the exact provider/profile partition"
+        },
+        {
+          "ancestorTitles": [
+            "relationship coverage snapshot replay"
+          ],
+          "benchmarks": [],
+          "duration": 4.981297999998787,
+          "failureMessages": [],
+          "fullName": "relationship coverage snapshot replay authenticates coverage and rejects missing serialized fields",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "authenticates coverage and rejects missing serialized fields"
+        },
+        {
+          "ancestorTitles": [
+            "relationship coverage snapshot replay"
+          ],
+          "benchmarks": [],
+          "duration": 3.2849520000017947,
+          "failureMessages": [],
+          "fullName": "relationship coverage snapshot replay replays absent coverage as explicitly unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "replays absent coverage as explicitly unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.291324999998324,
+          "failureMessages": [],
+          "fullName": "does not replay pre-envelope call graphs under the revised workflow profile",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not replay pre-envelope call graphs under the revised workflow profile"
+        },
+        {
+          "ancestorTitles": [
+            "executions that report truncated references"
+          ],
+          "benchmarks": [],
+          "duration": 0.6895490000024438,
+          "failureMessages": [],
+          "fullName": "executions that report truncated references are not replayed, because a replay would lose the truncation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "are not replayed, because a replay would lose the truncation"
+        },
+        {
+          "ancestorTitles": [
+            "executions that report truncated references"
+          ],
+          "benchmarks": [],
+          "duration": 1.6675350000004983,
+          "failureMessages": [],
+          "fullName": "executions that report truncated references do not stop an execution that is complete or silent from being replayed",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "do not stop an execution that is complete or silent from being replayed"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8901699999987613,
+          "failureMessages": [],
+          "fullName": "revises the trace_feature workflow profile so earlier results are not replayed",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "revises the trace_feature workflow profile so earlier results are not replayed"
+        }
+      ],
+      "endTime": 1792321754357.8901,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/binary/AnalysisSnapshotCache.test.ts",
+      "startTime": 1792321752691,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "BinarySession open liveness"
+          ],
+          "benchmarks": [],
+          "duration": 810.2110310000062,
+          "failureMessages": [],
+          "fullName": "BinarySession open liveness retires a locally blocked owner even when its native health is idle",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retires a locally blocked owner even when its native health is idle"
+        },
+        {
+          "ancestorTitles": [
+            "BinarySession open liveness"
+          ],
+          "benchmarks": [],
+          "duration": 476.12452699999994,
+          "failureMessages": [],
+          "fullName": "BinarySession open liveness reuses the retained client while the child stays live",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reuses the retained client while the child stays live"
+        },
+        {
+          "ancestorTitles": [
+            "BinarySession open liveness"
+          ],
+          "benchmarks": [],
+          "duration": 501.7567449999988,
+          "failureMessages": [],
+          "fullName": "BinarySession open liveness starts a fresh client when the retained child died",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "starts a fresh client when the retained child died"
+        },
+        {
+          "ancestorTitles": [
+            "BinarySession open liveness"
+          ],
+          "benchmarks": [],
+          "duration": 759.3229389999979,
+          "failureMessages": [],
+          "fullName": "BinarySession open liveness treats an uncharacterized operation failure as dead",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "treats an uncharacterized operation failure as dead"
+        },
+        {
+          "ancestorTitles": [
+            "BinarySession open liveness"
+          ],
+          "benchmarks": [],
+          "duration": 758.7780819999971,
+          "failureMessages": [],
+          "fullName": "BinarySession open liveness retires a retained client whose startup never completed",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retires a retained client whose startup never completed"
+        },
+        {
+          "ancestorTitles": [
+            "BinarySession open liveness"
+          ],
+          "benchmarks": [],
+          "duration": 839.2457809999978,
+          "failureMessages": [],
+          "fullName": "BinarySession open liveness probes instantiated children through health when snapshots are absent",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "probes instantiated children through health when snapshots are absent"
+        },
+        {
+          "ancestorTitles": [
+            "BinarySession open liveness"
+          ],
+          "benchmarks": [],
+          "duration": 494.51775199999975,
+          "failureMessages": [],
+          "fullName": "BinarySession open liveness retires a dead no-snapshot child after its health probe fails",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retires a dead no-snapshot child after its health probe fails"
+        },
+        {
+          "ancestorTitles": [
+            "BinarySession open liveness"
+          ],
+          "benchmarks": [],
+          "duration": 567.9871179999973,
+          "failureMessages": [],
+          "fullName": "BinarySession open liveness does not instantiate a child to answer health before first use",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not instantiate a child to answer health before first use"
+        },
+        {
+          "ancestorTitles": [
+            "BinarySession open liveness"
+          ],
+          "benchmarks": [],
+          "duration": 1467.7868360000066,
+          "failureMessages": [],
+          "fullName": "BinarySession open liveness reports cancellation without touching the session when aborted mid-probe",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports cancellation without touching the session when aborted mid-probe"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 376.32393699999375,
+          "failureMessages": [],
+          "fullName": "clears retired runtime availability after cancelled-switch restoration",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "clears retired runtime availability after cancelled-switch restoration"
+        }
+      ],
+      "endTime": 1792321761691.324,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/binary/BinarySessionLiveness.test.ts",
+      "startTime": 1792321754638,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "binary session provider capability projection"
+          ],
+          "benchmarks": [],
+          "duration": 6.981427000006079,
+          "failureMessages": [],
+          "fullName": "binary session provider capability projection preserves provider scope and route overlays while factoring exact prefixes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves provider scope and route overlays while factoring exact prefixes"
+        },
+        {
+          "ancestorTitles": [
+            "binary session provider capability projection"
+          ],
+          "benchmarks": [],
+          "duration": 0.4576450000022305,
+          "failureMessages": [],
+          "fullName": "binary session provider capability projection keeps empty route and candidate capability collections empty",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps empty route and candidate capability collections empty"
+        },
+        {
+          "ancestorTitles": [
+            "binary session provider capability projection"
+          ],
+          "benchmarks": [],
+          "duration": 0.4884630000015022,
+          "failureMessages": [],
+          "fullName": "binary session provider capability projection preserves repeated limitations in their original order",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves repeated limitations in their original order"
+        }
+      ],
+      "endTime": 1792321761307.4885,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/binary/BinarySessionStatus.test.ts",
+      "startTime": 1792321761300,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.5084290000086185,
+          "failureMessages": [],
+          "fullName": "does not create a previously unused child after the composite closes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not create a previously unused child after the composite closes"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.8016959999949904,
+          "failureMessages": [],
+          "fullName": "retains every failed child resource across composite cleanup retries",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains every failed child resource across composite cleanup retries"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0129840000008699,
+          "failureMessages": [],
+          "fullName": "preserves one child's typed cleanup error unchanged",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves one child's typed cleanup error unchanged"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9133969999966212,
+          "failureMessages": [],
+          "fullName": "does not close a child again after its cleanup succeeded",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not close a child again after its cleanup succeeded"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.41338500000711065,
+          "failureMessages": [],
+          "fullName": "keeps partial health truthful with child state busy and an unobserved peer",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps partial health truthful with child state busy and an unobserved peer"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.17832500000076834,
+          "failureMessages": [],
+          "fullName": "keeps partial health truthful with child state unknown and an unobserved peer",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps partial health truthful with child state unknown and an unobserved peer"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6481289999937871,
+          "failureMessages": [],
+          "fullName": "keeps partial health truthful with child state idle and an unobserved peer",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps partial health truthful with child state idle and an unobserved peer"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.1006409999972675,
+          "failureMessages": [],
+          "fullName": "keeps partial health truthful with child state undefined and an unobserved peer",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps partial health truthful with child state undefined and an unobserved peer"
+        }
+      ],
+      "endTime": 1792321761991.1006,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/binary/CompositeProvider.test.ts",
+      "startTime": 1792321761981,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.41254299999855,
+          "failureMessages": [],
+          "fullName": "attributes prerequisite AnalysisAccessDeniedError to the requested operation without changing its facts",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "attributes prerequisite AnalysisAccessDeniedError to the requested operation without changing its facts"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.29796799999894574,
+          "failureMessages": [],
+          "fullName": "attributes prerequisite AnalysisArtifactChangedError to the requested operation without changing its facts",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "attributes prerequisite AnalysisArtifactChangedError to the requested operation without changing its facts"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.22406999999657273,
+          "failureMessages": [],
+          "fullName": "attributes prerequisite AnalysisResourceConstraintError to the requested operation without changing its facts",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "attributes prerequisite AnalysisResourceConstraintError to the requested operation without changing its facts"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6678659999961383,
+          "failureMessages": [],
+          "fullName": "refuses dispatch when close starts after a ready client was acquired",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "refuses dispatch when close starts after a ready client was acquired"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.35752200000570156,
+          "failureMessages": [],
+          "fullName": "does not acquire or adopt resources for pre-aborted opaque reasons (null)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not acquire or adopt resources for pre-aborted opaque reasons (null)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.11619299999438226,
+          "failureMessages": [],
+          "fullName": "does not acquire or adopt resources for pre-aborted opaque reasons (caller reason)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not acquire or adopt resources for pre-aborted opaque reasons (caller reason)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.11312699999689357,
+          "failureMessages": [],
+          "fullName": "does not acquire or adopt resources for pre-aborted opaque reasons (Error: Provider foreign adapter failed during close_binary)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not acquire or adopt resources for pre-aborted opaque reasons (Error: Provider foreign adapter failed during close_binary)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7132869999986724,
+          "failureMessages": [],
+          "fullName": "keeps a shared creation alive for an interested peer",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a shared creation alive for an interested peer"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.44061900000087917,
+          "failureMessages": [],
+          "fullName": "joins a late acquired client's final cleanup before cancellation settles",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "joins a late acquired client's final cleanup before cancellation settles"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4157910000067204,
+          "failureMessages": [],
+          "fullName": "keeps a producer-authored physical failure primary even when it is the caller's abort reason",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a producer-authored physical failure primary even when it is the caller's abort reason"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.129885000002105,
+          "failureMessages": [],
+          "fullName": "retains a failed late client's exact close owner and restores cancellation after confirmed retry",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains a failed late client's exact close owner and restores cancellation after confirmed retry"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4951050000017858,
+          "failureMessages": [],
+          "fullName": "retains a failed prerequisite owner without creating a native client",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains a failed prerequisite owner without creating a native client"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.540713999995205,
+          "failureMessages": [],
+          "fullName": "retries only unresolved prerequisite and native owners across mixed cleanup outcomes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retries only unresolved prerequisite and native owners across mixed cleanup outcomes"
+        }
+      ],
+      "endTime": 1792321760729.5408,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/binary/DeferredAnalysisClient.test.ts",
+      "startTime": 1792321760715,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 254.39217300000018,
+          "failureMessages": [],
+          "fullName": "returns a tagged provider error when lazy loading fails",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "returns a tagged provider error when lazy loading fails"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 242.13663100000122,
+          "failureMessages": [],
+          "fullName": "joins a cancelled unabortable module load and refuses late client acquisition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "joins a cancelled unabortable module load and refuses late client acquisition"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 233.95947900001192,
+          "failureMessages": [],
+          "fullName": "reports that a lazy client was closed before its first operation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports that a lazy client was closed before its first operation"
+        }
+      ],
+      "endTime": 1792321764882.9595,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/binary/LazyAnalysisProvider.test.ts",
+      "startTime": 1792321764152,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.8902340000058757,
+          "failureMessages": [],
+          "fullName": "reports a missing retained parent instead of treating summary facts as inventory",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports a missing retained parent instead of treating summary facts as inventory"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.621049999987008,
+          "failureMessages": [],
+          "fullName": "uses retained Evidence resolution to reject a mismatched parent identity",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses retained Evidence resolution to reject a mismatched parent identity"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.021402999991551,
+          "failureMessages": [],
+          "fullName": "rejects a summary that declares the wrong parent operation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects a summary that declares the wrong parent operation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.457800000003772,
+          "failureMessages": [],
+          "fullName": "rejects summary parameters that do not identify the projected parent",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects summary parameters that do not identify the projected parent"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.855664999995497,
+          "failureMessages": [],
+          "fullName": "rejects summary facts that do not reproject from the complete parent",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects summary facts that do not reproject from the complete parent"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8644939999940107,
+          "failureMessages": [],
+          "fullName": "accepts display-only subject changes excluded from Evidence identity",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accepts display-only subject changes excluded from Evidence identity"
+        }
+      ],
+      "endTime": 1792321762961.8645,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/artifacts/ArtifactComparisonEvidence.test.ts",
+      "startTime": 1792321762949,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7364519999973709,
+          "failureMessages": [],
+          "fullName": "rejects malformed selection before starting the provider: {\"path\":\"relative.elf\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects malformed selection before starting the provider: {\"path\":\"relative.elf\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4941560000006575,
+          "failureMessages": [],
+          "fullName": "rejects malformed selection before starting the provider: {\"path\":\"/selected.elf\",\"approval\":true}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects malformed selection before starting the provider: {\"path\":\"/selected.elf\",\"approval\":true}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.23263399999996182,
+          "failureMessages": [],
+          "fullName": "rejects malformed selection before starting the provider: {\"path\":123}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects malformed selection before starting the provider: {\"path\":123}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.2543420000001788,
+          "failureMessages": [],
+          "fullName": "rejects malformed selection before starting the provider: {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects malformed selection before starting the provider: {}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2806019999989076,
+          "failureMessages": [],
+          "fullName": "records the decoded layout once in its Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "records the decoded layout once in its Evidence"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.22328400000697002,
+          "failureMessages": [],
+          "fullName": "preserves a provider's actionable unsupported reason",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a provider's actionable unsupported reason"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8722500000003492,
+          "failureMessages": [],
+          "fullName": "cancels before invocation and after an acquired observation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "cancels before invocation and after an acquired observation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7013310000038473,
+          "failureMessages": [],
+          "fullName": "rejects provider evidence at the next boundary: different-path",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects provider evidence at the next boundary: different-path"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5224420000013197,
+          "failureMessages": [],
+          "fullName": "rejects provider evidence at the next boundary: invalid-digest",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects provider evidence at the next boundary: invalid-digest"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5846779999992577,
+          "failureMessages": [],
+          "fullName": "rejects provider evidence at the next boundary: outside-range",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects provider evidence at the next boundary: outside-range"
+        }
+      ],
+      "endTime": 1792321763104.5847,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/binaryDiagnostics/BinaryLayoutService.test.ts",
+      "startTime": 1792321763097,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 11.540452999994159,
+          "failureMessages": [],
+          "fullName": "rejects invalid provider output before creating Evidence: different-path",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid provider output before creating Evidence: different-path"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.5161069999885513,
+          "failureMessages": [],
+          "fullName": "rejects invalid provider output before creating Evidence: outside-range",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid provider output before creating Evidence: outside-range"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.1018780000013066,
+          "failureMessages": [],
+          "fullName": "rejects invalid provider output before creating Evidence: wrong-coverage",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid provider output before creating Evidence: wrong-coverage"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.9093639999919105,
+          "failureMessages": [],
+          "fullName": "rejects invalid provider output before creating Evidence: bad-icon-reference",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid provider output before creating Evidence: bad-icon-reference"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.5077610000007553,
+          "failureMessages": [],
+          "fullName": "names the subject architecture from the COFF machine: i386 PE32",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the subject architecture from the COFF machine: i386 PE32"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.777503000004799,
+          "failureMessages": [],
+          "fullName": "names the subject architecture from the COFF machine: AMD64 PE32+",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the subject architecture from the COFF machine: AMD64 PE32+"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.256537000008393,
+          "failureMessages": [],
+          "fullName": "names the subject architecture from the COFF machine: ARM PE32",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the subject architecture from the COFF machine: ARM PE32"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8287009999912698,
+          "failureMessages": [],
+          "fullName": "names the subject architecture from the COFF machine: Thumb PE32",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the subject architecture from the COFF machine: Thumb PE32"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4062870000052499,
+          "failureMessages": [],
+          "fullName": "names the subject architecture from the COFF machine: ARMNT PE32",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the subject architecture from the COFF machine: ARMNT PE32"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4996270000119694,
+          "failureMessages": [],
+          "fullName": "names the subject architecture from the COFF machine: ARM64 PE32+",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the subject architecture from the COFF machine: ARM64 PE32+"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.246491000012611,
+          "failureMessages": [],
+          "fullName": "names the subject architecture from the COFF machine: AMD64 machine with PE32 magic",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the subject architecture from the COFF machine: AMD64 machine with PE32 magic"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5764189999899827,
+          "failureMessages": [],
+          "fullName": "names the subject architecture from the COFF machine: i386 machine with PE32+ magic",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the subject architecture from the COFF machine: i386 machine with PE32+ magic"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.784536000006483,
+          "failureMessages": [],
+          "fullName": "names the subject architecture from the COFF machine: ReadyToRun Linux override",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the subject architecture from the COFF machine: ReadyToRun Linux override"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4535089999990305,
+          "failureMessages": [],
+          "fullName": "names the subject architecture from the COFF machine: unknown machine",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the subject architecture from the COFF machine: unknown machine"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.28891499999736,
+          "failureMessages": [],
+          "fullName": "retains a completed observation on late cancellation and keeps output errors primary",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains a completed observation on late cancellation and keeps output errors primary"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8018600000068545,
+          "failureMessages": [],
+          "fullName": "preserves an opaque admission cancellation reason without invoking the reader: null",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an opaque admission cancellation reason without invoking the reader: null"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4005860000033863,
+          "failureMessages": [],
+          "fullName": "preserves an opaque admission cancellation reason without invoking the reader: \"caller cancellation\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an opaque admission cancellation reason without invoking the reader: \"caller cancellation\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.19307500000286382,
+          "failureMessages": [],
+          "fullName": "preserves an opaque admission cancellation reason without invoking the reader: {\"request\":\"opaque caller value\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an opaque admission cancellation reason without invoking the reader: {\"request\":\"opaque caller value\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.1383780000032857,
+          "failureMessages": [],
+          "fullName": "preserves an opaque admission cancellation reason without invoking the reader: {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an opaque admission cancellation reason without invoking the reader: {}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.13944899999478366,
+          "failureMessages": [],
+          "fullName": "preserves an opaque admission cancellation reason without invoking the reader: {\"cleanup\":{\"reason\":\"unresolved caller resource\",\"resources\":[\"caller resource\"]},\"cleanupIncomplete\":true,\"operation\":\"caller_operation\",\"reason\":\"caller-owned cleanup\",\"_tag\":\"AnalysisOutputError\",\"cleanupOnly\":false}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an opaque admission cancellation reason without invoking the reader: {\"cleanup\":{\"reason\":\"unresolved caller resource\",\"resources\":[\"caller resource\"]},\"cleanupIncomplete\":true,\"operation\":\"caller_operation\",\"reason\":\"caller-owned cleanup\",\"_tag\":\"AnalysisOutputError\",\"cleanupOnly\":false}"
+        }
+      ],
+      "endTime": 1792321763038.1394,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/binaryDiagnostics/PeResourcesService.test.ts",
+      "startTime": 1792321762992,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 8.767875999998068,
+          "failureMessages": [],
+          "fullName": "labels an envelope containing debugger-derived maps as derived",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "labels an envelope containing debugger-derived maps as derived"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.1509380000061356,
+          "failureMessages": [],
+          "fullName": "names the CPU family carried by a x86_64-little-endian core on created Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the CPU family carried by a x86_64-little-endian core on created Evidence"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.318304000000353,
+          "failureMessages": [],
+          "fullName": "names the CPU family carried by a aarch64-little-endian core on created Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the CPU family carried by a aarch64-little-endian core on created Evidence"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5262570000049891,
+          "failureMessages": [],
+          "fullName": "rejects malformed selection before starting the provider: {\"path\":\"relative.elf\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects malformed selection before starting the provider: {\"path\":\"relative.elf\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.2512399999977788,
+          "failureMessages": [],
+          "fullName": "rejects malformed selection before starting the provider: {\"path\":\"/selected.core\",\"approval\":true}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects malformed selection before starting the provider: {\"path\":\"/selected.core\",\"approval\":true}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3346719999972265,
+          "failureMessages": [],
+          "fullName": "rejects malformed selection before starting the provider: {\"path\":123}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects malformed selection before starting the provider: {\"path\":123}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.21581300000252668,
+          "failureMessages": [],
+          "fullName": "rejects malformed selection before starting the provider: {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects malformed selection before starting the provider: {}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.27911699999822304,
+          "failureMessages": [],
+          "fullName": "preserves a provider's actionable unsupported reason",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a provider's actionable unsupported reason"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.097791000007419,
+          "failureMessages": [],
+          "fullName": "cancels before invocation and after an acquired observation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "cancels before invocation and after an acquired observation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4153439999936381,
+          "failureMessages": [],
+          "fullName": "rejects provider evidence at the next boundary: different-path",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects provider evidence at the next boundary: different-path"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1544710000016494,
+          "failureMessages": [],
+          "fullName": "rejects provider evidence at the next boundary: invalid-digest",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects provider evidence at the next boundary: invalid-digest"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.713768000001437,
+          "failureMessages": [],
+          "fullName": "rejects provider evidence at the next boundary: outside-range",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects provider evidence at the next boundary: outside-range"
+        }
+      ],
+      "endTime": 1792321762841.7139,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/binaryDiagnostics/RecordedCrashService.test.ts",
+      "startTime": 1792321762819,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.1547169999976177,
+          "failureMessages": [],
+          "fullName": "retains completed fuse Evidence when the provider completes after abort",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains completed fuse Evidence when the provider completes after abort"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.32804000000760425,
+          "failureMessages": [],
+          "fullName": "preserves malformed fuse output ahead of late cancellation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves malformed fuse output ahead of late cancellation"
+        }
+      ],
+      "endTime": 1792321765217.3281,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/electron/ElectronFuseService.test.ts",
+      "startTime": 1792321765214,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7258350000047358,
+          "failureMessages": [],
+          "fullName": "retains inspect_firmware_regions Evidence after late cancellation and preserves provider failure precedence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains inspect_firmware_regions Evidence after late cancellation and preserves provider failure precedence"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7199219999893103,
+          "failureMessages": [],
+          "fullName": "retains extract_firmware Evidence after late cancellation and preserves provider failure precedence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains extract_firmware Evidence after late cancellation and preserves provider failure precedence"
+        }
+      ],
+      "endTime": 1792321764969.72,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/firmware/FirmwareAnalysisService.test.ts",
+      "startTime": 1792321764966,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8244249999988824,
+          "failureMessages": [],
+          "fullName": "rejects invalid selection before effects: {\"path\":\"relative.hex\",\"encoding\":\"hex\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid selection before effects: {\"path\":\"relative.hex\",\"encoding\":\"hex\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5407419999974081,
+          "failureMessages": [],
+          "fullName": "rejects invalid selection before effects: {\"path\":\"/selected\",\"encoding\":\"auto\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid selection before effects: {\"path\":\"/selected\",\"encoding\":\"auto\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4588850000000093,
+          "failureMessages": [],
+          "fullName": "rejects invalid selection before effects: {\"path\":\"/selected\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid selection before effects: {\"path\":\"/selected\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.18798899999819696,
+          "failureMessages": [],
+          "fullName": "rejects invalid selection before effects: {\"path\":\"/selected\",\"encoding\":\"raw\",\"approval\":true}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid selection before effects: {\"path\":\"/selected\",\"encoding\":\"raw\",\"approval\":true}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.549906000000192,
+          "failureMessages": [],
+          "fullName": "rejects mismatched producer binding: carrier",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects mismatched producer binding: carrier"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6570189999911236,
+          "failureMessages": [],
+          "fullName": "rejects mismatched producer binding: encoding",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects mismatched producer binding: encoding"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5297060000011697,
+          "failureMessages": [],
+          "fullName": "rejects mismatched producer binding: digest",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects mismatched producer binding: digest"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6041499999992084,
+          "failureMessages": [],
+          "fullName": "rejects mismatched producer binding: no-subject",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects mismatched producer binding: no-subject"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.6492859999998473,
+          "failureMessages": [],
+          "fullName": "preserves meaningful provider failure and cancellation before/after execution",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves meaningful provider failure and cancellation before/after execution"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6032940000004601,
+          "failureMessages": [],
+          "fullName": "keeps malformed interface output ahead of a late cancellation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps malformed interface output ahead of a late cancellation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.32562699999834877,
+          "failureMessages": [],
+          "fullName": "preserves the exact admission reason without invoking the provider: null",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the exact admission reason without invoking the provider: null"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.12075899999763351,
+          "failureMessages": [],
+          "fullName": "preserves the exact admission reason without invoking the provider: \"caller stopped\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the exact admission reason without invoking the provider: \"caller stopped\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.06434200001240242,
+          "failureMessages": [],
+          "fullName": "preserves the exact admission reason without invoking the provider: {\"requested\":\"stop\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the exact admission reason without invoking the provider: {\"requested\":\"stop\"}"
+        }
+      ],
+      "endTime": 1792321763174.3257,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/evm/EvmInterfaceService.test.ts",
+      "startTime": 1792321763163,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.46019100000557955,
+          "failureMessages": [],
+          "fullName": "refuses {\"path\":\"/targets/app.apk\",\"extra\":true} at admission",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "refuses {\"path\":\"/targets/app.apk\",\"extra\":true} at admission"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.16546800000651274,
+          "failureMessages": [],
+          "fullName": "refuses {\"path\":7} at admission",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "refuses {\"path\":7} at admission"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.09665700000186916,
+          "failureMessages": [],
+          "fullName": "refuses {} at admission",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "refuses {} at admission"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.07105999998748302,
+          "failureMessages": [],
+          "fullName": "refuses {\"path\":\"/targets/app.apk\",\"abi\":\"not a locale\"} at admission",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "refuses {\"path\":\"/targets/app.apk\",\"abi\":\"not a locale\"} at admission"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.33157899999059737,
+          "failureMessages": [],
+          "fullName": "passes the validated request to the provider and seals Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "passes the validated request to the provider and seals Evidence"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.21640600000682753,
+          "failureMessages": [],
+          "fullName": "settles an already-aborted call as cancellation before execution",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "settles an already-aborted call as cancellation before execution"
+        }
+      ],
+      "endTime": 1792321764979.3315,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/flutter/FlutterBuildAnalysisService.test.ts",
+      "startTime": 1792321764978,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2802940000110539,
+          "failureMessages": [],
+          "fullName": "rejects invalid paths and extra caller arguments before invoking the reader",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid paths and extra caller arguments before invoking the reader"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.6406690000003437,
+          "failureMessages": [],
+          "fullName": "preserves unsupported subject architectures and does not duplicate metadata",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves unsupported subject architectures and does not duplicate metadata"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.50961800001096,
+          "failureMessages": [],
+          "fullName": "preserves byte-valued build metadata and validates compiler source lengths",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves byte-valued build metadata and validates compiler source lengths"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7848099999973783,
+          "failureMessages": [],
+          "fullName": "refuses reader identity changes and invalid original source ranges",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "refuses reader identity changes and invalid original source ranges"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7123989999963669,
+          "failureMessages": [],
+          "fullName": "honors cancellation before reading and after a completed observation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "honors cancellation before reading and after a completed observation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.42384400000446476,
+          "failureMessages": [],
+          "fullName": "keeps malformed provider output ahead of a late cancellation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps malformed provider output ahead of a late cancellation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.20191900001373142,
+          "failureMessages": [],
+          "fullName": "preserves an opaque admission cancellation reason without invoking the reader: null",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an opaque admission cancellation reason without invoking the reader: null"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.09636500000488013,
+          "failureMessages": [],
+          "fullName": "preserves an opaque admission cancellation reason without invoking the reader: \"caller cancellation\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an opaque admission cancellation reason without invoking the reader: \"caller cancellation\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.11735700001008809,
+          "failureMessages": [],
+          "fullName": "preserves an opaque admission cancellation reason without invoking the reader: {\"request\":\"opaque caller value\"}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an opaque admission cancellation reason without invoking the reader: {\"request\":\"opaque caller value\"}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.12167700000281911,
+          "failureMessages": [],
+          "fullName": "preserves an opaque admission cancellation reason without invoking the reader: {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an opaque admission cancellation reason without invoking the reader: {}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.08877999999094754,
+          "failureMessages": [],
+          "fullName": "preserves an opaque admission cancellation reason without invoking the reader: {\"cleanup\":{\"reason\":\"unresolved caller resource\",\"resources\":[\"caller resource\"]},\"cleanupIncomplete\":true,\"operation\":\"caller_operation\",\"reason\":\"caller-owned cleanup\",\"_tag\":\"AnalysisOutputError\",\"cleanupOnly\":false}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an opaque admission cancellation reason without invoking the reader: {\"cleanup\":{\"reason\":\"unresolved caller resource\",\"resources\":[\"caller resource\"]},\"cleanupIncomplete\":true,\"operation\":\"caller_operation\",\"reason\":\"caller-owned cleanup\",\"_tag\":\"AnalysisOutputError\",\"cleanupOnly\":false}"
+        }
+      ],
+      "endTime": 1792321762347.4238,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/go/GoBinaryService.test.ts",
+      "startTime": 1792321762339,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 2.1876570000022184,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager attaches by PID when Frida omits the target from process lookup",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "attaches by PID when Frida omits the target from process lookup"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 0.2928380000012112,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager keeps the caller PID when Frida resolves a different process",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the caller PID when Frida resolves a different process"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 0.3390930000023218,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager records a session already detached during process metadata lookup",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "records a session already detached during process metadata lookup"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 0.7890199999965262,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager still reports a real attach failure when process lookup is unavailable",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "still reports a real attach failure when process lookup is unavailable"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 26.575433999998495,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager retains a failed startup's spawn and remote lease until cleanup succeeds",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains a failed startup's spawn and remote lease until cleanup succeeds"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 0.42243800000142073,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager retains an acquired session when startup fails before registration",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an acquired session when startup fails before registration"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 7.485266000003321,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager does not release another session's remote lease when retrying failed startup removal",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not release another session's remote lease when retrying failed startup removal"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 4.315740999998525,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager loads instrumentation before resuming a spawned target",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "loads instrumentation before resuming a spawned target"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 1.0526650000028894,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager removes a remote device after process discovery",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "removes a remote device after process discovery"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 0.5488330000007409,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager preserves remote discovery facts when cleanup fails and retries cleanup",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves remote discovery facts when cleanup fails and retries cleanup"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 0.6372709999996005,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager does not expose remote credentials in shutdown cleanup failures",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not expose remote credentials in shutdown cleanup failures"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 0.6951379999954952,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager unloads scripts, resumes a paused spawn, and detaches without killing it",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "unloads scripts, resumes a paused spawn, and detaches without killing it"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 1.400154000002658,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager retains a failed script handle until a later cleanup retry releases it",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains a failed script handle until a later cleanup retry releases it"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 5.630224000000453,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager closes a session when its target already destroyed the script",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "closes a session when its target already destroyed the script"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 0.3800279999995837,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager does not resume a paused spawn after its parent session detached",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not resume a paused spawn after its parent session detached"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 1.158568999999261,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager uses successful parent-session detach to release a script after unload fails",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses successful parent-session detach to release a script after unload fails"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 2.367325000006531,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager keeps a paused spawn paused when script unload and session detach fail",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a paused spawn paused when script unload and session detach fail"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 0.6798239999989164,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager retries resuming a spawn after detach succeeded but resume failed",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retries resuming a spawn after detach succeeded but resume failed"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 0.9521150000000489,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager keeps a remote device while a spawned target resume is pending",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a remote device while a spawned target resume is pending"
+        },
+        {
+          "ancestorTitles": [
+            "FridaInstrumentationManager"
+          ],
+          "benchmarks": [],
+          "duration": 1.0514819999953033,
+          "failureMessages": [],
+          "fullName": "FridaInstrumentationManager keeps a remote device while script and session cleanup are pending",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a remote device while script and session cleanup are pending"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6919220000054338,
+          "failureMessages": [],
+          "fullName": "does not release a newer remote lease when retrying an older session close",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not release a newer remote lease when retrying an older session close"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.756679999998596,
+          "failureMessages": [],
+          "fullName": "attributes messages to their producing script and returns each load's messages",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "attributes messages to their producing script and returns each load's messages"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.742223000001104,
+          "failureMessages": [],
+          "fullName": "retains Frida error source coordinates in script and session evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains Frida error source coordinates in script and session evidence"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1534.2016709999953,
+          "failureMessages": [],
+          "fullName": "does not carry earlier script truncation into a complete later load",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not carry earlier script truncation into a complete later load"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1597.196361000002,
+          "failureMessages": [],
+          "fullName": "reports truncation when that script loses its own message",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports truncation when that script loses its own message"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5913.512603000003,
+          "failureMessages": [],
+          "fullName": "retains the newest contiguous messages across repeated budget evictions",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the newest contiguous messages across repeated budget evictions"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 9.19175499999983,
+          "failureMessages": [],
+          "fullName": "serializes a final remote release against a new same-endpoint session",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "serializes a final remote release against a new same-endpoint session"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9301080000004731,
+          "failureMessages": [],
+          "fullName": "redacts remote credentials and maps a missing optional binding",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "redacts remote credentials and maps a missing optional binding"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3821939999979804,
+          "failureMessages": [],
+          "fullName": "clears current binding failure after recovery",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "clears current binding failure after recovery"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.038961999998719,
+          "failureMessages": [],
+          "fullName": "keeps remote option conflicts as actionable invalid input",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps remote option conflicts as actionable invalid input"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5303120000025956,
+          "failureMessages": [],
+          "fullName": "redacts remote credentials echoed by a target script",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "redacts remote credentials echoed by a target script"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 8.450652999999875,
+          "failureMessages": [],
+          "fullName": "bounds oversized Frida message metadata before retaining it",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds oversized Frida message metadata before retaining it"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.5801300000021,
+          "failureMessages": [],
+          "fullName": "serializes script loading against concurrent close and unloads the loaded script",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "serializes script loading against concurrent close and unloads the loaded script"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3360460000039893,
+          "failureMessages": [],
+          "fullName": "drains startup when the provider loader initiates shutdown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "drains startup when the provider loader initiates shutdown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7874059999958263,
+          "failureMessages": [],
+          "fullName": "names the unknown session or script ID it rejects",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "names the unknown session or script ID it rejects"
+        }
+      ],
+      "endTime": 1792321745471.7874,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/frida/FridaInstrumentationManager.test.ts",
+      "startTime": 1792321736333,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6920919999975013,
+          "failureMessages": [],
+          "fullName": "does not start Frida when startSession receives an already-cancelled signal",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not start Frida when startSession receives an already-cancelled signal"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9181290000051376,
+          "failureMessages": [],
+          "fullName": "does not start Frida when instrument receives an already-cancelled signal",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not start Frida when instrument receives an already-cancelled signal"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.6057639999999083,
+          "failureMessages": [],
+          "fullName": "rejects the unreadable script file /tmp/rea-missing-frida-script.js before starting Frida",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects the unreadable script file /tmp/rea-missing-frida-script.js before starting Frida"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.30725900000106776,
+          "failureMessages": [],
+          "fullName": "rejects the unreadable script file /tmp before starting Frida",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects the unreadable script file /tmp before starting Frida"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.24895999999716878,
+          "failureMessages": [],
+          "fullName": "reports cancellation before checking a file script source",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports cancellation before checking a file script source"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.3929470000002766,
+          "failureMessages": [],
+          "fullName": "does not resume a spawned target when cancellation arrives during script loading",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not resume a spawned target when cancellation arrives during script loading"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8259680000046501,
+          "failureMessages": [],
+          "fullName": "reports the spawned session when cancellation arrives during resume",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports the spawned session when cancellation arrives during resume"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5692999999955646,
+          "failureMessages": [],
+          "fullName": "does not infer a Frida resume for a running attached target on cancellation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer a Frida resume for a running attached target on cancellation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5769489999947837,
+          "failureMessages": [],
+          "fullName": "retains an observed spawn resume after the target detaches before cancellation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an observed spawn resume after the target detaches before cancellation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6512389999988955,
+          "failureMessages": [],
+          "fullName": "uses a spawned target state transition after failed cleanup (running)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses a spawned target state transition after failed cleanup (running)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3677460000035353,
+          "failureMessages": [],
+          "fullName": "uses a spawned target state transition after failed cleanup (paused)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses a spawned target state transition after failed cleanup (paused)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8993950000003679,
+          "failureMessages": [],
+          "fullName": "records target selection in Evidence without remote authentication values",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "records target selection in Evidence without remote authentication values"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3048960000014631,
+          "failureMessages": [],
+          "fullName": "reports completed cleanup when closing the parent session releases a failed script",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports completed cleanup when closing the parent session releases a failed script"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.616730000001553,
+          "failureMessages": [],
+          "fullName": "cleans up a session and returns typed cancellation after a pending start",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "cleans up a session and returns typed cancellation after a pending start"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6576029999996535,
+          "failureMessages": [],
+          "fullName": "retains a cancelled provider load's source and messages in one-shot Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains a cancelled provider load's source and messages in one-shot Evidence"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5375100000019302,
+          "failureMessages": [],
+          "fullName": "preserves a provider-committed load when cancellation arrives during result delivery",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a provider-committed load when cancellation arrives during result delivery"
+        }
+      ],
+      "endTime": 1792321755106.6577,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/frida/FridaInstrumentationService.test.ts",
+      "startTime": 1792321755094,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "residual unknown registry reads and identity"
+          ],
+          "benchmarks": [],
+          "duration": 4.969549999994342,
+          "failureMessages": [],
+          "fullName": "residual unknown registry reads and identity seals mutation Evidence without freezing caller-owned inputs",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "seals mutation Evidence without freezing caller-owned inputs"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown registry reads and identity"
+          ],
+          "benchmarks": [],
+          "duration": 3.922131999999692,
+          "failureMessages": [],
+          "fullName": "residual unknown registry reads and identity merges record-only bundles without changing retained unknown history",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "merges record-only bundles without changing retained unknown history"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown dependency histories"
+          ],
+          "benchmarks": [],
+          "duration": 4080.818545000002,
+          "failureMessages": [],
+          "fullName": "residual unknown dependency histories imports a valid dependency chain deeper than the JavaScript call stack",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "imports a valid dependency chain deeper than the JavaScript call stack"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown dependency histories"
+          ],
+          "benchmarks": [],
+          "duration": 6.669139000005089,
+          "failureMessages": [],
+          "fullName": "residual unknown dependency histories returns detached unknowns and evidence bundles from every read surface",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "returns detached unknowns and evidence bundles from every read surface"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown dependency histories"
+          ],
+          "benchmarks": [],
+          "duration": 3.8318270000017947,
+          "failureMessages": [],
+          "fullName": "residual unknown dependency histories derives stable IDs, filters heads, and rejects duplicate creation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "derives stable IDs, filters heads, and rejects duplicate creation"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown dependency histories"
+          ],
+          "benchmarks": [],
+          "duration": 4.070831000004546,
+          "failureMessages": [],
+          "fullName": "residual unknown dependency histories uses immutable CAS revisions and rejects a stale concurrent writer atomically",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses immutable CAS revisions and rejects a stale concurrent writer atomically"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown registry resolution and history"
+          ],
+          "benchmarks": [],
+          "duration": 7.518559999996796,
+          "failureMessages": [],
+          "fullName": "residual unknown registry resolution and history rejects inference for observed resolution, then accepts matching live evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects inference for observed resolution, then accepts matching live evidence"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown registry resolution and history"
+          ],
+          "benchmarks": [],
+          "duration": 15.272705000003043,
+          "failureMessages": [],
+          "fullName": "residual unknown registry resolution and history rejects broken references, dependency cycles, deletion, and tampering",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects broken references, dependency cycles, deletion, and tampering"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown registry resolution and history"
+          ],
+          "benchmarks": [],
+          "duration": 17.861715999999433,
+          "failureMessages": [],
+          "fullName": "residual unknown registry resolution and history merges independent histories commutatively and rejects divergent heads atomically",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "merges independent histories commutatively and rejects divergent heads atomically"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown imported identity"
+          ],
+          "benchmarks": [],
+          "duration": 6.85518000000593,
+          "failureMessages": [],
+          "fullName": "residual unknown imported identity rejects a rehashed wrong ID atomically and accepts valid history",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects a rehashed wrong ID atomically and accepts valid history"
+        }
+      ],
+      "endTime": 1792321760227.8552,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/investigation/EvidenceLedger.residualUnknown.test.ts",
+      "startTime": 1792321756076,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "evidence ledger recording"
+          ],
+          "benchmarks": [],
+          "duration": 4.235914999997476,
+          "failureMessages": [],
+          "fullName": "evidence ledger recording deduplicates and atomically imports bundles",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "deduplicates and atomically imports bundles"
+        },
+        {
+          "ancestorTitles": [
+            "evidence ledger recording"
+          ],
+          "benchmarks": [],
+          "duration": 0.8055850000091596,
+          "failureMessages": [],
+          "fullName": "evidence ledger recording ignores JSON object key order during imported identity checks",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "ignores JSON object key order during imported identity checks"
+        },
+        {
+          "ancestorTitles": [
+            "evidence ledger recording"
+          ],
+          "benchmarks": [],
+          "duration": 1.489344000001438,
+          "failureMessages": [],
+          "fullName": "evidence ledger recording protects borrowed snapshots while preserving detached mutable public reads",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "protects borrowed snapshots while preserving detached mutable public reads"
+        },
+        {
+          "ancestorTitles": [
+            "evidence ledger metadata imports"
+          ],
+          "benchmarks": [],
+          "duration": 2.651559999998426,
+          "failureMessages": [],
+          "fullName": "evidence ledger metadata imports reports and commits metadata replacement when importing unknown history",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports and commits metadata replacement when importing unknown history"
+        },
+        {
+          "ancestorTitles": [
+            "evidence ledger metadata imports"
+          ],
+          "benchmarks": [],
+          "duration": 1016.6106440000003,
+          "failureMessages": [],
+          "fullName": "evidence ledger metadata imports retains more than ten thousand inline evidence records",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains more than ten thousand inline evidence records"
+        },
+        {
+          "ancestorTitles": [
+            "evidence ledger metadata imports"
+          ],
+          "benchmarks": [],
+          "duration": 754.1845639999956,
+          "failureMessages": [],
+          "fullName": "evidence ledger metadata imports retains inline evidence larger than the former session byte quota",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains inline evidence larger than the former session byte quota"
+        },
+        {
+          "ancestorTitles": [
+            "evidence bundle imports"
+          ],
+          "benchmarks": [],
+          "duration": 0.9765559999941615,
+          "failureMessages": [],
+          "fullName": "evidence bundle imports classifies an authenticated Evidence record as the wrong import kind",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "classifies an authenticated Evidence record as the wrong import kind"
+        },
+        {
+          "ancestorTitles": [
+            "evidence bundle imports"
+          ],
+          "benchmarks": [],
+          "duration": 1.4146830000099726,
+          "failureMessages": [],
+          "fullName": "evidence bundle imports rejects conflicting duplicate IDs without mutating the ledger",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects conflicting duplicate IDs without mutating the ledger"
+        },
+        {
+          "ancestorTitles": [
+            "evidence bundle imports"
+          ],
+          "benchmarks": [],
+          "duration": 0.8167390000016894,
+          "failureMessages": [],
+          "fullName": "evidence bundle imports atomically rejects Evidence plus an invalid unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "atomically rejects Evidence plus an invalid unknown"
+        }
+      ],
+      "endTime": 1792321763104.8167,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/investigation/EvidenceLedger.test.ts",
+      "startTime": 1792321761321,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "investigation record ownership"
+          ],
+          "benchmarks": [],
+          "duration": 0.7665759999945294,
+          "failureMessages": [],
+          "fullName": "investigation record ownership keeps identity, detached reads and independent stores without a binary target",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps identity, detached reads and independent stores without a binary target"
+        },
+        {
+          "ancestorTitles": [
+            "investigation record ownership"
+          ],
+          "benchmarks": [],
+          "duration": 5.052086000010604,
+          "failureMessages": [],
+          "fullName": "investigation record ownership preserves explicit Unknown subjects and target-free atomic mutation subjects",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves explicit Unknown subjects and target-free atomic mutation subjects"
+        },
+        {
+          "ancestorTitles": [
+            "investigation record ownership"
+          ],
+          "benchmarks": [],
+          "duration": 0.7929029999941122,
+          "failureMessages": [],
+          "fullName": "investigation record ownership rolls back Evidence when the linked Unknown fails validation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rolls back Evidence when the linked Unknown fails validation"
+        },
+        {
+          "ancestorTitles": [
+            "investigation record ownership"
+          ],
+          "benchmarks": [],
+          "duration": 2.7161659999983385,
+          "failureMessages": [],
+          "fullName": "investigation record ownership preserves optimistic revisions and the explicit update subject",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves optimistic revisions and the explicit update subject"
+        },
+        {
+          "ancestorTitles": [
+            "investigation record ownership"
+          ],
+          "benchmarks": [],
+          "duration": 5.076902999993763,
+          "failureMessages": [],
+          "fullName": "investigation record ownership reports Unknown-only bundle changes and clears the single record owner",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports Unknown-only bundle changes and clears the single record owner"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.974706000008155,
+          "failureMessages": [],
+          "fullName": "retains complete mutation intent and distinguishes independent update requests",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains complete mutation intent and distinguishes independent update requests"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.4781629999924917,
+          "failureMessages": [],
+          "fullName": "rejects changed creation intent after the original unknown was updated",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects changed creation intent after the original unknown was updated"
+        }
+      ],
+      "endTime": 1792321761842.4783,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/investigation/InvestigationRecords.test.ts",
+      "startTime": 1792321761819,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "JebAnalysisService admission"
+          ],
+          "benchmarks": [],
+          "duration": 1.227125999997952,
+          "failureMessages": [],
+          "fullName": "JebAnalysisService admission rejects malformed input before any provider call",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects malformed input before any provider call"
+        },
+        {
+          "ancestorTitles": [
+            "JebAnalysisService admission"
+          ],
+          "benchmarks": [],
+          "duration": 0.2698359999922104,
+          "failureMessages": [],
+          "fullName": "JebAnalysisService admission returns cancellation without provider effects when already aborted",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "returns cancellation without provider effects when already aborted"
+        },
+        {
+          "ancestorTitles": [
+            "JebAnalysisService admission"
+          ],
+          "benchmarks": [],
+          "duration": 1.1482390000019222,
+          "failureMessages": [],
+          "fullName": "JebAnalysisService admission applies protocol defaults and composes provider evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "applies protocol defaults and composes provider evidence"
+        },
+        {
+          "ancestorTitles": [
+            "JebAnalysisService admission"
+          ],
+          "benchmarks": [],
+          "duration": 0.4816679999930784,
+          "failureMessages": [],
+          "fullName": "JebAnalysisService admission preserves provider failure reasons",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves provider failure reasons"
+        }
+      ],
+      "endTime": 1792321763409.4817,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/jeb/JebAnalysisService.test.ts",
+      "startTime": 1792321763406,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.6075719999935245,
+          "failureMessages": [],
+          "fullName": "converts a retained raw Electron inspection into partial Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "converts a retained raw Electron inspection into partial Evidence"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0347710000060033,
+          "failureMessages": [],
+          "fullName": "converts a raw inspection retained by provider cleanup failure",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "converts a raw inspection retained by provider cleanup failure"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3934449999942444,
+          "failureMessages": [],
+          "fullName": "returns a typed output error for malformed Electron target output after abort",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "returns a typed output error for malformed Electron target output after abort"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8854070000088541,
+          "failureMessages": [],
+          "fullName": "retains completed target facts when cancellation arrives before Evidence publication",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains completed target facts when cancellation arrives before Evidence publication"
+        }
+      ],
+      "endTime": 1792321762873.8855,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/javascript/ElectronObservationService.test.ts",
+      "startTime": 1792321762869,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "JavaScript cooperative computation lifecycle"
+          ],
+          "benchmarks": [],
+          "duration": 9.394268999996711,
+          "failureMessages": [],
+          "fullName": "JavaScript cooperative computation lifecycle observes scheduler cancellation and closes abandoned work",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "observes scheduler cancellation and closes abandoned work"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript cooperative computation lifecycle"
+          ],
+          "benchmarks": [],
+          "duration": 0.3010590000048978,
+          "failureMessages": [],
+          "fullName": "JavaScript cooperative computation lifecycle does not start pre-cancelled work and preserves completed values",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not start pre-cancelled work and preserves completed values"
+        }
+      ],
+      "endTime": 1792321765285.301,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/javascript/JavaScriptAnalysisControl.test.ts",
+      "startTime": 1792321765275,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.9776249999995343,
+          "failureMessages": [],
+          "fullName": "retains batched TraceMap-resolved paths and null source positions",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains batched TraceMap-resolved paths and null source positions"
+        }
+      ],
+      "endTime": 1792321765198.9775,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/javascript/JavaScriptArtifactAnalysis.sourceMaps.test.ts",
+      "startTime": 1792321765196,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.719870999993873,
+          "failureMessages": [],
+          "fullName": "retains live references, exact deduplication and canonical output across later additions",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains live references, exact deduplication and canonical output across later additions"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.5440050000033807,
+          "failureMessages": [],
+          "fullName": "preserves first-input duplicates and retains the last occurrence when later merged",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves first-input duplicates and retains the last occurrence when later merged"
+        }
+      ],
+      "endTime": 1792321763244.544,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/javascript/JavaScriptArtifactGraphAccumulator.test.ts",
+      "startTime": 1792321763238,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "skipped JavaScript parse reporting"
+          ],
+          "benchmarks": [],
+          "duration": 5.687556999997469,
+          "failureMessages": [],
+          "fullName": "skipped JavaScript parse reporting marks parse_status skipped for a JavaScript file whose worker analysis failed",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "marks parse_status skipped for a JavaScript file whose worker analysis failed"
+        },
+        {
+          "ancestorTitles": [
+            "skipped JavaScript parse reporting"
+          ],
+          "benchmarks": [],
+          "duration": 2.00486099999398,
+          "failureMessages": [],
+          "fullName": "skipped JavaScript parse reporting keeps parse_status null for a JavaScript file never attempted",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps parse_status null for a JavaScript file never attempted"
+        },
+        {
+          "ancestorTitles": [
+            "skipped JavaScript parse reporting"
+          ],
+          "benchmarks": [],
+          "duration": 13.64248100000259,
+          "failureMessages": [],
+          "fullName": "skipped JavaScript parse reporting keeps the parsed status for an analyzed JavaScript file",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the parsed status for an analyzed JavaScript file"
+        }
+      ],
+      "endTime": 1792321763327.6426,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/javascript/JavaScriptArtifactGraphStructure.test.ts",
+      "startTime": 1792321763306,
+      "status": "passed"
+    }
+  ],
+  "version": 1
+}

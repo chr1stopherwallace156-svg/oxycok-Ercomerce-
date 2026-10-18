@@ -1,0 +1,7 @@
+{
+  "kind": "HOST_DIAGNOSTIC",
+  "output": "\n RUN  v5.0.3 /workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed\n\nstdout | src/process/OxycokHostDiagnostic.test.ts > records host identity availability without converting unavailability to pass\nOXYCOK_HOST_DIAGNOSTIC={\"identity\":[[43,{\"state\":\"unavailable\",\"reason\":\"ENOENT: no such file or directory, open '/proc/43/stat'\"}]],\"proc\":{\"readable\":false,\"code\":\"ENOENT\"},\"pid\":43}\n\n ✓ |adapters| src/process/OxycokHostDiagnostic.test.ts > records host identity availability without converting unavailability to pass 4ms\n\n Test Files  1 passed (1)\n      Tests  1 passed (1)\n   Start at  11:10:46\n   Duration  693ms (transform 69%, import 22%, worker 8%, tests 1%)\n\n",
+  "role": "WORKER_DIAGNOSTIC_NOT_UPSTREAM_TEST_OR_QUALIFICATION",
+  "source_tree": "385edcb1209351e76e8ac0cf05dd23604f101085",
+  "version": 1
+}
