@@ -22,18 +22,20 @@ STAGES = ("NEW", "INSPECTED", "ABSTRACTED", "CONSTRUCTED", "TESTED", "RECORDED",
 def implementation_identity():
     files = []
     for folder in ("scripts/mission", "scripts/transfer", "scripts/knowledge", "knowledge",
-                   "tests/knowledge", "tests/transfer", "tests/mission"):
+                   "tests/knowledge", "tests/transfer", "tests/mission",
+                   "scripts/elektron_bridge", "tests/elektron_bridge"):
         for p in sorted((ROOT / folder).rglob("*")):
             if p.is_file() and "__pycache__" not in p.parts:
                 files.append((p.relative_to(ROOT).as_posix(), hashlib.sha256(p.read_bytes()).hexdigest()))
     for name in ("docs/rea/QUALIFICATION_DENOMINATOR_V1.json",
-                 "docs/knowledge_transfer/source_manifest.json"):
+                 "docs/knowledge_transfer/source_manifest.json", "scripts/oxycok.py"):
         p = ROOT / name
         files.append((p.relative_to(ROOT).as_posix(), hashlib.sha256(p.read_bytes()).hexdigest()))
     return digest(files)
 
 
-def start(store, target, provider, domain, mechanisms, facts, attempt=1, rea_executable=None):
+def start(store, target, provider, domain, mechanisms, facts, attempt=1, rea_executable=None,
+          elektron_snapshot=None, elektron_allow_bounded_analysis=False):
     target = Path(target).resolve(strict=True)
     if store.root == target or store.root.is_relative_to(target) or target.is_relative_to(store.root):
         raise ValueError("STATE_TARGET_OVERLAP")
@@ -45,7 +47,9 @@ def start(store, target, provider, domain, mechanisms, facts, attempt=1, rea_exe
     request = {"target": str(target), "subject_sha256": subject["sha256"],
                "provider": provider, "domain": domain, "mechanisms": mechanisms,
                "facts": facts, "attempt": attempt, "rea_executable": rea_executable,
-               "implementation_sha256": implementation_identity()}
+               "implementation_sha256": implementation_identity(),
+               "elektron_snapshot": str(Path(elektron_snapshot).resolve()) if elektron_snapshot else None,
+               "elektron_allow_bounded_analysis": bool(elektron_allow_bounded_analysis)}
     mid = digest(request)
     store.db.execute("BEGIN IMMEDIATE")
     try:
@@ -60,6 +64,16 @@ def start(store, target, provider, domain, mechanisms, facts, attempt=1, rea_exe
         store.db.rollback()
         raise
     return store.status(mid)
+
+
+def elektron_event(mid, request):
+    # Namespace external identifiers; retain the complete OXYCOK identity, no truncation.
+    return {"event_id":"OXYCOK-" + mid, "trigger":"TASK_STARTED",
+            "target_id":"OXYCOK-TARGET-" + mid, "origin":"EXTERNAL",
+            "payload":{"mission_id":"OXYCOK-MISSION-" + mid,
+                       "oxycok_mission_id":mid, "substantial":True,
+                       "domain":request["domain"],
+                       "current_subject":request["subject_sha256"]}}
 
 
 def project_path(store, mid):
@@ -137,6 +151,26 @@ def step(store, mid):
             if inventory(request["target"])["sha256"] != request["subject_sha256"]:
                 raise ValueError("TARGET_SUBJECT_DRIFT")
             if stage == "NEW":
+                if request.get("elektron_snapshot"):
+                    companion_dir = store.root / "elektron_events"
+                    companion_dir.mkdir(exist_ok=True)
+                    event_path = companion_dir / (mid + ".json")
+                    event = elektron_event(mid, request)
+                    if event_path.exists():
+                        if json.loads(event_path.read_text()) != event:
+                            raise ValueError("ELEKTRON_EVENT_IDENTITY_DRIFT")
+                    else:
+                        with event_path.open("x") as output:
+                            json.dump(event, output)
+                    command = [sys.executable, "-B", str(ROOT / "scripts/elektron_bridge/run_owner.py"),
+                               "--snapshot", request["elektron_snapshot"],
+                               "--state-root", str(store.root / "elektron_state" / mid),
+                               "--event", str(event_path)]
+                    if request.get("elektron_allow_bounded_analysis"):
+                        command.append("--allow-bounded-analysis")
+                    companion = json.loads(bounded_process(command, timeout=60))
+                    outputs["elektron_b3b"] = store.put(companion)
+                    store.edge(mid, outputs["elektron_b3b"], "OBSERVED_BY_PINNED_ELEKTRON_B3B", mid)
                 observation = (python_static(request["target"]) if request["provider"] == "python"
                                else rea_static(request["target"], request["rea_executable"] or ""))
                 key = store.put(observation)
@@ -238,6 +272,8 @@ def main():
     start_p.add_argument("--mechanism", action="append", required=True)
     start_p.add_argument("--fact", action="append", default=[])
     start_p.add_argument("--attempt", type=int, default=1)
+    start_p.add_argument("--elektron-snapshot")
+    start_p.add_argument("--elektron-allow-bounded-analysis", action="store_true")
     for name in ("step", "run", "status", "events", "graph"):
         p = sub.add_parser(name)
         p.add_argument("--mission-id", required=True)
@@ -253,7 +289,8 @@ def main():
         store = Store(args.state_root)
         if args.command == "start":
             result = start(store, args.target, args.provider, args.domain, args.mechanism,
-                           args.fact, args.attempt, args.rea_executable)
+                           args.fact, args.attempt, args.rea_executable,
+                           args.elektron_snapshot, args.elektron_allow_bounded_analysis)
         elif args.command == "run":
             result = run(store, args.mission_id, args.max_steps)
         else:

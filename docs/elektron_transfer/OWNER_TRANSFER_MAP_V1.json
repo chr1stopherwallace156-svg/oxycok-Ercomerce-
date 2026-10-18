@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "source": {
+    "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+    "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+    "tree": "17b5b46ee47e21001d0024263867d23311173c86",
+    "tracked_files": 9233,
+    "tracked_bytes": 673221796,
+    "scope": "ONE_PINNED_GIT_TREE_NOT_ALL_BRANCHES_OR_GIT_HISTORY"
+  },
+  "installation": {
+    "complete_source_snapshot_materialized_here": false,
+    "private_analysis_closure_files": 134,
+    "source_blob_identities_verified": true,
+    "private_source_bodies_published": false
+  },
+  "owners": [
+    {
+      "id": "B3B",
+      "source_prefix": "scripts/ai_worker_observatory/",
+      "tracked_owner_files": 35,
+      "tracked_test_files": 8,
+      "private_analysis_owner_files": 17,
+      "destination_status": "ACTUAL_OWNER_OBSERVE_MEASURE_CLASSIFY_EXECUTED_REVIEW_PENDING"
+    },
+    {
+      "id": "RLR_INQUIRY",
+      "source_prefix": "scripts/repository_learning/",
+      "tracked_owner_files": 34,
+      "tracked_test_files": 0,
+      "private_analysis_owner_files": 18,
+      "destination_status": "NOT_INDEPENDENTLY_REQUALIFIED_IN_DESTINATION"
+    },
+    {
+      "id": "REPOSITORY_CONTEXT_ETR",
+      "source_prefix": "scripts/repository_context/",
+      "tracked_owner_files": 30,
+      "tracked_test_files": 14,
+      "private_analysis_owner_files": 0,
+      "destination_status": "NOT_INDEPENDENTLY_REQUALIFIED_IN_DESTINATION"
+    },
+    {
+      "id": "ACI",
+      "source_prefix": "scripts/aci/",
+      "tracked_owner_files": 45,
+      "tracked_test_files": 8,
+      "private_analysis_owner_files": 30,
+      "destination_status": "NOT_INDEPENDENTLY_REQUALIFIED_IN_DESTINATION"
+    },
+    {
+      "id": "PROVING_GROUND",
+      "source_prefix": "scripts/proving_ground/",
+      "tracked_owner_files": 20,
+      "tracked_test_files": 0,
+      "private_analysis_owner_files": 0,
+      "destination_status": "NOT_INDEPENDENTLY_REQUALIFIED_IN_DESTINATION"
+    },
+    {
+      "id": "FAILURE_LEARNING_TRAP",
+      "source_prefix": "scripts/failure_learning/",
+      "tracked_owner_files": 17,
+      "tracked_test_files": 9,
+      "private_analysis_owner_files": 2,
+      "destination_status": "NOT_INDEPENDENTLY_REQUALIFIED_IN_DESTINATION"
+    },
+    {
+      "id": "SYSTEM_CONTINUITY",
+      "source_prefix": "scripts/system_continuity/",
+      "tracked_owner_files": 26,
+      "tracked_test_files": 30,
+      "private_analysis_owner_files": 3,
+      "destination_status": "NOT_INDEPENDENTLY_REQUALIFIED_IN_DESTINATION"
+    },
+    {
+      "id": "SYSTEM_METHOD",
+      "source_prefix": "scripts/system_method/",
+      "tracked_owner_files": 11,
+      "tracked_test_files": 10,
+      "private_analysis_owner_files": 0,
+      "destination_status": "NOT_INDEPENDENTLY_REQUALIFIED_IN_DESTINATION"
+    },
+    {
+      "id": "SITUATIONAL_CONTEXT",
+      "source_prefix": "scripts/situational_context/",
+      "tracked_owner_files": 10,
+      "tracked_test_files": 0,
+      "private_analysis_owner_files": 0,
+      "destination_status": "NOT_INDEPENDENTLY_REQUALIFIED_IN_DESTINATION"
+    },
+    {
+      "id": "SOURCE_EXHAUSTION",
+      "source_prefix": "scripts/source_exhaustion/",
+      "tracked_owner_files": 19,
+      "tracked_test_files": 3,
+      "private_analysis_owner_files": 0,
+      "destination_status": "NOT_INDEPENDENTLY_REQUALIFIED_IN_DESTINATION"
+    },
+    {
+      "id": "ESER",
+      "source_prefix": "scripts/eser/",
+      "tracked_owner_files": 12,
+      "tracked_test_files": 4,
+      "private_analysis_owner_files": 0,
+      "destination_status": "NOT_INDEPENDENTLY_REQUALIFIED_IN_DESTINATION"
+    }
+  ],
+  "qualification": "NO_BLANKET_SOURCE_TO_DESTINATION_PROMOTION"
+}

@@ -6,14 +6,18 @@ on:
       - "knowledge/**"
       - "docs/knowledge_transfer/**"
       - "docs/rea/**"
+      - "docs/elektron_transfer/**"
       - "reconstruction/**"
       - "scripts/knowledge/**"
       - "scripts/transfer/**"
+      - "scripts/oxycok.py"
       - "scripts/mission/**"
+      - "scripts/elektron_bridge/**"
       - "scripts/reconstruction/**"
       - "tests/knowledge/**"
       - "tests/transfer/**"
       - "tests/mission/**"
+      - "tests/elektron_bridge/**"
       - "tests/reconstruction/**"
       - ".github/workflows/knowledge.yml"
   push:
@@ -22,14 +26,18 @@ on:
       - "knowledge/**"
       - "docs/knowledge_transfer/**"
       - "docs/rea/**"
+      - "docs/elektron_transfer/**"
       - "reconstruction/**"
       - "scripts/knowledge/**"
       - "scripts/transfer/**"
+      - "scripts/oxycok.py"
       - "scripts/mission/**"
+      - "scripts/elektron_bridge/**"
       - "scripts/reconstruction/**"
       - "tests/knowledge/**"
       - "tests/transfer/**"
       - "tests/mission/**"
+      - "tests/elektron_bridge/**"
       - "tests/reconstruction/**"
       - ".github/workflows/knowledge.yml"
 
@@ -49,3 +57,4 @@ jobs:
       - run: python3 -m unittest discover -s tests/transfer -v
       - run: python3 -m unittest discover -s tests/mission -v
       - run: python3 -m unittest discover -s tests/reconstruction -v
+      - run: python3 -m unittest discover -s tests/elektron_bridge -v

@@ -215,6 +215,21 @@ class MissionTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "REA_INVALID"):
                 providers.rea_static(self.target, sys.executable)
 
+    def test_selected_elektron_core_cannot_silently_fall_back_when_missing(self):
+        mid = self.admit(elektron_snapshot="/nonexistent/elektron-snapshot")
+        state = runtime.run(self.store, mid, 6)
+        self.assertEqual(state["stage"], "BLOCKED")
+        self.assertNotIn("observation", state["outputs"])
+        self.assertIn("provider_failure", state["outputs"])
+
+    def test_elektron_identifiers_preserve_full_identity_with_valid_namespace(self):
+        for mid in ("0"*64, "a"*64, "f0"*32):
+            event = runtime.elektron_event(mid,{"domain":"unseen-domain", "subject_sha256":"d"*64})
+            self.assertTrue(event["payload"]["mission_id"][0].isalpha())
+            self.assertTrue(event["target_id"][0].isalpha())
+            self.assertTrue(event["payload"]["mission_id"].endswith(mid))
+            self.assertEqual(event["payload"]["oxycok_mission_id"],mid)
+
     def test_empty_or_unsupported_target_does_not_pass(self):
         (self.target / "example.py").unlink()
         (self.target / "README.txt").write_text("not a Python module")
