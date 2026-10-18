@@ -1,0 +1,2677 @@
+{
+  "kind": "SOURCE_RUNNER_FILE_RESULTS",
+  "results": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.7997119999999995,
+          "failureMessages": [],
+          "fullName": "source map directives reads the line comment form",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reads the line comment form"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.3490399999973306,
+          "failureMessages": [],
+          "fullName": "source map directives reads the legacy line comment form",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reads the legacy line comment form"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.4199899999985064,
+          "failureMessages": [],
+          "fullName": "source map directives reads the block comment form",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reads the block comment form"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.4280139999973471,
+          "failureMessages": [],
+          "fullName": "source map directives reads the block comment after code form",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reads the block comment after code form"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.2426339999983611,
+          "failureMessages": [],
+          "fullName": "source map directives retains every directive in a source",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains every directive in a source"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 188.2629620000007,
+          "failureMessages": [],
+          "fullName": "source map directives reads a large inline map from a two-byte source without overflowing",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reads a large inline map from a two-byte source without overflowing"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 249.71343400000114,
+          "failureMessages": [],
+          "fullName": "source map directives reads 9.5M spaces after the marker without overflowing",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reads 9.5M spaces after the marker without overflowing"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 275.1739650000018,
+          "failureMessages": [],
+          "fullName": "source map directives reads 9.5M spaces before the equals sign without overflowing",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reads 9.5M spaces before the equals sign without overflowing"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 238.36217000000033,
+          "failureMessages": [],
+          "fullName": "source map directives reads 9.5M spaces before the URL without overflowing",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reads 9.5M spaces before the URL without overflowing"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 1.5483419999982289,
+          "failureMessages": [],
+          "fullName": "source map directives ignores an incomplete or malformed directive: //#",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "ignores an incomplete or malformed directive: //#"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.34504000000015367,
+          "failureMessages": [],
+          "fullName": "source map directives ignores an incomplete or malformed directive: //# \t",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "ignores an incomplete or malformed directive: //# \t"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.22355900000184192,
+          "failureMessages": [],
+          "fullName": "source map directives ignores an incomplete or malformed directive: //# sourceMappingURL",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "ignores an incomplete or malformed directive: //# sourceMappingURL"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.15613200000007055,
+          "failureMessages": [],
+          "fullName": "source map directives ignores an incomplete or malformed directive: //# sourceMappingURL \t",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "ignores an incomplete or malformed directive: //# sourceMappingURL \t"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.35191499999928055,
+          "failureMessages": [],
+          "fullName": "source map directives ignores an incomplete or malformed directive: //# sourceMappingURL=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "ignores an incomplete or malformed directive: //# sourceMappingURL="
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.6828060000007099,
+          "failureMessages": [],
+          "fullName": "source map directives ignores an incomplete or malformed directive: //# sourceMappingURL= \t",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "ignores an incomplete or malformed directive: //# sourceMappingURL= \t"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.2839949999979581,
+          "failureMessages": [],
+          "fullName": "source map directives ignores an incomplete or malformed directive: /*# sourceMappingURL= */",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "ignores an incomplete or malformed directive: /*# sourceMappingURL= */"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.16107300000294344,
+          "failureMessages": [],
+          "fullName": "source map directives ignores an incomplete or malformed directive: //# sourceMappingURLx=app.js.map",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "ignores an incomplete or malformed directive: //# sourceMappingURLx=app.js.map"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.1390590000009979,
+          "failureMessages": [],
+          "fullName": "source map directives ignores an incomplete or malformed directive: //# sourceMappingURL app.js.map",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "ignores an incomplete or malformed directive: //# sourceMappingURL app.js.map"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.5526910000007774,
+          "failureMessages": [],
+          "fullName": "source map directives preserves Unicode whitespace and URL terminator boundaries",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves Unicode whitespace and URL terminator boundaries"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 1.2831939999996393,
+          "failureMessages": [],
+          "fullName": "source map directives preserves the URL and range in /*# app*part.js.map */",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the URL and range in /*# app*part.js.map */"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.4727810000003956,
+          "failureMessages": [],
+          "fullName": "source map directives preserves the URL and range in /*@ *part.js.map*/",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the URL and range in /*@ *part.js.map*/"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 1.1354329999994661,
+          "failureMessages": [],
+          "fullName": "source map directives preserves the URL and range in /*# app.js.map**/",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the URL and range in /*# app.js.map**/"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.5199389999979758,
+          "failureMessages": [],
+          "fullName": "source map directives preserves the URL and range in /*# **part.js.map */",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the URL and range in /*# **part.js.map */"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.3998890000002575,
+          "failureMessages": [],
+          "fullName": "source map directives preserves the URL and range in /*# app.js.map*/",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the URL and range in /*# app.js.map*/"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.4306830000023183,
+          "failureMessages": [],
+          "fullName": "source map directives preserves the URL and range in //# app*part.js.map",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the URL and range in //# app*part.js.map"
+        },
+        {
+          "ancestorTitles": [
+            "source map directives"
+          ],
+          "benchmarks": [],
+          "duration": 0.3388090000007651,
+          "failureMessages": [],
+          "fullName": "source map directives reports nothing when no directive is present",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports nothing when no directive is present"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment boundaries"
+          ],
+          "benchmarks": [],
+          "duration": 0.5329000000019732,
+          "failureMessages": [],
+          "fullName": "source map comment boundaries does not read a directive from const documentation = \"//# sourceMappingURL=ghost.map \";",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not read a directive from const documentation = \"//# sourceMappingURL=ghost.map \";"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment boundaries"
+          ],
+          "benchmarks": [],
+          "duration": 0.5671300000030897,
+          "failureMessages": [],
+          "fullName": "source map comment boundaries does not read a directive from const documentation = \"/*# sourceMappingURL=ghost.map */\";",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not read a directive from const documentation = \"/*# sourceMappingURL=ghost.map */\";"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment boundaries"
+          ],
+          "benchmarks": [],
+          "duration": 0.6201450000007753,
+          "failureMessages": [],
+          "fullName": "source map comment boundaries does not read a directive from const documentation = `//# sourceMappingURL=ghost.map `;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not read a directive from const documentation = `//# sourceMappingURL=ghost.map `;"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment boundaries"
+          ],
+          "benchmarks": [],
+          "duration": 0.36421400000108406,
+          "failureMessages": [],
+          "fullName": "source map comment boundaries does not read a directive from const pattern = /[//# sourceMappingURL=ghost.map ]/;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not read a directive from const pattern = /[//# sourceMappingURL=ghost.map ]/;"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment boundaries"
+          ],
+          "benchmarks": [],
+          "duration": 1.21106200000213,
+          "failureMessages": [],
+          "fullName": "source map comment boundaries does not read a directive from const view = <div>//# sourceMappingURL=ghost.map </div>;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not read a directive from const view = <div>//# sourceMappingURL=ghost.map </div>;"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment boundaries"
+          ],
+          "benchmarks": [],
+          "duration": 0.5074699999968288,
+          "failureMessages": [],
+          "fullName": "source map comment boundaries does not read a directive from const documentation: string = \"//# sourceMappingURL=ghost.map \";",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not read a directive from const documentation: string = \"//# sourceMappingURL=ghost.map \";"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment boundaries"
+          ],
+          "benchmarks": [],
+          "duration": 0.8372999999992317,
+          "failureMessages": [],
+          "fullName": "source map comment boundaries does not read a directive from /* Documentation example: //# sourceMappingURL=ghost.map */",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not read a directive from /* Documentation example: //# sourceMappingURL=ghost.map */"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment boundaries"
+          ],
+          "benchmarks": [],
+          "duration": 0.5048930000011751,
+          "failureMessages": [],
+          "fullName": "source map comment boundaries retains only the real trailing directive after quoted examples",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains only the real trailing directive after quoted examples"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment boundaries"
+          ],
+          "benchmarks": [],
+          "duration": 0.6714800000008836,
+          "failureMessages": [],
+          "fullName": "source map comment boundaries keeps authentic comments in supported syntax: const value: number = 1;\n//# sourceMappingURL=typed.map",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps authentic comments in supported syntax: const value: number = 1;\n//# sourceMappingURL=typed.map"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment boundaries"
+          ],
+          "benchmarks": [],
+          "duration": 0.38662099999783095,
+          "failureMessages": [],
+          "fullName": "source map comment boundaries keeps authentic comments in supported syntax: const view = <div />;\n//# sourceMappingURL=typed.map",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps authentic comments in supported syntax: const view = <div />;\n//# sourceMappingURL=typed.map"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment boundaries"
+          ],
+          "benchmarks": [],
+          "duration": 0.3505810000024212,
+          "failureMessages": [],
+          "fullName": "source map comment boundaries keeps authentic comments in supported syntax: const value = 1; /*@ sourceMappingURL=typed.map */",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps authentic comments in supported syntax: const value = 1; /*@ sourceMappingURL=typed.map */"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment boundaries"
+          ],
+          "benchmarks": [],
+          "duration": 0.7930029999988619,
+          "failureMessages": [],
+          "fullName": "source map comment boundaries keeps authentic comments in supported syntax: const text = `${(() => { /*# sourceMappingURL=typed.map */ return 1; })()}`;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps authentic comments in supported syntax: const text = `${(() => { /*# sourceMappingURL=typed.map */ return 1; })()}`;"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment locations and recovery"
+          ],
+          "benchmarks": [],
+          "duration": 0.8020069999984116,
+          "failureMessages": [],
+          "fullName": "source map comment locations and recovery keeps real comments when the parser recovers and reports partial syntax",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps real comments when the parser recovers and reports partial syntax"
+        },
+        {
+          "ancestorTitles": [
+            "source map comment locations and recovery"
+          ],
+          "benchmarks": [],
+          "duration": 0.5843839999979537,
+          "failureMessages": [],
+          "fullName": "source map comment locations and recovery preserves the failed result when source cannot be parsed",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the failed result when source cannot be parsed"
+        }
+      ],
+      "endTime": 1792321725167.5845,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysisSourceMaps.test.ts",
+      "startTime": 1792321724175,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 8.393335000000661,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through call target (path.join as typeof path.join)(__dirname, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through call target (path.join as typeof path.join)(__dirname, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.8827949999977136,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through call target path.join!(__dirname, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through call target path.join!(__dirname, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 3.1367949999985285,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through call target (path.resolve satisfies typeof path.resolve)(__dirname, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through call target (path.resolve satisfies typeof path.resolve)(__dirname, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.649245000000519,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through call target ((path as typeof path).posix as typeof path.posix).resolve(\"/app\", \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through call target ((path as typeof path).posix as typeof path.posix).resolve(\"/app\", \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 4.154653000001417,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through call target (fileURLToPath as typeof fileURLToPath)(new URL(\"./preload.js\", import.meta.url))",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through call target (fileURLToPath as typeof fileURLToPath)(new URL(\"./preload.js\", import.meta.url))"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.9896609999996144,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through call target fileURLToPath(new (URL as typeof URL)(\"./preload.js\", import.meta.url))",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through call target fileURLToPath(new (URL as typeof URL)(\"./preload.js\", import.meta.url))"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.628379000001587,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through call target fileURLToPath(new (url.URL as typeof URL)(\"./preload.js\", import.meta.url))",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through call target fileURLToPath(new (url.URL as typeof URL)(\"./preload.js\", import.meta.url))"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.863869999997405,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through call target path.join((path.dirname as typeof path.dirname)(__filename), \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through call target path.join((path.dirname as typeof path.dirname)(__filename), \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.6784459999980754,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through call target path.join(dirname((fileURLToPath as typeof fileURLToPath)(import.meta.url)), \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through call target path.join(dirname((fileURLToPath as typeof fileURLToPath)(import.meta.url)), \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.5661849999996775,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through \"./preload.js\" as const",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through \"./preload.js\" as const"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.0704979999973148,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through path.join(__dirname, \"preload.js\") as string",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through path.join(__dirname, \"preload.js\") as string"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.0374179999998887,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through path.join(__dirname as string, \"preload.js\" as const)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through path.join(__dirname as string, \"preload.js\" as const)"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.234918000001926,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through path.resolve(__dirname as string, \"preload.js\" as const)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through path.resolve(__dirname as string, \"preload.js\" as const)"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.7005190000018047,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through fileURLToPath(new URL(\"./preload.js\", import.meta.url as string) as URL) as string",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through fileURLToPath(new URL(\"./preload.js\", import.meta.url as string) as URL) as string"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.710755000000063,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through path.join(path.dirname(__filename as string), \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through path.join(path.dirname(__filename as string), \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 3.2132219999984954,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through path.join(path.dirname(__filename) as string, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through path.join(path.dirname(__filename) as string, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.9388859999999113,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through ((__dirname + \"/lib\") as string) + \"/preload.js\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through ((__dirname + \"/lib\") as string) + \"/preload.js\""
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.1728450000009616,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through \"/app/preload.js\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through \"/app/preload.js\""
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.0255989999968733,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through `/app/preload.js`",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through `/app/preload.js`"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.7074929999980668,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through path.join(`/app`, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through path.join(`/app`, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.379003999998531,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves exact path values and context through `./preload.js`",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact path values and context through `./preload.js`"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.0145340000017313,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution matches the POSIX resolve oracle for \"/app\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches the POSIX resolve oracle for \"/app\""
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.091736000002129,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution matches the POSIX resolve oracle for \"ignored\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches the POSIX resolve oracle for \"ignored\""
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.2348389999970095,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution matches the POSIX resolve oracle for \"/app\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches the POSIX resolve oracle for \"/app\""
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.7841349999980594,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution matches the POSIX resolve oracle for \"/app\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches the POSIX resolve oracle for \"/app\""
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.8899229999988165,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution matches the POSIX resolve oracle for \"/app\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches the POSIX resolve oracle for \"/app\""
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.5323579999967478,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution matches the POSIX resolve oracle for \"///\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches the POSIX resolve oracle for \"///\""
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.317417000002024,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution matches the POSIX resolve oracle for \"\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches the POSIX resolve oracle for \"\""
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.1444049999990966,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path.resolve(__dirname, \"preload.cjs\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path.resolve(__dirname, \"preload.cjs\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.3396209999991697,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path[`resolve`](__dirname, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path[`resolve`](__dirname, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.2175400000014633,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path.posix.resolve(\"ignored\", __dirname, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path.posix.resolve(\"ignored\", __dirname, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.1783219999997527,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path.resolve(\"/ignored\", __dirname, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path.resolve(\"/ignored\", __dirname, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 3.4238829999994778,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path.posix.resolve(\"ignored\", dirname(fileURLToPath(import.meta.url)), \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path.posix.resolve(\"ignored\", dirname(fileURLToPath(import.meta.url)), \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.7769069999994827,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path.resolve(\"ignored\", path.dirname(__filename), \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path.resolve(\"ignored\", path.dirname(__filename), \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.2471499999992375,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path.resolve(__dirname, \"../preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path.resolve(__dirname, \"../preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.1820110000007844,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path.resolve(__dirname, \"sub\", __dirname, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path.resolve(__dirname, \"sub\", __dirname, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.560293999998976,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path.resolve(__dirname, \"/shared\", \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path.resolve(__dirname, \"/shared\", \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.0608119999997143,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path.resolve(__dirname)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path.resolve(__dirname)"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.499070000001666,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path.posix.resolve(`/app`, `/shared`, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path.posix.resolve(`/app`, `/shared`, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.7259939999967173,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path.posix.resolve(\"\" + \"/app\", \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path.posix.resolve(\"\" + \"/app\", \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.511292000002868,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in __dirname + \"/preload.js\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in __dirname + \"/preload.js\""
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.7189839999991818,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in __dirname + \"/\" + \"preload.js\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in __dirname + \"/\" + \"preload.js\""
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.754812999999558,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution projects the source anchor in path.dirname(__filename) + \"/lib\" + \"/preload.js\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the source anchor in path.dirname(__filename) + \"/lib\" + \"/preload.js\""
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 6.090865000001941,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves join behavior in path.join(\"/app\", \"/shared/preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves join behavior in path.join(\"/app\", \"/shared/preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.024051000000327,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves join behavior in path.posix.join(\"/app\", \"preload/\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves join behavior in path.posix.join(\"/app\", \"preload/\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.529328999997233,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves join behavior in path.join(\"sub\", \"../preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves join behavior in path.join(\"sub\", \"../preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.5769939999991038,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves join behavior in path.join(__dirname, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves join behavior in path.join(__dirname, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.4030230000025767,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves join behavior in path[`join`](__dirname, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves join behavior in path[`join`](__dirname, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.4577590000008058,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves join behavior in path.join(__dirname, \"/preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves join behavior in path.join(__dirname, \"/preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 4.695951000001514,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves join behavior in path.join(dirname(fileURLToPath(import.meta.url)), \"/lib\", \"/preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves join behavior in path.join(dirname(fileURLToPath(import.meta.url)), \"/lib\", \"/preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.7477280000020983,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves join behavior in path.join(\"ignored\", __dirname, \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves join behavior in path.join(\"ignored\", __dirname, \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 5.7794750000030035,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves join behavior in path.join(dirname(fileURLToPath(import.meta.url)), \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves join behavior in path.join(dirname(fileURLToPath(import.meta.url)), \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 4.450570999997581,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves join behavior in join(\"sub\", \"preload.js\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves join behavior in join(\"sub\", \"preload.js\")"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.9489939999984927,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves join behavior in path.join(__dirname)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves join behavior in path.join(__dirname)"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.9467170000025362,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported runtimePath as string unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported runtimePath as string unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.153580999998667,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.join(__dirname as string, runtimeFile as string) as string unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.join(__dirname as string, runtimeFile as string) as string unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.482585999998264,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path[method](__dirname, \"preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path[method](__dirname, \"preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.8515250000018568,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path[`join${suffix}`](__dirname, \"preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path[`join${suffix}`](__dirname, \"preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.813710999998875,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported (path[method] as typeof path.join)(__dirname, \"preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported (path[method] as typeof path.join)(__dirname, \"preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.2488960000009683,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported ((useJoin ? path.join : path.resolve) as typeof path.join)(__dirname, \"preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported ((useJoin ? path.join : path.resolve) as typeof path.join)(__dirname, \"preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.9628210000009858,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported fileURLToPath(new (runtimeURL as typeof URL)(\"./preload.js\", import.meta.url)) unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported fileURLToPath(new (runtimeURL as typeof URL)(\"./preload.js\", import.meta.url)) unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.3376009999992675,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.resolve() unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.resolve() unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.7627299999985553,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.posix.resolve() unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.posix.resolve() unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.957687000001897,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.resolve(\"sub\", \"../preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.resolve(\"sub\", \"../preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.2046080000000075,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.resolve(\"\", \"\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.resolve(\"\", \"\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.8811959999984538,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.resolve(runtimeBase, \"/app/preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.resolve(runtimeBase, \"/app/preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.1409100000018952,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.resolve(\"/app\", runtimeFile) unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.resolve(\"/app\", runtimeFile) unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 2.409963999998581,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.resolve(runtimeBase, __dirname, \"preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.resolve(runtimeBase, __dirname, \"preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.61458599999969,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.resolve(__dirname, runtimeFile) unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.resolve(__dirname, runtimeFile) unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.4192589999984193,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.resolve(...parts, \"/app/preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.resolve(...parts, \"/app/preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.3718639999970037,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.resolve(\"/app\", ...parts) unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.resolve(\"/app\", ...parts) unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.954068000002735,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.resolve(42, \"/app/preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.resolve(42, \"/app/preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.465453000000707,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.resolve(\"/app\", null) unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.resolve(\"/app\", null) unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.4198829999986629,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.resolve(`/app/${runtimeFile}`) unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.resolve(`/app/${runtimeFile}`) unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.1918580000019574,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.win32.resolve(\"/app\", \"/shared/preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.win32.resolve(\"/app\", \"/shared/preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.2041229999995267,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.win32.resolve(__dirname, \"preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.win32.resolve(__dirname, \"preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.499400999997306,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported win32.resolve(\"/app\", \"preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported win32.resolve(\"/app\", \"preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.1933570000001055,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported resolve(\"/app\", \"preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported resolve(\"/app\", \"preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.060062000000471,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported __dirname + \"preload.js\" unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported __dirname + \"preload.js\" unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.6376019999988785,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps unsupported path.dirname(__filename) + \"preload.js\" unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported path.dirname(__filename) + \"preload.js\" unknown"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 1.3442770000001474,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution keeps recovered templates with invalid escapes unknown as paths",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps recovered templates with invalid escapes unknown as paths"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 0.14835999999922933,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves unresolved join syntax in path.join()",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves unresolved join syntax in path.join()"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 0.07052300000214018,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves unresolved join syntax in path.join(\"/app\", runtimeFile)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves unresolved join syntax in path.join(\"/app\", runtimeFile)"
+        },
+        {
+          "ancestorTitles": [
+            "inert JavaScript path resolution"
+          ],
+          "benchmarks": [],
+          "duration": 0.04432699999961187,
+          "failureMessages": [],
+          "fullName": "inert JavaScript path resolution preserves unresolved join syntax in path.join(...parts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves unresolved join syntax in path.join(...parts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.888928999997006,
+          "failureMessages": [],
+          "fullName": "decodes literal file URL file:///app/preload%20file.js as a filesystem expression",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "decodes literal file URL file:///app/preload%20file.js as a filesystem expression"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4645239999990736,
+          "failureMessages": [],
+          "fullName": "decodes literal file URL file:///app/%E2%9C%93.js as a filesystem expression",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "decodes literal file URL file:///app/%E2%9C%93.js as a filesystem expression"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5369940000018687,
+          "failureMessages": [],
+          "fullName": "decodes literal file URL file:///app/preload.js?query=1#fragment as a filesystem expression",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "decodes literal file URL file:///app/preload.js?query=1#fragment as a filesystem expression"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.16240599999946426,
+          "failureMessages": [],
+          "fullName": "leaves platform-dependent or invalid fileURLToPath(\"file:///app/%2Fpreload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "leaves platform-dependent or invalid fileURLToPath(\"file:///app/%2Fpreload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.056682000002183486,
+          "failureMessages": [],
+          "fullName": "leaves platform-dependent or invalid fileURLToPath(\"file:///app/%5Cpreload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "leaves platform-dependent or invalid fileURLToPath(\"file:///app/%5Cpreload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.20457700000042678,
+          "failureMessages": [],
+          "fullName": "leaves platform-dependent or invalid fileURLToPath(\"file:///app/%\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "leaves platform-dependent or invalid fileURLToPath(\"file:///app/%\") unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.1321410000018659,
+          "failureMessages": [],
+          "fullName": "leaves platform-dependent or invalid fileURLToPath(\"file:///C:/app/preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "leaves platform-dependent or invalid fileURLToPath(\"file:///C:/app/preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.28003800000078627,
+          "failureMessages": [],
+          "fullName": "leaves platform-dependent or invalid fileURLToPath(\"file://remote/share/preload.js\") unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "leaves platform-dependent or invalid fileURLToPath(\"file://remote/share/preload.js\") unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.09836100000029546,
+          "failureMessages": [],
+          "fullName": "leaves platform-dependent or invalid fileURLToPath(\"file:///app/preload.js\", options) unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "leaves platform-dependent or invalid fileURLToPath(\"file:///app/preload.js\", options) unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.07136099999843282,
+          "failureMessages": [],
+          "fullName": "leaves platform-dependent or invalid fileURLToPath(selectedUrl) unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "leaves platform-dependent or invalid fileURLToPath(selectedUrl) unknown"
+        }
+      ],
+      "endTime": 1792321715572.0984,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticPathResolution.test.ts",
+      "startTime": 1792321715379,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.566595000000234,
+          "failureMessages": [],
+          "fullName": "substitutes numeric modules, named exports and captured wrapper arguments",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "substitutes numeric modules, named exports and captured wrapper arguments"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.1742119999998977,
+          "failureMessages": [],
+          "fullName": "checks block lexical initializers against their containing function call",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "checks block lexical initializers against their containing function call"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5907379999989644,
+          "failureMessages": [],
+          "fullName": "keeps same-factory reads before initialization unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps same-factory reads before initialization unresolved"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.6669499999989057,
+          "failureMessages": [],
+          "fullName": "invalidates a bootstrap module slot mutated through an alias",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates a bootstrap module slot mutated through an alias"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.0711150000006455,
+          "failureMessages": [],
+          "fullName": "invalidates a bootstrap module slot overwritten through destructuring assignment",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates a bootstrap module slot overwritten through destructuring assignment"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.768543000000136,
+          "failureMessages": [],
+          "fullName": "invalidates a bootstrap module slot overwritten through for-of head",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates a bootstrap module slot overwritten through for-of head"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.057526999999027,
+          "failureMessages": [],
+          "fullName": "invalidates a bootstrap module slot overwritten through wrapped assignment",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates a bootstrap module slot overwritten through wrapped assignment"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2154940000000352,
+          "failureMessages": [],
+          "fullName": "invalidates visibly overwritten Electron members: const electron=require(\"electron\"); const ipc=electron.ipcMain; ipc.handle=()=>null; inspect(electron.ipcMain.handle);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates visibly overwritten Electron members: const electron=require(\"electron\"); const ipc=electron.ipcMain; ipc.handle=()=>null; inspect(electron.ipcMain.handle);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1844419999997626,
+          "failureMessages": [],
+          "fullName": "invalidates visibly overwritten Electron members: require(\"electron\").ipcMain.handle=()=>null; inspect(require(\"electron\").ipcMain.handle);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates visibly overwritten Electron members: require(\"electron\").ipcMain.handle=()=>null; inspect(require(\"electron\").ipcMain.handle);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1836390000007668,
+          "failureMessages": [],
+          "fullName": "invalidates visibly overwritten Electron members: const electron=require(\"electron\"); ({ipcMain:electron.ipcMain}=replacement); inspect(electron.ipcMain);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates visibly overwritten Electron members: const electron=require(\"electron\"); ({ipcMain:electron.ipcMain}=replacement); inspect(electron.ipcMain);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6944489999987127,
+          "failureMessages": [],
+          "fullName": "invalidates visibly overwritten Electron members: const electron=require(\"electron\"); for(electron.ipcMain of replacements){} inspect(electron.ipcMain);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates visibly overwritten Electron members: const electron=require(\"electron\"); for(electron.ipcMain of replacements){} inspect(electron.ipcMain);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3841890000003332,
+          "failureMessages": [],
+          "fullName": "does not substitute a lexical or var initializer before its source write",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not substitute a lexical or var initializer before its source write"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.671855999999025,
+          "failureMessages": [],
+          "fullName": "keeps function declarations hoisted and checks closures at invocation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps function declarations hoisted and checks closures at invocation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4615460000004532,
+          "failureMessages": [],
+          "fullName": "keeps a synchronous cross-function callback before initialization unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a synchronous cross-function callback before initialization unresolved"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.598879000001034,
+          "failureMessages": [],
+          "fullName": "uses completed activation provenance for a returned closure",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses completed activation provenance for a returned closure"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8636870000009367,
+          "failureMessages": [],
+          "fullName": "does not treat statements after a returned closure as initialized",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not treat statements after a returned closure as initialized"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.058248999999705,
+          "failureMessages": [],
+          "fullName": "does not treat statements after a returned module factory as initialized",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not treat statements after a returned module factory as initialized"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.3730559999985417,
+          "failureMessages": [],
+          "fullName": "retains the guard on a factory's completed fallthrough activation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the guard on a factory's completed fallthrough activation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 10.574282000001404,
+          "failureMessages": [],
+          "fullName": "shares completed factory control flow across repeated loads within one analysis",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "shares completed factory control flow across repeated loads within one analysis"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 72.02555199999915,
+          "failureMessages": [],
+          "fullName": "bounds predicate expansion across many conditional factory exits",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds predicate expansion across many conditional factory exits"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.6899329999996553,
+          "failureMessages": [],
+          "fullName": "does not borrow an unrelated activation's namespace read boundary",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not borrow an unrelated activation's namespace read boundary"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4584420000010141,
+          "failureMessages": [],
+          "fullName": "treats known symbolic records and loaders as truthy",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "treats known symbolic records and loaders as truthy"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4549520000000484,
+          "failureMessages": [],
+          "fullName": "retains branch predicates on conditionally selected wrapper functions",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains branch predicates on conditionally selected wrapper functions"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.104844999999841,
+          "failureMessages": [],
+          "fullName": "retains fallthrough return guards after a one-sided early return",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains fallthrough return guards after a one-sided early return"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0262619999994058,
+          "failureMessages": [],
+          "fullName": "composes fallthrough guards across successive conditional returns",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "composes fallthrough guards across successive conditional returns"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4572189999998955,
+          "failureMessages": [],
+          "fullName": "keeps unsupported while return control flow explicitly unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported while return control flow explicitly unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6349690000006376,
+          "failureMessages": [],
+          "fullName": "keeps unsupported for return control flow explicitly unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported for return control flow explicitly unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.643753000000288,
+          "failureMessages": [],
+          "fullName": "keeps unsupported try return control flow explicitly unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported try return control flow explicitly unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5356259999989561,
+          "failureMessages": [],
+          "fullName": "keeps unsupported switch return control flow explicitly unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported switch return control flow explicitly unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.554904999999053,
+          "failureMessages": [],
+          "fullName": "preserves later returns with unresolved conditions after unsupported return flow",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves later returns with unresolved conditions after unsupported return flow"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.46017699999902106,
+          "failureMessages": [],
+          "fullName": "does not treat loops without owned returns as unknown return flow",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not treat loops without owned returns as unknown return flow"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8719590000000608,
+          "failureMessages": [],
+          "fullName": "does not treat nested-function returns as wrapper return flow",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not treat nested-function returns as wrapper return flow"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8685830000013084,
+          "failureMessages": [],
+          "fullName": "marks return guards unresolved when a nested join cannot be represented",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "marks return guards unresolved when a nested join cannot be represented"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.48418300000048475,
+          "failureMessages": [],
+          "fullName": "resolves object properties when duplicate literal keys use the last value",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves object properties when duplicate literal keys use the last value"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3219659999995201,
+          "failureMessages": [],
+          "fullName": "resolves object properties when a final accessor is unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves object properties when a final accessor is unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0193959999996878,
+          "failureMessages": [],
+          "fullName": "resolves object properties when a later literal overwrites an accessor",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves object properties when a later literal overwrites an accessor"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8856390000000829,
+          "failureMessages": [],
+          "fullName": "resolves object properties when a later unknown computed key can overwrite an earlier value",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves object properties when a later unknown computed key can overwrite an earlier value"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7181449999989127,
+          "failureMessages": [],
+          "fullName": "resolves object properties when a later static key overrides an earlier unknown computed key",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves object properties when a later static key overrides an earlier unknown computed key"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0041930000006687,
+          "failureMessages": [],
+          "fullName": "resolves object properties when a known spread can override an earlier static value",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves object properties when a known spread can override an earlier static value"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.0476440000002185,
+          "failureMessages": [],
+          "fullName": "propagates branch guards through object properties and function calls",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "propagates branch guards through object properties and function calls"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4407.394031,
+          "failureMessages": [],
+          "fullName": "completes a loaded module past a very large array without stack overflow",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "completes a loaded module past a very large array without stack overflow"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.2284099999997125,
+          "failureMessages": [],
+          "fullName": "keeps async call objects truthy and unwraps only awaited results",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps async call objects truthy and unwraps only awaited results"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3338579999999638,
+          "failureMessages": [],
+          "fullName": "does not execute generator bodies to resolve initial calls",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not execute generator bodies to resolve initial calls"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.6019569999989471,
+          "failureMessages": [],
+          "fullName": "preserves captured initialization through async and forwarding returns",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves captured initialization through async and forwarding returns"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9587670000000799,
+          "failureMessages": [],
+          "fullName": "keeps opaque call-result member access explicitly unresolved: function* value(){return false;}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps opaque call-result member access explicitly unresolved: function* value(){return false;}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5240569999987201,
+          "failureMessages": [],
+          "fullName": "keeps opaque call-result member access explicitly unresolved: async function value(){return false;}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps opaque call-result member access explicitly unresolved: async function value(){return false;}"
+        }
+      ],
+      "endTime": 1792321710796.5242,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSymbolicBindings.test.ts",
+      "startTime": 1792321706239,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Vite preload dependency recovery"
+          ],
+          "benchmarks": [],
+          "duration": 3.089423999997962,
+          "failureMessages": [],
+          "fullName": "Vite preload dependency recovery decodes helper table values and preserves sparse and dynamic slots",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "decodes helper table values and preserves sparse and dynamic slots"
+        },
+        {
+          "ancestorTitles": [
+            "Vite preload dependency recovery"
+          ],
+          "benchmarks": [],
+          "duration": 0.6923449999958393,
+          "failureMessages": [],
+          "fullName": "Vite preload dependency recovery does not take dependency strings from comments or unrelated helpers",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not take dependency strings from comments or unrelated helpers"
+        },
+        {
+          "ancestorTitles": [
+            "Vite preload dependency recovery"
+          ],
+          "benchmarks": [],
+          "duration": 6.125657999997202,
+          "failureMessages": [],
+          "fullName": "Vite preload dependency recovery keeps cache escapes and explicit cache overrides unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps cache escapes and explicit cache overrides unknown"
+        }
+      ],
+      "endTime": 1792321730776.1257,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptVitePreloadDependencies.test.ts",
+      "startTime": 1792321730767,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "historical source to bundle comparison"
+          ],
+          "benchmarks": [],
+          "duration": 9.416255000000092,
+          "failureMessages": [],
+          "fullName": "historical source to bundle comparison matches an unchanged JSON source artifact by its exact content digest",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches an unchanged JSON source artifact by its exact content digest"
+        },
+        {
+          "ancestorTitles": [
+            "historical source to bundle comparison"
+          ],
+          "benchmarks": [],
+          "duration": 6.6869819999992615,
+          "failureMessages": [],
+          "fullName": "historical source to bundle comparison classifies exact, changed, absent, split, and merged mappings stably",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "classifies exact, changed, absent, split, and merged mappings stably"
+        },
+        {
+          "ancestorTitles": [
+            "historical source to bundle comparison"
+          ],
+          "benchmarks": [],
+          "duration": 5.1438710000002175,
+          "failureMessages": [],
+          "fullName": "historical source to bundle comparison keeps absence unknown when either inventory is incomplete",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps absence unknown when either inventory is incomplete"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle candidate evaluation"
+          ],
+          "benchmarks": [],
+          "duration": 3.8741269999991346,
+          "failureMessages": [],
+          "fullName": "source to bundle candidate evaluation evaluates all indexed candidates for each source file",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "evaluates all indexed candidates for each source file"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle digest changes"
+          ],
+          "benchmarks": [],
+          "duration": 2.434397999999419,
+          "failureMessages": [],
+          "fullName": "source to bundle digest changes reports a located source with a different digest as modified",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports a located source with a different digest as modified"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle Unicode path collisions"
+          ],
+          "benchmarks": [],
+          "duration": 1.8659069999994244,
+          "failureMessages": [],
+          "fullName": "source to bundle Unicode path collisions keeps colliding canonical-equivalent current paths ambiguous",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps colliding canonical-equivalent current paths ambiguous"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle Unicode path collisions"
+          ],
+          "benchmarks": [],
+          "duration": 1.915871999999581,
+          "failureMessages": [],
+          "fullName": "source to bundle Unicode path collisions prefers a raw source-map path over canonically equivalent alternatives",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "prefers a raw source-map path over canonically equivalent alternatives"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle Unicode path collisions"
+          ],
+          "benchmarks": [],
+          "duration": 1.3517060000012862,
+          "failureMessages": [],
+          "fullName": "source to bundle Unicode path collisions finds Unicode-equivalent suffixes of absolute source-map URLs",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "finds Unicode-equivalent suffixes of absolute source-map URLs"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle path syntax"
+          ],
+          "benchmarks": [],
+          "duration": 1.3521920000002865,
+          "failureMessages": [],
+          "fullName": "source to bundle path syntax preserves literal filesystem punctuation in src/modified#part.ts",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves literal filesystem punctuation in src/modified#part.ts"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle path syntax"
+          ],
+          "benchmarks": [],
+          "duration": 1.0644449999999779,
+          "failureMessages": [],
+          "fullName": "source to bundle path syntax preserves literal filesystem punctuation in src/modified?part.ts",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves literal filesystem punctuation in src/modified?part.ts"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle path syntax"
+          ],
+          "benchmarks": [],
+          "duration": 0.8372629999994388,
+          "failureMessages": [],
+          "fullName": "source to bundle path syntax preserves literal filesystem punctuation in pkg:app/src/modified#part.ts",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves literal filesystem punctuation in pkg:app/src/modified#part.ts"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle path syntax"
+          ],
+          "benchmarks": [],
+          "duration": 1.0971969999991416,
+          "failureMessages": [],
+          "fullName": "source to bundle path syntax preserves literal filesystem punctuation in pkg:app/src/modified?part.ts",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves literal filesystem punctuation in pkg:app/src/modified?part.ts"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle path syntax"
+          ],
+          "benchmarks": [],
+          "duration": 0.8544929999989108,
+          "failureMessages": [],
+          "fullName": "source to bundle path syntax preserves literal filesystem punctuation in data:/src/modified.ts",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves literal filesystem punctuation in data:/src/modified.ts"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle path syntax"
+          ],
+          "benchmarks": [],
+          "duration": 1.2192450000002282,
+          "failureMessages": [],
+          "fullName": "source to bundle path syntax still strips URL query and fragment from path https://example.test/src/modified.ts?re…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "still strips URL query and fragment from path https://example.test/src/modified.ts?re…"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle path syntax"
+          ],
+          "benchmarks": [],
+          "duration": 1.024015999999392,
+          "failureMessages": [],
+          "fullName": "source to bundle path syntax still strips URL query and fragment from module_path https://example.test/src/modified.ts?re…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "still strips URL query and fragment from module_path https://example.test/src/modified.ts?re…"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle path syntax"
+          ],
+          "benchmarks": [],
+          "duration": 0.8155679999999847,
+          "failureMessages": [],
+          "fullName": "source to bundle path syntax still strips URL query and fragment from path webpack://fixture/./src/modified.ts?rev…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "still strips URL query and fragment from path webpack://fixture/./src/modified.ts?rev…"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle path syntax"
+          ],
+          "benchmarks": [],
+          "duration": 0.7903069999993022,
+          "failureMessages": [],
+          "fullName": "source to bundle path syntax still strips URL query and fragment from module_path webpack://fixture/./src/modified.ts?rev…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "still strips URL query and fragment from module_path webpack://fixture/./src/modified.ts?rev…"
+        },
+        {
+          "ancestorTitles": [
+            "source-map resolver equivalence"
+          ],
+          "benchmarks": [],
+          "duration": 0.21646899999905145,
+          "failureMessages": [],
+          "fullName": "source-map resolver equivalence matches TraceMap for sourceRoot https://cdn.example/src/",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches TraceMap for sourceRoot https://cdn.example/src/"
+        },
+        {
+          "ancestorTitles": [
+            "source-map resolver equivalence"
+          ],
+          "benchmarks": [],
+          "duration": 0.07289400000081514,
+          "failureMessages": [],
+          "fullName": "source-map resolver equivalence matches TraceMap for sourceRoot https://cdn.example/src//",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches TraceMap for sourceRoot https://cdn.example/src//"
+        },
+        {
+          "ancestorTitles": [
+            "source-map resolver equivalence"
+          ],
+          "benchmarks": [],
+          "duration": 0.05963300000075833,
+          "failureMessages": [],
+          "fullName": "source-map resolver equivalence matches TraceMap for sourceRoot webpack://",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches TraceMap for sourceRoot webpack://"
+        },
+        {
+          "ancestorTitles": [
+            "source to bundle complete metadata"
+          ],
+          "benchmarks": [],
+          "duration": 3.1163780000006227,
+          "failureMessages": [],
+          "fullName": "source to bundle complete metadata accepts long source metadata and all reported limitations",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accepts long source metadata and all reported limitations"
+        }
+      ],
+      "endTime": 1792321710411.1165,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/sourceToBundleComparison.test.ts",
+      "startTime": 1792321710366,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9686390000060783,
+          "failureMessages": [],
+          "fullName": "preserves line terminators, blank lines and literal display text",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves line terminators, blank lines and literal display text"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.1427460000049905,
+          "failureMessages": [],
+          "fullName": "does not invent a trailing line or normalize \"\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invent a trailing line or normalize \"\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.05771999999706168,
+          "failureMessages": [],
+          "fullName": "does not invent a trailing line or normalize \"\\n\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invent a trailing line or normalize \"\\n\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.0409769999969285,
+          "failureMessages": [],
+          "fullName": "does not invent a trailing line or normalize \"line\\n\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invent a trailing line or normalize \"line\\n\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.033914999999979045,
+          "failureMessages": [],
+          "fullName": "does not invent a trailing line or normalize \"line\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invent a trailing line or normalize \"line\""
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.15330799999355804,
+          "failureMessages": [],
+          "fullName": "returns an empty covered window beyond the last line without unsafe arithmetic",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "returns an empty covered window beyond the last line without unsafe arithmetic"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.0888249999989057,
+          "failureMessages": [],
+          "fullName": "does not replace source UTF-16 code units when copying a partial window",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not replace source UTF-16 code units when copying a partial window"
+        }
+      ],
+      "endTime": 1792321734713.1533,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/signals/annotationTextWindow.test.ts",
+      "startTime": 1792321734712,
+      "status": "passed"
+    }
+  ],
+  "version": 1
+}

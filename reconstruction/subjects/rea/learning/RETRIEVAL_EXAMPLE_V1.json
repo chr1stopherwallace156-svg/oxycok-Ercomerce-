@@ -1,0 +1,226 @@
+{
+  "authority": "NONE",
+  "fact_basis": "CALLER_DECLARED",
+  "candidates": [
+    {
+      "id": "REA-LRN-001",
+      "state": "NEEDS_CONTEXT",
+      "missing": [
+        "linux-worker",
+        "process-ownership"
+      ],
+      "exclusions_triggered": [],
+      "mechanism": "host-process-identity-unavailable",
+      "positive_method": "Preflight identity visibility in the actual worker context; retain typed unavailability and block ownership-dependent execution without bypassing it.",
+      "consumer_effect": "Worker readiness must become blocked or context-limited when its own ownership evidence is inaccessible.",
+      "evidence_refs": [
+        "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+        "reconstruction/subjects/rea/learning/evidence/74a00222c17d03afd8c57772a0513387cb2e785903aa292075a3114ea677ea54.json",
+        "reconstruction/subjects/rea/learning/evidence/3c42fab9753e52a9ca4d9bff198c1e5f736adf9cc5cc3671c1938053418b0b83.json",
+        "docs/rea/evidence/REA_HOST_FAILURE_V2.json"
+      ],
+      "test_obligations": [
+        "Run same source test on an ordinary Linux host and this restricted worker.",
+        "Keep a readable-host positive control and unverifiable-owner negative control.",
+        "Do not infer global REA defect from this host result."
+      ],
+      "authority": "NONE"
+    },
+    {
+      "id": "REA-LRN-002",
+      "state": "REVIEW_REQUIRED",
+      "missing": [],
+      "exclusions_triggered": [],
+      "mechanism": "primary-error-and-cleanup-custody",
+      "positive_method": "Model failure and cleanup as separate owned facts and preserve both across projection.",
+      "consumer_effect": "User-visible primary failure returns after confirmed cleanup; unresolved resources remain blockers.",
+      "evidence_refs": [
+        "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+        "reconstruction/subjects/rea/learning/evidence/2abd37f944ae0e72379f11b4bf8df1a56ac6eb4037092781f9e63728531ac213.json"
+      ],
+      "test_obligations": [
+        "Nested owners released in both orders",
+        "Unbound cleanup remains incomplete",
+        "Primary partial output and history survive"
+      ],
+      "authority": "NONE"
+    },
+    {
+      "id": "REA-LRN-003",
+      "state": "NEEDS_CONTEXT",
+      "missing": [
+        "completion-ledger",
+        "derived-summary"
+      ],
+      "exclusions_triggered": [],
+      "mechanism": "derived-summary-integrity",
+      "positive_method": "Recompute derived summaries and reject contradictory serialized status fields.",
+      "consumer_effect": "A forged complete field is rejected; nonpass claims keep readiness open.",
+      "evidence_refs": [
+        "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+        "reconstruction/subjects/rea/learning/evidence/2abd37f944ae0e72379f11b4bf8df1a56ac6eb4037092781f9e63728531ac213.json"
+      ],
+      "test_obligations": [
+        "Tamper summary",
+        "Duplicate claims/evidence IDs",
+        "Valid all-pass positive control"
+      ],
+      "authority": "NONE"
+    },
+    {
+      "id": "REA-LRN-004",
+      "state": "NEEDS_CONTEXT",
+      "missing": [
+        "evidence-import",
+        "shared-state"
+      ],
+      "exclusions_triggered": [],
+      "mechanism": "immutable-evidence-and-atomic-import",
+      "positive_method": "Authenticate identity at ingestion, seal retained data, and stage an import before changing durable consumer state.",
+      "consumer_effect": "Conflicting input must not partially change the prior ledger.",
+      "evidence_refs": [
+        "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+        "reconstruction/subjects/rea/learning/evidence/2abd37f944ae0e72379f11b4bf8df1a56ac6eb4037092781f9e63728531ac213.json"
+      ],
+      "test_obligations": [
+        "Good duplicate remains idempotent",
+        "Tampered content rejected",
+        "No partial state change on failed import"
+      ],
+      "authority": "NONE"
+    },
+    {
+      "id": "REA-LRN-005",
+      "state": "NEEDS_CONTEXT",
+      "missing": [
+        "evidence-resolution",
+        "unknown-state"
+      ],
+      "exclusions_triggered": [],
+      "mechanism": "revisioned-unknowns",
+      "positive_method": "Preserve uncertainty as revisioned first-class state with resolution evidence.",
+      "consumer_effect": "An unresolved or contradicted question continues to restrict dependent conclusions.",
+      "evidence_refs": [
+        "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+        "reconstruction/subjects/rea/learning/evidence/4bfed63f7e7d9a95f26d3bf9f62a5a16769c5b9c29a314ee67f57744a375b350.json"
+      ],
+      "test_obligations": [
+        "Conflicting revision rejected",
+        "Insufficient resolution authority cannot close unknown",
+        "Retain prior revisions on import"
+      ],
+      "authority": "NONE"
+    },
+    {
+      "id": "REA-LRN-006",
+      "state": "NEEDS_CONTEXT",
+      "missing": [
+        "authority-boundary",
+        "reconstruction-proof"
+      ],
+      "exclusions_triggered": [],
+      "mechanism": "authority-is-not-a-total-order",
+      "positive_method": "Compare evidence authority against the specific obligation, not a single stronger/weaker ranking.",
+      "consumer_effect": "An incompatible proof leaves the obligation open.",
+      "evidence_refs": [
+        "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+        "reconstruction/subjects/rea/learning/evidence/2abd37f944ae0e72379f11b4bf8df1a56ac6eb4037092781f9e63728531ac213.json"
+      ],
+      "test_obligations": [
+        "Unit proof rejected for native ABI",
+        "Compatible native ABI control admitted",
+        "Missing original evidence cannot be supplied by reconstruction evidence"
+      ],
+      "authority": "NONE"
+    },
+    {
+      "id": "REA-LRN-007",
+      "state": "NEEDS_CONTEXT",
+      "missing": [
+        "coverage",
+        "obligation-closure"
+      ],
+      "exclusions_triggered": [],
+      "mechanism": "explicit-obligation-denominator",
+      "positive_method": "Keep expected obligations, actual evidence and dependency blockers distinct; make missing obligations visible.",
+      "consumer_effect": "Unsupported/contradictory obligations or incomplete generation prevent a blanket closure claim.",
+      "evidence_refs": [
+        "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json",
+        "reconstruction/subjects/rea/learning/evidence/4bfed63f7e7d9a95f26d3bf9f62a5a16769c5b9c29a314ee67f57744a375b350.json"
+      ],
+      "test_obligations": [
+        "Empty candidate negative",
+        "Orphan manifest binding",
+        "Dependency blocker propagation",
+        "Valid bounded closure control"
+      ],
+      "authority": "NONE"
+    },
+    {
+      "id": "REA-LRN-008",
+      "state": "NEEDS_CONTEXT",
+      "missing": [
+        "multi-target-setup",
+        "partial-failure"
+      ],
+      "exclusions_triggered": [],
+      "mechanism": "recovery-does-not-erase-earlier-outcomes",
+      "positive_method": "Continue independent safe work while retaining each failed stage and recovery instruction.",
+      "consumer_effect": "Mixed setup returns needs_human while retaining successful actions and failed destinations.",
+      "evidence_refs": [
+        "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json"
+      ],
+      "test_obligations": [
+        "One failure followed by independent success",
+        "Rollback failure retains backup location",
+        "Unsupported runtime performs no action"
+      ],
+      "authority": "NONE"
+    },
+    {
+      "id": "REA-LRN-009",
+      "state": "NEEDS_CONTEXT",
+      "missing": [
+        "diagnostic-export",
+        "sensitive-values"
+      ],
+      "exclusions_triggered": [],
+      "mechanism": "safe-projection-is-not-raw-evidence-deletion",
+      "positive_method": "Keep safe projections separate from protected raw custody, preserving enough typed information for recovery.",
+      "consumer_effect": "Export can hide a marked literal without losing cleanup requirements or retryability.",
+      "evidence_refs": [
+        "reconstruction/subjects/rea/learning/evidence/f1a44f6628187f4bbd968221d4658ddc02bdf01d12c99fef436de3c772b9a8eb.json"
+      ],
+      "test_obligations": [
+        "Sensitive path excluded",
+        "Cleanup ownership retained",
+        "Malformed and unsupported remain distinct"
+      ],
+      "authority": "NONE"
+    },
+    {
+      "id": "REA-LRN-010",
+      "state": "NEEDS_CONTEXT",
+      "missing": [
+        "completeness-claim",
+        "repository-analysis"
+      ],
+      "exclusions_triggered": [],
+      "mechanism": "whole-repository-semantic-coverage-open",
+      "positive_method": "Carry every source unit in a denominator and leave unreviewed mechanisms open rather than filling gaps from names.",
+      "consumer_effect": "A repository-wide readiness claim stays open even when selected suites pass.",
+      "evidence_refs": [
+        "reconstruction/subjects/rea/learning/evidence/1ebee8f0e6e4341ebb36fbcb0c511ec6aae1cb0dcab838b5e22497cfc6f14ae2.json",
+        "reconstruction/subjects/rea/learning/evidence/4bfed63f7e7d9a95f26d3bf9f62a5a16769c5b9c29a314ee67f57744a375b350.json"
+      ],
+      "test_obligations": [
+        "Delete one surface from inventory and require tree mismatch",
+        "Keep nested scopes open",
+        "Separate skipped tests and unexecuted projects"
+      ],
+      "authority": "NONE"
+    }
+  ],
+  "unknown_facts": [],
+  "qualification": "NOT_ESTABLISHED"
+}

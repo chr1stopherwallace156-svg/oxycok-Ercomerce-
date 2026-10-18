@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "role": "IMPLEMENTER_REGRESSIONS_NOT_INDEPENDENT_QUALIFICATION",
+  "suites": [
+    {
+      "suite": "knowledge",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/knowledge",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_corrupted_source_is_blocked (test_knowledge.KnowledgeTests.test_corrupted_source_is_blocked) ... ok\ntest_counterfactual_retrieval_changes_semantic_context (test_knowledge.KnowledgeTests.test_counterfactual_retrieval_changes_semantic_context) ... ok\ntest_duplicate_json_key_is_blocked (test_knowledge.KnowledgeTests.test_duplicate_json_key_is_blocked) ... ok\ntest_duplicate_lesson_id_is_blocked (test_knowledge.KnowledgeTests.test_duplicate_lesson_id_is_blocked) ... ok\ntest_empty_query_is_blocked (test_knowledge.KnowledgeTests.test_empty_query_is_blocked) ... ok\ntest_forged_target_qualification_is_blocked (test_knowledge.KnowledgeTests.test_forged_target_qualification_is_blocked) ... ok\ntest_hard_negative_overrides_positive (test_knowledge.KnowledgeTests.test_hard_negative_overrides_positive) ... ok\ntest_missing_context_stays_unknown (test_knowledge.KnowledgeTests.test_missing_context_stays_unknown) ... ok\ntest_open_domain_does_not_claim_universal_proof (test_knowledge.KnowledgeTests.test_open_domain_does_not_claim_universal_proof) ... ok\ntest_positive_mechanism_with_traceable_sources (test_knowledge.KnowledgeTests.test_positive_mechanism_with_traceable_sources) ... ok\ntest_private_pins_and_public_snapshot_have_distinct_validation (test_knowledge.KnowledgeTests.test_private_pins_and_public_snapshot_have_distinct_validation) ... ok\ntest_private_source_bytes_are_not_accepted (test_knowledge.KnowledgeTests.test_private_source_bytes_are_not_accepted) ... ok\ntest_separate_process_replay_is_deterministic_and_read_only (test_knowledge.KnowledgeTests.test_separate_process_replay_is_deterministic_and_read_only) ... ok\ntest_snapshot_path_escape_is_blocked (test_knowledge.KnowledgeTests.test_snapshot_path_escape_is_blocked) ... ok\ntest_source_blob_identity_is_checked_even_if_sha256_updated (test_knowledge.KnowledgeTests.test_source_blob_identity_is_checked_even_if_sha256_updated) ... ok\ntest_systemic_repair_excludes_independently_bounded_local_bug (test_knowledge.KnowledgeTests.test_systemic_repair_excludes_independently_bounded_local_bug) ... ok\ntest_unknown_source_is_blocked (test_knowledge.KnowledgeTests.test_unknown_source_is_blocked) ... ok\ntest_unrelated_facts_do_not_change_applicability (test_knowledge.KnowledgeTests.test_unrelated_facts_do_not_change_applicability) ... ok\ntest_vacuous_applicability_is_blocked (test_knowledge.KnowledgeTests.test_vacuous_applicability_is_blocked) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 0.118s\n\nOK\n"
+    },
+    {
+      "suite": "transfer",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/transfer",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_authority_escalation_rejected (test_runtimes.RuntimeTests.test_authority_escalation_rejected) ... ok\ntest_each_seed_builds_a_scoped_brief (test_runtimes.RuntimeTests.test_each_seed_builds_a_scoped_brief) ... ok\ntest_evidence_preserves_failure_success_exclusions_and_relations (test_runtimes.RuntimeTests.test_evidence_preserves_failure_success_exclusions_and_relations) ... ok\ntest_existing_output_cannot_be_overwritten (test_runtimes.RuntimeTests.test_existing_output_cannot_be_overwritten) ... ok\ntest_generated_runtime_rejects_malformed_facts (test_runtimes.RuntimeTests.test_generated_runtime_rejects_malformed_facts) ... ok\ntest_hash_drift_rejected (test_runtimes.RuntimeTests.test_hash_drift_rejected) ... ok\ntest_independence_of_created_artifact_hashes (test_runtimes.RuntimeTests.test_independence_of_created_artifact_hashes) ... ok\ntest_legal_clearance_cannot_be_inferred (test_runtimes.RuntimeTests.test_legal_clearance_cannot_be_inferred) ... ok\ntest_named_source_repository_write_is_blocked (test_runtimes.RuntimeTests.test_named_source_repository_write_is_blocked) ... ok\ntest_no_match_does_not_produce_empty_success_project (test_runtimes.RuntimeTests.test_no_match_does_not_produce_empty_success_project) ... ok\ntest_oversized_or_duplicate_key_input_rejected (test_runtimes.RuntimeTests.test_oversized_or_duplicate_key_input_rejected) ... ok\ntest_raw_code_field_rejected_even_if_hash_recomputed (test_runtimes.RuntimeTests.test_raw_code_field_rejected_even_if_hash_recomputed) ... ok\ntest_separate_processes_construct_without_knowledge_checkout (test_runtimes.RuntimeTests.test_separate_processes_construct_without_knowledge_checkout) ... ok\ntest_source_strings_are_never_executed (test_runtimes.RuntimeTests.test_source_strings_are_never_executed) ... ok\ntest_unknown_relation_or_unscoped_equivalence_rejected (test_runtimes.RuntimeTests.test_unknown_relation_or_unscoped_equivalence_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.293s\n\nOK\n"
+    },
+    {
+      "suite": "mission",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/mission",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_bounded_end_to_end_preserves_target_and_learning (test_runtime.MissionTests.test_bounded_end_to_end_preserves_target_and_learning) ... ok\ntest_broken_control_fails_behavioral_gate (test_runtime.MissionTests.test_broken_control_fails_behavioral_gate) ... ok\ntest_changed_subject_is_blocked_and_failure_is_not_rewritten (test_runtime.MissionTests.test_changed_subject_is_blocked_and_failure_is_not_rewritten) ... ok\ntest_elektron_identifiers_preserve_full_identity_with_valid_namespace (test_runtime.MissionTests.test_elektron_identifiers_preserve_full_identity_with_valid_namespace) ... ok\ntest_empty_or_unsupported_target_does_not_pass (test_runtime.MissionTests.test_empty_or_unsupported_target_does_not_pass) ... ok\ntest_fresh_process_cli_resume (test_runtime.MissionTests.test_fresh_process_cli_resume) ... ok\ntest_graph_connects_all_mission_artifacts (test_runtime.MissionTests.test_graph_connects_all_mission_artifacts) ... ok\ntest_malformed_rea_reply_rejected (test_runtime.MissionTests.test_malformed_rea_reply_rejected) ... ok\ntest_missing_rea_provider_blocks_without_success_fallback (test_runtime.MissionTests.test_missing_rea_provider_blocks_without_success_fallback) ... ok\ntest_observation_corruption_blocks_abstraction (test_runtime.MissionTests.test_observation_corruption_blocks_abstraction) ... ok\ntest_output_budget_and_timeout_are_not_green (test_runtime.MissionTests.test_output_budget_and_timeout_are_not_green) ... ok\ntest_partial_constructor_output_is_preserved_and_blocked (test_runtime.MissionTests.test_partial_constructor_output_is_preserved_and_blocked) ... ok\ntest_provider_failure_retains_original_diagnostic (test_runtime.MissionTests.test_provider_failure_retains_original_diagnostic) ... ok\ntest_resume_and_duplicate_start_keep_identity (test_runtime.MissionTests.test_resume_and_duplicate_start_keep_identity) ... ok\ntest_runtime_subject_change_blocks_unfinished_mission (test_runtime.MissionTests.test_runtime_subject_change_blocks_unfinished_mission) ... ok\ntest_selected_elektron_core_cannot_silently_fall_back_when_missing (test_runtime.MissionTests.test_selected_elektron_core_cannot_silently_fall_back_when_missing) ... ok\ntest_state_cannot_be_written_inside_target_via_cli (test_runtime.MissionTests.test_state_cannot_be_written_inside_target_via_cli) ... ok\ntest_static_inspection_never_executes_target (test_runtime.MissionTests.test_static_inspection_never_executes_target) ... ok\ntest_symlink_target_entry_is_rejected (test_runtime.MissionTests.test_symlink_target_entry_is_rejected) ... ok\ntest_two_workers_commit_distinct_transitions (test_runtime.MissionTests.test_two_workers_commit_distinct_transitions) ... ok\ntest_unknown_evidence_changes_generated_consumer_result (test_runtime.MissionTests.test_unknown_evidence_changes_generated_consumer_result) ... ok\ntest_valid_constructor_orphan_is_recovered (test_runtime.MissionTests.test_valid_constructor_orphan_is_recovered) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 1.745s\n\nOK\n"
+    },
+    {
+      "suite": "reconstruction",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/reconstruction",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_changed_census_invalidates_existing_campaign (test_campaign.CampaignTests.test_changed_census_invalidates_existing_campaign) ... ok\ntest_cli_never_overwrites_existing_campaign (test_campaign.CampaignTests.test_cli_never_overwrites_existing_campaign) ... ok\ntest_complete_worker_records_can_progress_without_claiming_qualification (test_campaign.CampaignTests.test_complete_worker_records_can_progress_without_claiming_qualification) ... ok\ntest_domain_is_a_parameter_and_enumeration_is_not_understanding (test_campaign.CampaignTests.test_domain_is_a_parameter_and_enumeration_is_not_understanding) ... ok\ntest_duplicate_paths_are_rejected (test_campaign.CampaignTests.test_duplicate_paths_are_rejected) ... ok\ntest_entry_type_cannot_hide_a_file_as_a_directory (test_campaign.CampaignTests.test_entry_type_cannot_hide_a_file_as_a_directory) ... ok\ntest_exclusion_does_not_become_full_understanding (test_campaign.CampaignTests.test_exclusion_does_not_become_full_understanding) ... ok\ntest_file_review_cannot_borrow_another_blob (test_campaign.CampaignTests.test_file_review_cannot_borrow_another_blob) ... ok\ntest_open_audit_cli_returns_nonzero_instead_of_false_green (test_campaign.CampaignTests.test_open_audit_cli_returns_nonzero_instead_of_false_green) ... ok\ntest_originality_is_not_inferred_from_implementation_label (test_campaign.CampaignTests.test_originality_is_not_inferred_from_implementation_label) ... ok\ntest_positive_negative_learning_is_required (test_campaign.CampaignTests.test_positive_negative_learning_is_required) ... ok\ntest_qualified_label_does_not_replace_evidence (test_campaign.CampaignTests.test_qualified_label_does_not_replace_evidence) ... ok\ntest_submodule_pin_is_not_its_contents (test_campaign.CampaignTests.test_submodule_pin_is_not_its_contents) ... ok\ntest_truncated_tree_cannot_be_whole_repository (test_campaign.CampaignTests.test_truncated_tree_cannot_be_whole_repository) ... ok\ntest_unknown_graph_owner_blocks (test_campaign.CampaignTests.test_unknown_graph_owner_blocks) ... ok\ntest_custody_path_escape_is_rejected (test_learning.LearningTests.test_custody_path_escape_is_rejected) ... ok\ntest_dropped_surface_cannot_reduce_denominator (test_learning.LearningTests.test_dropped_surface_cannot_reduce_denominator) ... ok\ntest_empty_corpus_is_not_vacuously_valid (test_learning.LearningTests.test_empty_corpus_is_not_vacuously_valid) ... ok\ntest_evidence_is_create_only_and_corruption_is_not_repaired_in_place (test_learning.LearningTests.test_evidence_is_create_only_and_corruption_is_not_repaired_in_place) ... ok\ntest_failure_without_hard_negative_is_rejected (test_learning.LearningTests.test_failure_without_hard_negative_is_rejected) ... ok\ntest_hard_negative_excludes_otherwise_matching_method (test_learning.LearningTests.test_hard_negative_excludes_otherwise_matching_method) ... ok\ntest_immutable_git_scan_ignores_dirty_worktree (test_learning.LearningTests.test_immutable_git_scan_ignores_dirty_worktree) ... ok\ntest_missing_context_is_not_pass (test_learning.LearningTests.test_missing_context_is_not_pass) ... ok\ntest_positive_match_changes_consumer_brief (test_learning.LearningTests.test_positive_match_changes_consumer_brief) ... ok\ntest_presence_cannot_close_learning (test_learning.LearningTests.test_presence_cannot_close_learning) ... ok\ntest_preserved_campaign_custody (test_learning.LearningTests.test_preserved_campaign_custody) ... ok\ntest_source_pass_cannot_promote_destination_record (test_learning.LearningTests.test_source_pass_cannot_promote_destination_record) ... ok\ntest_stale_source_pin_is_rejected (test_learning.LearningTests.test_stale_source_pin_is_rejected) ... ok\ntest_whole_record_set_validates_but_remains_open (test_learning.LearningTests.test_whole_record_set_validates_but_remains_open) ... ok\n\n----------------------------------------------------------------------\nRan 29 tests in 0.579s\n\nOK\n"
+    },
+    {
+      "suite": "elektron_bridge",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/elektron_bridge",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_bounded_analysis_copy_cannot_claim_full_transfer (test_bridge.BridgeTests.test_bounded_analysis_copy_cannot_claim_full_transfer) ... ok\ntest_budget_is_not_silent_partial_transfer (test_bridge.BridgeTests.test_budget_is_not_silent_partial_transfer) ... ok\ntest_changed_blob_invalidates_snapshot (test_bridge.BridgeTests.test_changed_blob_invalidates_snapshot) ... ok\ntest_dead_letter_object_is_not_success (test_bridge.BridgeTests.test_dead_letter_object_is_not_success) ... ok\ntest_exam_configuration_escape_reuses_existing_failure_family (test_bridge.BridgeTests.test_exam_configuration_escape_reuses_existing_failure_family) ... ok\ntest_executable_mode_drift_invalidates_snapshot (test_bridge.BridgeTests.test_executable_mode_drift_invalidates_snapshot) ... ok\ntest_existing_destination_never_overwritten (test_bridge.BridgeTests.test_existing_destination_never_overwritten) ... ok\ntest_full_immutable_snapshot_includes_hidden_files_and_preserves_dirty_source (test_bridge.BridgeTests.test_full_immutable_snapshot_includes_hidden_files_and_preserves_dirty_source) ... ok\ntest_independent_review_boundary_is_not_mislabeled_qualification (test_bridge.BridgeTests.test_independent_review_boundary_is_not_mislabeled_qualification) ... ok\ntest_known_evidence_nonconsumption_is_not_hidden_by_presence (test_bridge.BridgeTests.test_known_evidence_nonconsumption_is_not_hidden_by_presence) ... ok\ntest_known_subject_failure_blocks_a_different_domain (test_bridge.BridgeTests.test_known_subject_failure_blocks_a_different_domain) ... ok\ntest_missing_failure_memory_never_becomes_empty_green (test_bridge.BridgeTests.test_missing_failure_memory_never_becomes_empty_green) ... ok\ntest_mutated_manifest_cannot_hide_deleted_file_from_full_tree (test_bridge.BridgeTests.test_mutated_manifest_cannot_hide_deleted_file_from_full_tree) ... ok\ntest_negative_case_does_not_activate_systemic_repair_escalation (test_bridge.BridgeTests.test_negative_case_does_not_activate_systemic_repair_escalation) ... ok\ntest_repeated_family_requires_surface_but_not_a_fixture_answer (test_bridge.BridgeTests.test_repeated_family_requires_surface_but_not_a_fixture_answer) ... ok\ntest_source_overlap_is_rejected_before_mutation (test_bridge.BridgeTests.test_source_overlap_is_rejected_before_mutation) ... ok\ntest_source_symlink_is_explicitly_blocked (test_bridge.BridgeTests.test_source_symlink_is_explicitly_blocked) ... ok\ntest_undeclared_file_invalidates_snapshot (test_bridge.BridgeTests.test_undeclared_file_invalidates_snapshot) ... ok\ntest_unknown_facts_are_not_called_a_pass (test_bridge.BridgeTests.test_unknown_facts_are_not_called_a_pass) ... ok\ntest_bounded_analysis_requires_explicit_saved_configuration (test_frontdoor.FrontdoorTests.test_bounded_analysis_requires_explicit_saved_configuration) ... ok\ntest_caller_cannot_silently_remove_core_selection (test_frontdoor.FrontdoorTests.test_caller_cannot_silently_remove_core_selection) ... ok\ntest_incomplete_config_is_blocked (test_frontdoor.FrontdoorTests.test_incomplete_config_is_blocked) ... ok\ntest_missing_config_is_not_standalone_fallback (test_frontdoor.FrontdoorTests.test_missing_config_is_not_standalone_fallback) ... ok\ntest_standard_start_always_selects_configured_core (test_frontdoor.FrontdoorTests.test_standard_start_always_selects_configured_core) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 0.469s\n\nOK\n"
+    }
+  ],
+  "source_execution_evidence": "reconstruction/subjects/rea/learning/AUDIT_V1.json",
+  "custody": "reconstruction/subjects/rea/learning/CUSTODY_V1.json"
+}

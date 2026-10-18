@@ -1,0 +1,159 @@
+{
+  "numFailedTestSuites": 2,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 4,
+  "numPassedTests": 8,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 6,
+  "numTotalTests": 9,
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1792321795476,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Linux process start identities"
+          ],
+          "benchmarks": [],
+          "duration": 15.457075000000032,
+          "failureMessages": [
+            "AssertionError: expected { state: 'unavailable', …(1) } to match object { state: 'readable', …(1) }\n(1 matching property omitted from actual)\n    at Proxy.<anonymous> (file:///workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/node_modules/vitest/dist/chunks/index.C4tKZ0yW.js:2050:10)\n    at Proxy.<anonymous> (file:///workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/node_modules/vitest/dist/chunks/index.C4tKZ0yW.js:1944:14)\n    at Proxy.methodWrapper (file:///workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/node_modules/chai/index.js:1737:25)\n    at /workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/process/ProcessOwnership.identity.test.ts:28:50\n    at file:///workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/node_modules/vitest/dist/chunks/run.BTlFXlnv.js:2783:20"
+          ],
+          "fullName": "Linux process start identities reads Linux process start identities from proc stat",
+          "meta": {},
+          "status": "failed",
+          "tags": [],
+          "title": "reads Linux process start identities from proc stat"
+        },
+        {
+          "ancestorTitles": [
+            "Linux process start identities"
+          ],
+          "benchmarks": [],
+          "duration": 0.6664329999999836,
+          "failureMessages": [],
+          "fullName": "Linux process start identities parses stat start time after a command name containing parentheses",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "parses stat start time after a command name containing parentheses"
+        },
+        {
+          "ancestorTitles": [
+            "capture-local process ownership"
+          ],
+          "benchmarks": [],
+          "duration": 3.1155899999999974,
+          "failureMessages": [],
+          "fullName": "capture-local process ownership validates and cleans an exact-token owner without a capture baseline",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "validates and cleans an exact-token owner without a capture baseline"
+        },
+        {
+          "ancestorTitles": [
+            "capture-local process ownership"
+          ],
+          "benchmarks": [],
+          "duration": 122.55855600000007,
+          "failureMessages": [],
+          "fullName": "capture-local process ownership cleans verified owners and records unrelated opaque candidates as unverified",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "cleans verified owners and records unrelated opaque candidates as unverified"
+        },
+        {
+          "ancestorTitles": [
+            "capture-local process identity baselines"
+          ],
+          "benchmarks": [],
+          "duration": 1.2758170000000746,
+          "failureMessages": [],
+          "fullName": "capture-local process identity baselines checks reused and unknown PIDs while skipping unchanged identities",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "checks reused and unknown PIDs while skipping unchanged identities"
+        },
+        {
+          "ancestorTitles": [
+            "capture-local process identity baselines"
+          ],
+          "benchmarks": [],
+          "duration": 0.6382610000000568,
+          "failureMessages": [],
+          "fullName": "capture-local process identity baselines revalidates fallback environment owners before signaling after PID reuse",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "revalidates fallback environment owners before signaling after PID reuse"
+        },
+        {
+          "ancestorTitles": [
+            "process identity during token validation"
+          ],
+          "benchmarks": [],
+          "duration": 0.6897869999999102,
+          "failureMessages": [],
+          "fullName": "process identity during token validation revalidates identity after the final environment token read",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "revalidates identity after the final environment token read"
+        },
+        {
+          "ancestorTitles": [
+            "process identity during token validation"
+          ],
+          "benchmarks": [],
+          "duration": 1.0541259999999966,
+          "failureMessages": [],
+          "fullName": "process identity during token validation fails closed when candidate PIDs change identity during token reading",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "fails closed when candidate PIDs change identity during token reading"
+        },
+        {
+          "ancestorTitles": [
+            "process identity before signaling"
+          ],
+          "benchmarks": [],
+          "duration": 0.7726689999999508,
+          "failureMessages": [],
+          "fullName": "process identity before signaling refuses to signal when PID identity changes after token validation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "refuses to signal when PID identity changes after token validation"
+        }
+      ],
+      "endTime": 1792321796205.7727,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/process/ProcessOwnership.identity.test.ts",
+      "startTime": 1792321796059,
+      "status": "failed"
+    }
+  ]
+}

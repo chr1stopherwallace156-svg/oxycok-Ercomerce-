@@ -1,0 +1,4125 @@
+{
+  "kind": "SOURCE_RUNNER_FILE_RESULTS",
+  "results": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 4.371664000002056,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through this",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through this"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.787415000002511,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through this property",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through this property"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 3.0035139999999956,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through private field",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through private field"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 4.662391999998363,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through super getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through super getter"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 3.5928029999995488,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through saved receiver alias",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through saved receiver alias"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 3.146716999999626,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through nested owner",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through nested owner"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 3.1489609999989625,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through array element",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through array element"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 4.245151999999507,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through array element after a hole",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through array element after a hole"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.3878030000014405,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through mixed object and array owners",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through mixed object and array owners"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.649844999999914,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through assigned owner",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through assigned owner"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.642385999999533,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through saved array receiver alias",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through saved array receiver alias"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.541290000001027,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through old receiver captured inside its replacement initializer",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through old receiver captured inside its replacement initializer"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.1294139999990875,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through array receiver after an unknown spread",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through array receiver after an unknown spread"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 3.026230999999825,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through saved receiver before its array alias is reassigned",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through saved receiver before its array alias is reassigned"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.2077030000000377,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through inherited receiver field",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through inherited receiver field"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.0449979999975767,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through super receiver field",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through super receiver field"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 3.511904000002687,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through static private field",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through static private field"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 1.9928840000029595,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through inherited field",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through inherited field"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 3.2512519999982032,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through class getter chain",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through class getter chain"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 4.680509000001621,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through inherited field shadows prototype getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through inherited field shadows prototype getter"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.624453000000358,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through alternative inherited fields",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through alternative inherited fields"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.5729109999992943,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through alternative inherited getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through alternative inherited getter"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 1.9692869999998948,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through repeated class receiver",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through repeated class receiver"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 3.046085000001767,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) does not report a stale literal through getter chain",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not report a stale literal through getter chain"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 1.6722050000025774,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for duplicate field",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for duplicate field"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.3712109999978566,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for super excludes instance fields",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for super excludes instance fields"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.0277920000007725,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for fresh return",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for fresh return"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 1.9171920000007958,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for read without write",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for read without write"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 6.324780999999348,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for unrelated sibling",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for unrelated sibling"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 4.348829999998998,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for array receiver read without write",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for array receiver read without write"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 1.7211110000025656,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for assigned receiver read without write",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for assigned receiver read without write"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.8930829999990237,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for unrelated array receiver property",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for unrelated array receiver property"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.989335000002029,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for unrelated array element",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for unrelated array element"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 6.171327000000019,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for array replacement after a receiver was captured",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for array replacement after a receiver was captured"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 3.070944999999483,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for known array prefix before a spread receiver",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for known array prefix before a spread receiver"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.4734409999982745,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for outer binding shadowed by an assigned receiver",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for outer binding shadowed by an assigned receiver"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.581865000000107,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for old object before an unconditional receiver assignment",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for old object before an unconditional receiver assignment"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.9417649999995774,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for unmodified old receiver captured inside its replacement initializer",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for unmodified old receiver captured inside its replacement initializer"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 1.9863919999988866,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for replace getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for replace getter"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 1.6224610000026587,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for delete getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for delete getter"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 1.6307450000022072,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) preserves a known literal for ordinary method read",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a known literal for ordinary method read"
+        },
+        {
+          "ancestorTitles": [
+            "getter receiver mutation aliases (#1665, #2654)"
+          ],
+          "benchmarks": [],
+          "duration": 2.0647470000003523,
+          "failureMessages": [],
+          "fullName": "getter receiver mutation aliases (#1665, #2654) terminates recursive receiver getters",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "terminates recursive receiver getters"
+        }
+      ],
+      "endTime": 1792321721308.0647,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticAnalysis.getter_receivers.test.ts",
+      "startTime": 1792321721184,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.001953000006324,
+          "failureMessages": [],
+          "fullName": "keeps recovered templates without a cooked value dynamic",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps recovered templates without a cooked value dynamic"
+        }
+      ],
+      "endTime": 1792321734938.002,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticAnalysis.invalid_templates.test.ts",
+      "startTime": 1792321734932,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 2.1084590000027674,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps a parameter uncertain after ||=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a parameter uncertain after ||="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 1.9163449999978184,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps a parameter uncertain after ??=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a parameter uncertain after ??="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 1.263796999999613,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps a parameter uncertain after &&=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a parameter uncertain after &&="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 2.2817009999998845,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps a destructured parameter uncertain after ||=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a destructured parameter uncertain after ||="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 1.6650969999973313,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps a destructured parameter uncertain after ??=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a destructured parameter uncertain after ??="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 1.2569040000016685,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps a destructured parameter uncertain after &&=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a destructured parameter uncertain after &&="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 1.1573970000026748,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps a catch binding uncertain after ||=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a catch binding uncertain after ||="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 1.7215250000008382,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps a catch binding uncertain after ??=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a catch binding uncertain after ??="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 2.021517999994103,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps a catch binding uncertain after &&=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a catch binding uncertain after &&="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 1.263571999996202,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps an uninitialized let local exact after ||=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an uninitialized let local exact after ||="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 1.1035980000015115,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps an uninitialized let local exact after ??=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an uninitialized let local exact after ??="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 1.0493449999994482,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps an uninitialized var local exact after ||=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an uninitialized var local exact after ||="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 1.1909709999963525,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps an uninitialized var local exact after ??=",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an uninitialized var local exact after ??="
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 1.4317260000025271,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps an unconditional parameter assignment exact",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unconditional parameter assignment exact"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 1.1205279999994673,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment keeps an unchanged parameter unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unchanged parameter unknown"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: logical assignment"
+          ],
+          "benchmarks": [],
+          "duration": 2.9505869999993593,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: logical assignment reproduces the issue #2646 inputs without an exact literal",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reproduces the issue #2646 inputs without an exact literal"
+        }
+      ],
+      "endTime": 1792321730639.9507,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticAnalysis.logical_assignment.test.ts",
+      "startTime": 1792321730614,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 561.8033149999974,
+          "failureMessages": [],
+          "fullName": "preserves a 12,000-member native import through both analyzers",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a 12,000-member native import through both analyzers"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.661514999999781,
+          "failureMessages": [],
+          "fullName": "retains deep CommonJS paths and dependencies without inventing dynamic bindings",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains deep CommonJS paths and dependencies without inventing dynamic bindings"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.633895000002667,
+          "failureMessages": [],
+          "fullName": "invalidates a deep mutation while retaining unrelated literal properties",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates a deep mutation while retaining unrelated literal properties"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 9.601447000000917,
+          "failureMessages": [],
+          "fullName": "retains the complete location and unresolved target of a deep call",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the complete location and unresolved target of a deep call"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.9030650000022433,
+          "failureMessages": [],
+          "fullName": "retains deep default values without confusing their reads with parameter bindings",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains deep default values without confusing their reads with parameter bindings"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.6777280000023893,
+          "failureMessages": [],
+          "fullName": "keeps a shadowed require local through a deep member initializer",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a shadowed require local through a deep member initializer"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.19861200000013923,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 0)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 0)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.08407699999952456,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 1)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 1)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.07827200000247103,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 2)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 2)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.055392999998730375,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 3)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 3)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.042976000000635395,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 4)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 4)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.038961999998718966,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 5)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 5)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.31919099999868195,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 6)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 6)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.09209299999929499,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 7)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 7)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.06376100000125007,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 8)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 8)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.18096199999854434,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 9)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 9)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.05882699999710894,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 10)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 10)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.04039499999998952,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 11)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 11)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.051780000001599547,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 12)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 12)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.1635969999988447,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 13)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 13)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.052678000000014435,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 14)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 14)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.14760299999761628,
+          "failureMessages": [],
+          "fullName": "preserves exact callee syntax (case 15)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact callee syntax (case 15)"
+        }
+      ],
+      "endTime": 1792321727358.181,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticAnalysis.member_depth.test.ts",
+      "startTime": 1792321726769,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 17.947393999999804,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const shared = { mode: \"initial\" }; const options = { [key]: shared }; options.foo.mode = \"updated\"; return shared.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const shared = { mode: \"initial\" }; const options = { [key]: shared }; options.foo.mode = \"updated\"; return shared.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 5.791241999999329,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const shared = { mode: \"initial\" }; const original = [shared]; const copy = [...original]; copy[0].mode = \"updated\"; return shared.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const shared = { mode: \"initial\" }; const original = [shared]; const copy = [...original]; copy[0].mode = \"updated\"; return shared.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 3.3563109999995504,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const original = { nested: { mode: \"initial\" } }; const copy = { ...original }; copy.nested.mode = \"updated\"; return original.nested.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const original = { nested: { mode: \"initial\" } }; const copy = { ...original }; copy.nested.mode = \"updated\"; return original.nested.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.605376999999862,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const shared = { mode: \"initial\" }; const options = flag ? shared : { mode: \"other\" }; options.mode = \"updated\"; return shared.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const shared = { mode: \"initial\" }; const options = flag ? shared : { mode: \"other\" }; options.mode = \"updated\"; return shared.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.7780370000000403,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const child = { mode: \"initial\" }; const options = { layer: { child } }; options.layer.child.mode = \"updated\"; return child.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const child = { mode: \"initial\" }; const options = { layer: { child } }; options.layer.child.mode = \"updated\"; return child.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.2936250000002474,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const options = { mode: \"initial\" }; options.mode = \"updated\"; return options.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const options = { mode: \"initial\" }; options.mode = \"updated\"; return options.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 5.69223299999976,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const options = { count: 1 }; options.count += 1; return options.count;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const options = { count: 1 }; options.count += 1; return options.count;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.3274830000000293,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const options = { count: 1 }; options.count++; return options.count;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const options = { count: 1 }; options.count++; return options.count;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.514078000000154,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const options = { mode: \"initial\" }; delete options.mode; return options.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const options = { mode: \"initial\" }; delete options.mode; return options.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.2835269999995944,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const options = [\"initial\"]; options[0] = \"updated\"; return options[0];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const options = [\"initial\"]; options[0] = \"updated\"; return options[0];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 1.9875810000003185,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const options = { nested: { mode: \"initial\" } }; options.nested.mode = \"updated\"; return options.nested.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const options = { nested: { mode: \"initial\" } }; options.nested.mode = \"updated\"; return options.nested.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.028747999999723,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const options = { mode: \"initial\" }; const alias = options; alias.mode = \"updated\"; return options.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const options = { mode: \"initial\" }; const alias = options; alias.mode = \"updated\"; return options.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 3.9216919999998936,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const options = { nested: { mode: \"initial\" } }; const { nested } = options; nested.mode = \"updated\"; return options.nested.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const options = { nested: { mode: \"initial\" } }; const { nested } = options; nested.mode = \"updated\"; return options.nested.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.343980999999985,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const nested = { mode: \"initial\" }; const options = { nested }; options.nested.mode = \"updated\"; return nested.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const nested = { mode: \"initial\" }; const options = { nested }; options.nested.mode = \"updated\"; return nested.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.4751649999998335,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const options = { mode: \"initial\" }; [options.mode] = [\"updated\"]; return options.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const options = { mode: \"initial\" }; [options.mode] = [\"updated\"]; return options.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.8164260000003196,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const options = { mode: \"initial\" }; for (options.mode of [\"updated\"]) {} return options.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const options = { mode: \"initial\" }; for (options.mode of [\"updated\"]) {} return options.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 3.771284999999807,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps the mutated value unknown: const options = { mode: \"initial\" }; const key = getKey(); options[key] = \"updated\"; return options.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const options = { mode: \"initial\" }; const key = getKey(); options[key] = \"updated\"; return options.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 1.6997369999999137,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps an unrelated shadowed object literal known",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unrelated shadowed object literal known"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.273449000000255,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps scalar slots in a spread source known after a copy slot write",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps scalar slots in a spread source known after a copy slot write"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.1861939999998867,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps conditional object branches unknown after a property write",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps conditional object branches unknown after a property write"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 1.6378469999999652,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps a copied primitive initializer known",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a copied primitive initializer known"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.1131369999993694,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations does not propagate writes through an alias after an unconditional rebind",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not propagate writes through an alias after an unconditional rebind"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.440944999999374,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps possible source aliases unknown across conditional rebinds",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps possible source aliases unknown across conditional rebinds"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.719774000000143,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps possible source aliases unknown across conditional rebinds",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps possible source aliases unknown across conditional rebinds"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.5337579999995796,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps possible source aliases unknown across conditional rebinds",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps possible source aliases unknown across conditional rebinds"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 3.238296999999875,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps possible source aliases unknown across conditional rebinds",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps possible source aliases unknown across conditional rebinds"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 1.6589450000001307,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps possible source aliases unknown across conditional rebinds",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps possible source aliases unknown across conditional rebinds"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.8352359999998953,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps mutation under a bare conditional unknown across a rebind",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps mutation under a bare conditional unknown across a rebind"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 1.2883780000001934,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations does not treat a short-circuit assignment RHS as an unconditional value",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not treat a short-circuit assignment RHS as an unconditional value"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.957985000000008,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations keeps possible alias mutations conservative across short-circuit assignment",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps possible alias mutations conservative across short-circuit assignment"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 2.9524029999993218,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations propagates short-circuit assignment mutations to the RHS alias candidate",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "propagates short-circuit assignment mutations to the RHS alias candidate"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after explicit property mutations"
+          ],
+          "benchmarks": [],
+          "duration": 1.4341459999996005,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after explicit property mutations retains ordinary immutable object and array projection",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains ordinary immutable object and array projection"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.865146999999524,
+          "failureMessages": [],
+          "fullName": "invalidates a shared value reached through an object-literal prototype getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates a shared value reached through an object-literal prototype getter"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.5230259999998452,
+          "failureMessages": [],
+          "fullName": "does not follow an object-literal prototype getter past an own property",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not follow an object-literal prototype getter past an own property"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.5986080000002403,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) marks shared returned objects uncertain through object getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "marks shared returned objects uncertain through object getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 6.694830999999795,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) marks shared returned objects uncertain through class instance getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "marks shared returned objects uncertain through class instance getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 3.4245649999993475,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) marks shared returned objects uncertain through static getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "marks shared returned objects uncertain through static getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.045498000000407,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) marks shared returned objects uncertain through copied getter result",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "marks shared returned objects uncertain through copied getter result"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 4.684696000000258,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) last duplicate object getter wins",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "last duplicate object getter wins"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.8988360000003013,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) a later data property replaces an object getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "a later data property replaces an object getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.4688390000001164,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) a later object spread replaces an earlier getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "a later object spread replaces an earlier getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 3.957046999999875,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) a dynamic computed getter can replace a static getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "a dynamic computed getter can replace a static getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.572627999999895,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) a dynamic instance property can select a class getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "a dynamic instance property can select a class getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.65979199999947,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) a dynamic static property can select a class getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "a dynamic static property can select a class getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.5658089999997173,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) a paired object setter keeps its getter result",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "a paired object setter keeps its getter result"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.4570129999992787,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) a paired class setter keeps its getter result",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "a paired class setter keeps its getter result"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 3.409324000000197,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) a later class field replaces a getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "a later class field replaces a getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.8442670000004,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) a class field shadows a getter even when declared earlier",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "a class field shadows a getter even when declared earlier"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.7681510000002163,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) last duplicate class getter wins",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "last duplicate class getter wins"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.4460550000003423,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) follows an inherited getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows an inherited getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.847063999999591,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) follows every possible conditional superclass getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows every possible conditional superclass getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.9122120000001814,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) includes an unknown computed getter that can shadow a static getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "includes an unknown computed getter that can shadow a static getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.9011469999995825,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) a later known getter shadows an earlier unknown computed getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "a later known getter shadows an earlier unknown computed getter"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 3.181962999999996,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) follows an aliased class constructor",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows an aliased class constructor"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 1.9950550000003204,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) follows an inline class constructor",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows an inline class constructor"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 3.214495999999599,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) retains conservative unknowns for fresh getter reads and saved results",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains conservative unknowns for fresh getter reads and saved results"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 1.713730000000396,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) does not invalidate unrelated state through a fresh getter result",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invalidate unrelated state through a fresh getter result"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 1.2222130000000107,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) keeps a shared value known when its getter is never read",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a shared value known when its getter is never read"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic mutations through getter results (#1494)"
+          ],
+          "benchmarks": [],
+          "duration": 2.747195000000829,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic mutations through getter results (#1494) keeps a shared value known after an optional getter read or ordinary method read",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a shared value known after an optional getter read or ordinary method read"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.9892190000000483,
+          "failureMessages": [],
+          "fullName": "does not follow a class getter for direct property replacement or deletion (instance getter assignment)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not follow a class getter for direct property replacement or deletion (instance getter assignment)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.264231000000109,
+          "failureMessages": [],
+          "fullName": "does not follow a class getter for direct property replacement or deletion (instance getter deletion)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not follow a class getter for direct property replacement or deletion (instance getter deletion)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.6842369999994844,
+          "failureMessages": [],
+          "fullName": "does not follow a class getter for direct property replacement or deletion (static getter assignment)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not follow a class getter for direct property replacement or deletion (static getter assignment)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.204435999999987,
+          "failureMessages": [],
+          "fullName": "does not follow a class getter for direct property replacement or deletion (static getter deletion)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not follow a class getter for direct property replacement or deletion (static getter deletion)"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after mutable references escape"
+          ],
+          "benchmarks": [],
+          "duration": 1.8520129999997152,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after mutable references escape preserves copied scalar slots while invalidating shared children of an escaped object spread",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves copied scalar slots while invalidating shared children of an escaped object spread"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after mutable references escape"
+          ],
+          "benchmarks": [],
+          "duration": 3.1285320000006323,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after mutable references escape invalidates shared array children without invalidating copied primitives",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates shared array children without invalidating copied primitives"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after mutable references escape"
+          ],
+          "benchmarks": [],
+          "duration": 1.5281199999999444,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after mutable references escape keeps primitive spread arguments known",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps primitive spread arguments known"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after mutable references escape"
+          ],
+          "benchmarks": [],
+          "duration": 1.2401880000006713,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after mutable references escape does not treat a member constructor as a call with its container as receiver",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not treat a member constructor as a call with its container as receiver"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after mutable references escape"
+          ],
+          "benchmarks": [],
+          "duration": 2.6270140000005995,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after mutable references escape does not reuse an initializer projection cached before call mutations were collected",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not reuse an initializer projection cached before call mutations were collected"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after mutable references escape"
+          ],
+          "benchmarks": [],
+          "duration": 2.346989000000576,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after mutable references escape follows a reference through mutate(source as unknown);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows a reference through mutate(source as unknown);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after mutable references escape"
+          ],
+          "benchmarks": [],
+          "duration": 1.852045999999973,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after mutable references escape follows a reference through mutate((0, source));",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows a reference through mutate((0, source));"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after mutable references escape"
+          ],
+          "benchmarks": [],
+          "duration": 2.367733000000044,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after mutable references escape follows a reference through let alias; mutate(alias = source);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows a reference through let alias; mutate(alias = source);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after mutable references escape"
+          ],
+          "benchmarks": [],
+          "duration": 2.1359919999995327,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after mutable references escape follows a reference through mutate(flag ? source : {});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows a reference through mutate(flag ? source : {});"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after mutable references escape"
+          ],
+          "benchmarks": [],
+          "duration": 2.5301840000001903,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after mutable references escape follows a reference through let alias = source; mutate(alias ||= {});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows a reference through let alias = source; mutate(alias ||= {});"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values after mutable references escape"
+          ],
+          "benchmarks": [],
+          "duration": 1.9096819999995205,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values after mutable references escape follows a reference through let alias = source; mutate(alias ??= {});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows a reference through let alias = source; mutate(alias ??= {});"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 8.594590000000608,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax follows an awaited object argument",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows an awaited object argument"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.7138139999997293,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax follows shared references through const { ...copy } = source; mutate(copy);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows shared references through const { ...copy } = source; mutate(copy);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 1.7301830000005793,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax follows shared references through const { ...copy } = source; mutate(copy.child);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows shared references through const { ...copy } = source; mutate(copy.child);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.4399979999998322,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax follows shared references through const [ ...copy ] = [source.child]; mutate(copy);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows shared references through const [ ...copy ] = [source.child]; mutate(copy);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.667493999999351,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax follows shared references through const [ first, ...copy ] = [null, source.child]; mutate(copy[0]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows shared references through const [ first, ...copy ] = [null, source.child]; mutate(copy[0]);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.1135620000004565,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax follows shared references through const [ ...[copy] ] = [source.child]; mutate(copy);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows shared references through const [ ...[copy] ] = [source.child]; mutate(copy);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.711563999999271,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax follows shared references through const [ ...[copy = source.child] ] = []; mutate(copy);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows shared references through const [ ...[copy = source.child] ] = []; mutate(copy);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 1.9003200000006473,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax follows shared references through const { value = source.child } = {}; mutate(value);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows shared references through const { value = source.child } = {}; mutate(value);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 1.7004619999997885,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax follows shared references through const [ value = source.child ] = []; mutate(value);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows shared references through const [ value = source.child ] = []; mutate(value);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.534987000000001,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax keeps an unused default reference unchanged when destructuring a defined value",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unused default reference unchanged when destructuring a defined value"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.522541000000274,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax keeps an unused nested default reference unchanged",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unused nested default reference unchanged"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.5531270000001314,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax reconsiders a destructuring fallback after later collection finds an escape",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reconsiders a destructuring fallback after later collection finds an escape"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 3.639038000000255,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax follows a fallback write when the original projection appeared primitive",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows a fallback write when the original projection appeared primitive"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 1.445238999999674,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax keeps fresh rest-copy slot writes from changing the original",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps fresh rest-copy slot writes from changing the original"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 3.354733000000124,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax follows writes to shared children of rest copies",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows writes to shared children of rest copies"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 1.9777610000001005,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = { skipped: {}, child: { value: 1 } }; const { skipped, ...copy } = source; mutate(copy); return source.child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = { skipped: {}, child: { value: 1 } }; const { skipped, ...copy } = source; mutate(copy); return source.child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 1.8962630000005447,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = [{}, { value: 1 }]; const [head, ...copy] = source; mutate(copy[0]); return source[1].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = [{}, { value: 1 }]; const [head, ...copy] = source; mutate(copy[0]); return source[1].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.222791000000143,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = [{}, { value: 1 }]; const [head, ...copy] = source; copy[0].value = 2; return source[1].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = [{}, { value: 1 }]; const [head, ...copy] = source; copy[0].value = 2; return source[1].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.2011279999996987,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = { child: { value: 1 } }; const copy = { child: {}, ...source }; mutate(copy.child); return source.child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = { child: { value: 1 } }; const copy = { child: {}, ...source }; mutate(copy.child); return source.child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.628316000000268,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = { child: { value: 1 } }; const copy = { ...source, [key]: {} }; mutate(copy.child); return source.child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = { child: { value: 1 } }; const copy = { ...source, [key]: {} }; mutate(copy.child); return source.child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.1392729999997755,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = [{ value: 1 }]; const copy = [{}, ...source]; mutate(copy[1]); return source[0].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = [{ value: 1 }]; const copy = [{}, ...source]; mutate(copy[1]); return source[0].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.550420999999915,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = [{ value: 1 }]; const copy = [...other, ...source]; mutate(copy[0]); return source[0].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = [{ value: 1 }]; const copy = [...other, ...source]; mutate(copy[0]); return source[0].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 1.3591150000002017,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = [{ value: 1 }]; mutate([... [...source]]); return source[0].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = [{ value: 1 }]; mutate([... [...source]]); return source[0].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.6494560000001,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const child = { value: 1 }; const source = { child, *[Symbol.iterator]() { yield this.child; } }; const copy = [{}, ...source]; mutate(copy[1]); return child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const child = { value: 1 }; const source = { child, *[Symbol.iterator]() { yield this.child; } }; const copy = [{}, ...source]; mutate(copy[1]); return child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.090979000000516,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const child = { value: 1 }; const source = { child, *[Symbol.iterator]() { yield null; yield this.child; } }; const [head, ...copy] = source; mutate(copy); return child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const child = { value: 1 }; const source = { child, *[Symbol.iterator]() { yield null; yield this.child; } }; const [head, ...copy] = source; mutate(copy); return child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.7206790000000183,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const child = { value: 1 }; const source = [child]; source[Symbol.iterator] = function* () { yield null; yield this[0]; }; const [head, ...copy] = source; mutate(copy); return child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const child = { value: 1 }; const source = [child]; source[Symbol.iterator] = function* () { yield null; yield this[0]; }; const [head, ...copy] = source; mutate(copy); return child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.8880279999993945,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const child = { value: 1 }; const source = [null, child]; source.__proto__ = { *[Symbol.iterator]() { yield this[1]; } }; const copy = [{}, ...source]; mutate(copy[1]); return child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const child = { value: 1 }; const source = [null, child]; source.__proto__ = { *[Symbol.iterator]() { yield this[1]; } }; const copy = [{}, ...source]; mutate(copy[1]); return child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.4281300000002375,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = [{ value: 1 }, {}]; Array.prototype[Symbol.iterator] = function* () { yield null; yield this[0]; }; const [head, ...copy] = source; mutate(copy[0]); return source[0].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = [{ value: 1 }, {}]; Array.prototype[Symbol.iterator] = function* () { yield null; yield this[0]; }; const [head, ...copy] = source; mutate(copy[0]); return source[0].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 5.355007000000114,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = [null, { value: 1 }]; const prototype = Array.prototype; prototype[Symbol.iterator] = function* () { yield this[1]; }; const copy = [{}, ...source]; mutate(copy[1]); return source[1].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = [null, { value: 1 }]; const prototype = Array.prototype; prototype[Symbol.iterator] = function* () { yield this[1]; }; const copy = [{}, ...source]; mutate(copy[1]); return source[1].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 3.772317999999359,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = [null, { value: 1 }]; const other = []; other.__proto__[Symbol.iterator] = function* () { yield this[1]; }; const copy = [{}, ...source]; mutate(copy[1]); return source[1].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = [null, { value: 1 }]; const other = []; other.__proto__[Symbol.iterator] = function* () { yield this[1]; }; const copy = [{}, ...source]; mutate(copy[1]); return source[1].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 2.805919000000358,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = { child: { value: 1 } }; const copy = { ...source, get child() { return source.child; } }; mutate(copy.child); return source.child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = { child: { value: 1 } }; const copy = { ...source, get child() { return source.child; } }; mutate(copy.child); return source.child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 3.5554239999992205,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax preserves uncertainty for retained shared children: const source = { child: { value: 1 } }; const copy = { ...source, get child() { return source.child; }, set child(value) {} }; mutate(copy.child); return source.child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for retained shared children: const source = { child: { value: 1 } }; const copy = { ...source, get child() { return source.child; }, set child(value) {} }; mutate(copy.child); return source.child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript escaped references through async and destructuring syntax"
+          ],
+          "benchmarks": [],
+          "duration": 7.988681999999244,
+          "failureMessages": [],
+          "fullName": "JavaScript escaped references through async and destructuring syntax finishes repeated alias branches without expanding identical escape paths",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "finishes repeated alias branches without expanding identical escape paths"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.2020190000002913,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through mutate(...source);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through mutate(...source);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.1843509999998787,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through mutate?.(...source);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through mutate?.(...source);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.8377559999998994,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through new Factory(...source);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through new Factory(...source);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.496081000000231,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through const copy = [...source]; mutate(copy);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through const copy = [...source]; mutate(copy);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.6399449999998978,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through const copy = [{}, ...source]; mutate(copy[1]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through const copy = [{}, ...source]; mutate(copy[1]);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.6723480000000563,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through const copy = [...source]; copy[0].value = 2;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through const copy = [...source]; copy[0].value = 2;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.8094479999999749,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through const [...copy] = source; mutate(copy);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through const [...copy] = source; mutate(copy);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.5721540000004097,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through const [...copy] = source; copy[0].value = 2;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through const [...copy] = source; copy[0].value = 2;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.9304010000005292,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through const wrapper = { source }; const { source: [...copy] } = wrapper; mutate(copy);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through const wrapper = { source }; const { source: [...copy] } = wrapper; mutate(copy);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.58237999999983,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through const [copy] = source; mutate(copy);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through const [copy] = source; mutate(copy);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.735051999999996,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through let copy; [copy] = source; mutate(copy);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through let copy; [copy] = source; mutate(copy);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.3352390000000014,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through const { nested: [copy] } = { nested: source }; mutate(copy);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through const { nested: [copy] } = { nested: source }; mutate(copy);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.9789609999997992,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through for (const copy of source) mutate(copy);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through for (const copy of source) mutate(copy);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.2885089999999764,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates an iterable that yields itself through let copy; for (copy of source) mutate(copy);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates an iterable that yields itself through let copy; for (copy of source) mutate(copy);"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.7419790000003559,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration accounts for custom iterator receiver effects in const [copy] = source;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accounts for custom iterator receiver effects in const [copy] = source;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.6690360000002329,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration accounts for custom iterator receiver effects in const copy = [...source];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accounts for custom iterator receiver effects in const copy = [...source];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.4211310000000594,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration accounts for custom iterator receiver effects in for (const copy of source) {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accounts for custom iterator receiver effects in for (const copy of source) {}"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.432912999999644,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration accounts for custom iterator receiver effects in const { nested: [copy] } = { nested: source };",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accounts for custom iterator receiver effects in const { nested: [copy] } = { nested: source };"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 3.3070669999997335,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration accounts for custom iterator receiver effects in const [...[[copy]]] = [source];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accounts for custom iterator receiver effects in const [...[[copy]]] = [source];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 3.0136619999993854,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration accounts for custom iterator receiver effects in const [...{ 0: [copy] }] = [source];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accounts for custom iterator receiver effects in const [...{ 0: [copy] }] = [source];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.5297719999998662,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration accounts for custom iterator receiver effects in for (const [copy] of [source]) {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accounts for custom iterator receiver effects in for (const [copy] of [source]) {}"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.55504000000019,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration accounts for custom iterator receiver effects in const { missing: [copy] = source } = {};",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accounts for custom iterator receiver effects in const { missing: [copy] = source } = {};"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 3.7357149999998,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration accounts for custom iterator receiver effects in function consume([copy] = source) {} consume();",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accounts for custom iterator receiver effects in function consume([copy] = source) {} consume();"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.8926599999995233,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration accounts for custom iterator receiver effects in function* copies() { yield* source; } consume(copies());",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accounts for custom iterator receiver effects in function* copies() { yield* source; } consume(copies());"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.3869869999998627,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration preserves ordinary array values after const [copy] = source;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves ordinary array values after const [copy] = source;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.2230129999998098,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration preserves ordinary array values after const copy = [...source];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves ordinary array values after const copy = [...source];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.2051769999998214,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration preserves ordinary array values after for (const copy of source) {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves ordinary array values after for (const copy of source) {}"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.6304700000000594,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration preserves ordinary array values after const { nested: [copy] } = { nested: source };",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves ordinary array values after const { nested: [copy] } = { nested: source };"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.1404160000001866,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration preserves ordinary array values after const [...[[copy]]] = [source];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves ordinary array values after const [...[[copy]]] = [source];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.2104470000003857,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration preserves ordinary array values after const [...{ 0: [copy] }] = [source];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves ordinary array values after const [...{ 0: [copy] }] = [source];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.59547399999974,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration preserves ordinary array values after for (const [copy] of [source]) {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves ordinary array values after for (const [copy] of [source]) {}"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.405171000000337,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration does not execute unused iterator defaults in const { nested: [copy] = source } = { nested: [] };",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not execute unused iterator defaults in const { nested: [copy] = source } = { nested: [] };"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.8390280000003258,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration does not execute unused iterator defaults in const [[copy] = source] = [[]];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not execute unused iterator defaults in const [[copy] = source] = [[]];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.2406080000000657,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration does not execute unused iterator defaults in const { a: { b: [copy] = source } = { b: [] } } = {};",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not execute unused iterator defaults in const { a: { b: [copy] = source } = { b: [] } } = {};"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.712290999999823,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration does not execute unused iterator defaults in for (const { nested: [copy] = source } of [{ nested: [] }]) {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not execute unused iterator defaults in for (const { nested: [copy] = source } of [{ nested: [] }]) {}"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.4278680000006716,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration does not execute unused iterator defaults in for (const [[copy] = source] of [[[]]]) {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not execute unused iterator defaults in for (const [[copy] = source] of [[[]]]) {}"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 1.876365999999507,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration does not execute unused iterator defaults in for (const { nested: [copy] = source } of []) {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not execute unused iterator defaults in for (const { nested: [copy] = source } of []) {}"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 3.1003520000003846,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates a custom array iterator's root after source[Symbol.iterator] = function* () { yield this; };",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates a custom array iterator's root after source[Symbol.iterator] = function* () { yield this; };"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.809359000000768,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration invalidates a custom array iterator's root after Array.prototype[Symbol.iterator] = function* () { yield this; };",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates a custom array iterator's root after Array.prototype[Symbol.iterator] = function* () { yield this; };"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 3.907194999999774,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration retains uncertainty after globalThis.Array.prototype changes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertainty after globalThis.Array.prototype changes"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 4.626110000000153,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration retains uncertainty after global.Array.prototype changes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertainty after global.Array.prototype changes"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 2.498117000000093,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration retains uncertainty after window.Array.prototype changes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertainty after window.Array.prototype changes"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 3.18989799999963,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration retains uncertainty after self.Array.prototype changes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertainty after self.Array.prototype changes"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript shared array iteration"
+          ],
+          "benchmarks": [],
+          "duration": 3.630087000000458,
+          "failureMessages": [],
+          "fullName": "JavaScript shared array iteration respects a shadowed global object when checking iteration",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "respects a shadowed global object when checking iteration"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.8533000000006723,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = { only: { value: \"TOKEN\" } }; const { only, ...copy } = source; mutate(copy); return source.only.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = { only: { value: \"TOKEN\" } }; const { only, ...copy } = source; mutate(copy); return source.only.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.9869220000000496,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = [{ value: \"TOKEN\" }]; const [head, ...copy] = source; mutate(copy); return source[0].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = [{ value: \"TOKEN\" }]; const [head, ...copy] = source; mutate(copy); return source[0].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.360754999999699,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = { child: { value: \"TOKEN\" } }; const copy = { ...source, child: { value: 2 } }; mutate(copy.child); return source.child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = { child: { value: \"TOKEN\" } }; const copy = { ...source, child: { value: 2 } }; mutate(copy.child); return source.child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.6432539999996152,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = [{ value: \"TOKEN\" }]; const copy = [{ value: 0 }, ...source]; mutate(copy[0]); return source[0].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = [{ value: \"TOKEN\" }]; const copy = [{ value: 0 }, ...source]; mutate(copy[0]); return source[0].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.918572999999924,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = { child: { value: \"TOKEN\" } }; const copy = { ...source, [\"child\"]: { value: 2 } }; mutate(copy); return source.child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = { child: { value: \"TOKEN\" } }; const copy = { ...source, [\"child\"]: { value: 2 } }; mutate(copy); return source.child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.1852859999999055,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const child = { value: \"TOKEN\" }; const copy = { child, child: {} }; mutate(copy); return child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const child = { value: \"TOKEN\" }; const copy = { child, child: {} }; mutate(copy); return child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.7605709999997998,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = [{ value: \"TOKEN\" }, { value: 2 }]; const [head, ...copy] = source; mutate(copy[0]); return source[0].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = [{ value: \"TOKEN\" }, { value: 2 }]; const [head, ...copy] = source; mutate(copy[0]); return source[0].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.609451999999692,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = [{ value: \"TOKEN\" }, { value: 2 }]; const copy = [{}, ...source]; mutate(copy[2]); return source[0].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = [{ value: \"TOKEN\" }, { value: 2 }]; const copy = [{}, ...source]; mutate(copy[2]); return source[0].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.485964000000422,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = [{ value: \"TOKEN\" }]; const copy = [, ...source]; mutate(copy[0]); return source[0].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = [{ value: \"TOKEN\" }]; const copy = [, ...source]; mutate(copy[0]); return source[0].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.230384000000413,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = [{ value: \"TOKEN\" }]; const copy = [...source]; mutate(copy[\"01\"]); return source[0].value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = [{ value: \"TOKEN\" }]; const copy = [...source]; mutate(copy[\"01\"]); return source[0].value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.9582989999998972,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = { only: { value: \"TOKEN\" } }; const { [\"only\"]: consumed, ...copy } = source; mutate(copy); return source.only.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = { only: { value: \"TOKEN\" } }; const { [\"only\"]: consumed, ...copy } = source; mutate(copy); return source.only.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 2.151771999999255,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = { child: { value: \"TOKEN\" } }; const copy = { ...source, child() {} }; mutate(copy); return source.child.value;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = { child: { value: \"TOKEN\" } }; const copy = { ...source, child() {} }; mutate(copy); return source.child.value;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.272399999999834,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = { token: \"TOKEN\", count: 1 }; source.count = 2; return source.token;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = { token: \"TOKEN\", count: 1 }; source.count = 2; return source.token;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.65444799999932,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = { token: \"TOKEN\", count: 1 }; const alias = source; alias.count++; return source.token;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = { token: \"TOKEN\", count: 1 }; const alias = source; alias.count++; return source.token;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.499522999999499,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = { token: \"TOKEN\", count: 1 }; delete source.count; return source.token;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = { token: \"TOKEN\", count: 1 }; delete source.count; return source.token;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.4412130000000616,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = { nested: { token: \"TOKEN\", count: 1 } }; source.nested.count = 2; return source.nested.token;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = { nested: { token: \"TOKEN\", count: 1 } }; source.nested.count = 2; return source.nested.token;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.5338119999996707,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = { nested: { token: \"TOKEN\", count: 1 } }; const { nested } = source; nested.count = 2; return source.nested.token;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = { nested: { token: \"TOKEN\", count: 1 } }; const { nested } = source; nested.count = 2; return source.nested.token;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.4090790000000197,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const child = { token: \"TOKEN\", count: 1 }; const source = { child }; source.child.count = 2; return child.token;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const child = { token: \"TOKEN\", count: 1 }; const source = { child }; source.child.count = 2; return child.token;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.498239999999896,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = [\"TOKEN\", 1]; source[1] = 2; return source[0];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = [\"TOKEN\", 1]; source[1] = 2; return source[0];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.083690999999817,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = [\"TOKEN\"]; source.extra = 2; return source[0];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = [\"TOKEN\"]; source.extra = 2; return source[0];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.116598000000522,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = [\"TOKEN\"]; source[\"01\"] = 2; return source[0];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = [\"TOKEN\"]; source[\"01\"] = 2; return source[0];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.15132100000028,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = [\"TOKEN\"]; source[1000000000] = 2; return source[0];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = [\"TOKEN\"]; source[1000000000] = 2; return source[0];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.5909959999999046,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const child = { token: \"TOKEN\", count: 1 }; const source = [child]; source[0].count = 2; return child.token;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const child = { token: \"TOKEN\", count: 1 }; const source = [child]; source[0].count = 2; return child.token;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 1.107637000000068,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = { token: \"TOKEN\" }; source.added = 2; return source.token;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = { token: \"TOKEN\" }; source.added = 2; return source.token;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 2.6104089999998905,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const source = { token: \"TOKEN\", count: 1, other: 1 }; source.count = 2; source.other = 2; return source.token;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const source = { token: \"TOKEN\", count: 1, other: 1 }; source.count = 2; source.other = 2; return source.token;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 2.951618000000053,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation retains an unaffected property: const left = { token: \"TOKEN\", count: 1 }; const right = { count: 1 }; const source = { left, right }; source.right.count = 2; return left.count + \":\" + left.token;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an unaffected property: const left = { token: \"TOKEN\", count: 1 }; const right = { count: 1 }; const source = { left, right }; source.right.count = 2; return left.count + \":\" + left.token;"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic values for properties unaffected by a mutation"
+          ],
+          "benchmarks": [],
+          "duration": 6.293657999999596,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic values for properties unaffected by a mutation keeps the changed slot unknown alongside an unchanged literal slot",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the changed slot unknown alongside an unchanged literal slot"
+        },
+        {
+          "ancestorTitles": [
+            "property mutations through TypeScript satisfies aliases"
+          ],
+          "benchmarks": [],
+          "duration": 4.6042450000004465,
+          "failureMessages": [],
+          "fullName": "property mutations through TypeScript satisfies aliases keeps the mutated value unknown: const shared = { mode: \"initial\" }; const alias = shared satisfies { mode: string }; alias.mode = \"updated\"; return shared.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const shared = { mode: \"initial\" }; const alias = shared satisfies { mode: string }; alias.mode = \"updated\"; return shared.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "property mutations through TypeScript satisfies aliases"
+          ],
+          "benchmarks": [],
+          "duration": 3.8968839999997726,
+          "failureMessages": [],
+          "fullName": "property mutations through TypeScript satisfies aliases keeps the mutated value unknown: const shared = { nested: { mode: \"initial\" } }; const alias = shared satisfies { nested: { mode: string } }; alias.nested.mode = \"updated\"; return shared.nested.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const shared = { nested: { mode: \"initial\" } }; const alias = shared satisfies { nested: { mode: string } }; alias.nested.mode = \"updated\"; return shared.nested.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "property mutations through TypeScript satisfies aliases"
+          ],
+          "benchmarks": [],
+          "duration": 3.046918000000005,
+          "failureMessages": [],
+          "fullName": "property mutations through TypeScript satisfies aliases keeps the mutated value unknown: const shared = { mode: \"initial\" }; const alias = (shared satisfies { mode: string }) as { mode: string }; delete alias.mode; return shared.mode;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const shared = { mode: \"initial\" }; const alias = (shared satisfies { mode: string }) as { mode: string }; delete alias.mode; return shared.mode;"
+        },
+        {
+          "ancestorTitles": [
+            "property mutations through TypeScript satisfies aliases"
+          ],
+          "benchmarks": [],
+          "duration": 2.0561310000002777,
+          "failureMessages": [],
+          "fullName": "property mutations through TypeScript satisfies aliases keeps the mutated value unknown: const shared = [1]; const alias = shared satisfies number[]; alias[0]++; return shared[0];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the mutated value unknown: const shared = [1]; const alias = shared satisfies number[]; alias[0]++; return shared[0];"
+        },
+        {
+          "ancestorTitles": [
+            "property mutations through TypeScript satisfies aliases"
+          ],
+          "benchmarks": [],
+          "duration": 4.817326000000321,
+          "failureMessages": [],
+          "fullName": "property mutations through TypeScript satisfies aliases retains the untouched property through a satisfies alias",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the untouched property through a satisfies alias"
+        },
+        {
+          "ancestorTitles": [
+            "property mutation collection on minified bundles"
+          ],
+          "benchmarks": [],
+          "duration": 1066.9356609999995,
+          "failureMessages": [],
+          "fullName": "property mutation collection on minified bundles records each write to one object without replaying earlier writes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "records each write to one object without replaying earlier writes"
+        },
+        {
+          "ancestorTitles": [
+            "property mutation collection on minified bundles"
+          ],
+          "benchmarks": [],
+          "duration": 1898.7387040000003,
+          "failureMessages": [],
+          "fullName": "property mutation collection on minified bundles indexes many returned object methods instead of rescanning the object",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "indexes many returned object methods instead of rescanning the object"
+        },
+        {
+          "ancestorTitles": [
+            "results of methods on an escaped receiver"
+          ],
+          "benchmarks": [],
+          "duration": 2.5691470000001573,
+          "failureMessages": [],
+          "fullName": "results of methods on an escaped receiver makes every method's distinct result uncertain, not only the called one",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "makes every method's distinct result uncertain, not only the called one"
+        },
+        {
+          "ancestorTitles": [
+            "results of methods on an escaped receiver"
+          ],
+          "benchmarks": [],
+          "duration": 1881.4629559999994,
+          "failureMessages": [],
+          "fullName": "results of methods on an escaped receiver keeps a shared result uncertain across a wide escaped receiver (#1495)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a shared result uncertain across a wide escaped receiver (#1495)"
+        }
+      ],
+      "endTime": 1792321705207.463,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticAnalysis.member_mutations.test.ts",
+      "startTime": 1792321699874,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: native bindings 1"
+          ],
+          "benchmarks": [],
+          "duration": 9.461630999998306,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: native bindings 1 recovers child-process argv, env, stdio, listeners, and signals",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recovers child-process argv, env, stdio, listeners, and signals"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: native bindings 1"
+          ],
+          "benchmarks": [],
+          "duration": 9.35061300000234,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: native bindings 1 recovers configuration, requests, response consumers, and boundaries",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recovers configuration, requests, response consumers, and boundaries"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: native bindings 2"
+          ],
+          "benchmarks": [],
+          "duration": 3.6255049999999756,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: native bindings 2 recovers built-in resource acquisition and exact local release",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recovers built-in resource acquisition and exact local release"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: child-process signals"
+          ],
+          "benchmarks": [],
+          "duration": 6.09545799999978,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: child-process signals keeps unresolved kill signals distinct from default and literal signals",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved kill signals distinct from default and literal signals"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: configuration value escapes"
+          ],
+          "benchmarks": [],
+          "duration": 1.4106920000012906,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: configuration value escapes keeps a read after passing an environment value to a call",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a read after passing an environment value to a call"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: configuration value escapes"
+          ],
+          "benchmarks": [],
+          "duration": 1.9944199999990815,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: configuration value escapes keeps a read after passing an argv entry to a call",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a read after passing an argv entry to a call"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: configuration value escapes"
+          ],
+          "benchmarks": [],
+          "duration": 1.4594859999997425,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: configuration value escapes retains uncertainty after an object-valued argv selection escapes: patch(process.argv[key]); return process.argv[3];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertainty after an object-valued argv selection escapes: patch(process.argv[key]); return process.argv[3];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: configuration value escapes"
+          ],
+          "benchmarks": [],
+          "duration": 1.9115559999991092,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: configuration value escapes retains uncertainty after an object-valued argv selection escapes: patch(process.argv.__proto__); return process.argv[3];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertainty after an object-valued argv selection escapes: patch(process.argv.__proto__); return process.argv[3];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: configuration value escapes"
+          ],
+          "benchmarks": [],
+          "duration": 1.2233349999987695,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: configuration value escapes retains uncertainty after an object-valued argv selection escapes: const args = process.argv; patch(args[key]); return args[3];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertainty after an object-valued argv selection escapes: const args = process.argv; patch(args[key]); return args[3];"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: configuration value escapes"
+          ],
+          "benchmarks": [],
+          "duration": 3.521310000000085,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: configuration value escapes preserves an earlier top-level read and unrelated configuration after an argv escape",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an earlier top-level read and unrelated configuration after an argv escape"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: configuration value escapes"
+          ],
+          "benchmarks": [],
+          "duration": 1.5476640000015323,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: configuration value escapes leaves a read unknown after replacing a direct argv entry",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "leaves a read unknown after replacing a direct argv entry"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: configuration value escapes"
+          ],
+          "benchmarks": [],
+          "duration": 1.2513770000005024,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: configuration value escapes leaves a read unknown after replacing an aliased argv entry",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "leaves a read unknown after replacing an aliased argv entry"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: configuration value escapes"
+          ],
+          "benchmarks": [],
+          "duration": 1.2421489999978803,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: configuration value escapes leaves a read unknown after replacing the argv container",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "leaves a read unknown after replacing the argv container"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: configuration value escapes"
+          ],
+          "benchmarks": [],
+          "duration": 1.3040350000010221,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: configuration value escapes leaves a read unknown after replacing the env container",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "leaves a read unknown after replacing the env container"
+        }
+      ],
+      "endTime": 1792321721061.304,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticAnalysis.native_bindings.test.ts",
+      "startTime": 1792321721015,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.5685909999992873,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in const value = (Promise.resolve(1) as Pr…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in const value = (Promise.resolve(1) as Pr…"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7666410000019823,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in const run = () => (Promise.resolve(1) a…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in const run = () => (Promise.resolve(1) a…"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4909829999996873,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in const value = consume(Promise.resolve(1…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in const value = consume(Promise.resolve(1…"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8406620000023395,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in const value = consume(Promise.resolve(1…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in const value = consume(Promise.resolve(1…"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0385740000019723,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in async function run() { await consume(Pr…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in async function run() { await consume(Pr…"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.312859000001481,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in function run() { return consume(Promise…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in function run() { return consume(Promise…"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4059459999989485,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in const value = [Promise.resolve(1)];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in const value = [Promise.resolve(1)];"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7158180000005814,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in const value = Promise.all([{promise: Pr…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in const value = Promise.all([{promise: Pr…"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8863689999998314,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in const value = Promise.resolve(1);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in const value = Promise.resolve(1);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.1513859999977285,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in async function run() { await Promise.re…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in async function run() { await Promise.re…"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8029539999988629,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in function run() { return Promise.resolve…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in function run() { return Promise.resolve…"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0540899999978137,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in const value = Promise.resolve(1).then(w…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in const value = Promise.resolve(1).then(w…"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0590450000017881,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in const value = Promise.all([Promise.reso…",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in const value = Promise.all([Promise.reso…"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6988579999997455,
+          "failureMessages": [],
+          "fullName": "retains direct Promise ownership in Promise.resolve(1);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains direct Promise ownership in Promise.resolve(1);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.282219000000623,
+          "failureMessages": [],
+          "fullName": "links the exact arrow return site for Promise.resolve(1)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "links the exact arrow return site for Promise.resolve(1)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.422338000000309,
+          "failureMessages": [],
+          "fullName": "links the exact arrow return site for ((Promise.resolve(1)))",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "links the exact arrow return site for ((Promise.resolve(1)))"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0124920000016573,
+          "failureMessages": [],
+          "fullName": "links the exact arrow return site for (Promise.resolve(1) as Promise<number>)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "links the exact arrow return site for (Promise.resolve(1) as Promise<number>)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5047899999990477,
+          "failureMessages": [],
+          "fullName": "links the exact arrow return site for (Promise.resolve(1) satisfies Promise<number>)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "links the exact arrow return site for (Promise.resolve(1) satisfies Promise<number>)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.656049000001076,
+          "failureMessages": [],
+          "fullName": "links the exact arrow return site for Promise.resolve(1)!",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "links the exact arrow return site for Promise.resolve(1)!"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9895719999985886,
+          "failureMessages": [],
+          "fullName": "links the exact arrow return site for ((Promise.resolve(1) as Promise<number>)!)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "links the exact arrow return site for ((Promise.resolve(1) as Promise<number>)!)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.503818000001047,
+          "failureMessages": [],
+          "fullName": "links the exact arrow return site for (new Promise(resolve => resolve(1)) as Promise<number>)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "links the exact arrow return site for (new Promise(resolve => resolve(1)) as Promise<number>)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3642700000018522,
+          "failureMessages": [],
+          "fullName": "links the exact arrow return site for (Promise.all([Promise.resolve(1)]) as Promise<number[]>)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "links the exact arrow return site for (Promise.all([Promise.resolve(1)]) as Promise<number[]>)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.084316000000399,
+          "failureMessages": [],
+          "fullName": "links the exact arrow return site for (Promise.resolve(1).then(value => value) as Promise<number>)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "links the exact arrow return site for (Promise.resolve(1).then(value => value) as Promise<number>)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4697840000008,
+          "failureMessages": [],
+          "fullName": "keeps a wrapped return owned by its nested arrow: const outer = () => () => (Promise.resolve(1) as Promise<number>);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a wrapped return owned by its nested arrow: const outer = () => () => (Promise.resolve(1) as Promise<number>);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4575820000027306,
+          "failureMessages": [],
+          "fullName": "keeps a wrapped return owned by its nested arrow: const outer = () => { const inner = () => Promise.resolve(1)!; return inner; };",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a wrapped return owned by its nested arrow: const outer = () => { const inner = () => Promise.resolve(1)!; return inner; };"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2173600000023725,
+          "failureMessages": [],
+          "fullName": "does not invent a return link through consume((Promise.resolve(1) as Promise<number>))",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invent a return link through consume((Promise.resolve(1) as Promise<number>))"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3201399999998102,
+          "failureMessages": [],
+          "fullName": "does not invent a return link through [(Promise.resolve(1) as Promise<number>)]",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invent a return link through [(Promise.resolve(1) as Promise<number>)]"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5403089999999793,
+          "failureMessages": [],
+          "fullName": "does not invent a return link through ({ task: Promise.resolve(1)! })",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invent a return link through ({ task: Promise.resolve(1)! })"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.149321000000782,
+          "failureMessages": [],
+          "fullName": "does not invent a return link through (condition ? Promise.resolve(1)! : other)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invent a return link through (condition ? Promise.resolve(1)! : other)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9155759999994189,
+          "failureMessages": [],
+          "fullName": "does not invent a return link through ((0, Promise.resolve(1)) as Promise<number>)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invent a return link through ((0, Promise.resolve(1)) as Promise<number>)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9726020000016433,
+          "failureMessages": [],
+          "fullName": "does not invent a return link through await (Promise.resolve(1) as Promise<number>)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invent a return link through await (Promise.resolve(1) as Promise<number>)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2388309999987541,
+          "failureMessages": [],
+          "fullName": "keeps an explicit return statement's full range and the producer's location",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an explicit return statement's full range and the producer's location"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5940770000015618,
+          "failureMessages": [],
+          "fullName": "links returned promises to the exact return site in each callable",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "links returned promises to the exact return site in each callable"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2625470000020869,
+          "failureMessages": [],
+          "fullName": "does not assign a return site to a Promise owned by a binding",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not assign a return site to a Promise owned by a binding"
+        }
+      ],
+      "endTime": 1792321722880.2625,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticAnalysis.promise_ownership.test.ts",
+      "startTime": 1792321722835,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: recovered arguments"
+          ],
+          "benchmarks": [],
+          "duration": 1.4207670000032522,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: recovered arguments retains argument positions in recovered syntax: 0(,)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains argument positions in recovered syntax: 0(,)"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: recovered arguments"
+          ],
+          "benchmarks": [],
+          "duration": 1.9516310000035446,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: recovered arguments retains argument positions in recovered syntax: call(, \"kept\", , 42)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains argument positions in recovered syntax: call(, \"kept\", , 42)"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: recovered arguments"
+          ],
+          "benchmarks": [],
+          "duration": 5.449310999996669,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: recovered arguments retains argument positions in recovered syntax: call?.(, \"kept\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains argument positions in recovered syntax: call?.(, \"kept\")"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: recovered arguments"
+          ],
+          "benchmarks": [],
+          "duration": 3.6195280000029015,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: recovered arguments retains argument positions in recovered syntax: new Thing(, \"kept\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains argument positions in recovered syntax: new Thing(, \"kept\")"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic analysis: recovered arguments"
+          ],
+          "benchmarks": [],
+          "duration": 2.973275000003923,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic analysis: recovered arguments keeps recovered argument flows bound to their original parameter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps recovered argument flows bound to their original parameter"
+        }
+      ],
+      "endTime": 1792321734856.9734,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticAnalysis.recoveredArguments.test.ts",
+      "startTime": 1792321734841,
+      "status": "passed"
+    }
+  ],
+  "version": 1
+}

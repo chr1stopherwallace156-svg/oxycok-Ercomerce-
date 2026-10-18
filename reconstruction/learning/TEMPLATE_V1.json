@@ -1,0 +1,38 @@
+{
+  "draft_only": true,
+  "note": "Incomplete drafts must fail validated-corpus audit. Set kind, classification and all fields from current evidence; do not copy a historical subject.",
+  "record": {
+    "id": null,
+    "kind": "FAILURE",
+    "authority": "NONE",
+    "reference": null,
+    "classification": "ENVIRONMENT",
+    "mechanism": "FILL_FROM_EVIDENCE",
+    "observation": "FILL_FROM_EVIDENCE",
+    "positive_method": "FILL_FROM_EVIDENCE",
+    "applicability": [
+      "process-ownership",
+      "linux-worker"
+    ],
+    "exclusions": [
+      "host-identity-readable"
+    ],
+    "source_paths": null,
+    "evidence_refs": null,
+    "consumer_effect": "FILL_FROM_EVIDENCE",
+    "test_obligations": [
+      "Run same source test on an ordinary Linux host and this restricted worker.",
+      "Keep a readable-host positive control and unverifiable-owner negative control.",
+      "Do not infer global REA defect from this host result."
+    ],
+    "unknowns": [
+      "Root host namespace/mount implementation and portability responsibility remain unresolved.",
+      "Independent ordinary-host comparison not performed."
+    ],
+    "maturity": "TRANSFER_CANDIDATE",
+    "local_problem_closed": false,
+    "repository_learning_closed": false,
+    "rollback": "Demote only the future automatic binding if a counterexample appears; retain all source pins, failures, methods and receipts.",
+    "analysis": null
+  }
+}

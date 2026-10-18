@@ -1,0 +1,4468 @@
+{
+  "kind": "SOURCE_RUNNER_FILE_RESULTS",
+  "results": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.661244999999326,
+          "failureMessages": [],
+          "fullName": "preserves high uint64 registers and historical thread identity",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves high uint64 registers and historical thread identity"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7011119999988296,
+          "failureMessages": [],
+          "fullName": "preserves a short zero-filled note-segment tail",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a short zero-filled note-segment tail"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6927020000002813,
+          "failureMessages": [],
+          "fullName": "rejects an incomplete or duplicate interpretation: missing-thread",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an incomplete or duplicate interpretation: missing-thread"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4924879999998666,
+          "failureMessages": [],
+          "fullName": "rejects an incomplete or duplicate interpretation: duplicate-thread",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an incomplete or duplicate interpretation: duplicate-thread"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7781069999982719,
+          "failureMessages": [],
+          "fullName": "rejects an incomplete or duplicate interpretation: missing-signal",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an incomplete or duplicate interpretation: missing-signal"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7755420000030426,
+          "failureMessages": [],
+          "fullName": "rejects an incomplete or duplicate interpretation: duplicate-signal",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an incomplete or duplicate interpretation: duplicate-signal"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5219959999994899,
+          "failureMessages": [],
+          "fullName": "rejects an incomplete or duplicate interpretation: missing-register",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an incomplete or duplicate interpretation: missing-register"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5908610000005865,
+          "failureMessages": [],
+          "fullName": "rejects an incomplete or duplicate interpretation: unknown-register",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an incomplete or duplicate interpretation: unknown-register"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6396249999997963,
+          "failureMessages": [],
+          "fullName": "rejects an incomplete or duplicate interpretation: duplicated-physical-thread",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an incomplete or duplicate interpretation: duplicated-physical-thread"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6489770000007411,
+          "failureMessages": [],
+          "fullName": "rejects an incomplete or duplicate interpretation: duplicated-physical-signal",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an incomplete or duplicate interpretation: duplicated-physical-signal"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8088999999999942,
+          "failureMessages": [],
+          "fullName": "rejects an incomplete or duplicate interpretation: omitted-physical-note",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an incomplete or duplicate interpretation: omitted-physical-note"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3321319999995467,
+          "failureMessages": [],
+          "fullName": "rejects an incomplete or duplicate interpretation: expanded-note-span",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an incomplete or duplicate interpretation: expanded-note-span"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.27227599999969243,
+          "failureMessages": [],
+          "fullName": "rejects an incomplete or duplicate interpretation: forged-padding",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an incomplete or duplicate interpretation: forged-padding"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.26987499999813735,
+          "failureMessages": [],
+          "fullName": "rejects unsafe register number before Evidence serialization",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects unsafe register number before Evidence serialization"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.32927399999971385,
+          "failureMessages": [],
+          "fullName": "rejects source outside artifact before Evidence serialization",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects source outside artifact before Evidence serialization"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6447249999982887,
+          "failureMessages": [],
+          "fullName": "rejects invalid note reference before Evidence serialization",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid note reference before Evidence serialization"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4099610000012035,
+          "failureMessages": [],
+          "fullName": "rejects register outside descriptor before Evidence serialization",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects register outside descriptor before Evidence serialization"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.489994999999908,
+          "failureMessages": [],
+          "fullName": "rejects raw descriptor length before Evidence serialization",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects raw descriptor length before Evidence serialization"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1046449999994365,
+          "failureMessages": [],
+          "fullName": "rejects different owner ABI before Evidence serialization",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects different owner ABI before Evidence serialization"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5048989999995683,
+          "failureMessages": [],
+          "fullName": "rejects raw owner ABI hidden by a CORE display label before Evidence serialization",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects raw owner ABI hidden by a CORE display label before Evidence serialization"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7918159999971977,
+          "failureMessages": [],
+          "fullName": "rejects duplicate register before Evidence serialization",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects duplicate register before Evidence serialization"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1926190000012866,
+          "failureMessages": [],
+          "fullName": "does not interpret a signal through a mislabeled raw owner ABI",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not interpret a signal through a mislabeled raw owner ABI"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.5537530000001425,
+          "failureMessages": [],
+          "fullName": "keeps absent map flags unknown and validates reported permission bits",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps absent map flags unknown and validates reported permission bits"
+        },
+        {
+          "ancestorTitles": [
+            "recorded AArch64 core profile"
+          ],
+          "benchmarks": [],
+          "duration": 0.6515770000005432,
+          "failureMessages": [],
+          "fullName": "recorded AArch64 core profile accepts the complete AArch64 register window in ABI order",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accepts the complete AArch64 register window in ABI order"
+        },
+        {
+          "ancestorTitles": [
+            "recorded AArch64 core profile"
+          ],
+          "benchmarks": [],
+          "duration": 0.3637190000008559,
+          "failureMessages": [],
+          "fullName": "recorded AArch64 core profile keeps the AArch64 note ranges inside their recorded segment",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the AArch64 note ranges inside their recorded segment"
+        },
+        {
+          "ancestorTitles": [
+            "recorded AArch64 core profile"
+          ],
+          "benchmarks": [],
+          "duration": 0.39262500000040745,
+          "failureMessages": [],
+          "fullName": "recorded AArch64 core profile rejects an amd64 register name inside an AArch64 window",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an amd64 register name inside an AArch64 window"
+        },
+        {
+          "ancestorTitles": [
+            "recorded AArch64 core profile"
+          ],
+          "benchmarks": [],
+          "duration": 0.2775499999988824,
+          "failureMessages": [],
+          "fullName": "recorded AArch64 core profile rejects the amd64 register count",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects the amd64 register count"
+        },
+        {
+          "ancestorTitles": [
+            "recorded AArch64 core profile"
+          ],
+          "benchmarks": [],
+          "duration": 0.25263599999743747,
+          "failureMessages": [],
+          "fullName": "recorded AArch64 core profile rejects a 4-byte AArch64 register source",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects a 4-byte AArch64 register source"
+        },
+        {
+          "ancestorTitles": [
+            "recorded AArch64 core profile"
+          ],
+          "benchmarks": [],
+          "duration": 0.2569680000015069,
+          "failureMessages": [],
+          "fullName": "recorded AArch64 core profile rejects an architecture outside the interpreted profiles",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an architecture outside the interpreted profiles"
+        }
+      ],
+      "endTime": 1792321716772.257,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/native/recordedCrash.test.ts",
+      "startTime": 1792321716745,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.9173979999977746,
+          "failureMessages": [],
+          "fullName": "compares normalized terminal facts while retaining different source text for audit",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "compares normalized terminal facts while retaining different source text for audit"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.6874229999993986,
+          "failureMessages": [],
+          "fullName": "distinguishes added evidence from unknown observations",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes added evidence from unknown observations"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.140702999997302,
+          "failureMessages": [],
+          "fullName": "compares raw terminal and process observations while honoring normalization shape",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "compares raw terminal and process observations while honoring normalization shape"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7964240000001155,
+          "failureMessages": [],
+          "fullName": "keeps filesystem comparison unknown without coverage and reports observed changes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps filesystem comparison unknown without coverage and reports observed changes"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0592600000018138,
+          "failureMessages": [],
+          "fullName": "orders an interaction difference by its dispatch time (process sample at 500 ms)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "orders an interaction difference by its dispatch time (process sample at 500 ms)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6851920000008249,
+          "failureMessages": [],
+          "fullName": "orders an interaction difference by its dispatch time (process sample at 4 ms)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "orders an interaction difference by its dispatch time (process sample at 4 ms)"
+        }
+      ],
+      "endTime": 1792321721398.6853,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/process/processCapture.comparison.test.ts",
+      "startTime": 1792321721388,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 7.626027999998769,
+          "failureMessages": [],
+          "fullName": "never considers truncated captures equivalent",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "never considers truncated captures equivalent"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.4876509999994596,
+          "failureMessages": [],
+          "fullName": "rejects altered v4 commitments and accepts canonical key reordering",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects altered v4 commitments and accepts canonical key reordering"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.879929999999149,
+          "failureMessages": [],
+          "fullName": "requires producer coverage accounting in every parsed capture",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requires producer coverage accounting in every parsed capture"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.386710000000676,
+          "failureMessages": [],
+          "fullName": "does not infer normalized retention budget from missing scenario defaults",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer normalized retention budget from missing scenario defaults"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.5890909999998257,
+          "failureMessages": [],
+          "fullName": "rejects settlement and cleanup combinations that cannot occur",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects settlement and cleanup combinations that cannot occur"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8404850000006263,
+          "failureMessages": [],
+          "fullName": "rejects finalization evidence that no deadline could have produced",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects finalization evidence that no deadline could have produced"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3594890000003943,
+          "failureMessages": [],
+          "fullName": "rejects a finalization reason on a verified delivery",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects a finalization reason on a verified delivery"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.2145460000010644,
+          "failureMessages": [],
+          "fullName": "binds finalization evidence to the committed finalization interval",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "binds finalization evidence to the committed finalization interval"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4803940000001603,
+          "failureMessages": [],
+          "fullName": "validates finalization signal observations",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "validates finalization signal observations"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.953980999998748,
+          "failureMessages": [],
+          "fullName": "validates finalization evidence in partial captures and rejects malformed records",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "validates finalization evidence in partial captures and rejects malformed records"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.5331909999986237,
+          "failureMessages": [],
+          "fullName": "binds the comparison contract to the committed finalization interval",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "binds the comparison contract to the committed finalization interval"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 10.709005999999135,
+          "failureMessages": [],
+          "fullName": "validates finalization evidence in incomplete observations",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "validates finalization evidence in incomplete observations"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.38293699999849196,
+          "failureMessages": [],
+          "fullName": "rejects chronologically impossible or repeated finalization attempts",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects chronologically impossible or repeated finalization attempts"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8768799999998009,
+          "failureMessages": [],
+          "fullName": "keeps the finalization exit code tied to an observed exit not caused by a signal",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the finalization exit code tied to an observed exit not caused by a signal"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5132830000002286,
+          "failureMessages": [],
+          "fullName": "accepts the canonical finalized capture example",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accepts the canonical finalized capture example"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.550409999999829,
+          "failureMessages": [],
+          "fullName": "requires an explicit journal and validates complete journals",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requires an explicit journal and validates complete journals"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4753399999990506,
+          "failureMessages": [],
+          "fullName": "rejects old executable identity representations without migration",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects old executable identity representations without migration"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.260551999999734,
+          "failureMessages": [],
+          "fullName": "requires compatible contracts and enforces capture age through a clock seam",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requires compatible contracts and enforces capture age through a clock seam"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.4755390000009356,
+          "failureMessages": [],
+          "fullName": "requires interaction dispatch times to follow their sequence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requires interaction dispatch times to follow their sequence"
+        }
+      ],
+      "endTime": 1792321706208.4756,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/process/processCapture.validation.test.ts",
+      "startTime": 1792321706152,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6682150000015099,
+          "failureMessages": [],
+          "fullName": "defaults the finalization interval to zero without changing committed identity",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "defaults the finalization interval to zero without changing committed identity"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.20277899999928195,
+          "failureMessages": [],
+          "fullName": "accepts an explicit zero finalization interval",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accepts an explicit zero finalization interval"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.16769900000144844,
+          "failureMessages": [],
+          "fullName": "commits a positive finalization interval in both identity projections",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "commits a positive finalization interval in both identity projections"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.40574000000196975,
+          "failureMessages": [],
+          "fullName": "rejects the finalization interval -1",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects the finalization interval -1"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.33378799999991315,
+          "failureMessages": [],
+          "fullName": "rejects the finalization interval 1.5",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects the finalization interval 1.5"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.22232099999746424,
+          "failureMessages": [],
+          "fullName": "rejects the finalization interval 9007199254740992",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects the finalization interval 9007199254740992"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4292459999996936,
+          "failureMessages": [],
+          "fullName": "accepts a combined lifecycle budget up to the safe-integer limit",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accepts a combined lifecycle budget up to the safe-integer limit"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7044580000001588,
+          "failureMessages": [],
+          "fullName": "rejects timeout alone over the sum with a representability message",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects timeout alone over the sum with a representability message"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0990070000007108,
+          "failureMessages": [],
+          "fullName": "rejects components that only overflow together with a representability message",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects components that only overflow together with a representability message"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8358310000003257,
+          "failureMessages": [],
+          "fullName": "rejects a large settle and finalization with a representability message",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects a large settle and finalization with a representability message"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8148650000002817,
+          "failureMessages": [],
+          "fullName": "keeps the committed identity of a scenario without finalization byte for byte",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the committed identity of a scenario without finalization byte for byte"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3802819999982603,
+          "failureMessages": [],
+          "fullName": "admits the default and the exact combined terminal-cell budget",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "admits the default and the exact combined terminal-cell budget"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4192909999983385,
+          "failureMessages": [],
+          "fullName": "rejects an oversized initial buffer without clamping caller dimensions",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an oversized initial buffer without clamping caller dimensions"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0288480000017444,
+          "failureMessages": [],
+          "fullName": "applies the selected scrollback budget to every scheduled resize",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "applies the selected scrollback budget to every scheduled resize"
+        }
+      ],
+      "endTime": 1792321725188.0288,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/process/processScenario.test.ts",
+      "startTime": 1792321725180,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "declared trace comparison nonconformance"
+          ],
+          "benchmarks": [],
+          "duration": 2.066125999997894,
+          "failureMessages": [],
+          "fullName": "declared trace comparison nonconformance does not call identical captures changed when both violate the language",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not call identical captures changed when both violate the language"
+        },
+        {
+          "ancestorTitles": [
+            "declared trace comparison nonconformance"
+          ],
+          "benchmarks": [],
+          "duration": 1.630606999999145,
+          "failureMessages": [],
+          "fullName": "declared trace comparison nonconformance does not mask distinct payloads when both traces are nonconforming",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not mask distinct payloads when both traces are nonconforming"
+        }
+      ],
+      "endTime": 1792321731150.6306,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/process/processTraceAdapters.test.ts",
+      "startTime": 1792321731147,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "generic capture trace comparison"
+          ],
+          "benchmarks": [],
+          "duration": 7.8259130000005825,
+          "failureMessages": [],
+          "fullName": "generic capture trace comparison requires explicit partial ordering and never infers causality from timestamps",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requires explicit partial ordering and never infers causality from timestamps"
+        },
+        {
+          "ancestorTitles": [
+            "generic capture trace comparison"
+          ],
+          "benchmarks": [],
+          "duration": 1.469769000001179,
+          "failureMessages": [],
+          "fullName": "generic capture trace comparison rejects malformed result contracts",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects malformed result contracts"
+        },
+        {
+          "ancestorTitles": [
+            "generic capture trace comparison"
+          ],
+          "benchmarks": [],
+          "duration": 1.7480470000009518,
+          "failureMessages": [],
+          "fullName": "generic capture trace comparison supports declared optional events and bounded duplicates",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "supports declared optional events and bounded duplicates"
+        },
+        {
+          "ancestorTitles": [
+            "generic capture trace comparison"
+          ],
+          "benchmarks": [],
+          "duration": 1.144297999999253,
+          "failureMessages": [],
+          "fullName": "generic capture trace comparison compares a declared identifier the comparison result can represent",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "compares a declared identifier the comparison result can represent"
+        },
+        {
+          "ancestorTitles": [
+            "finite trace variant mismatch attribution"
+          ],
+          "benchmarks": [],
+          "duration": 1.4758310000015626,
+          "failureMessages": [],
+          "fullName": "finite trace variant mismatch attribution reports tied best-prefix omissions across variants",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports tied best-prefix omissions across variants"
+        },
+        {
+          "ancestorTitles": [
+            "process trace constraints and evidence sufficiency"
+          ],
+          "benchmarks": [],
+          "duration": 5.181056999999782,
+          "failureMessages": [],
+          "fullName": "process trace constraints and evidence sufficiency enforces exact and range cardinality for a repeated terminal observation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "enforces exact and range cardinality for a repeated terminal observation"
+        },
+        {
+          "ancestorTitles": [
+            "process trace constraints and evidence sufficiency"
+          ],
+          "benchmarks": [],
+          "duration": 2.5091600000014296,
+          "failureMessages": [],
+          "fullName": "process trace constraints and evidence sufficiency enforces an explicit not-before relation between terminal and process events",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "enforces an explicit not-before relation between terminal and process events"
+        },
+        {
+          "ancestorTitles": [
+            "unknown process trace evidence"
+          ],
+          "benchmarks": [],
+          "duration": 4.571238000000449,
+          "failureMessages": [],
+          "fullName": "unknown process trace evidence never proves equivalence from truncated, unknown, or journal-free evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "never proves equivalence from truncated, unknown, or journal-free evidence"
+        },
+        {
+          "ancestorTitles": [
+            "process trace dimension attribution"
+          ],
+          "benchmarks": [],
+          "duration": 3.6775870000001305,
+          "failureMessages": [],
+          "fullName": "process trace dimension attribution preserves an independently observed terminal addition/removal (reversed: false)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an independently observed terminal addition/removal (reversed: false)"
+        },
+        {
+          "ancestorTitles": [
+            "process trace dimension attribution"
+          ],
+          "benchmarks": [],
+          "duration": 1.6395919999995385,
+          "failureMessages": [],
+          "fullName": "process trace dimension attribution preserves an independently observed terminal addition/removal (reversed: true)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves an independently observed terminal addition/removal (reversed: true)"
+        },
+        {
+          "ancestorTitles": [
+            "process trace dimension attribution"
+          ],
+          "benchmarks": [],
+          "duration": 4.760506999999052,
+          "failureMessages": [],
+          "fullName": "process trace dimension attribution applies passing filesystem trace timestamp omissions to exact comparison",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "applies passing filesystem trace timestamp omissions to exact comparison"
+        },
+        {
+          "ancestorTitles": [
+            "process trace dimension attribution"
+          ],
+          "benchmarks": [],
+          "duration": 1.9483440000003611,
+          "failureMessages": [],
+          "fullName": "process trace dimension attribution keeps equal dimensions unchanged when one side fails a predicate",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps equal dimensions unchanged when one side fails a predicate"
+        },
+        {
+          "ancestorTitles": [
+            "finite trace dimension attribution"
+          ],
+          "benchmarks": [],
+          "duration": 1.0375810000005004,
+          "failureMessages": [],
+          "fullName": "finite trace dimension attribution attributes a finite-trace omission to the omitted event dimension",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "attributes a finite-trace omission to the omitted event dimension"
+        },
+        {
+          "ancestorTitles": [
+            "unordered finite trace mismatch attribution"
+          ],
+          "benchmarks": [],
+          "duration": 2.1153439999998227,
+          "failureMessages": [],
+          "fullName": "unordered finite trace mismatch attribution attributes only the missing member of an unordered group",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "attributes only the missing member of an unordered group"
+        },
+        {
+          "ancestorTitles": [
+            "partial-order dimension attribution"
+          ],
+          "benchmarks": [],
+          "duration": 0.9182920000002923,
+          "failureMessages": [],
+          "fullName": "partial-order dimension attribution attributes an ordering difference to both ordered dimensions",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "attributes an ordering difference to both ordered dimensions"
+        },
+        {
+          "ancestorTitles": [
+            "partial-order dimension attribution"
+          ],
+          "benchmarks": [],
+          "duration": 1.2814369999996416,
+          "failureMessages": [],
+          "fullName": "partial-order dimension attribution attributes every independent failed ordering edge",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "attributes every independent failed ordering edge"
+        }
+      ],
+      "endTime": 1792321710300.2815,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/process/processTraceComparison.test.ts",
+      "startTime": 1792321710256,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "process trace specification"
+          ],
+          "benchmarks": [],
+          "duration": 3.015427999998792,
+          "failureMessages": [],
+          "fullName": "process trace specification reports independent declaration errors alongside a cycle",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports independent declaration errors alongside a cycle"
+        },
+        {
+          "ancestorTitles": [
+            "process trace specification"
+          ],
+          "benchmarks": [],
+          "duration": 0.910662999998749,
+          "failureMessages": [],
+          "fullName": "process trace specification accepts an acyclic order with shared successors and explicit unordered peers",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accepts an acyclic order with shared successors and explicit unordered peers"
+        },
+        {
+          "ancestorTitles": [
+            "process trace ordering validation"
+          ],
+          "benchmarks": [],
+          "duration": 1.2226649999975052,
+          "failureMessages": [],
+          "fullName": "process trace ordering validation uses a unique topological order for transitive declarations and conflicts",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses a unique topological order for transitive declarations and conflicts"
+        },
+        {
+          "ancestorTitles": [
+            "process trace ordering validation"
+          ],
+          "benchmarks": [],
+          "duration": 0.5312300000005052,
+          "failureMessages": [],
+          "fullName": "process trace ordering validation counts only undeclared pairs across transitive and disconnected relations",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "counts only undeclared pairs across transitive and disconnected relations"
+        },
+        {
+          "ancestorTitles": [
+            "process trace ordering validation"
+          ],
+          "benchmarks": [],
+          "duration": 0.5136350000029779,
+          "failureMessages": [],
+          "fullName": "process trace ordering validation reports one duplicate-pair diagnostic per overlapping group",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports one duplicate-pair diagnostic per overlapping group"
+        },
+        {
+          "ancestorTitles": [
+            "malformed process trace declarations"
+          ],
+          "benchmarks": [],
+          "duration": 0.4585220000008121,
+          "failureMessages": [],
+          "fullName": "malformed process trace declarations preserves independent diagnostics when event ids are duplicated",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves independent diagnostics when event ids are duplicated"
+        },
+        {
+          "ancestorTitles": [
+            "malformed process trace declarations"
+          ],
+          "benchmarks": [],
+          "duration": 0.33247100000153296,
+          "failureMessages": [],
+          "fullName": "malformed process trace declarations keeps reachability diagnostics for unknown referenced successors",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps reachability diagnostics for unknown referenced successors"
+        },
+        {
+          "ancestorTitles": [
+            "finite trace specification validation"
+          ],
+          "benchmarks": [],
+          "duration": 1.1287860000011278,
+          "failureMessages": [],
+          "fullName": "finite trace specification validation rejects invalid ignores and unsatisfiable variants",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects invalid ignores and unsatisfiable variants"
+        }
+      ],
+      "endTime": 1792321719054.129,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/process/processTraceSpecification.test.ts",
+      "startTime": 1792321719046,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "child-process options detection"
+          ],
+          "benchmarks": [],
+          "duration": 2.1765980000054697,
+          "failureMessages": [],
+          "fullName": "child-process options detection detects options without an args array",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "detects options without an args array"
+        },
+        {
+          "ancestorTitles": [
+            "child-process options detection"
+          ],
+          "benchmarks": [],
+          "duration": 2.9369200000001,
+          "failureMessages": [],
+          "fullName": "child-process options detection preserves behavior with explicit args arrays",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves behavior with explicit args arrays"
+        },
+        {
+          "ancestorTitles": [
+            "child-process options detection"
+          ],
+          "benchmarks": [],
+          "duration": 1.3806939999994938,
+          "failureMessages": [],
+          "fullName": "child-process options detection does not invent options when omitted",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invent options when omitted"
+        }
+      ],
+      "endTime": 1792321731230.3806,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/childProcessOptionsRegression.test.ts",
+      "startTime": 1792321731224,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 13.641122000000905,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals follows the default-export getter produced by webpack n.n",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the default-export getter produced by webpack n.n"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 3.533100000000559,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals does not infer Electron through a fake getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron through a fake getter"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 5.427459999998973,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals does not infer Electron through a getter replaced while evaluating its argument",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron through a getter replaced while evaluating its argument"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 5.690601999998762,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals does not infer Electron after a getter write through Reflect.set",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron after a getter write through Reflect.set"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 4.271788999998535,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals does not infer Electron after a getter write through Reflect.defineProperty",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron after a getter write through Reflect.defineProperty"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 4.297075999998924,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals does not infer Electron after a getter write through delete",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron after a getter write through delete"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 5.686701999999059,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals does not infer Electron after a getter write through a destructuring write",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron after a getter write through a destructuring write"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 4.84168900000077,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals does not infer Electron after a getter write through an unknown key",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron after a getter write through an unknown key"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 4.578538000001572,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals keeps the getter after a reflective write to another loader key",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps the getter after a reflective write to another loader key"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 7.256214000000909,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals follows the loader passed to a module factory",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the loader passed to a module factory"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 3.765662000001612,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals follows a direct member read from the loader call",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows a direct member read from the loader call"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 3.922448000001168,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals follows the runtime loader called from the bootstrap body",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the runtime loader called from the bootstrap body"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 3.757493000000977,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals keeps an external overwritten after the require unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an external overwritten after the require unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 3.408040999998775,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals keeps a local module table entry unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a local module table entry unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 3.287614000000758,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals keeps a shadowed require inside the external unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a shadowed require inside the external unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 3.242917999999918,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals keeps a reassigned loader parameter unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a reassigned loader parameter unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 2.114480000000185,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals keeps a loader-shaped call outside a proven bootstrap unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a loader-shaped call outside a proven bootstrap unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Electron identity through Webpack externals"
+          ],
+          "benchmarks": [],
+          "duration": 3.488420000001497,
+          "failureMessages": [],
+          "fullName": "Electron identity through Webpack externals keeps a different table key unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a different table key unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered runtime"
+          ],
+          "benchmarks": [],
+          "duration": 4.075122999998712,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered runtime keeps a replaced bootstrap loader unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a replaced bootstrap loader unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered runtime"
+          ],
+          "benchmarks": [],
+          "duration": 2.6681180000014137,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered runtime keeps a generator external unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a generator external unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered runtime"
+          ],
+          "benchmarks": [],
+          "duration": 2.4506750000000466,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered runtime keeps an async external unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an async external unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered runtime"
+          ],
+          "benchmarks": [],
+          "duration": 2.875404999998864,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered runtime keeps a loader that returns something else unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a loader that returns something else unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered runtime"
+          ],
+          "benchmarks": [],
+          "duration": 3.637727999997878,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered runtime keeps a table slot replaced before loading unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a table slot replaced before loading unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered runtime"
+          ],
+          "benchmarks": [],
+          "duration": 3.080658000002586,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered runtime keeps a table slot replaced through an alias unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a table slot replaced through an alias unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered runtime"
+          ],
+          "benchmarks": [],
+          "duration": 2.913053000000218,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered runtime keeps a slot replaced through the runtime exposure unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a slot replaced through the runtime exposure unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered runtime"
+          ],
+          "benchmarks": [],
+          "duration": 3.2996539999985544,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered runtime keeps a cache entry planted before loading unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a cache entry planted before loading unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered runtime"
+          ],
+          "benchmarks": [],
+          "duration": 2.6846569999979693,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered runtime keeps a computed table key that may collide unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a computed table key that may collide unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered runtime"
+          ],
+          "benchmarks": [],
+          "duration": 3.2512209999986226,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered runtime keeps an unresolved computed key in the table unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unresolved computed key in the table unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 3.871365999999398,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object keeps cached exports rewritten through the runtime exposure unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps cached exports rewritten through the runtime exposure unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 2.502509000001737,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object keeps a pre-populated cache unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a pre-populated cache unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 11.510128000001714,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object keeps exports rewritten in the returned sequence unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps exports rewritten in the returned sequence unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 4.010891999998421,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object keeps exports rewritten before the return unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps exports rewritten before the return unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 4.507783000000927,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object keeps an alias of the exposed table unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an alias of the exposed table unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 4.2712369999972,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object keeps a rewritten module key unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a rewritten module key unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 2.5708039999990433,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object keeps a dispatch behind a guard unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a dispatch behind a guard unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 2.829546000000846,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object keeps duplicate factory parameter names unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps duplicate factory parameter names unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 2.1830399999998917,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object keeps an accessor for module exports unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an accessor for module exports unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 3.7519240000001446,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object still resolves with a cache cleared when the factory throws",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "still resolves with a cache cleared when the factory throws"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 2.770963999999367,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object still resolves with the runtime exposing its cache",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "still resolves with the runtime exposing its cache"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 4.596647999998822,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object still resolves with chunk installation through the runtime table",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "still resolves with chunk installation through the runtime table"
+        },
+        {
+          "ancestorTitles": [
+            "Webpack externals with a tampered loader or module object"
+          ],
+          "benchmarks": [],
+          "duration": 2.814087999999174,
+          "failureMessages": [],
+          "fullName": "Webpack externals with a tampered loader or module object still resolves with a loaded flag set before returning",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "still resolves with a loaded flag set before returning"
+        }
+      ],
+      "endTime": 1792321716949.8142,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/electronBundledRequireIdentity.test.ts",
+      "startTime": 1792321716780,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Electron module interop identity"
+          ],
+          "benchmarks": [],
+          "duration": 14.682369999999537,
+          "failureMessages": [],
+          "fullName": "Electron module interop identity preserves named APIs through the released Rolldown namespace conversion",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves named APIs through the released Rolldown namespace conversion"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop identity"
+          ],
+          "benchmarks": [],
+          "duration": 9.769775000000664,
+          "failureMessages": [],
+          "fullName": "Electron module interop identity follows lexical identities when helper and parameter names change",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows lexical identities when helper and parameter names change"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop identity"
+          ],
+          "benchmarks": [],
+          "duration": 6.757496000000174,
+          "failureMessages": [],
+          "fullName": "Electron module interop identity preserves the same operations through control-body braces",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the same operations through control-body braces"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop identity"
+          ],
+          "benchmarks": [],
+          "duration": 7.034407000000101,
+          "failureMessages": [],
+          "fullName": "Electron module interop identity keeps additional operations inside a control block unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps additional operations inside a control block unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 7.9203239999997095,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed through aliased prebound arguments",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed through aliased prebound arguments"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 6.1821319999999105,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed through nested prebinding",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed through nested prebinding"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 5.8057669999998325,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after a replaced bound mutator bind method is unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after a replaced bound mutator bind method is unknown"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 5.398433999999725,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed through a computed prebound call",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed through a computed prebound call"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 6.160479999999552,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed through a computed prebound apply",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed through a computed prebound apply"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 4.9620050000003175,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after a replaced bind intrinsic makes a prebound mutator unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after a replaced bind intrinsic makes a prebound mutator unknown"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.8841410000004544,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed through an unresolved mutator target",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed through an unresolved mutator target"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 5.085979999999836,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed via dynamic apply",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed via dynamic apply"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.9775829999998678,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed via spread call",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed via spread call"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 5.274287000000186,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed via Reflect.apply",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed via Reflect.apply"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 4.6812440000003335,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed via spread Reflect.apply",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed via spread Reflect.apply"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 4.826068000000305,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed via call",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed via call"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 16.135645999999724,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed via apply",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed via apply"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 4.783654000000752,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed with defineProperty",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed with defineProperty"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 4.195641000000251,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed with Reflect.set",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed with Reflect.set"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 6.912436000000525,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed with an aliased mutator",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed with an aliased mutator"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 5.767668999999842,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed with assign",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed with assign"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.580865000000813,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after intrinsic changed with defineProperties",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after intrinsic changed with defineProperties"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.8967699999993783,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after overwritten Object global",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after overwritten Object global"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 5.484105999999883,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after overwritten intrinsic through an alias",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after overwritten intrinsic through an alias"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 7.656423000000359,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after overwritten intrinsic through globalThis",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after overwritten intrinsic through globalThis"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 4.319782999999916,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after helper called before initialization",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after helper called before initialization"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.623453999999583,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after fake helper",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after fake helper"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.5938900000001013,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after changed getter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after changed getter"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.564863999999943,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after replaced copy helper",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after replaced copy helper"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.418633000000227,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after replaced intrinsic alias",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after replaced intrinsic alias"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 4.5456939999994574,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after shadowed Object",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after shadowed Object"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.518232000000353,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after overwritten intrinsic",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after overwritten intrinsic"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 5.921771999999692,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after overwritten alias call",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after overwritten alias call"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 5.948542999999518,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after overwritten Function bind",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after overwritten Function bind"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 4.860951999999088,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after conditional conversion",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after conditional conversion"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.1299760000001697,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after compound assignment",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after compound assignment"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.3420119999991584,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after other input",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after other input"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.992639000000054,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after later overwrite",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after later overwrite"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop uncertainty"
+          ],
+          "benchmarks": [],
+          "duration": 3.869903000000704,
+          "failureMessages": [],
+          "fullName": "Electron module interop uncertainty does not infer Electron identity after overwritten constructor",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer Electron identity after overwritten constructor"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 4.4298830000007,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves a proven result projection: const {BrowserWindow} = __toESM(require(\"electron\"), 1); new BrowserWindow({});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a proven result projection: const {BrowserWindow} = __toESM(require(\"electron\"), 1); new BrowserWindow({});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 5.831009000001359,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves a proven result projection: const {BrowserWindow: Window} = __toESM(require(\"electron\"), 1); new Window({});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a proven result projection: const {BrowserWindow: Window} = __toESM(require(\"electron\"), 1); new Window({});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 5.209398000000874,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves a proven result projection: const {default: {BrowserWindow}} = __toESM(require(\"electron\"), 1); new BrowserWindow({});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a proven result projection: const {default: {BrowserWindow}} = __toESM(require(\"electron\"), 1); new BrowserWindow({});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 3.6282929999997577,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves a proven result projection: const Window = __toESM(require(\"electron\"), 1).BrowserWindow; new Window({});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a proven result projection: const Window = __toESM(require(\"electron\"), 1).BrowserWindow; new Window({});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 6.234253999999055,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results keeps an uncertain result projection unresolved: const {[key]: Window} = __toESM(require(\"electron\"), 1); new Window({});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an uncertain result projection unresolved: const {[key]: Window} = __toESM(require(\"electron\"), 1); new Window({});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 4.226394000001164,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results keeps an uncertain result projection unresolved: const {...electron} = __toESM(require(\"electron\"), 1); new electron.BrowserWindow({});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an uncertain result projection unresolved: const {...electron} = __toESM(require(\"electron\"), 1); new electron.BrowserWindow({});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 6.034498999999414,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results keeps an uncertain result projection unresolved: let {BrowserWindow} = __toESM(require(\"electron\"), 1); BrowserWindow = Fake; new BrowserWindow({});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an uncertain result projection unresolved: let {BrowserWindow} = __toESM(require(\"electron\"), 1); BrowserWindow = Fake; new BrowserWindow({});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 4.527839000000313,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves named exports with a literal node mode: ",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves named exports with a literal node mode: "
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 3.4251039999999193,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves named exports with a literal node mode: , 0",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves named exports with a literal node mode: , 0"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 4.450414000000819,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves named exports with a literal node mode: , false",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves named exports with a literal node mode: , false"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 5.740321999999651,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves named exports with a literal node mode: , true",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves named exports with a literal node mode: , true"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 13.551917999999205,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves named exports with a literal node mode: , 1",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves named exports with a literal node mode: , 1"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 6.615797000000384,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves named exports with a literal node mode: , \"node\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves named exports with a literal node mode: , \"node\""
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 4.38953599999877,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves named exports with a literal node mode: , \"\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves named exports with a literal node mode: , \"\""
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 5.0534260000004,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves named exports with a literal node mode: , null",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves named exports with a literal node mode: , null"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 4.032854999999472,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results does not assume a module-valued default with node mode: ",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not assume a module-valued default with node mode: "
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 3.933579999998983,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results does not assume a module-valued default with node mode: , 0",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not assume a module-valued default with node mode: , 0"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 3.7612850000004983,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results does not assume a module-valued default with node mode: , false",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not assume a module-valued default with node mode: , false"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 3.2347399999998743,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results rejects side-effecting extra arguments to __toESM",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects side-effecting extra arguments to __toESM"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 4.460117000000537,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results rejects side-effecting extra arguments to identity",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects side-effecting extra arguments to identity"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 2.616045999999187,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results keeps an unproven fresh result unresolved: const __toESM = () => ({BrowserWindow:FakeWindow});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unproven fresh result unresolved: const __toESM = () => ({BrowserWindow:FakeWindow});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 2.67312099999981,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results keeps an unproven fresh result unresolved: const __toESM = async (mod) => mod;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unproven fresh result unresolved: const __toESM = async (mod) => mod;"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 2.423108000000866,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results keeps an unproven fresh result unresolved: function* __toESM(mod) { return mod; }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unproven fresh result unresolved: function* __toESM(mod) { return mod; }"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 2.42060500000116,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results keeps an unproven fresh result unresolved: const __toESM = (this && this.__toESM) || ((mod) => mod);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unproven fresh result unresolved: const __toESM = (this && this.__toESM) || ((mod) => mod);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop helper results"
+          ],
+          "benchmarks": [],
+          "duration": 8.141868999999133,
+          "failureMessages": [],
+          "fullName": "Electron module interop helper results preserves a proven fresh namespace and a pure identity helper",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a proven fresh namespace and a pure identity helper"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop pattern writes"
+          ],
+          "benchmarks": [],
+          "duration": 3.6009940000003553,
+          "failureMessages": [],
+          "fullName": "Electron module interop pattern writes rejects an intrinsic replaced through ({Object} = replacements);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an intrinsic replaced through ({Object} = replacements);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop pattern writes"
+          ],
+          "benchmarks": [],
+          "duration": 3.048276999999871,
+          "failureMessages": [],
+          "fullName": "Electron module interop pattern writes rejects an intrinsic replaced through [Function] = replacements;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an intrinsic replaced through [Function] = replacements;"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop pattern writes"
+          ],
+          "benchmarks": [],
+          "duration": 4.516932999998971,
+          "failureMessages": [],
+          "fullName": "Electron module interop pattern writes rejects an intrinsic replaced through ({nested:{Object}} = replacements);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an intrinsic replaced through ({nested:{Object}} = replacements);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop pattern writes"
+          ],
+          "benchmarks": [],
+          "duration": 4.247024999998757,
+          "failureMessages": [],
+          "fullName": "Electron module interop pattern writes rejects an intrinsic replaced through ({replacement:Object = customObject} = replacements);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an intrinsic replaced through ({replacement:Object = customObject} = replacements);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop pattern writes"
+          ],
+          "benchmarks": [],
+          "duration": 3.7578620000003866,
+          "failureMessages": [],
+          "fullName": "Electron module interop pattern writes rejects an intrinsic replaced through ({...Object} = replacements);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an intrinsic replaced through ({...Object} = replacements);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop pattern writes"
+          ],
+          "benchmarks": [],
+          "duration": 4.292123999999603,
+          "failureMessages": [],
+          "fullName": "Electron module interop pattern writes rejects an intrinsic replaced through [...Function] = replacements;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an intrinsic replaced through [...Function] = replacements;"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop pattern writes"
+          ],
+          "benchmarks": [],
+          "duration": 6.734440000000177,
+          "failureMessages": [],
+          "fullName": "Electron module interop pattern writes rejects an intrinsic replaced through for ({Object} of replacements) {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an intrinsic replaced through for ({Object} of replacements) {}"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop pattern writes"
+          ],
+          "benchmarks": [],
+          "duration": 6.9431319999985135,
+          "failureMessages": [],
+          "fullName": "Electron module interop pattern writes rejects an intrinsic replaced through for ([Function] in replacements) {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an intrinsic replaced through for ([Function] in replacements) {}"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop pattern writes"
+          ],
+          "benchmarks": [],
+          "duration": 8.57628399999885,
+          "failureMessages": [],
+          "fullName": "Electron module interop pattern writes preserves intrinsic identity for an unrelated target: ({Object:unrelated} = replacements);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves intrinsic identity for an unrelated target: ({Object:unrelated} = replacements);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop pattern writes"
+          ],
+          "benchmarks": [],
+          "duration": 5.030525999998645,
+          "failureMessages": [],
+          "fullName": "Electron module interop pattern writes preserves intrinsic identity for an unrelated target: function decoy(Object) {({Object} = replacements);}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves intrinsic identity for an unrelated target: function decoy(Object) {({Object} = replacements);}"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop pattern writes"
+          ],
+          "benchmarks": [],
+          "duration": 4.821429999999964,
+          "failureMessages": [],
+          "fullName": "Electron module interop pattern writes preserves captured operations after later property destructuring",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves captured operations after later property destructuring"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop intrinsic captures"
+          ],
+          "benchmarks": [],
+          "duration": 5.358966000001601,
+          "failureMessages": [],
+          "fullName": "Electron module interop intrinsic captures retains the original function capture through var captured = Object.defineProperty;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the original function capture through var captured = Object.defineProperty;"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop intrinsic captures"
+          ],
+          "benchmarks": [],
+          "duration": 4.0153339999997115,
+          "failureMessages": [],
+          "fullName": "Electron module interop intrinsic captures retains the original function capture through const {defineProperty:captured} = Object;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the original function capture through const {defineProperty:captured} = Object;"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop intrinsic captures"
+          ],
+          "benchmarks": [],
+          "duration": 3.839651000000231,
+          "failureMessages": [],
+          "fullName": "Electron module interop intrinsic captures retains the original function capture through var first = Object.defineProperty; const captured = first;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the original function capture through var first = Object.defineProperty; const captured = first;"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop intrinsic captures"
+          ],
+          "benchmarks": [],
+          "duration": 3.8369720000009693,
+          "failureMessages": [],
+          "fullName": "Electron module interop intrinsic captures keeps an intrinsic alias read before its var initializer unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an intrinsic alias read before its var initializer unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop intrinsic captures"
+          ],
+          "benchmarks": [],
+          "duration": 3.663476999998238,
+          "failureMessages": [],
+          "fullName": "Electron module interop intrinsic captures keeps an intrinsic alias read before its const initializer unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an intrinsic alias read before its const initializer unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop intrinsic captures"
+          ],
+          "benchmarks": [],
+          "duration": 3.7125919999998587,
+          "failureMessages": [],
+          "fullName": "Electron module interop intrinsic captures requires the helper's intrinsic binding to initialize before conversion",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requires the helper's intrinsic binding to initialize before conversion"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 4.4057329999996,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope recognizes a hoisted function target through metadata",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recognizes a hoisted function target through metadata"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 4.83269399999881,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope recognizes a hoisted function target through alias",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recognizes a hoisted function target through alias"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 4.902729999999792,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope does not hoist fresh targets from var metadata = function () {};",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not hoist fresh targets from var metadata = function () {};"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 4.307206000001315,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope does not hoist fresh targets from const metadata = () => {};",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not hoist fresh targets from const metadata = () => {};"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 4.368844000000536,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope does not hoist fresh targets from class metadata {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not hoist fresh targets from class metadata {}"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 15.183925999999701,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope rejects a projected intrinsic mutator alias: const {defineProperty:change} = Object; change(Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects a projected intrinsic mutator alias: const {defineProperty:change} = Object; change(Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 5.113279000001057,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope rejects a projected intrinsic mutator alias: const objectAlias = Object; const {assign:change} = objectAlias; change(Object,{create:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects a projected intrinsic mutator alias: const objectAlias = Object; const {assign:change} = objectAlias; change(Object,{create:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 4.023095999998986,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope rejects a projected intrinsic mutator alias: const {set:change} = Reflect; change(Object,\"create\",customCreate);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects a projected intrinsic mutator alias: const {set:change} = Reflect; change(Object,\"create\",customCreate);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 4.110351000001174,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope rejects a projected intrinsic mutator alias: const {Object:{defineProperty:change}} = globalThis; change(Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects a projected intrinsic mutator alias: const {Object:{defineProperty:change}} = globalThis; change(Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 3.998771000000488,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps a fresh mutator target separate from intrinsic identity: const metadata = {};",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh mutator target separate from intrinsic identity: const metadata = {};"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 3.6014570000006643,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps a fresh mutator target separate from intrinsic identity: const metadata = [];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh mutator target separate from intrinsic identity: const metadata = [];"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 7.065645000000586,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps a fresh mutator target separate from intrinsic identity: const initial = {}; const metadata = initial;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh mutator target separate from intrinsic identity: const initial = {}; const metadata = initial;"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 7.045951000000059,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps a fresh mutator target separate from intrinsic identity: const metadata = () => {};",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh mutator target separate from intrinsic identity: const metadata = () => {};"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 6.699459999999817,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps a fresh mutator target separate from intrinsic identity: const metadata = function () {};",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh mutator target separate from intrinsic identity: const metadata = function () {};"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 5.099363999999696,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps a fresh mutator target separate from intrinsic identity: const metadata = async () => {};",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh mutator target separate from intrinsic identity: const metadata = async () => {};"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 3.5413079999998445,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps a fresh mutator target separate from intrinsic identity: const metadata = function* () {};",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh mutator target separate from intrinsic identity: const metadata = function* () {};"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 3.4546559999998863,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps a fresh mutator target separate from intrinsic identity: const metadata = class {};",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh mutator target separate from intrinsic identity: const metadata = class {};"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 4.560656999999992,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps a fresh mutator target separate from intrinsic identity: const metadata = /local/;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh mutator target separate from intrinsic identity: const metadata = /local/;"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 4.218331000000035,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps a fresh mutator target separate from intrinsic identity: function metadata() {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh mutator target separate from intrinsic identity: function metadata() {}"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 4.259705000000395,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps a fresh mutator target separate from intrinsic identity: class metadata {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh mutator target separate from intrinsic identity: class metadata {}"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 4.386112000000139,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps an unproven mutator target unresolved: const metadata = getMetadata();",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unproven mutator target unresolved: const metadata = getMetadata();"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 4.708472000000256,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps an unproven mutator target unresolved: let metadata = {}; metadata = Object;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unproven mutator target unresolved: let metadata = {}; metadata = Object;"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 3.83596899999975,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps an unproven mutator target unresolved: Object.defineProperty(metadata,'x',{value:1}); const metadata = {};",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unproven mutator target unresolved: Object.defineProperty(metadata,'x',{value:1}); const metadata = {};"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 3.276509999999689,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps an unproven mutator target unresolved: const metadata = {intrinsic:Object}; Object.defineProperty(metadata.intrinsic,'create',{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unproven mutator target unresolved: const metadata = {intrinsic:Object}; Object.defineProperty(metadata.intrinsic,'create',{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 3.8236399999987043,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps an unproven mutator target unresolved: const metadata = class {static {Object.create = customCreate;}};",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unproven mutator target unresolved: const metadata = class {static {Object.create = customCreate;}};"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 7.752311000000191,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps an unproven mutator target unresolved: @(() => Object) class metadata {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unproven mutator target unresolved: @(() => Object) class metadata {}"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 5.863180000000284,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope does not reject unrelated intrinsic property definitions",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not reject unrelated intrinsic property definitions"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 6.322471000001315,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps opaque targets in a generic helper separate from outer module identity",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps opaque targets in a generic helper separate from outer module identity"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 5.662895000001299,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope rejects an opaque intrinsic mutation in the namespace's own callable",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects an opaque intrinsic mutation in the namespace's own callable"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 6.262593999999808,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope preserves captured intrinsics across later vendor polyfills and callable writes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves captured intrinsics across later vendor polyfills and callable writes"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop capture and scope"
+          ],
+          "benchmarks": [],
+          "duration": 5.92467200000101,
+          "failureMessages": [],
+          "fullName": "Electron module interop capture and scope keeps a shadowed namespace separate from the converted module",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a shadowed namespace separate from the converted module"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 6.916027999999642,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: const change = Function.prototype.call.bind(Object.defineProperty); change(null,Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: const change = Function.prototype.call.bind(Object.defineProperty); change(null,Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 4.352476999998544,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: const call = Function.prototype.call; const change = call.bind(Object.defineProperty); change(null,Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: const call = Function.prototype.call; const change = call.bind(Object.defineProperty); change(null,Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 4.813032000000021,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: const change = Function.prototype.call.bind(Object.defineProperty,null,Object,\"create\"); change({value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: const change = Function.prototype.call.bind(Object.defineProperty,null,Object,\"create\"); change({value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 3.9126440000000002,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: Function.prototype.call.apply(Object.defineProperty,[null,Object,\"create\",{value:customCreate}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: Function.prototype.call.apply(Object.defineProperty,[null,Object,\"create\",{value:customCreate}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 4.21269299999949,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: Reflect.apply(Function.prototype.call,Object.defineProperty,[null,Object,\"create\",{value:customCreate}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: Reflect.apply(Function.prototype.call,Object.defineProperty,[null,Object,\"create\",{value:customCreate}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 3.6563399999995454,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: const change = Function.prototype.apply.bind(Object.defineProperty); change(null,[Object,\"create\",{value:customCreate}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: const change = Function.prototype.apply.bind(Object.defineProperty); change(null,[Object,\"create\",{value:customCreate}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 12.263018000001466,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: Reflect.apply(Function.prototype.apply,Object.defineProperty,[null,[Object,\"create\",{value:customCreate}]]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: Reflect.apply(Function.prototype.apply,Object.defineProperty,[null,[Object,\"create\",{value:customCreate}]]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 4.323892000000342,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: const first = Function.prototype.call.bind(Object.defineProperty,null,Object,\"create\"); const change = first.bind(fake); change({value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: const first = Function.prototype.call.bind(Object.defineProperty,null,Object,\"create\"); const change = first.bind(fake); change({value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 4.628599000001486,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: const change = Function.prototype.call.bind(Object.defineProperty); change(null,...args);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: const change = Function.prototype.call.bind(Object.defineProperty); change(null,...args);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 3.894444999999905,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: const change = Function.prototype.apply.bind(Object.defineProperty); change(null,args);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: const change = Function.prototype.apply.bind(Object.defineProperty); change(null,args);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 3.9779939999989438,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: const change = Function.prototype.call.bind(Object.defineProperty,null,...args); change(metadata,\"x\",{value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: const change = Function.prototype.call.bind(Object.defineProperty,null,...args); change(metadata,\"x\",{value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 3.382767999999487,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: Function.prototype.call.call.call(Object.defineProperty,null,Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: Function.prototype.call.call.call(Object.defineProperty,null,Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 3.0473000000001775,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: Object.defineProperty.call.call(Object.defineProperty,null,Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: Object.defineProperty.call.call(Object.defineProperty,null,Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 3.5113799999999173,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: Function.prototype.apply.apply(Object.defineProperty,[null,[Object,\"create\",{value:customCreate}]]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: Function.prototype.apply.apply(Object.defineProperty,[null,[Object,\"create\",{value:customCreate}]]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 4.669668000000456,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: const change = Object.defineProperty.call.bind(Object.defineProperty); change(null,Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: const change = Object.defineProperty.call.bind(Object.defineProperty); change(null,Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 3.7506650000013906,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations follows the callable receiver of a generic invocation: const change = Function.prototype.call.call.bind(Object.defineProperty,null,Object,\"create\"); change({value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows the callable receiver of a generic invocation: const change = Function.prototype.call.call.bind(Object.defineProperty,null,Object,\"create\"); change({value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 3.733661000000211,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations preserves fresh targets through a generic invocation: const change = Function.prototype.call.bind(Object.defineProperty); change(null,metadata,\"x\",{value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves fresh targets through a generic invocation: const change = Function.prototype.call.bind(Object.defineProperty); change(null,metadata,\"x\",{value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 4.535931999998866,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations preserves fresh targets through a generic invocation: const change = Function.prototype.call.bind(Object.defineProperty,null,metadata,\"x\"); change({value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves fresh targets through a generic invocation: const change = Function.prototype.call.bind(Object.defineProperty,null,metadata,\"x\"); change({value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 3.7344709999997576,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations preserves fresh targets through a generic invocation: Function.prototype.call.call(Object.defineProperty,null,metadata,\"x\",{value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves fresh targets through a generic invocation: Function.prototype.call.call(Object.defineProperty,null,metadata,\"x\",{value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 3.5823860000000423,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations preserves fresh targets through a generic invocation: const change = Function.prototype.apply.bind(Object.defineProperty); change(null,[metadata,\"x\",{value:1}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves fresh targets through a generic invocation: const change = Function.prototype.apply.bind(Object.defineProperty); change(null,[metadata,\"x\",{value:1}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 4.552515999999741,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations preserves fresh targets through a generic invocation: Reflect.apply(Function.prototype.apply,Object.defineProperty,[null,[metadata,\"x\",{value:1}]]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves fresh targets through a generic invocation: Reflect.apply(Function.prototype.apply,Object.defineProperty,[null,[metadata,\"x\",{value:1}]]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 4.128813000001173,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations preserves fresh targets through a generic invocation: Function.prototype.call.call.call(Object.defineProperty,null,metadata,\"x\",{value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves fresh targets through a generic invocation: Function.prototype.call.call.call(Object.defineProperty,null,metadata,\"x\",{value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 3.5720390000005864,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations preserves fresh targets through a generic invocation: Function.prototype.apply.apply(Object.defineProperty,[null,[metadata,\"x\",{value:1}]]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves fresh targets through a generic invocation: Function.prototype.apply.apply(Object.defineProperty,[null,[metadata,\"x\",{value:1}]]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop generic invocations"
+          ],
+          "benchmarks": [],
+          "duration": 4.074877999999444,
+          "failureMessages": [],
+          "fullName": "Electron module interop generic invocations preserves fresh targets through a generic invocation: const change = Object.defineProperty.call.bind(Object.defineProperty); change(null,metadata,\"x\",{value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves fresh targets through a generic invocation: const change = Object.defineProperty.call.bind(Object.defineProperty); change(null,metadata,\"x\",{value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.6151929999996355,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.bind(null); change(Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.bind(null); change(Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.2642940000005183,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.bind(null,Object,\"create\"); change({value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.bind(null,Object,\"create\"); change({value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 4.6064600000008795,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const first = Object.defineProperty.bind(null,Object); const change = first; change(\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const first = Object.defineProperty.bind(null,Object); const change = first; change(\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 2.9447000000000116,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.bind(null,Object); change.call(null,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.bind(null,Object); change.call(null,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 5.305894999999509,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.bind(null,Object); change.apply(null,[\"create\",{value:customCreate}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.bind(null,Object); change.apply(null,[\"create\",{value:customCreate}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.897154000000228,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.bind(null,Object); Reflect.apply(change,null,[\"create\",{value:customCreate}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.bind(null,Object); Reflect.apply(change,null,[\"create\",{value:customCreate}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.432666999999128,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: Object.defineProperty.bind(null,Object,\"create\")({value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: Object.defineProperty.bind(null,Object,\"create\")({value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.281552999998894,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.bind(null,...args); change(Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.bind(null,...args); change(Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 4.991092000000208,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const metadata = {}; Object.defineProperty.call(...args,metadata,\"x\",{value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const metadata = {}; Object.defineProperty.call(...args,metadata,\"x\",{value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 5.941602000000785,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const metadata = {}; Object.defineProperty.apply(...args,[metadata,\"x\",{value:1}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const metadata = {}; Object.defineProperty.apply(...args,[metadata,\"x\",{value:1}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.5748720000010508,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Function.prototype.call.bind(Object.defineProperty,null); change(Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Function.prototype.call.bind(Object.defineProperty,null); change(Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 4.664177999999083,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const first = Function.prototype.call.bind(Object.defineProperty,null); const change = first.bind(customReceiver,Object,\"create\"); change({value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const first = Function.prototype.call.bind(Object.defineProperty,null); const change = first.bind(customReceiver,Object,\"create\"); change({value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 4.109416999999667,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Function.prototype.apply.bind(Object.defineProperty,null); change([Object,\"create\",{value:customCreate}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Function.prototype.apply.bind(Object.defineProperty,null); change([Object,\"create\",{value:customCreate}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 14.79627199999959,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: Function.prototype.call.call(Object.defineProperty,null,Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: Function.prototype.call.call(Object.defineProperty,null,Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 2.8773739999996906,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: Function.prototype.apply.call(Object.defineProperty,null,[Object,\"create\",{value:customCreate}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: Function.prototype.apply.call(Object.defineProperty,null,[Object,\"create\",{value:customCreate}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 4.653186999999889,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const uncurry = Function.prototype.call.bind(Function.prototype.call); uncurry(Object.defineProperty,null,Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const uncurry = Function.prototype.call.bind(Function.prototype.call); uncurry(Object.defineProperty,null,Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.8529689999995753,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Function.prototype.bind.call(Object.defineProperty,null); change(Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Function.prototype.bind.call(Object.defineProperty,null); change(Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.248211000000083,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const bind = Function.prototype.call.bind(Function.prototype.bind); const change = bind(Object.defineProperty,null); change(Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const bind = Function.prototype.call.bind(Function.prototype.bind); const change = bind(Object.defineProperty,null); change(Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.407869999999093,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Function.prototype.bind.apply(Object.defineProperty,[null,Object,\"create\"]); change({value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Function.prototype.bind.apply(Object.defineProperty,[null,Object,\"create\"]); change({value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.6397219999998924,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Reflect.apply(Function.prototype.bind,Object.defineProperty,[null,Object,\"create\"]); change({value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Reflect.apply(Function.prototype.bind,Object.defineProperty,[null,Object,\"create\"]); change({value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 4.348744999999326,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const first = Object.defineProperty.bind(null,Object); const change = Function.prototype.bind.call(first,null,\"create\"); change({value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const first = Object.defineProperty.bind(null,Object); const change = Function.prototype.bind.call(first,null,\"create\"); change({value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 5.2356609999987995,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: Reflect.apply = Object.defineProperty; Reflect.apply(Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: Reflect.apply = Object.defineProperty; Reflect.apply(Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 5.585288000000219,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const apply = Reflect.apply; Reflect.apply = Object.defineProperty; Reflect.apply(Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const apply = Reflect.apply; Reflect.apply = Object.defineProperty; Reflect.apply(Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 5.926095000000714,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Reflect.set.bind(null,Object,\"create\"); change(customCreate);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Reflect.set.bind(null,Object,\"create\"); change(customCreate);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 5.193753999999899,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.call; change.call(Object.defineProperty,null,Object,\"create\",{value:customCreate});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Object.defineProperty.call; change.call(Object.defineProperty,null,Object,\"create\",{value:customCreate});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 6.567799000000377,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const {apply:change} = Object.defineProperty; change.call(Object.defineProperty,null,[Object,\"create\",{value:customCreate}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const {apply:change} = Object.defineProperty; change.call(Object.defineProperty,null,[Object,\"create\",{value:customCreate}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 5.757083000000421,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Reflect.apply.call; change.call(Reflect.apply,null,Object.defineProperty,null,[Object,\"create\",{value:customCreate}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Reflect.apply.call; change.call(Reflect.apply,null,Object.defineProperty,null,[Object,\"create\",{value:customCreate}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.816272999998546,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: Reflect.set({},\"create\",customCreate,Object);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: Reflect.set({},\"create\",customCreate,Object);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 2.9168549999994866,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const metadata = {}; Reflect.set(metadata,\"create\",customCreate,Object);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const metadata = {}; Reflect.set(metadata,\"create\",customCreate,Object);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 4.560355999999956,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: const change = Reflect.set.bind(null,{},\"create\",customCreate); change(Object);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: const change = Reflect.set.bind(null,{},\"create\",customCreate); change(Object);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 4.916698000000906,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: Reflect.apply(Reflect.set,null,[{},\"create\",customCreate,Object]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: Reflect.apply(Reflect.set,null,[{},\"create\",customCreate,Object]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.876396999999997,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: Reflect.set({},\"create\",customCreate,...receivers);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: Reflect.set({},\"create\",customCreate,...receivers);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 5.600696999999855,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: Reflect.set({},\"create\",...valuesAndReceivers);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: Reflect.set({},\"create\",...valuesAndReceivers);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.030605000001742,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: Reflect.set({},...keysValuesAndReceivers);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: Reflect.set({},...keysValuesAndReceivers);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.6188210000000254,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators rejects intrinsic writes through a bound mutator: Reflect.set({},\"create\",customCreate,receiver);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects intrinsic writes through a bound mutator: Reflect.set({},\"create\",customCreate,receiver);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.979008000000249,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const change = Object.defineProperty.bind(null); change(metadata,\"x\",{value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const change = Object.defineProperty.bind(null); change(metadata,\"x\",{value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.351473000000624,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const change = Object.defineProperty.bind(null,metadata,\"x\"); change({value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const change = Object.defineProperty.bind(null,metadata,\"x\"); change({value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.4319310000009864,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const first = Object.defineProperty.bind(null,metadata); const change = first.bind(null,\"x\"); change({value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const first = Object.defineProperty.bind(null,metadata); const change = first.bind(null,\"x\"); change({value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.759248000000298,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const change = Function.prototype.call.bind(Object.defineProperty,null); change(metadata,\"x\",{value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const change = Function.prototype.call.bind(Object.defineProperty,null); change(metadata,\"x\",{value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 4.056558000000223,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const change = Function.prototype.apply.bind(Object.defineProperty,null); change([metadata,\"x\",{value:1}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const change = Function.prototype.apply.bind(Object.defineProperty,null); change([metadata,\"x\",{value:1}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.5697240000008605,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const change = Function.prototype.bind.call(Object.defineProperty,null,metadata,\"x\"); change({value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const change = Function.prototype.bind.call(Object.defineProperty,null,metadata,\"x\"); change({value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 4.047445999998672,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const bind = Function.prototype.call.bind(Function.prototype.bind); const change = bind(Object.defineProperty,null,metadata,\"x\"); change({value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const bind = Function.prototype.call.bind(Function.prototype.bind); const change = bind(Object.defineProperty,null,metadata,\"x\"); change({value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 4.399929999999586,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const change = Function.prototype.bind.apply(Object.defineProperty,[null,metadata,\"x\"]); change({value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const change = Function.prototype.bind.apply(Object.defineProperty,[null,metadata,\"x\"]); change({value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 5.784833000001527,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const change = Reflect.apply(Function.prototype.bind,Object.defineProperty,[null,metadata,\"x\"]); change({value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const change = Reflect.apply(Function.prototype.bind,Object.defineProperty,[null,metadata,\"x\"]); change({value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 4.05743000000075,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const apply = Reflect.apply; Reflect.apply = replacement; apply(Object.defineProperty,null,[metadata,\"x\",{value:1}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const apply = Reflect.apply; Reflect.apply = replacement; apply(Object.defineProperty,null,[metadata,\"x\",{value:1}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 10.712132999999085,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const change = Object.defineProperty.bind(null,Object,\"create\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const change = Object.defineProperty.bind(null,Object,\"create\");"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.8368849999988015,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: Object.defineProperty.call(null,metadata,\"x\",{value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: Object.defineProperty.call(null,metadata,\"x\",{value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.5878759999995964,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: Object.defineProperty.apply(null,[metadata,\"x\",{value:1}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: Object.defineProperty.apply(null,[metadata,\"x\",{value:1}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.7188310000001366,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const change = Object.defineProperty.call; change.call(Object.defineProperty,null,metadata,\"x\",{value:1});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const change = Object.defineProperty.call; change.call(Object.defineProperty,null,metadata,\"x\",{value:1});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 5.473583999999391,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const {apply:change} = Object.defineProperty; change.call(Object.defineProperty,null,[metadata,\"x\",{value:1}]);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const {apply:change} = Object.defineProperty; change.call(Object.defineProperty,null,[metadata,\"x\",{value:1}]);"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 5.162061999999423,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: Reflect.set(metadata,\"x\",1,{});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: Reflect.set(metadata,\"x\",1,{});"
+        },
+        {
+          "ancestorTitles": [
+            "Electron module interop bound mutators"
+          ],
+          "benchmarks": [],
+          "duration": 3.3404950000003737,
+          "failureMessages": [],
+          "fullName": "Electron module interop bound mutators keeps a fresh bound target or unused binding separate: const receiver = {}; Reflect.set({},\"x\",1,receiver);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a fresh bound target or unused binding separate: const receiver = {}; Reflect.set({},\"x\",1,receiver);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5207900000004884,
+          "failureMessages": [],
+          "fullName": "keeps unrelated exports after an aliased prebound key write",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unrelated exports after an aliased prebound key write"
+        }
+      ],
+      "endTime": 1792321704161.5208,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/electronModuleInterop.test.ts",
+      "startTime": 1792321703228,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "native addon type-only TypeScript imports"
+          ],
+          "benchmarks": [],
+          "duration": 0.704330000000482,
+          "failureMessages": [],
+          "fullName": "native addon type-only TypeScript imports ignores declaration-wide import type and export type from .node modules",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "ignores declaration-wide import type and export type from .node modules"
+        },
+        {
+          "ancestorTitles": [
+            "native addon type-only TypeScript imports"
+          ],
+          "benchmarks": [],
+          "duration": 0.7895939999980328,
+          "failureMessages": [],
+          "fullName": "native addon type-only TypeScript imports keeps only value members from mixed type/value native imports",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps only value members from mixed type/value native imports"
+        },
+        {
+          "ancestorTitles": [
+            "native addon type-only TypeScript imports"
+          ],
+          "benchmarks": [],
+          "duration": 0.6760160000012547,
+          "failureMessages": [],
+          "fullName": "native addon type-only TypeScript imports retains ordinary value imports of native addons",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains ordinary value imports of native addons"
+        },
+        {
+          "ancestorTitles": [
+            "native addon type-only re-exports"
+          ],
+          "benchmarks": [],
+          "duration": 0.46126400000139256,
+          "failureMessages": [],
+          "fullName": "native addon type-only re-exports retains only runtime members from export { type Extra, load } from \"./addon.node\";",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains only runtime members from export { type Extra, load } from \"./addon.node\";"
+        },
+        {
+          "ancestorTitles": [
+            "native addon type-only re-exports"
+          ],
+          "benchmarks": [],
+          "duration": 0.38015400000222144,
+          "failureMessages": [],
+          "fullName": "native addon type-only re-exports retains only runtime members from export { type Extra } from \"./addon.node\";",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains only runtime members from export { type Extra } from \"./addon.node\";"
+        },
+        {
+          "ancestorTitles": [
+            "native addon type-only re-exports"
+          ],
+          "benchmarks": [],
+          "duration": 0.3268239999997604,
+          "failureMessages": [],
+          "fullName": "native addon type-only re-exports retains only runtime members from export type * from \"./addon.node\";",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains only runtime members from export type * from \"./addon.node\";"
+        },
+        {
+          "ancestorTitles": [
+            "native addon loader provenance"
+          ],
+          "benchmarks": [],
+          "duration": 1.570425999998406,
+          "failureMessages": [],
+          "fullName": "native addon loader provenance distinguishes CommonJS and ESM re-exports",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes CommonJS and ESM re-exports"
+        },
+        {
+          "ancestorTitles": [
+            "native addon loader provenance"
+          ],
+          "benchmarks": [],
+          "duration": 0.5880289999986417,
+          "failureMessages": [],
+          "fullName": "native addon loader provenance classifies require filenames literally for #",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "classifies require filenames literally for #"
+        },
+        {
+          "ancestorTitles": [
+            "native addon loader provenance"
+          ],
+          "benchmarks": [],
+          "duration": 0.599662000000535,
+          "failureMessages": [],
+          "fullName": "native addon loader provenance classifies require filenames literally for ?",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "classifies require filenames literally for ?"
+        }
+      ],
+      "endTime": 1792321727922.5996,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/electronNativeLoaderPaths.test.ts",
+      "startTime": 1792321727916,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "computed Electron web preference keys"
+          ],
+          "benchmarks": [],
+          "duration": 1.7174989999984973,
+          "failureMessages": [],
+          "fullName": "computed Electron web preference keys retains exact string, numeric, and empty literal keys",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains exact string, numeric, and empty literal keys"
+        },
+        {
+          "ancestorTitles": [
+            "computed Electron web preference keys"
+          ],
+          "benchmarks": [],
+          "duration": 6.156083000001672,
+          "failureMessages": [],
+          "fullName": "computed Electron web preference keys keeps genuinely dynamic computed keys unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps genuinely dynamic computed keys unknown"
+        }
+      ],
+      "endTime": 1792321732633.156,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/electronStaticAnalysisComputedPreferences.test.ts",
+      "startTime": 1792321732625,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.5031210000015562,
+          "failureMessages": [],
+          "fullName": "recovers APIs through an ES module default import of Electron",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recovers APIs through an ES module default import of Electron"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.4166670000013255,
+          "failureMessages": [],
+          "fullName": "recovers APIs and sender checks written with optional chaining",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recovers APIs and sender checks written with optional chaining"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5164690000019618,
+          "failureMessages": [],
+          "fullName": "preserves empty and computed literal contextBridge member keys",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves empty and computed literal contextBridge member keys"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.4475969999984954,
+          "failureMessages": [],
+          "fullName": "follows bundler namespace interop helpers without accepting other writes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows bundler namespace interop helpers without accepting other writes"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0034099999975297,
+          "failureMessages": [],
+          "fullName": "does not trust unbound helper names or non-function helper values",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not trust unbound helper names or non-function helper values"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5315799999989395,
+          "failureMessages": [],
+          "fullName": "follows stable declaration aliases but not an assigned default parameter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "follows stable declaration aliases but not an assigned default parameter"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5203029999975115,
+          "failureMessages": [],
+          "fullName": "preserves one initializer across variable redeclarations without accepting writes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves one initializer across variable redeclarations without accepting writes"
+        }
+      ],
+      "endTime": 1792321722905.5203,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/electronStaticAnalysisIdentity.test.ts",
+      "startTime": 1792321722890,
+      "status": "passed"
+    }
+  ],
+  "version": 1
+}

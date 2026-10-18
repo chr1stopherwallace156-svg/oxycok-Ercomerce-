@@ -1,0 +1,4502 @@
+{
+  "kind": "SOURCE_RUNNER_FILE_RESULTS",
+  "results": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.825909999999567,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: function f(){read(cb);function cb(){}}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: function f(){read(cb);function cb(){}}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8726900000001478,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: function f(){const cb=()=>{};const alias=cb;read(alias)}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: function f(){const cb=()=>{};const alias=cb;read(alias)}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4299819999978354,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: function f(cb){cb=()=>{};arguments[0]={};read(cb)}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: function f(cb){cb=()=>{};arguments[0]={};read(cb)}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.8210300000027928,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: declare let erased:any;function f(){const a=[];read(a)}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: declare let erased:any;function f(){const a=[];read(a)}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.839058000001387,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: namespace X{};function f(){const a=[];read(a)}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: namespace X{};function f(){const a=[];read(a)}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7277130000002217,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: var a=[];(()=>{}).constructor('a={}')();read(a);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: var a=[];(()=>{}).constructor('a={}')();read(a);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0117339999997057,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: let a=[];(()=>{}).constructor('a={}')();read(a);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: let a=[];(()=>{}).constructor('a={}')();read(a);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.862317000002804,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: read(null); read(void effect()); read(undefined);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: read(null); read(void effect()); read(undefined);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.6109250000008615,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: function f(undefined){read(undefined)}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: function f(undefined){read(undefined)}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4667470000022149,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: const a=null; read(a);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: const a=null; read(a);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8225510000011127,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: function f(a){a=null;arguments[0]={};read(a)}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: function f(a){a=null;arguments[0]={};read(a)}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0091250000004948,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: var a=null;Function('a={}');read(a);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: var a=null;Function('a={}');read(a);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5239399999991292,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: var a=null;frames.a={};read(a);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: var a=null;frames.a={};read(a);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7313440000034461,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: function f(){const a=[];a.push(1);read(a);}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: function f(){const a=[];a.push(1);read(a);}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6625700000004144,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: function f(){const a=[];const saved=a;read(saved);}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: function f(){const a=[];const saved=a;read(saved);}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7555680000004941,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: const a=[];function f(){eval(\"var a={}\");read(a)}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: const a=[];function f(){eval(\"var a={}\");read(a)}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6116889999975683,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: function f(){const a=[];eval(\"a={}\");read(a)}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: function f(){const a=[];eval(\"a={}\");read(a)}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6577130000005127,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: function f(){let a=[];eval('a={}');read(a)}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: function f(){let a=[];eval('a={}');read(a)}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.636610000001383,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: function f(){eval('var undefined={}');read(undefined)}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: function f(){eval('var undefined={}');read(undefined)}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.2902590000012424,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: var a=[];Function('a={}');read(a);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: var a=[];Function('a={}');read(a);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.30599200000142446,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: var a=[];frames.a={};read(a);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: var a=[];frames.a={};read(a);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3754980000012438,
+          "failureMessages": [],
+          "fullName": "bounds shape proofs without refining named nullish values: let a; if(flag)a=[];read(a);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds shape proofs without refining named nullish values: let a; if(flag)a=[];read(a);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 151.38660700000037,
+          "failureMessages": [],
+          "fullName": "bounds long callback aliases without invoking the shared callable resolver",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds long callback aliases without invoking the shared callable resolver"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.345429999997577,
+          "failureMessages": [],
+          "fullName": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cjs (const argv=[];const done=()=>{};)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cjs (const argv=[];const done=()=>{};)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.6811500000003434,
+          "failureMessages": [],
+          "fullName": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cts (const argv=[];const done=()=>{};)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cts (const argv=[];const done=()=>{};)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.0924549999981537,
+          "failureMessages": [],
+          "fullName": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cjs (var argv=[];{function argv(){}}const done=()=>{};)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cjs (var argv=[];{function argv(){}}const done=()=>{};)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.622497000000294,
+          "failureMessages": [],
+          "fullName": "distinguishes wrapper-local child identities and uncertain bindings: fixture.mjs (var argv=[];{function argv(){}}const done=()=>{};)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes wrapper-local child identities and uncertain bindings: fixture.mjs (var argv=[];{function argv(){}}const done=()=>{};)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.439533000000665,
+          "failureMessages": [],
+          "fullName": "distinguishes wrapper-local child identities and uncertain bindings: fixture.js (const argv=[];const done=()=>{};)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes wrapper-local child identities and uncertain bindings: fixture.js (const argv=[];const done=()=>{};)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.068790999997873,
+          "failureMessages": [],
+          "fullName": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cjs (let argv=[];argv=input;const done=()=>{};)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cjs (let argv=[];argv=input;const done=()=>{};)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.93683400000009,
+          "failureMessages": [],
+          "fullName": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cts (const argv=[];const done=()=>{};eval(input);)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cts (const argv=[];const done=()=>{};eval(input);)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.791916999998648,
+          "failureMessages": [],
+          "fullName": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cts (namespace N{};const argv=[];const done=()=>{};)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cts (namespace N{};const argv=[];const done=()=>{};)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.4603420000021288,
+          "failureMessages": [],
+          "fullName": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cjs (var module=[];const argv=module;const done=()=>{};const args=arguments;args[2]={};)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cjs (var module=[];const argv=module;const done=()=>{};const args=arguments;args[2]={};)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.6296630000033474,
+          "failureMessages": [],
+          "fullName": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cts (const argv=[];function exports(){};const args=arguments;args[0]={};const done=exports;)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes wrapper-local child identities and uncertain bindings: fixture.cts (const argv=[];function exports(){};const args=arguments;args[0]={};const done=exports;)"
+        }
+      ],
+      "endTime": 1792321727258.6296,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticExpressionShapes.test.ts",
+      "startTime": 1792321727054,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.447745000004943,
+          "failureMessages": [],
+          "fullName": "distinguishes yielding an iterator result from delegating to the iterator",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes yielding an iterator result from delegating to the iterator"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.4431040000054054,
+          "failureMessages": [],
+          "fullName": "distinguishes returned prefix and postfix updates",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes returned prefix and postfix updates"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.2588120000000345,
+          "failureMessages": [],
+          "fullName": "keeps formatting and local renames normalized",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps formatting and local renames normalized"
+        }
+      ],
+      "endTime": 1792321734957.2588,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticFingerprints.test.ts",
+      "startTime": 1792321734949,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1709670000000187,
+          "failureMessages": [],
+          "fullName": "accepts semantic module paths longer than the former schema ceiling",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accepts semantic module paths longer than the former schema ceiling"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.134353999999803,
+          "failureMessages": [],
+          "fullName": "captures caller-owned node identity, properties, and provenance",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "captures caller-owned node identity, properties, and provenance"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 10.603467999999339,
+          "failureMessages": [],
+          "fullName": "counts candidate edges by query direction and relation filter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "counts candidate edges by query direction and relation filter"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.593431999999666,
+          "failureMessages": [],
+          "fullName": "matches scalar literal seeds and skips non-scalar literal metadata",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches scalar literal seeds and skips non-scalar literal metadata"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.9841660000001866,
+          "failureMessages": [],
+          "fullName": "matches exact endpoint properties on request and response carriers only",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches exact endpoint properties on request and response carriers only"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.709863000000041,
+          "failureMessages": [],
+          "fullName": "scopes callers unknowns to call relations while preserving graph uncertainty",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "scopes callers unknowns to call relations while preserving graph uncertainty"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.938274000000092,
+          "failureMessages": [],
+          "fullName": "counts candidate ownership cycles once and traverses them finitely",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "counts candidate ownership cycles once and traverses them finitely"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.144173000000592,
+          "failureMessages": [],
+          "fullName": "defines every required relation family and canonicalizes records",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "defines every required relation family and canonicalizes records"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 13.278471999999965,
+          "failureMessages": [],
+          "fullName": "rejects stale identities, dangling endpoints, and incomplete coverage claims",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects stale identities, dangling endpoints, and incomplete coverage claims"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.97987699999976,
+          "failureMessages": [],
+          "fullName": "rejects complete family coverage with an unlisted retained frontier",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects complete family coverage with an unlisted retained frontier"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 14.213549000000057,
+          "failureMessages": [],
+          "fullName": "validates evidence context ownership and references",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "validates evidence context ownership and references"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.1207049999993615,
+          "failureMessages": [],
+          "fullName": "shares provenance contexts while preserving fact-specific locations and unknown IDs",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "shares provenance contexts while preserving fact-specific locations and unknown IDs"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 12.168350999998438,
+          "failureMessages": [],
+          "fullName": "captures nested input before yielding and preserves the synchronous graph commitment",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "captures nested input before yielding and preserves the synchronous graph commitment"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.1228370000008,
+          "failureMessages": [],
+          "fullName": "retains full validation diagnostics for node identity and ownership in owned steps",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains full validation diagnostics for node identity and ownership in owned steps"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.009883999999147,
+          "failureMessages": [],
+          "fullName": "retains full validation diagnostics for relation endpoints and authority in owned steps",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains full validation diagnostics for relation endpoints and authority in owned steps"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.9820490000001882,
+          "failureMessages": [],
+          "fullName": "retains full validation diagnostics for unknown identity and candidates in owned steps",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains full validation diagnostics for unknown identity and candidates in owned steps"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.511851999999635,
+          "failureMessages": [],
+          "fullName": "retains full validation diagnostics for fingerprint identity and components in owned steps",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains full validation diagnostics for fingerprint identity and components in owned steps"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.6936789999999746,
+          "failureMessages": [],
+          "fullName": "retains full validation diagnostics for coverage completeness and references in owned steps",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains full validation diagnostics for coverage completeness and references in owned steps"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.558270999999877,
+          "failureMessages": [],
+          "fullName": "interns each distinct evidence context once under its content digest",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "interns each distinct evidence context once under its content digest"
+        }
+      ],
+      "endTime": 1792321705911.6936,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticGraphQuery.test.ts",
+      "startTime": 1792321705808,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 13.680796000000555,
+          "failureMessages": [],
+          "fullName": "returns every relevant unknown inline",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "returns every relevant unknown inline"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.478334999999788,
+          "failureMessages": [],
+          "fullName": "does not admit a semantic-node seed absent from the graph",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not admit a semantic-node seed absent from the graph"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.073782999999821,
+          "failureMessages": [],
+          "fullName": "returns the complete deterministic forward influence result inline",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "returns the complete deterministic forward influence result inline"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.9266810000008263,
+          "failureMessages": [],
+          "fullName": "returns only the referenced evidence contexts with resolvable trace facts",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "returns only the referenced evidence contexts with resolvable trace facts"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 24.29421999999977,
+          "failureMessages": [],
+          "fullName": "traverses paths beyond the former fixed depth ceiling",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "traverses paths beyond the former fixed depth ceiling"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.42942300000140676,
+          "failureMessages": [],
+          "fullName": "accepts deeply nested semantic properties",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accepts deeply nested semantic properties"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.6238680000024033,
+          "failureMessages": [],
+          "fullName": "keeps relevant dynamic frontiers unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps relevant dynamic frontiers unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.3647039999996196,
+          "failureMessages": [],
+          "fullName": "excludes candidate edges unless the caller explicitly opts in",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes candidate edges unless the caller explicitly opts in"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9425809999993362,
+          "failureMessages": [],
+          "fullName": "retains every structural application node linked to one semantic node",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains every structural application node linked to one semantic node"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.1947480000017094,
+          "failureMessages": [],
+          "fullName": "retains all explicit unresolved candidate node identifiers",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains all explicit unresolved candidate node identifiers"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.6732350000020233,
+          "failureMessages": [],
+          "fullName": "limits forward-influence ambiguity to traversable calls candidates (incoming=true)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "limits forward-influence ambiguity to traversable calls candidates (incoming=true)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.5206539999999222,
+          "failureMessages": [],
+          "fullName": "limits forward-influence ambiguity to traversable calls candidates (incoming=false)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "limits forward-influence ambiguity to traversable calls candidates (incoming=false)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 9.406300000002375,
+          "failureMessages": [],
+          "fullName": "limits backward-provenance ambiguity to traversable calls candidates (incoming=false)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "limits backward-provenance ambiguity to traversable calls candidates (incoming=false)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.68311900000117,
+          "failureMessages": [],
+          "fullName": "limits backward-provenance ambiguity to traversable calls candidates (incoming=true)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "limits backward-provenance ambiguity to traversable calls candidates (incoming=true)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.9792190000007395,
+          "failureMessages": [],
+          "fullName": "limits callers ambiguity to traversable reads candidates (incoming=true)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "limits callers ambiguity to traversable reads candidates (incoming=true)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.950498999998672,
+          "failureMessages": [],
+          "fullName": "limits callers ambiguity to traversable calls candidates (incoming=false)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "limits callers ambiguity to traversable calls candidates (incoming=false)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.025902000001224,
+          "failureMessages": [],
+          "fullName": "limits callers ambiguity to traversable calls candidates (incoming=true)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "limits callers ambiguity to traversable calls candidates (incoming=true)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.9433439999993425,
+          "failureMessages": [],
+          "fullName": "limits ownership ambiguity to traversable reads candidates (incoming=false)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "limits ownership ambiguity to traversable reads candidates (incoming=false)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.1141219999990426,
+          "failureMessages": [],
+          "fullName": "limits ownership ambiguity to traversable owns candidates (incoming=false)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "limits ownership ambiguity to traversable owns candidates (incoming=false)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.097881000001507,
+          "failureMessages": [],
+          "fullName": "limits ownership ambiguity to traversable owns candidates (incoming=true)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "limits ownership ambiguity to traversable owns candidates (incoming=true)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.2155770000026678,
+          "failureMessages": [],
+          "fullName": "excludes explicitly filtered candidates without hiding partial graph coverage",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes explicitly filtered candidates without hiding partial graph coverage"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 26.02987199999916,
+          "failureMessages": [],
+          "fullName": "keeps candidate uncertainty at the end of a long reachable path",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps candidate uncertainty at the end of a long reachable path"
+        }
+      ],
+      "endTime": 1792321713808.0298,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticGraphTraversal.test.ts",
+      "startTime": 1792321713679,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.1363899999996647,
+          "failureMessages": [],
+          "fullName": "orders public value reads with static=false only when evaluated at class definition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "orders public value reads with static=false only when evaluated at class definition"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.1917360000006738,
+          "failureMessages": [],
+          "fullName": "orders private value reads with static=false only when evaluated at class definition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "orders private value reads with static=false only when evaluated at class definition"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.18223199999920325,
+          "failureMessages": [],
+          "fullName": "orders accessor value reads with static=false only when evaluated at class definition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "orders accessor value reads with static=false only when evaluated at class definition"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.12174400000003516,
+          "failureMessages": [],
+          "fullName": "orders public value reads with static=true only when evaluated at class definition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "orders public value reads with static=true only when evaluated at class definition"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.28835199999957695,
+          "failureMessages": [],
+          "fullName": "orders private value reads with static=true only when evaluated at class definition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "orders private value reads with static=true only when evaluated at class definition"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.1957410000031814,
+          "failureMessages": [],
+          "fullName": "orders accessor value reads with static=true only when evaluated at class definition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "orders accessor value reads with static=true only when evaluated at class definition"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.07962100000077044,
+          "failureMessages": [],
+          "fullName": "orders public key reads with static=false only when evaluated at class definition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "orders public key reads with static=false only when evaluated at class definition"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.061415000000124564,
+          "failureMessages": [],
+          "fullName": "orders accessor key reads with static=false only when evaluated at class definition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "orders accessor key reads with static=false only when evaluated at class definition"
+        },
+        {
+          "ancestorTitles": [
+            "parameter references copied into function body bindings"
+          ],
+          "benchmarks": [],
+          "duration": 1.1851840000017546,
+          "failureMessages": [],
+          "fullName": "parameter references copied into function body bindings retains the entry reference only when still reachable: var arg = []; mutate(arg);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the entry reference only when still reachable: var arg = []; mutate(arg);"
+        },
+        {
+          "ancestorTitles": [
+            "parameter references copied into function body bindings"
+          ],
+          "benchmarks": [],
+          "duration": 0.6851409999981115,
+          "failureMessages": [],
+          "fullName": "parameter references copied into function body bindings retains the entry reference only when still reachable: mutate(arg); var arg = [];",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the entry reference only when still reachable: mutate(arg); var arg = [];"
+        },
+        {
+          "ancestorTitles": [
+            "parameter references copied into function body bindings"
+          ],
+          "benchmarks": [],
+          "duration": 0.33659699999770964,
+          "failureMessages": [],
+          "fullName": "parameter references copied into function body bindings retains the entry reference only when still reachable: if (flag) { var arg = []; } mutate(arg);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the entry reference only when still reachable: if (flag) { var arg = []; } mutate(arg);"
+        }
+      ],
+      "endTime": 1792321727445.3367,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticMutationInitializers.test.ts",
+      "startTime": 1792321727439,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7319230000030075,
+          "failureMessages": [],
+          "fullName": "resolves exact keys with source-order overrides, spreads and accessors",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves exact keys with source-order overrides, spreads and accessors"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7758759999996983,
+          "failureMessages": [],
+          "fullName": "preserves references through a small static getter permutation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves references through a small static getter permutation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.178831000001082,
+          "failureMessages": [],
+          "fullName": "widens a large static getter permutation to one escaped reference",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "widens a large static getter permutation to one escaped reference"
+        }
+      ],
+      "endTime": 1792321727431.1787,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticObjectReferences.test.ts",
+      "startTime": 1792321727422,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "JavaScript semantic binding provenance"
+          ],
+          "benchmarks": [],
+          "duration": 7.384707999997772,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic binding provenance keeps opaque expression results unknown instead of declaring them local",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps opaque expression results unknown instead of declaring them local"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript semantic binding provenance"
+          ],
+          "benchmarks": [],
+          "duration": 9.297854999997071,
+          "failureMessages": [],
+          "fullName": "JavaScript semantic binding provenance recognizes explicit local values and preserves exact module aliases",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recognizes explicit local values and preserves exact module aliases"
+        }
+      ],
+      "endTime": 1792321730952.2979,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticProvenance.test.ts",
+      "startTime": 1792321730935,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.897004000002198,
+          "failureMessages": [],
+          "fullName": "reuses dependency-aware read snapshots across a reconvergent value chain",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reuses dependency-aware read snapshots across a reconvergent value chain"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 9.097003000002587,
+          "failureMessages": [],
+          "fullName": "preserves the remaining depth budget when reusing a read snapshot",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the remaining depth budget when reusing a read snapshot"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 16.762281999999686,
+          "failureMessages": [],
+          "fullName": "bounds reconvergent read work when the expression depth budget is exhausted",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "bounds reconvergent read work when the expression depth budget is exhausted"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1797369999985676,
+          "failureMessages": [],
+          "fullName": "isolates captured parameter values from the assigned binding cache (prewarmed: false)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "isolates captured parameter values from the assigned binding cache (prewarmed: false)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.36023500000010245,
+          "failureMessages": [],
+          "fullName": "isolates captured parameter values from the assigned binding cache (prewarmed: true)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "isolates captured parameter values from the assigned binding cache (prewarmed: true)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9678469999998924,
+          "failureMessages": [],
+          "fullName": "recomputes a shared cyclic value under a different active ancestor (prewarmed: false, rebound: false)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recomputes a shared cyclic value under a different active ancestor (prewarmed: false, rebound: false)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.921994000000268,
+          "failureMessages": [],
+          "fullName": "recomputes a shared cyclic value under a different active ancestor (prewarmed: true, rebound: false)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recomputes a shared cyclic value under a different active ancestor (prewarmed: true, rebound: false)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9866199999996752,
+          "failureMessages": [],
+          "fullName": "recomputes a shared cyclic value under a different active ancestor (prewarmed: false, rebound: true)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recomputes a shared cyclic value under a different active ancestor (prewarmed: false, rebound: true)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8013470000005327,
+          "failureMessages": [],
+          "fullName": "recomputes a shared cyclic value under a different active ancestor (prewarmed: true, rebound: true)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recomputes a shared cyclic value under a different active ancestor (prewarmed: true, rebound: true)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5864330000003974,
+          "failureMessages": [],
+          "fullName": "invalidates retained const alias values at the producing mutation boundary",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates retained const alias values at the producing mutation boundary"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5100830000010319,
+          "failureMessages": [],
+          "fullName": "invalidates retained let alias values at the producing mutation boundary",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "invalidates retained let alias values at the producing mutation boundary"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 141.7978170000024,
+          "failureMessages": [],
+          "fullName": "shares dependency proofs across a shallow wide reconvergent graph",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "shares dependency proofs across a shallow wide reconvergent graph"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6417089999995369,
+          "failureMessages": [],
+          "fullName": "uses immutable exact identity proofs and shares unchanged union branches",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses immutable exact identity proofs and shares unchanged union branches"
+        }
+      ],
+      "endTime": 1792321715196.6416,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSemanticValues.memo.test.ts",
+      "startTime": 1792321715015,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9985309999974561,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: import type {T} from \"example\"; (fixture.cts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: import type {T} from \"example\"; (fixture.cts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4829620000018622,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: import type {T} from \"example\"; (fixture.mts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: import type {T} from \"example\"; (fixture.mts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.2436070000003383,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: import type {T} from \"example\"; (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: import type {T} from \"example\"; (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.17744300000049407,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: import cp = require(\"node:child_process\"); (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: import cp = require(\"node:child_process\"); (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.27288100000077975,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: import type cp = require(\"node:child_process\"); (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: import type cp = require(\"node:child_process\"); (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.20594200000050478,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: const value=[]; export = value; (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: const value=[]; export = value; (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.1734890000006999,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: export type {T} from \"example\"; (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: export type {T} from \"example\"; (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.11723100000017439,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: import {type T} from \"example\"; (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: import {type T} from \"example\"; (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.16294900000139023,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: export {type T} from \"example\"; (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: export {type T} from \"example\"; (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6334009999991395,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: export declare const value: unknown; (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: export declare const value: unknown; (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7677210000001651,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: export default function f(): void; (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: export default function f(): void; (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.464668000000529,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: export default interface I {} (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: export default interface I {} (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5318560000014259,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: export default function f() {} (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: export default function f() {} (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5698460000021441,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: export default class C {} (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: export default class C {} (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5015310000017053,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: import {} from \"example\"; (fixture.js)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: import {} from \"example\"; (fixture.js)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3356980000025942,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: import {} from \"example\"; (fixture.cjs)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: import {} from \"example\"; (fixture.cjs)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5492669999985083,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: export {}; (fixture.ts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: export {}; (fixture.ts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4746229999982461,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: const value = 1; (fixture.mjs)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: const value = 1; (fixture.mjs)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.2907180000001972,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: const value = 1; (fixture.js)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: const value = 1; (fixture.js)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3709689999996044,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: const value = 1; (fixture.cjs)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: const value = 1; (fixture.cjs)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4277860000001965,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: const value = 1; (fixture.cts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: const value = 1; (fixture.cts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3355779999983497,
+          "failureMessages": [],
+          "fullName": "keeps runtime context consistent across parser entries: declare const value: unknown; (fixture.d.cts)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps runtime context consistent across parser entries: declare const value: unknown; (fixture.d.cts)"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.827726000003167,
+          "failureMessages": [],
+          "fullName": "parses conditional arrow bodies in JavaScript sources with JavaScript grammar",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "parses conditional arrow bodies in JavaScript sources with JavaScript grammar"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.500502000002598,
+          "failureMessages": [],
+          "fullName": "keeps JavaScript comparison meaning for angle brackets in JavaScript sources",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps JavaScript comparison meaning for angle brackets in JavaScript sources"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6196650000019872,
+          "failureMessages": [],
+          "fullName": "keeps TypeScript syntax available for TypeScript and unnamed sources",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps TypeScript syntax available for TypeScript and unnamed sources"
+        }
+      ],
+      "endTime": 1792321727855.6196,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptSourceParser.test.ts",
+      "startTime": 1792321727837,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "server-sent event endpoints"
+          ],
+          "benchmarks": [],
+          "duration": 1.5713459999969928,
+          "failureMessages": [],
+          "fullName": "server-sent event endpoints reports EventSource URLs like WebSocket URLs",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports EventSource URLs like WebSocket URLs"
+        },
+        {
+          "ancestorTitles": [
+            "server-sent event endpoints"
+          ],
+          "benchmarks": [],
+          "duration": 0.6290680000020075,
+          "failureMessages": [],
+          "fullName": "server-sent event endpoints retains a dynamic EventSource target as partial source evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains a dynamic EventSource target as partial source evidence"
+        }
+      ],
+      "endTime": 1792321734865.6292,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysis.event_source.test.ts",
+      "startTime": 1792321734863,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.751143999998021,
+          "failureMessages": [],
+          "fullName": "does not classify a local Map lookup as a network endpoint",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not classify a local Map lookup as a network endpoint"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.6462219999993977,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const records = new Map(); const alias = records; alias.get(\"/accounts\"); records.delete(\"/accounts\"); alias.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const records = new Map(); const alias = records; alias.get(\"/accounts\"); records.delete(\"/accounts\"); alias.get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8204409999998461,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5168049999992945,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: new Map().delete(\"https://example.test/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: new Map().delete(\"https://example.test/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1317569999991974,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const records = new Map(); const alias = records; alias.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const records = new Map(); const alias = records; alias.get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.0244130000028235,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const records = new globalThis.Map(); records?.[\"get\"](\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const records = new globalThis.Map(); records?.[\"get\"](\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7655590000031225,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: function inspect() { const records = new Map(); return records.get(\"/accounts\"); }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: function inspect() { const records = new Map(); return records.get(\"/accounts\"); }"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2606229999983043,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const inspect = () => { const records = new Map(); const alias = records; return alias.delete(\"/accounts\"); }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const inspect = () => { const records = new Map(); const alias = records; return alias.delete(\"/accounts\"); }"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.656858000002103,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const browser = window; browser.open(\"about:blank\"); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const browser = window; browser.open(\"about:blank\"); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.857638000001316,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const box = {}; box.value = { name: \"Alice\" }; inspect(box); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const box = {}; box.value = { name: \"Alice\" }; inspect(box); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8848419999994803,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: patch(() => ({ name: \"Alice\" })); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: patch(() => ({ name: \"Alice\" })); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.581473999998707,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const box = {}; box.prototype = Map.prototype; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const box = {}; box.prototype = Map.prototype; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.861709000000701,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const box = {}; const alias = box; alias.prototype = Map.prototype; inspect({}); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const box = {}; const alias = box; alias.prototype = Map.prototype; inspect({}); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.828588000000309,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const box = {}; box.make = () => Map.prototype; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const box = {}; box.make = () => Map.prototype; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7906799999982468,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: let box = {}; const first = box; box = {}; box.p = Map.prototype; patch(first); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: let box = {}; const first = box; box = {}; box.p = Map.prototype; patch(first); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.9892289999988861,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const box = {}; box.a = {}; box.a.p = Map.prototype; box.safe = {}; patch(box.safe); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const box = {}; box.a = {}; box.a.p = Map.prototype; box.safe = {}; patch(box.safe); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7746450000013283,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const records = new Map(); records.get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const records = new Map(); records.get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7577340000025288,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const holder = { get prototype() { return Map.prototype; } }; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const holder = { get prototype() { return Map.prototype; } }; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.1393839999982447,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const holder = { get selected() { return {}; }, get other() { return Map.prototype; } }; holder.selected.get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const holder = { get selected() { return {}; }, get other() { return Map.prototype; } }; holder.selected.get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7336139999970328,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: function Map() {} new Map().constructor.prototype.get = fetch; globalThis.Map.prototype; new globalThis.Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: function Map() {} new Map().constructor.prototype.get = fetch; globalThis.Map.prototype; new globalThis.Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0385309999983292,
+          "failureMessages": [],
+          "fullName": "omits a proven Map operation: const factory = { make() { return {}; } }; factory.make = () => ({}); patch(factory.make()); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven Map operation: const factory = { make() { return {}; } }; factory.make = () => ({}); patch(factory.make()); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6647049999992305,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: client.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: client.get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3343329999988782,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: Object.getPrototypeOf = () => Map.prototype; Object.getPrototypeOf({}).get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: Object.getPrototypeOf = () => Map.prototype; Object.getPrototypeOf({}).get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2687219999970694,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: Reflect.getPrototypeOf = () => Map.prototype; Reflect.getPrototypeOf({}).get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: Reflect.getPrototypeOf = () => Map.prototype; Reflect.getPrototypeOf({}).get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.380418999997346,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const records = new Map(); records.get = request; records.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const records = new Map(); records.get = request; records.get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.610543000002508,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: let records = new Map(); records = client; records.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: let records = new Map(); records = client; records.get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6906429999980901,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: function inspect(Map) { new Map().get(\"/accounts\"); }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: function inspect(Map) { new Map().get(\"/accounts\"); }"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.895725999998831,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: Map.prototype.get = request; const records = new Map(); records.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: Map.prototype.get = request; const records = new Map(); records.get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.152436000000307,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const records = new Map(); records.__proto__ = { get: fetch }; records.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const records = new Map(); records.__proto__ = { get: fetch }; records.get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2184570000026724,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const records = new Map(); const alias = records; alias.__proto__ = { get: fetch }; records.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const records = new Map(); const alias = records; alias.__proto__ = { get: fetch }; records.get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.024108999998134,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const records = new Map(); records[\"__proto__\"] = { delete: fetch }; records.delete(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const records = new Map(); records[\"__proto__\"] = { delete: fetch }; records.delete(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0035989999996673,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: function inspect() { records.get(\"/accounts\"); const records = new Map(); }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: function inspect() { records.get(\"/accounts\"); const records = new Map(); }"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9447430000000168,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const alias = records; const records = new Map(); alias.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const alias = records; const records = new Map(); alias.get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8284879999991972,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: function inspect() { const alias = records; const records = new Map(); alias.get(\"/accounts\"); }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: function inspect() { const alias = records; const records = new Map(); alias.get(\"/accounts\"); }"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2241489999978512,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: function inspect() { const records = new Map(); records.get = fetch; records.get(\"/accounts\"); }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: function inspect() { const records = new Map(); records.get = fetch; records.get(\"/accounts\"); }"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7640189999983704,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: patch(Map.prototype); const records = new Map(); records.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: patch(Map.prototype); const records = new Map(); records.get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9586280000003171,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const prototype = Map.prototype; patch(prototype); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const prototype = Map.prototype; patch(prototype); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5806520000005548,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: patch(Map); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: patch(Map); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.42950399999972433,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: new Patch(Map.prototype); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: new Patch(Map.prototype); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7222060000021884,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: Map.prototype.patch = function () { this.get = fetch; }; Map.prototype.patch(); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: Map.prototype.patch = function () { this.get = fetch; }; Map.prototype.patch(); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6636209999996936,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: Map.patch(); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: Map.patch(); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7312039999997069,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: globalThis.patch = function () { this.Map.prototype.get = fetch; }; globalThis.patch(); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: globalThis.patch = function () { this.Map.prototype.get = fetch; }; globalThis.patch(); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5592649999998685,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: window.open = function () { this.Map.prototype.get = fetch; }; window.open(); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: window.open = function () { this.Map.prototype.get = fetch; }; window.open(); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8829489999989164,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: function invoke() { window.open(); } window.open = patch; invoke(); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: function invoke() { window.open(); } window.open = patch; invoke(); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5441750000027241,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: patch`prototype ${Map.prototype}`; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: patch`prototype ${Map.prototype}`; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.729842999997345,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const box = { prototype: Map.prototype }; patch(box); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const box = { prototype: Map.prototype }; patch(box); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7600789999996778,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: patch((() => Map.prototype)()); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: patch((() => Map.prototype)()); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2285979999978736,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const prototype = (() => Map.prototype)(); prototype.get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const prototype = (() => Map.prototype)(); prototype.get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9567720000013651,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const box = {}; box.prototype = Map.prototype; box.prototype.get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const box = {}; box.prototype = Map.prototype; box.prototype.get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.6195090000001073,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const box = {}; box.p = (anything(), Map.prototype); patch(box); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const box = {}; box.p = (anything(), Map.prototype); patch(box); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6813149999979942,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: window.prototype = Map.prototype; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: window.prototype = Map.prototype; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9193129999985103,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const box = new ExternalBox(); box.prototype = Map.prototype; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const box = new ExternalBox(); box.prototype = Map.prototype; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0067719999969995,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: function expose(box) { box.prototype = Map.prototype; } new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: function expose(box) { box.prototype = Map.prototype; } new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.6155909999979485,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const factory = { make() { return Map.prototype; } }; factory.make().get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const factory = { make() { return Map.prototype; } }; factory.make().get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.183419999997568,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: new Map().__proto__.get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: new Map().__proto__.get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6256500000017695,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: new Map().constructor.prototype.get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: new Map().constructor.prototype.get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8919169999971928,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: Object.getPrototypeOf(new Map()).constructor.prototype.get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: Object.getPrototypeOf(new Map()).constructor.prototype.get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0317210000030173,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const holder = { get prototype() { return Map.prototype; } }; holder.prototype.get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const holder = { get prototype() { return Map.prototype; } }; holder.prototype.get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9545399999988149,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const holder = { get [\"prototype\"]() { return { nested: Map.prototype }; } }; holder.prototype.nested.get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const holder = { get [\"prototype\"]() { return { nested: Map.prototype }; } }; holder.prototype.nested.get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8868370000018331,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const holder = { get prototype() { return Map.prototype; } }; patch(holder); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const holder = { get prototype() { return Map.prototype; } }; patch(holder); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.156091999997443,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: function store() { box.child.prototype = Map.prototype; } const box = {}; const inner = {}; box.child = inner; store(); patch(inner); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: function store() { box.child.prototype = Map.prototype; } const box = {}; const inner = {}; box.child = inner; store(); patch(inner); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.0595939999984694,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: function store() { box.child.next.prototype = Map.prototype; } const box = {}; const middle = {}; const inner = {}; middle.next = inner; box.child = middle; store(); patch(inner); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: function store() { box.child.next.prototype = Map.prototype; } const box = {}; const middle = {}; const inner = {}; middle.next = inner; box.child = middle; store(); patch(inner); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1361230000002251,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const records = new Map(); Object.getPrototypeOf(records).get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const records = new Map(); Object.getPrototypeOf(records).get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1803870000003371,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const getPrototype = Reflect.getPrototypeOf; getPrototype(new Map()).get = fetch; new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const getPrototype = Reflect.getPrototypeOf; getPrototype(new Map()).get = fetch; new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1296430000002147,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: patch(() => Map.prototype); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: patch(() => Map.prototype); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3197130000007746,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const factory = { make() { return {}; } }; factory.make = () => Map.prototype; patch(factory.make()); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const factory = { make() { return {}; } }; factory.make = () => Map.prototype; patch(factory.make()); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9110970000001544,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: function make() { return { prototype: Map.prototype }; } patch(make()); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: function make() { return { prototype: Map.prototype }; } patch(make()); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0694389999989653,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: const factory = { prototype() { return Map.prototype; } }; patch(factory.prototype()); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: const factory = { prototype() { return Map.prototype; } }; patch(factory.prototype()); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6718639999999141,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: patch([Map.prototype]); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: patch([Map.prototype]); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7524450000018987,
+          "failureMessages": [],
+          "fullName": "keeps unresolved lookup semantics as a candidate: Object.setPrototypeOf(Map.prototype, custom); new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unresolved lookup semantics as a candidate: Object.setPrototypeOf(Map.prototype, custom); new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.274609000000055,
+          "failureMessages": [],
+          "fullName": "retains genuine changes between Map operations: records.delete = fetch;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains genuine changes between Map operations: records.delete = fetch;"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3220949999995355,
+          "failureMessages": [],
+          "fullName": "retains genuine changes between Map operations: patch(records);",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains genuine changes between Map operations: patch(records);"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.12129200000345,
+          "failureMessages": [],
+          "fullName": "retains genuine changes between Map operations: Map.prototype.delete = fetch;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains genuine changes between Map operations: Map.prototype.delete = fetch;"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2733290000032866,
+          "failureMessages": [],
+          "fullName": "retains genuine changes between Map operations: const alias = records; alias.__proto__ = { delete: fetch };",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains genuine changes between Map operations: const alias = records; alias.__proto__ = { delete: fetch };"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9356840000000375,
+          "failureMessages": [],
+          "fullName": "does not assume an unchanged constructor adder for Map.get",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not assume an unchanged constructor adder for Map.get"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0142310000010184,
+          "failureMessages": [],
+          "fullName": "does not assume an unchanged constructor adder for Map.delete",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not assume an unchanged constructor adder for Map.delete"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9569860000010522,
+          "failureMessages": [],
+          "fullName": "retains prototype identities stored after container initialization: box.prototype = Map.prototype;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains prototype identities stored after container initialization: box.prototype = Map.prototype;"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3489379999991797,
+          "failureMessages": [],
+          "fullName": "retains prototype identities stored after container initialization: const alias = box; const prototype = Map.prototype; alias[\"prototype\"] = prototype;",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains prototype identities stored after container initialization: const alias = box; const prototype = Map.prototype; alias[\"prototype\"] = prototype;"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.0018830000008165,
+          "failureMessages": [],
+          "fullName": "retains prototype identities stored after container initialization: ({ value: box.prototype } = { value: Map.prototype });",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains prototype identities stored after container initialization: ({ value: box.prototype } = { value: Map.prototype });"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.445121000000654,
+          "failureMessages": [],
+          "fullName": "retains prototype identities stored after container initialization: ({ value: box.prototype = Map.prototype } = {});",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains prototype identities stored after container initialization: ({ value: box.prototype = Map.prototype } = {});"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4374530000022787,
+          "failureMessages": [],
+          "fullName": "retains prototype identities stored after container initialization: for (box.prototype of [Map.prototype]) {}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains prototype identities stored after container initialization: for (box.prototype of [Map.prototype]) {}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0793200000007346,
+          "failureMessages": [],
+          "fullName": "requests mutation facts only for unresolved local receivers: new Headers().get(\"content-type\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requests mutation facts only for unresolved local receivers: new Headers().get(\"content-type\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5276730000005045,
+          "failureMessages": [],
+          "fullName": "requests mutation facts only for unresolved local receivers: new URLSearchParams().delete(\"q\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requests mutation facts only for unresolved local receivers: new URLSearchParams().delete(\"q\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.25458500000240747,
+          "failureMessages": [],
+          "fullName": "requests mutation facts only for unresolved local receivers: new Map().get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requests mutation facts only for unresolved local receivers: new Map().get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.41227100000105565,
+          "failureMessages": [],
+          "fullName": "requests mutation facts only for unresolved local receivers: new Map().delete(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requests mutation facts only for unresolved local receivers: new Map().delete(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.32546000000002095,
+          "failureMessages": [],
+          "fullName": "requests mutation facts only for unresolved local receivers: client.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requests mutation facts only for unresolved local receivers: client.get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.49126799999794457,
+          "failureMessages": [],
+          "fullName": "requests mutation facts only for unresolved local receivers: const client = createClient(); client.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requests mutation facts only for unresolved local receivers: const client = createClient(); client.get(\"/accounts\")"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3715779999984079,
+          "failureMessages": [],
+          "fullName": "requests mutation facts only for unresolved local receivers: const records = new Map(); records.get(\"/accounts\")",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "requests mutation facts only for unresolved local receivers: const records = new Map(); records.get(\"/accounts\")"
+        }
+      ],
+      "endTime": 1792321716351.3716,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysis.mapEndpoints.test.ts",
+      "startTime": 1792321716251,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.785171999999875,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: eval(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: eval(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8762889999998151,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: eval(\"Map.prototype.delete = fetch\"); new Map().delete(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: eval(\"Map.prototype.delete = fetch\"); new Map().delete(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8146439999982249,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: \"use strict\"; eval(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: \"use strict\"; eval(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0313960000021325,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: function run() { eval(\"Map.prototype.get = fetch\"); return new Map().get(\"/accounts\"); }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: function run() { eval(\"Map.prototype.get = fetch\"); return new Map().get(\"/accounts\"); }"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1283519999997225,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: function patch() { eval(\"Map.prototype.get = fetch\"); } patch(); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: function patch() { eval(\"Map.prototype.get = fetch\"); } patch(); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7053679999989981,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: for (const item of [1, 2]) { new Map().get(\"/accounts\"); eval(\"Map.prototype.get = fetch\"); }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: for (const item of [1, 2]) { new Map().get(\"/accounts\"); eval(\"Map.prototype.get = fetch\"); }"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.421782000001258,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: const run = eval; run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: const run = eval; run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4311730000008538,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: let run; (run = eval)(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: let run; (run = eval)(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7460119999996095,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: let run; (run = globalThis.eval)(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: let run; (run = globalThis.eval)(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6363749999982247,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: (0, eval)(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: (0, eval)(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5279199999968114,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: globalThis.eval(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: globalThis.eval(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5579539999998815,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: eval?.(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: eval?.(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8600430000005872,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: let run = eval; run(\"Map.prototype.get = fetch\"); run = () => {}; new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: let run = eval; run(\"Map.prototype.get = fetch\"); run = () => {}; new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8223219999999856,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: let run = () => {}; run = eval; run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: let run = () => {}; run = eval; run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8246939999989991,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: const { eval: run } = globalThis; run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: const { eval: run } = globalThis; run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7917109999980312,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: eval.call(null, \"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: eval.call(null, \"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2049699999988661,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: const run = eval.bind(null); run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: const run = eval.bind(null); run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6852799999978743,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: globalThis[\"ev\" + \"al\"](\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: globalThis[\"ev\" + \"al\"](\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9791519999998854,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: const { [\"eval\"]: run } = globalThis; run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: const { [\"eval\"]: run } = globalThis; run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9620399999985239,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: const root = globalThis; const run = root[\"eval\"]; run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: const root = globalThis; const run = root[\"eval\"]; run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0837830000018585,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: function invoke() { run(\"Map.prototype.get = fetch\"); } const run = eval; invoke(); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: function invoke() { run(\"Map.prototype.get = fetch\"); } const run = eval; invoke(); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.022439000000304,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: function getRun() { return eval; } getRun()(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: function getRun() { return eval; } getRun()(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0347860000001674,
+          "failureMessages": [],
+          "fullName": "keeps a Map lookup after possible opaque mutation as a candidate: Reflect.apply(eval, null, [\"Map.prototype.get = fetch\"]); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a Map lookup after possible opaque mutation as a candidate: Reflect.apply(eval, null, [\"Map.prototype.get = fetch\"]); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7548129999995581,
+          "failureMessages": [],
+          "fullName": "preserves a Map proof when eval cannot precede the lookup: new Map().get(\"/accounts\"); eval(\"Map.prototype.get = fetch\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a Map proof when eval cannot precede the lookup: new Map().get(\"/accounts\"); eval(\"Map.prototype.get = fetch\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5400459999982559,
+          "failureMessages": [],
+          "fullName": "preserves a Map proof when eval cannot precede the lookup: (new Map().get(\"/accounts\"), eval(\"Map.prototype.get = fetch\"));",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a Map proof when eval cannot precede the lookup: (new Map().get(\"/accounts\"), eval(\"Map.prototype.get = fetch\"));"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8131300000022748,
+          "failureMessages": [],
+          "fullName": "preserves a Map proof when eval cannot precede the lookup: function run(eval) { eval(\"Map.prototype.get = fetch\"); return new Map().get(\"/accounts\"); }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a Map proof when eval cannot precede the lookup: function run(eval) { eval(\"Map.prototype.get = fetch\"); return new Map().get(\"/accounts\"); }"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8385070000003907,
+          "failureMessages": [],
+          "fullName": "preserves a Map proof when eval cannot precede the lookup: const eval = () => {}; eval(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a Map proof when eval cannot precede the lookup: const eval = () => {}; eval(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6853450000016892,
+          "failureMessages": [],
+          "fullName": "preserves a Map proof when eval cannot precede the lookup: for (const item of []) { eval(\"Map.prototype.get = fetch\"); } new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a Map proof when eval cannot precede the lookup: for (const item of []) { eval(\"Map.prototype.get = fetch\"); } new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9558690000012575,
+          "failureMessages": [],
+          "fullName": "preserves a Map proof when eval cannot precede the lookup: const run = eval; new Map().get(\"/accounts\"); run(\"Map.prototype.get = fetch\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a Map proof when eval cannot precede the lookup: const run = eval; new Map().get(\"/accounts\"); run(\"Map.prototype.get = fetch\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0299530000011146,
+          "failureMessages": [],
+          "fullName": "preserves a Map proof when eval cannot precede the lookup: function inspect(eval) { const run = eval; run(\"Map.prototype.get = fetch\"); return new Map().get(\"/accounts\"); }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a Map proof when eval cannot precede the lookup: function inspect(eval) { const run = eval; run(\"Map.prototype.get = fetch\"); return new Map().get(\"/accounts\"); }"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5870929999982764,
+          "failureMessages": [],
+          "fullName": "preserves a Map proof when eval cannot precede the lookup: let run = eval; run = () => {}; run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a Map proof when eval cannot precede the lookup: let run = eval; run = () => {}; run(\"Map.prototype.get = fetch\"); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7209279999988212,
+          "failureMessages": [],
+          "fullName": "preserves a Map proof when eval cannot precede the lookup: eval.bind(null); new Map().get(\"/accounts\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a Map proof when eval cannot precede the lookup: eval.bind(null); new Map().get(\"/accounts\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7952340000010736,
+          "failureMessages": [],
+          "fullName": "does not grant indirect eval access to the caller's lexical bindings",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not grant indirect eval access to the caller's lexical bindings"
+        }
+      ],
+      "endTime": 1792321727674.7952,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysis.mapOpaqueEffects.test.ts",
+      "startTime": 1792321727643,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 44.88608699999895,
+          "failureMessages": [],
+          "fullName": "collects a 12,000-member CommonJS export path without recursion",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "collects a 12,000-member CommonJS export path without recursion"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9465229999987059,
+          "failureMessages": [],
+          "fullName": "preserves exact empty keys without inventing dynamic, this, or private exports",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact empty keys without inventing dynamic, this, or private exports"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.640213999999105,
+          "failureMessages": [],
+          "fullName": "distinguishes the object literal prototype setter from own export keys",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes the object literal prototype setter from own export keys"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.880472000004374,
+          "failureMessages": [],
+          "fullName": "keeps left-first and outer-member-first bundler runtime matches",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps left-first and outer-member-first bundler runtime matches"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 11.316756000000169,
+          "failureMessages": [],
+          "fullName": "recognizes a bundler runtime through nested member names",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recognizes a bundler runtime through nested member names"
+        }
+      ],
+      "endTime": 1792321730588.3167,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysis.member_path_depth.test.ts",
+      "startTime": 1792321730525,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "JavaScript static analysis findings"
+          ],
+          "benchmarks": [],
+          "duration": 1.3885220000011032,
+          "failureMessages": [],
+          "fullName": "JavaScript static analysis findings does not infer a webpack push from a dynamic computed key",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer a webpack push from a dynamic computed key"
+        },
+        {
+          "ancestorTitles": [
+            "JavaScript static analysis findings"
+          ],
+          "benchmarks": [],
+          "duration": 1978.013248999996,
+          "failureMessages": [],
+          "fullName": "JavaScript static analysis findings retains every static reference and Electron property in large literals",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains every static reference and Electron property in large literals"
+        }
+      ],
+      "endTime": 1792321734695.0132,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysis.no_finding_caps.test.ts",
+      "startTime": 1792321732716,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.2237290000011853,
+          "failureMessages": [],
+          "fullName": "resolves unchanged lexical strings and object properties",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves unchanged lexical strings and object properties"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.264446000001044,
+          "failureMessages": [],
+          "fullName": "resolves unchanged URL objects and aliases using URL serialization",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves unchanged URL objects and aliases using URL serialization"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5381180000003951,
+          "failureMessages": [],
+          "fullName": "keeps an interpolated request expression verbatim",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an interpolated request expression verbatim"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3702790000024834,
+          "failureMessages": [],
+          "fullName": "keeps writes to a config property partial instead of resolving its initializer",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps writes to a config property partial instead of resolving its initializer"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.6118760000026668,
+          "failureMessages": [],
+          "fullName": "keeps a reassigned endpoint binding partial",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a reassigned endpoint binding partial"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6276870000001509,
+          "failureMessages": [],
+          "fullName": "does not resolve an endpoint from a declaration after the request",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not resolve an endpoint from a declaration after the request"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1151949999984936,
+          "failureMessages": [],
+          "fullName": "keeps URLSearchParams mutations partial",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps URLSearchParams mutations partial"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.910518000000593,
+          "failureMessages": [],
+          "fullName": "resolves a URL object against a literal base",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves a URL object against a literal base"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1874690000004193,
+          "failureMessages": [],
+          "fullName": "resolves an unchanged URL object's toString target",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves an unchanged URL object's toString target"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7609770000017306,
+          "failureMessages": [],
+          "fullName": "keeps a URL object partial when its base is unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a URL object partial when its base is unresolved"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0225959999988845,
+          "failureMessages": [],
+          "fullName": "keeps URL aliases partial after a member mutation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps URL aliases partial after a member mutation"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7044470000000729,
+          "failureMessages": [],
+          "fullName": "keeps an escaped URL object partial",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an escaped URL object partial"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9418970000006084,
+          "failureMessages": [],
+          "fullName": "retains dynamic targets on known global fetch receivers",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains dynamic targets on known global fetch receivers"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5031300000009651,
+          "failureMessages": [],
+          "fullName": "does not treat a locally bound fetch function as a network API",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not treat a locally bound fetch function as a network API"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.43737400000100024,
+          "failureMessages": [],
+          "fullName": "keeps exact literal targets exact",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps exact literal targets exact"
+        }
+      ],
+      "endTime": 1792321724165.5032,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysis.partialEndpoints.test.ts",
+      "startTime": 1792321724149,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.5360700000019278,
+          "failureMessages": [],
+          "fullName": "reads exact route-property templates and leaves interpolated values unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reads exact route-property templates and leaves interpolated values unknown"
+        }
+      ],
+      "endTime": 1792321735147.5361,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysis.routeProperties.test.ts",
+      "startTime": 1792321735146,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "beacon endpoints"
+          ],
+          "benchmarks": [],
+          "duration": 1.238961000002746,
+          "failureMessages": [],
+          "fullName": "beacon endpoints reports navigator.sendBeacon URLs",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports navigator.sendBeacon URLs"
+        },
+        {
+          "ancestorTitles": [
+            "beacon endpoints"
+          ],
+          "benchmarks": [],
+          "duration": 1.0031549999985145,
+          "failureMessages": [],
+          "fullName": "beacon endpoints retains a dynamic beacon target as partial source evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains a dynamic beacon target as partial source evidence"
+        }
+      ],
+      "endTime": 1792321734918.0032,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysis.send_beacon.test.ts",
+      "startTime": 1792321734916,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.6225300000005518,
+          "failureMessages": [],
+          "fullName": "omits a proven local constructor: class Database { constructor(name) { this.name = name; } } new Database(\"hello\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven local constructor: class Database { constructor(name) { this.name = name; } } new Database(\"hello\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5122320000009495,
+          "failureMessages": [],
+          "fullName": "omits a proven local constructor: const Database = class {}; new Database(\"hello\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven local constructor: const Database = class {}; new Database(\"hello\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5564739999972517,
+          "failureMessages": [],
+          "fullName": "omits a proven local constructor: function Database(name) { return {name}; } new Database(\"hello\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven local constructor: function Database(name) { return {name}; } new Database(\"hello\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4827149999982794,
+          "failureMessages": [],
+          "fullName": "omits a proven local constructor: class Local {} const Database = Local; new Database(\"hello\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "omits a proven local constructor: class Local {} const Database = Local; new Database(\"hello\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8435150000004796,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: new Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: new Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5596949999962817,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: import type Database = require(\"better-sqlite3\"); new Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: import type Database = require(\"better-sqlite3\"); new Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.100417000001471,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: let Database = require(\"better-sqlite3\"); eval(\"Database = Other\"); new Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: let Database = require(\"better-sqlite3\"); eval(\"Database = Other\"); new Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9338380000044708,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: import * as sqlite from \"sqlite3\"; const alias = sqlite; alias.Database = Other; new sqlite.Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: import * as sqlite from \"sqlite3\"; const alias = sqlite; alias.Database = Other; new sqlite.Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8743150000009337,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: import Database from \"better-sqlite3\"; expose(Database); new Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: import Database from \"better-sqlite3\"; expose(Database); new Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7875329999951646,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: import type TypeDatabase from \"better-sqlite3\"; const Database = TypeDatabase; new Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: import type TypeDatabase from \"better-sqlite3\"; const Database = TypeDatabase; new Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4609889999992447,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: import * as Database from \"better-sqlite3\"; new Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: import * as Database from \"better-sqlite3\"; new Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7436610000004293,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: const Database = require(\"better-sqlite3\").default; new Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: const Database = require(\"better-sqlite3\").default; new Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.0776479999985895,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: const sqlite = require(\"sqlite3\").default; new sqlite.Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: const sqlite = require(\"sqlite3\").default; new sqlite.Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4074689999979455,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: import type Database from \"better-sqlite3\"; new Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: import type Database from \"better-sqlite3\"; new Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6417509999955655,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: import * as sqlite from \"sqlite3\"; new sqlite.default.default.Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: import * as sqlite from \"sqlite3\"; new sqlite.default.default.Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6404650000040419,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: function run(Database) { return new Database(\"shared\"); }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: function run(Database) { return new Database(\"shared\"); }"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3823690000062925,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: import Database from \"unknown-library\"; new Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: import Database from \"unknown-library\"; new Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6054049999947893,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: import Database from \"better-sqlite3\"; Database = Other; new Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: import Database from \"better-sqlite3\"; Database = Other; new Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5879930000010063,
+          "failureMessages": [],
+          "fullName": "retains uncertain SQLite names as candidates: import * as sqlite from \"sqlite3\"; sqlite.Database = Other; new sqlite.Database(\"shared\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertain SQLite names as candidates: import * as sqlite from \"sqlite3\"; sqlite.Database = Other; new sqlite.Database(\"shared\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6777749999964726,
+          "failureMessages": [],
+          "fullName": "retains proven SQLite API origins: import Database from \"better-sqlite3\"; new Database(\"known.db\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains proven SQLite API origins: import Database from \"better-sqlite3\"; new Database(\"known.db\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.324633999996877,
+          "failureMessages": [],
+          "fullName": "retains proven SQLite API origins: import Database = require(\"better-sqlite3\"); new Database(\"known.db\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains proven SQLite API origins: import Database = require(\"better-sqlite3\"); new Database(\"known.db\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5855530000044382,
+          "failureMessages": [],
+          "fullName": "retains proven SQLite API origins: import sqlite = require(\"sqlite3\"); new sqlite.Database(\"known.db\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains proven SQLite API origins: import sqlite = require(\"sqlite3\"); new sqlite.Database(\"known.db\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6037930000020424,
+          "failureMessages": [],
+          "fullName": "retains proven SQLite API origins: const Database = require(\"better-sqlite3\"); new Database(\"known.db\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains proven SQLite API origins: const Database = require(\"better-sqlite3\"); new Database(\"known.db\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6119570000009844,
+          "failureMessages": [],
+          "fullName": "retains proven SQLite API origins: import {Database} from \"sqlite3\"; new Database(\"known.db\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains proven SQLite API origins: import {Database} from \"sqlite3\"; new Database(\"known.db\");"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5265800000051968,
+          "failureMessages": [],
+          "fullName": "retains proven SQLite API origins: import * as sqlite from \"sqlite3\"; new sqlite.Database(\"known.db\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains proven SQLite API origins: import * as sqlite from \"sqlite3\"; new sqlite.Database(\"known.db\");"
+        }
+      ],
+      "endTime": 1792321731022.5266,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysis.sqliteStorage.test.ts",
+      "startTime": 1792321731003,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7792810000028112,
+          "failureMessages": [],
+          "fullName": "shares erased call-target names with endpoint consumers without inventing dynamic keys",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "shares erased call-target names with endpoint consumers without inventing dynamic keys"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.515734000000521,
+          "failureMessages": [],
+          "fullName": "excludes plain collection and configuration reads while retaining request candidates",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes plain collection and configuration reads while retaining request candidates"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.117709999998624,
+          "failureMessages": [],
+          "fullName": "excludes asserted collection and configuration reads while retaining request candidates",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes asserted collection and configuration reads while retaining request candidates"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.001504999996541,
+          "failureMessages": [],
+          "fullName": "excludes non-null collection and configuration reads while retaining request candidates",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes non-null collection and configuration reads while retaining request candidates"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.3972780000003695,
+          "failureMessages": [],
+          "fullName": "excludes satisfies collection and configuration reads while retaining request candidates",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes satisfies collection and configuration reads while retaining request candidates"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.7491569999983767,
+          "failureMessages": [],
+          "fullName": "retains uncertainty and module evidence for wrapped get receivers",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains uncertainty and module evidence for wrapped get receivers"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.153508999999758,
+          "failureMessages": [],
+          "fullName": "retains lexical browser-open facts through erased call and receiver wrappers",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains lexical browser-open facts through erased call and receiver wrappers"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.7497199999997974,
+          "failureMessages": [],
+          "fullName": "retains global and local identity through plain alias initializers",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains global and local identity through plain alias initializers"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.334968000002846,
+          "failureMessages": [],
+          "fullName": "retains global and local identity through asserted alias initializers",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains global and local identity through asserted alias initializers"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.6645400000015798,
+          "failureMessages": [],
+          "fullName": "retains global and local identity through non-null alias initializers",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains global and local identity through non-null alias initializers"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.824119000000792,
+          "failureMessages": [],
+          "fullName": "retains global and local identity through satisfies alias initializers",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains global and local identity through satisfies alias initializers"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.46929000000091,
+          "failureMessages": [],
+          "fullName": "retains endpoint observations for exact template and TypeScript member keys",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains endpoint observations for exact template and TypeScript member keys"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 5.098930000000109,
+          "failureMessages": [],
+          "fullName": "preserves preload and utility paths through exact computed join members",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves preload and utility paths through exact computed join members"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.940803000001324,
+          "failureMessages": [],
+          "fullName": "keeps dynamic, interpolated, and invalid template keys unresolved",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps dynamic, interpolated, and invalid template keys unresolved"
+        },
+        {
+          "ancestorTitles": [
+            "static callee boundary matching"
+          ],
+          "benchmarks": [],
+          "duration": 3.1257669999977225,
+          "failureMessages": [],
+          "fullName": "static callee boundary matching matches complete callee members without suffix collisions",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "matches complete callee members without suffix collisions"
+        }
+      ],
+      "endTime": 1792321715641.1257,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysisCalleeBoundary.test.ts",
+      "startTime": 1792321715583,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "source map directive coordinates"
+          ],
+          "benchmarks": [],
+          "duration": 1.2631790000014007,
+          "failureMessages": [],
+          "fullName": "source map directive coordinates agrees with Babel after LF",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "agrees with Babel after LF"
+        },
+        {
+          "ancestorTitles": [
+            "source map directive coordinates"
+          ],
+          "benchmarks": [],
+          "duration": 0.6981779999987339,
+          "failureMessages": [],
+          "fullName": "source map directive coordinates agrees with Babel after CRLF",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "agrees with Babel after CRLF"
+        },
+        {
+          "ancestorTitles": [
+            "source map directive coordinates"
+          ],
+          "benchmarks": [],
+          "duration": 0.5676059999968857,
+          "failureMessages": [],
+          "fullName": "source map directive coordinates agrees with Babel after CR",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "agrees with Babel after CR"
+        },
+        {
+          "ancestorTitles": [
+            "source map directive coordinates"
+          ],
+          "benchmarks": [],
+          "duration": 0.29840699999476783,
+          "failureMessages": [],
+          "fullName": "source map directive coordinates agrees with Babel after line separator",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "agrees with Babel after line separator"
+        },
+        {
+          "ancestorTitles": [
+            "source map directive coordinates"
+          ],
+          "benchmarks": [],
+          "duration": 0.4387420000057318,
+          "failureMessages": [],
+          "fullName": "source map directive coordinates agrees with Babel after paragraph separator",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "agrees with Babel after paragraph separator"
+        },
+        {
+          "ancestorTitles": [
+            "source map directive coordinates"
+          ],
+          "benchmarks": [],
+          "duration": 0.33100500000000466,
+          "failureMessages": [],
+          "fullName": "source map directive coordinates agrees with Babel after same-line UTF-16 columns",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "agrees with Babel after same-line UTF-16 columns"
+        },
+        {
+          "ancestorTitles": [
+            "source map directive coordinates"
+          ],
+          "benchmarks": [],
+          "duration": 0.23877800000627758,
+          "failureMessages": [],
+          "fullName": "source map directive coordinates agrees with Babel after vertical tab whitespace",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "agrees with Babel after vertical tab whitespace"
+        },
+        {
+          "ancestorTitles": [
+            "source map directive coordinates"
+          ],
+          "benchmarks": [],
+          "duration": 0.3570130000007339,
+          "failureMessages": [],
+          "fullName": "source map directive coordinates agrees with Babel after form feed whitespace",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "agrees with Babel after form feed whitespace"
+        },
+        {
+          "ancestorTitles": [
+            "source map directive coordinates"
+          ],
+          "benchmarks": [],
+          "duration": 0.32186400000500726,
+          "failureMessages": [],
+          "fullName": "source map directive coordinates agrees with Babel after mixed terminators",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "agrees with Babel after mixed terminators"
+        },
+        {
+          "ancestorTitles": [
+            "source map directive coordinates"
+          ],
+          "benchmarks": [],
+          "duration": 0.8827749999982188,
+          "failureMessages": [],
+          "fullName": "source map directive coordinates counts terminators inside a block directive without including its closer",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "counts terminators inside a block directive without including its closer"
+        },
+        {
+          "ancestorTitles": [
+            "source map directive coordinates"
+          ],
+          "benchmarks": [],
+          "duration": 0.3543050000007497,
+          "failureMessages": [],
+          "fullName": "source map directive coordinates preserves the first location when a URL is repeated across terminators",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the first location when a URL is repeated across terminators"
+        }
+      ],
+      "endTime": 1792321731429.3542,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysisLocations.test.ts",
+      "startTime": 1792321731423,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.491440000001603,
+          "failureMessages": [],
+          "fullName": "recovers standalone module factories dispatched with direct",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recovers standalone module factories dispatched with direct"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.836901000002399,
+          "failureMessages": [],
+          "fullName": "recovers standalone module factories dispatched with call",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recovers standalone module factories dispatched with call"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.3982140000007348,
+          "failureMessages": [],
+          "fullName": "does not infer a bootstrap from a function table without a matching loader",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer a bootstrap from a function table without a matching loader"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.0545529999981227,
+          "failureMessages": [],
+          "fullName": "does not treat a same-named shadow as the factory exports parameter",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not treat a same-named shadow as the factory exports parameter"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6712100000004284,
+          "failureMessages": [],
+          "fullName": "does not resolve a parameter named require as a module dependency",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not resolve a parameter named require as a module dependency"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5467180000014196,
+          "failureMessages": [],
+          "fullName": "keeps a top-level wrapper require redeclaration",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a top-level wrapper require redeclaration"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5317160000013246,
+          "failureMessages": [],
+          "fullName": "retains the wrapper dependency evaluated inside its replacing assignment",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the wrapper dependency evaluated inside its replacing assignment"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9850020000012591,
+          "failureMessages": [],
+          "fullName": "keeps a deferred function assignment unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a deferred function assignment unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4984709999989718,
+          "failureMessages": [],
+          "fullName": "keeps an assignment repeated by a loop unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an assignment repeated by a loop unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7226680000021588,
+          "failureMessages": [],
+          "fullName": "preserves uncertainty for a skipped wrapper write",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for a skipped wrapper write"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1476159999983793,
+          "failureMessages": [],
+          "fullName": "preserves uncertainty for a skipped createRequire write",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for a skipped createRequire write"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9297910000022966,
+          "failureMessages": [],
+          "fullName": "preserves uncertainty for a class static field write before its computed key in source order",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for a class static field write before its computed key in source order"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5262170000023616,
+          "failureMessages": [],
+          "fullName": "preserves uncertainty for a loop condition write before a later call",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves uncertainty for a loop condition write before a later call"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9401570000009087,
+          "failureMessages": [],
+          "fullName": "keeps a proven createRequire binding",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a proven createRequire binding"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.38169900000139,
+          "failureMessages": [],
+          "fullName": "recognizes only factory loader calls and supported bind references",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "recognizes only factory loader calls and supported bind references"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.160438000002614,
+          "failureMessages": [],
+          "fullName": "keeps reassigned factory loaders unknown instead of resolving imports",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps reassigned factory loaders unknown instead of resolving imports"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5609370000020135,
+          "failureMessages": [],
+          "fullName": "keeps a reassigned function named require unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps a reassigned function named require unknown"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6609509999980219,
+          "failureMessages": [],
+          "fullName": "does not treat a shadowed webpack loader name as bundler ownership",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not treat a shadowed webpack loader name as bundler ownership"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.899820999999065,
+          "failureMessages": [],
+          "fullName": "uses recovered factory and runtime loader identities for webpack imports and chunks",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses recovered factory and runtime loader identities for webpack imports and chunks"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.419827000001533,
+          "failureMessages": [],
+          "fullName": "does not attribute a shadowed factory loader parameter to async chunks",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a shadowed factory loader parameter to async chunks"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 7.194973000001482,
+          "failureMessages": [],
+          "fullName": "does not confuse a shadowed dispatch table with the outer module table",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not confuse a shadowed dispatch table with the outer module table"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 4.165337000002182,
+          "failureMessages": [],
+          "fullName": "retains a stable var module table without treating declaration mutability as a write",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains a stable var module table without treating declaration mutability as a write"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 6.053547999999864,
+          "failureMessages": [],
+          "fullName": "only attributes bootstrap entries to the recovered loader binding",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "only attributes bootstrap entries to the recovered loader binding"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.42472499999712454,
+          "failureMessages": [],
+          "fullName": "preserves first insertion precedence and inclusive interval bounds",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves first insertion precedence and inclusive interval bounds"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 3.440216999999393,
+          "failureMessages": [],
+          "fullName": "rejects missing and out-of-range lookup offsets",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects missing and out-of-range lookup offsets"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 69.91945000000123,
+          "failureMessages": [],
+          "fullName": "keeps module references attributed across many real factory ranges",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps module references attributed across many real factory ranges"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9092710000004445,
+          "failureMessages": [],
+          "fullName": "retains the chunk runtime through a TypeScript-only expression wrapper",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the chunk runtime through a TypeScript-only expression wrapper"
+        }
+      ],
+      "endTime": 1792321715314.9092,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysisModuleIndex.test.ts",
+      "startTime": 1792321715189,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.8159009999944828,
+          "failureMessages": [],
+          "fullName": "service-worker API identity resolves a module-relative URL for navigator.serviceWorker.register",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves a module-relative URL for navigator.serviceWorker.register"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 0.9162080000023707,
+          "failureMessages": [],
+          "fullName": "service-worker API identity resolves a module-relative URL for window.navigator.serviceWorker.register",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves a module-relative URL for window.navigator.serviceWorker.register"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 2.7968850000033854,
+          "failureMessages": [],
+          "fullName": "service-worker API identity resolves a module-relative URL for self.navigator.serviceWorker.register",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves a module-relative URL for self.navigator.serviceWorker.register"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.347913999998127,
+          "failureMessages": [],
+          "fullName": "service-worker API identity resolves a module-relative URL for globalThis.navigator.serviceWorker.register",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves a module-relative URL for globalThis.navigator.serviceWorker.register"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.4421589999983553,
+          "failureMessages": [],
+          "fullName": "service-worker API identity resolves a module-relative URL for window?.navigator?.serviceWorker?.register",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves a module-relative URL for window?.navigator?.serviceWorker?.register"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 2.0177919999987353,
+          "failureMessages": [],
+          "fullName": "service-worker API identity resolves a module-relative URL for navigator[\"serviceWorker\"][\"register\"]",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "resolves a module-relative URL for navigator[\"serviceWorker\"][\"register\"]"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.351386000002094,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: const navigator = vendor; navigator.serviceWorker.register(\"./sw.js\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: const navigator = vendor; navigator.serviceWorker.register(\"./sw.js\");"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.111469000003126,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: import navigator from \"vendor\"; navigator.serviceWorker.register(\"./sw.js\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: import navigator from \"vendor\"; navigator.serviceWorker.register(\"./sw.js\");"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.0685349999985192,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: function register(navigator) { navigator.serviceWorker.register(\"./sw.js\"); }",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: function register(navigator) { navigator.serviceWorker.register(\"./sw.js\"); }"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.188401999999769,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: vendor.serviceWorker.register(\"./sw.js\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: vendor.serviceWorker.register(\"./sw.js\");"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 0.6520610000006855,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: serviceWorker.register(\"./sw.js\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: serviceWorker.register(\"./sw.js\");"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 0.6905909999986761,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: navigator[\"serviceWorker.register\"](\"./sw.js\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: navigator[\"serviceWorker.register\"](\"./sw.js\");"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 0.5048060000044643,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: navigator.serviceWorker[method](\"./sw.js\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: navigator.serviceWorker[method](\"./sw.js\");"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.320159999995667,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: navigator.serviceWorker.register = load; navigator.serviceWorker.register(new URL(\"./ordinary.js\", import.meta.url));",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: navigator.serviceWorker.register = load; navigator.serviceWorker.register(new URL(\"./ordinary.js\", import.meta.url));"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.5780279999962659,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: const sw = navigator.serviceWorker; sw.register = load; navigator.serviceWorker.register(\"./sw.js\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: const sw = navigator.serviceWorker; sw.register = load; navigator.serviceWorker.register(\"./sw.js\");"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 0.657628000000841,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: Object.assign(navigator.serviceWorker, { register: load }); navigator.serviceWorker.register(\"./sw.js\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: Object.assign(navigator.serviceWorker, { register: load }); navigator.serviceWorker.register(\"./sw.js\");"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 0.7371419999981299,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: Reflect.set(navigator.serviceWorker, \"register\", load); navigator.serviceWorker.register(\"./sw.js\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: Reflect.set(navigator.serviceWorker, \"register\", load); navigator.serviceWorker.register(\"./sw.js\");"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.062727000004088,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: navigator.serviceWorker = vendor; navigator.serviceWorker.register(\"./sw.js\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: navigator.serviceWorker = vendor; navigator.serviceWorker.register(\"./sw.js\");"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 0.44926800000393996,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: window.navigator = vendor; navigator.serviceWorker.register(\"./sw.js\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: window.navigator = vendor; navigator.serviceWorker.register(\"./sw.js\");"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.5287949999983539,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not attribute a replaced or unproven API: window = vendor; window.navigator.serviceWorker.register(\"./sw.js\");",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not attribute a replaced or unproven API: window = vendor; window.navigator.serviceWorker.register(\"./sw.js\");"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.0844800000049872,
+          "failureMessages": [],
+          "fullName": "service-worker API identity retains the expression when its module-relative URL is unknown: \"./sw.js\"",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the expression when its module-relative URL is unknown: \"./sw.js\""
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 0.6197039999970002,
+          "failureMessages": [],
+          "fullName": "service-worker API identity retains the expression when its module-relative URL is unknown: new URL(\"./sw.js\", document.baseURI)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the expression when its module-relative URL is unknown: new URL(\"./sw.js\", document.baseURI)"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 1.3833590000067488,
+          "failureMessages": [],
+          "fullName": "service-worker API identity retains the expression when its module-relative URL is unknown: new URL(\"/sw.js\", import.meta.url)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the expression when its module-relative URL is unknown: new URL(\"/sw.js\", import.meta.url)"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 0.6194539999996778,
+          "failureMessages": [],
+          "fullName": "service-worker API identity retains the expression when its module-relative URL is unknown: new URL(\"./sw.js\", import.meta.url)",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the expression when its module-relative URL is unknown: new URL(\"./sw.js\", import.meta.url)"
+        },
+        {
+          "ancestorTitles": [
+            "service-worker API identity"
+          ],
+          "benchmarks": [],
+          "duration": 0.8456609999993816,
+          "failureMessages": [],
+          "fullName": "service-worker API identity does not invalidate registration for an unrelated member write",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not invalidate registration for an unrelated member write"
+        }
+      ],
+      "endTime": 1792321728065.8457,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/javascript/javascriptStaticAnalysisServiceWorkers.test.ts",
+      "startTime": 1792321728037,
+      "status": "passed"
+    }
+  ],
+  "version": 1
+}

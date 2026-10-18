@@ -1,0 +1,2176 @@
+{
+  "numFailedTestSuites": 2,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 49,
+  "numPassedTests": 164,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 51,
+  "numTotalTests": 165,
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1792321671857,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "reconstruction obligation ledger"
+          ],
+          "benchmarks": [],
+          "duration": 6.78421999999955,
+          "failureMessages": [],
+          "fullName": "reconstruction obligation ledger does not authenticate packaged-process proof with generic replay evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not authenticate packaged-process proof with generic replay evidence"
+        },
+        {
+          "ancestorTitles": [
+            "reconstruction obligation ledger"
+          ],
+          "benchmarks": [],
+          "duration": 3.824005999998917,
+          "failureMessages": [],
+          "fullName": "reconstruction obligation ledger propagates an open dependency through the full obligation chain",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "propagates an open dependency through the full obligation chain"
+        },
+        {
+          "ancestorTitles": [
+            "reconstruction obligation ledger fail-closed behavior"
+          ],
+          "benchmarks": [],
+          "duration": 2.516190000000279,
+          "failureMessages": [],
+          "fullName": "reconstruction obligation ledger fail-closed behavior fails closed on parser gaps, ambiguous ownership, and contradiction",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "fails closed on parser gaps, ambiguous ownership, and contradiction"
+        }
+      ],
+      "endTime": 1792321681697.516,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/ReconstructionObligationLedger.authority.test.ts",
+      "startTime": 1792321681685,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "reconstruction obligation ledger"
+          ],
+          "benchmarks": [],
+          "duration": 14.564860999999837,
+          "failureMessages": [],
+          "fullName": "reconstruction obligation ledger emits the complete deterministic ledger and closure identity",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "emits the complete deterministic ledger and closure identity"
+        },
+        {
+          "ancestorTitles": [
+            "reconstruction obligation ledger"
+          ],
+          "benchmarks": [],
+          "duration": 17.797725999999784,
+          "failureMessages": [],
+          "fullName": "reconstruction obligation ledger merges repeated captures of one process scenario into one definition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "merges repeated captures of one process scenario into one definition"
+        },
+        {
+          "ancestorTitles": [
+            "reconstruction obligation ledger"
+          ],
+          "benchmarks": [],
+          "duration": 6.293746999999712,
+          "failureMessages": [],
+          "fullName": "reconstruction obligation ledger still reports a reviewed definition that reuses a generated ID",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "still reports a reviewed definition that reuses a generated ID"
+        },
+        {
+          "ancestorTitles": [
+            "reconstruction obligation ledger"
+          ],
+          "benchmarks": [],
+          "duration": 10.159889999999905,
+          "failureMessages": [],
+          "fullName": "reconstruction obligation ledger does not let green unit evidence close a packaged-process obligation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not let green unit evidence close a packaged-process obligation"
+        },
+        {
+          "ancestorTitles": [
+            "reconstruction obligation ledger Evidence provenance"
+          ],
+          "benchmarks": [],
+          "duration": 2.696540000000823,
+          "failureMessages": [],
+          "fullName": "reconstruction obligation ledger Evidence provenance links observed-case Evidence separately from authority references",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "links observed-case Evidence separately from authority references"
+        },
+        {
+          "ancestorTitles": [
+            "reconstruction obligation ledger case closure"
+          ],
+          "benchmarks": [],
+          "duration": 6.826710000000276,
+          "failureMessages": [],
+          "fullName": "reconstruction obligation ledger case closure keeps unobserved original cases open",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unobserved original cases open"
+        },
+        {
+          "ancestorTitles": [
+            "reconstruction obligation ledger case closure"
+          ],
+          "benchmarks": [],
+          "duration": 7.549796999999671,
+          "failureMessages": [],
+          "fullName": "reconstruction obligation ledger case closure closes only when every required case and verifier has comparable authority",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "closes only when every required case and verifier has comparable authority"
+        },
+        {
+          "ancestorTitles": [
+            "reconstruction obligation manifest references"
+          ],
+          "benchmarks": [],
+          "duration": 7.957486999999674,
+          "failureMessages": [],
+          "fullName": "reconstruction obligation manifest references withholds readiness when a manifest entry names absent Evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "withholds readiness when a manifest entry names absent Evidence"
+        }
+      ],
+      "endTime": 1792321676746.9575,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/ReconstructionObligationLedger.closure.test.ts",
+      "startTime": 1792321676673,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "setup workflow"
+          ],
+          "benchmarks": [],
+          "duration": 4.131198999999469,
+          "failureMessages": [],
+          "fullName": "setup workflow rejects Node 25 before applying setup actions",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects Node 25 before applying setup actions"
+        },
+        {
+          "ancestorTitles": [
+            "setup workflow"
+          ],
+          "benchmarks": [],
+          "duration": 2.0759020000004966,
+          "failureMessages": [],
+          "fullName": "setup workflow records every detected client outcome after an earlier failure",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "records every detected client outcome after an earlier failure"
+        },
+        {
+          "ancestorTitles": [
+            "setup workflow"
+          ],
+          "benchmarks": [],
+          "duration": 0.4848499999989144,
+          "failureMessages": [],
+          "fullName": "setup workflow reports a failed config rollback with its destination and recovery backup",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports a failed config rollback with its destination and recovery backup"
+        },
+        {
+          "ancestorTitles": [
+            "setup workflow"
+          ],
+          "benchmarks": [],
+          "duration": 0.8333899999997811,
+          "failureMessages": [],
+          "fullName": "setup workflow explains skill installation recovery",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "explains skill installation recovery"
+        },
+        {
+          "ancestorTitles": [
+            "setup workflow"
+          ],
+          "benchmarks": [],
+          "duration": 0.7323089999990771,
+          "failureMessages": [],
+          "fullName": "setup workflow delegates remaining unhealthy checks to doctor remediation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "delegates remaining unhealthy checks to doctor remediation"
+        },
+        {
+          "ancestorTitles": [
+            "setup workflow"
+          ],
+          "benchmarks": [],
+          "duration": 0.7420419999998558,
+          "failureMessages": [],
+          "fullName": "setup workflow uses requested readiness scope without hiding environment drift",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses requested readiness scope without hiding environment drift"
+        },
+        {
+          "ancestorTitles": [
+            "setup failure cleanup projection"
+          ],
+          "benchmarks": [],
+          "duration": 2.3569879999995464,
+          "failureMessages": [],
+          "fullName": "setup failure cleanup projection projects a configuration failure together with failed host cleanup",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects a configuration failure together with failed host cleanup"
+        },
+        {
+          "ancestorTitles": [
+            "setup scoped readiness"
+          ],
+          "benchmarks": [],
+          "duration": 0.9768679999997403,
+          "failureMessages": [],
+          "fullName": "setup scoped readiness limits Hopper host checks to workflows that request Hopper",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "limits Hopper host checks to workflows that request Hopper"
+        },
+        {
+          "ancestorTitles": [
+            "setup scoped readiness"
+          ],
+          "benchmarks": [],
+          "duration": 1.027470999999423,
+          "failureMessages": [],
+          "fullName": "setup scoped readiness keeps an unchanged selected client in final readiness checks",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps an unchanged selected client in final readiness checks"
+        },
+        {
+          "ancestorTitles": [
+            "setup scoped readiness"
+          ],
+          "benchmarks": [],
+          "duration": 0.535267000001113,
+          "failureMessages": [],
+          "fullName": "setup scoped readiness does not advertise an unhealthy Hopper in the selected readiness summary",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not advertise an unhealthy Hopper in the selected readiness summary"
+        },
+        {
+          "ancestorTitles": [
+            "setup scoped readiness"
+          ],
+          "benchmarks": [],
+          "duration": 0.6855469999991328,
+          "failureMessages": [],
+          "fullName": "setup scoped readiness rejects unsupported hosts before mutation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects unsupported hosts before mutation"
+        },
+        {
+          "ancestorTitles": [
+            "setup scoped readiness"
+          ],
+          "benchmarks": [],
+          "duration": 0.5844299999989744,
+          "failureMessages": [],
+          "fullName": "setup scoped readiness configures BYO Ghidra on Linux outside Hopper's installer matrix",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "configures BYO Ghidra on Linux outside Hopper's installer matrix"
+        }
+      ],
+      "endTime": 1792321679987.5845,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/Setup.recovery.test.ts",
+      "startTime": 1792321679972,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "residual unknown registry reads and identity"
+          ],
+          "benchmarks": [],
+          "duration": 23.900922999999693,
+          "failureMessages": [],
+          "fullName": "residual unknown registry reads and identity seals mutation Evidence without freezing caller-owned inputs",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "seals mutation Evidence without freezing caller-owned inputs"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown registry reads and identity"
+          ],
+          "benchmarks": [],
+          "duration": 4.818089999999756,
+          "failureMessages": [],
+          "fullName": "residual unknown registry reads and identity merges record-only bundles without changing retained unknown history",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "merges record-only bundles without changing retained unknown history"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown dependency histories"
+          ],
+          "benchmarks": [],
+          "duration": 2664.808541,
+          "failureMessages": [],
+          "fullName": "residual unknown dependency histories imports a valid dependency chain deeper than the JavaScript call stack",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "imports a valid dependency chain deeper than the JavaScript call stack"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown dependency histories"
+          ],
+          "benchmarks": [],
+          "duration": 2.780786999999691,
+          "failureMessages": [],
+          "fullName": "residual unknown dependency histories returns detached unknowns and evidence bundles from every read surface",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "returns detached unknowns and evidence bundles from every read surface"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown dependency histories"
+          ],
+          "benchmarks": [],
+          "duration": 1.965940000000046,
+          "failureMessages": [],
+          "fullName": "residual unknown dependency histories derives stable IDs, filters heads, and rejects duplicate creation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "derives stable IDs, filters heads, and rejects duplicate creation"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown dependency histories"
+          ],
+          "benchmarks": [],
+          "duration": 1.1162340000000768,
+          "failureMessages": [],
+          "fullName": "residual unknown dependency histories uses immutable CAS revisions and rejects a stale concurrent writer atomically",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses immutable CAS revisions and rejects a stale concurrent writer atomically"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown registry resolution and history"
+          ],
+          "benchmarks": [],
+          "duration": 3.2995120000005045,
+          "failureMessages": [],
+          "fullName": "residual unknown registry resolution and history rejects inference for observed resolution, then accepts matching live evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects inference for observed resolution, then accepts matching live evidence"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown registry resolution and history"
+          ],
+          "benchmarks": [],
+          "duration": 4.562957999999526,
+          "failureMessages": [],
+          "fullName": "residual unknown registry resolution and history rejects broken references, dependency cycles, deletion, and tampering",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects broken references, dependency cycles, deletion, and tampering"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown registry resolution and history"
+          ],
+          "benchmarks": [],
+          "duration": 7.501213999999891,
+          "failureMessages": [],
+          "fullName": "residual unknown registry resolution and history merges independent histories commutatively and rejects divergent heads atomically",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "merges independent histories commutatively and rejects divergent heads atomically"
+        },
+        {
+          "ancestorTitles": [
+            "residual unknown imported identity"
+          ],
+          "benchmarks": [],
+          "duration": 5.364403000000493,
+          "failureMessages": [],
+          "fullName": "residual unknown imported identity rejects a rehashed wrong ID atomically and accepts valid history",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects a rehashed wrong ID atomically and accepts valid history"
+        }
+      ],
+      "endTime": 1792321676261.3645,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/investigation/EvidenceLedger.residualUnknown.test.ts",
+      "startTime": 1792321673540,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "evidence ledger recording"
+          ],
+          "benchmarks": [],
+          "duration": 8.244480999999723,
+          "failureMessages": [],
+          "fullName": "evidence ledger recording deduplicates and atomically imports bundles",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "deduplicates and atomically imports bundles"
+        },
+        {
+          "ancestorTitles": [
+            "evidence ledger recording"
+          ],
+          "benchmarks": [],
+          "duration": 0.9431059999988065,
+          "failureMessages": [],
+          "fullName": "evidence ledger recording ignores JSON object key order during imported identity checks",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "ignores JSON object key order during imported identity checks"
+        },
+        {
+          "ancestorTitles": [
+            "evidence ledger recording"
+          ],
+          "benchmarks": [],
+          "duration": 1.7096130000008998,
+          "failureMessages": [],
+          "fullName": "evidence ledger recording protects borrowed snapshots while preserving detached mutable public reads",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "protects borrowed snapshots while preserving detached mutable public reads"
+        },
+        {
+          "ancestorTitles": [
+            "evidence ledger metadata imports"
+          ],
+          "benchmarks": [],
+          "duration": 2.8115969999998924,
+          "failureMessages": [],
+          "fullName": "evidence ledger metadata imports reports and commits metadata replacement when importing unknown history",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports and commits metadata replacement when importing unknown history"
+        },
+        {
+          "ancestorTitles": [
+            "evidence ledger metadata imports"
+          ],
+          "benchmarks": [],
+          "duration": 889.4766529999997,
+          "failureMessages": [],
+          "fullName": "evidence ledger metadata imports retains more than ten thousand inline evidence records",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains more than ten thousand inline evidence records"
+        },
+        {
+          "ancestorTitles": [
+            "evidence ledger metadata imports"
+          ],
+          "benchmarks": [],
+          "duration": 765.7268870000007,
+          "failureMessages": [],
+          "fullName": "evidence ledger metadata imports retains inline evidence larger than the former session byte quota",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains inline evidence larger than the former session byte quota"
+        },
+        {
+          "ancestorTitles": [
+            "evidence bundle imports"
+          ],
+          "benchmarks": [],
+          "duration": 1.465027000000191,
+          "failureMessages": [],
+          "fullName": "evidence bundle imports classifies an authenticated Evidence record as the wrong import kind",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "classifies an authenticated Evidence record as the wrong import kind"
+        },
+        {
+          "ancestorTitles": [
+            "evidence bundle imports"
+          ],
+          "benchmarks": [],
+          "duration": 1.237637000000177,
+          "failureMessages": [],
+          "fullName": "evidence bundle imports rejects conflicting duplicate IDs without mutating the ledger",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects conflicting duplicate IDs without mutating the ledger"
+        },
+        {
+          "ancestorTitles": [
+            "evidence bundle imports"
+          ],
+          "benchmarks": [],
+          "duration": 0.9412560000000667,
+          "failureMessages": [],
+          "fullName": "evidence bundle imports atomically rejects Evidence plus an invalid unknown",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "atomically rejects Evidence plus an invalid unknown"
+        }
+      ],
+      "endTime": 1792321681674.9412,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/application/investigation/EvidenceLedger.test.ts",
+      "startTime": 1792321680002,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.09269200000017,
+          "failureMessages": [],
+          "fullName": "keeps dependency-owned resources empty after the final owner releases",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps dependency-owned resources empty after the final owner releases"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5121239999998579,
+          "failureMessages": [],
+          "fullName": "keeps primary diagnostics separate from historical cleanup diagnostics with the same keys",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps primary diagnostics separate from historical cleanup diagnostics with the same keys"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.407451999999921,
+          "failureMessages": [],
+          "fullName": "restores the typed AnalysisInputError primary after confirmed cleanup",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "restores the typed AnalysisInputError primary after confirmed cleanup"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7687419999999747,
+          "failureMessages": [],
+          "fullName": "restores the typed AnalysisCancelledError primary after confirmed cleanup",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "restores the typed AnalysisCancelledError primary after confirmed cleanup"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.2914830000001984,
+          "failureMessages": [],
+          "fullName": "restores the typed AnalysisTimeoutError primary after confirmed cleanup",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "restores the typed AnalysisTimeoutError primary after confirmed cleanup"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8404230000001007,
+          "failureMessages": [],
+          "fullName": "restores the typed AnalysisResourceConstraintError primary after confirmed cleanup",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "restores the typed AnalysisResourceConstraintError primary after confirmed cleanup"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9904800000001615,
+          "failureMessages": [],
+          "fullName": "restores the typed AnalysisOutputError primary after confirmed cleanup",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "restores the typed AnalysisOutputError primary after confirmed cleanup"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8782699999999295,
+          "failureMessages": [],
+          "fullName": "waits for both nested cleanup owners when inner resolves first",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "waits for both nested cleanup owners when inner resolves first"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8014100000000326,
+          "failureMessages": [],
+          "fullName": "waits for both nested cleanup owners when outer resolves first",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "waits for both nested cleanup owners when outer resolves first"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3185949999999593,
+          "failureMessages": [],
+          "fullName": "does not infer cleanup success when a composition has no live owner binding",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not infer cleanup success when a composition has no live owner binding"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8386339999999564,
+          "failureMessages": [],
+          "fullName": "retains an observation attached to the composite after the primary failed",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains an observation attached to the composite after the primary failed"
+        }
+      ],
+      "endTime": 1792321673217.8386,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/analysisErrorCleanup.test.ts",
+      "startTime": 1792321673208,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "capability failure retry disposition"
+          ],
+          "benchmarks": [],
+          "duration": 6.69725799999992,
+          "failureMessages": [],
+          "fullName": "capability failure retry disposition preserves the producer's false disposition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the producer's false disposition"
+        },
+        {
+          "ancestorTitles": [
+            "capability failure retry disposition"
+          ],
+          "benchmarks": [],
+          "duration": 0.5490139999999428,
+          "failureMessages": [],
+          "fullName": "capability failure retry disposition preserves the producer's false disposition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the producer's false disposition"
+        },
+        {
+          "ancestorTitles": [
+            "capability failure retry disposition"
+          ],
+          "benchmarks": [],
+          "duration": 0.6988589999998567,
+          "failureMessages": [],
+          "fullName": "capability failure retry disposition preserves the producer's true disposition",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the producer's true disposition"
+        },
+        {
+          "ancestorTitles": [
+            "capability failure retry disposition"
+          ],
+          "benchmarks": [],
+          "duration": 0.29539900000008856,
+          "failureMessages": [],
+          "fullName": "capability failure retry disposition preserves a caller-selected message for a retryable failure",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a caller-selected message for a retryable failure"
+        },
+        {
+          "ancestorTitles": [
+            "capability failure retry disposition"
+          ],
+          "benchmarks": [],
+          "duration": 0.5155610000001616,
+          "failureMessages": [],
+          "fullName": "capability failure retry disposition retains cleanup ownership before allowing a transient operation to retry",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains cleanup ownership before allowing a transient operation to retry"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.4847560000000612,
+          "failureMessages": [],
+          "fullName": "projects a published file receipt alongside retained cleanup failure",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects a published file receipt alongside retained cleanup failure"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8632399999999052,
+          "failureMessages": [],
+          "fullName": "distinguishes unsupported target formats from unavailable provider capabilities",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes unsupported target formats from unavailable provider capabilities"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8709900000001198,
+          "failureMessages": [],
+          "fullName": "marks occupied capacity retryable only while cleanup is confirmed: false",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "marks occupied capacity retryable only while cleanup is confirmed: false"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8110659999999825,
+          "failureMessages": [],
+          "fullName": "marks occupied capacity retryable only while cleanup is confirmed: true",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "marks occupied capacity retryable only while cleanup is confirmed: true"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.743253999999979,
+          "failureMessages": [],
+          "fullName": "projects reported memory constraints with observed or unknown limits: null",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects reported memory constraints with observed or unknown limits: null"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6017669999998816,
+          "failureMessages": [],
+          "fullName": "projects reported memory constraints with observed or unknown limits: {\"address_space_bytes\":67108864}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects reported memory constraints with observed or unknown limits: {\"address_space_bytes\":67108864}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4090489999998681,
+          "failureMessages": [],
+          "fullName": "projects reported cpu constraints with observed or unknown limits: null",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects reported cpu constraints with observed or unknown limits: null"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 2.389189000000215,
+          "failureMessages": [],
+          "fullName": "projects reported cpu constraints with observed or unknown limits: {\"cpu_seconds\":1}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects reported cpu constraints with observed or unknown limits: {\"cpu_seconds\":1}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.4815600000001723,
+          "failureMessages": [],
+          "fullName": "projects reported file-size constraints with observed or unknown limits: null",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects reported file-size constraints with observed or unknown limits: null"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.7168589999998858,
+          "failureMessages": [],
+          "fullName": "projects reported file-size constraints with observed or unknown limits: {\"file_size_bytes\":1024}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects reported file-size constraints with observed or unknown limits: {\"file_size_bytes\":1024}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.34956000000011045,
+          "failureMessages": [],
+          "fullName": "projects reported transport constraints with observed or unknown limits: {\"result_budget_bytes\":10485760}",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects reported transport constraints with observed or unknown limits: {\"result_budget_bytes\":10485760}"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.44788500000004206,
+          "failureMessages": [],
+          "fullName": "retains captured output without changing the typed primary failure: undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains captured output without changing the typed primary failure: undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.45611699999994926,
+          "failureMessages": [],
+          "fullName": "retains captured output without changing the typed primary failure: undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains captured output without changing the typed primary failure: undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.19700899999998,
+          "failureMessages": [],
+          "fullName": "retains captured output without changing the typed primary failure: undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains captured output without changing the typed primary failure: undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.13963600000010956,
+          "failureMessages": [],
+          "fullName": "retains captured output without changing the typed primary failure: undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains captured output without changing the typed primary failure: undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.10313799999994444,
+          "failureMessages": [],
+          "fullName": "retains captured output without changing the typed primary failure: undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains captured output without changing the typed primary failure: undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.09044300000005023,
+          "failureMessages": [],
+          "fullName": "retains captured output without changing the typed primary failure: undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains captured output without changing the typed primary failure: undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6721509999999853,
+          "failureMessages": [],
+          "fullName": "retains incomplete cleanup for lifecycle failures: undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains incomplete cleanup for lifecycle failures: undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.2965070000000196,
+          "failureMessages": [],
+          "fullName": "retains incomplete cleanup for lifecycle failures: undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains incomplete cleanup for lifecycle failures: undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8822580000000926,
+          "failureMessages": [],
+          "fullName": "retains the original failure tag and code when cleanup is incomplete",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the original failure tag and code when cleanup is incomplete"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.9381829999999809,
+          "failureMessages": [],
+          "fullName": "projects native partial observations through healthy cancellation failures",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects native partial observations through healthy cancellation failures"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 1.1058470000000398,
+          "failureMessages": [],
+          "fullName": "retains native partial observations and cleanup uncertainty on provider failures",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains native partial observations and cleanup uncertainty on provider failures"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: browser provider failures"
+          ],
+          "benchmarks": [],
+          "duration": 0.8212719999999081,
+          "failureMessages": [],
+          "fullName": "analysis error projection: browser provider failures explains the service-worker policy refusal and names its recovery",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "explains the service-worker policy refusal and names its recovery"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: browser provider failures"
+          ],
+          "benchmarks": [],
+          "duration": 0.5388339999999516,
+          "failureMessages": [],
+          "fullName": "analysis error projection: browser provider failures projects the primary browser failure alongside incomplete cleanup",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects the primary browser failure alongside incomplete cleanup"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: Hopper provider failures"
+          ],
+          "benchmarks": [],
+          "duration": 0.5464329999999791,
+          "failureMessages": [],
+          "fullName": "analysis error projection: Hopper provider failures reports a timed-out active Hopper request and actionable retry guidance",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports a timed-out active Hopper request and actionable retry guidance"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: Hopper provider failures"
+          ],
+          "benchmarks": [],
+          "duration": 0.7750679999999193,
+          "failureMessages": [],
+          "fullName": "analysis error projection: Hopper provider failures identifies the REA session that already owns a Hopper target",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "identifies the REA session that already owns a Hopper target"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: Hopper provider failures"
+          ],
+          "benchmarks": [],
+          "duration": 0.6869300000000749,
+          "failureMessages": [],
+          "fullName": "analysis error projection: Hopper provider failures retains the Hopper request and provider diagnostic on a remote failure",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the Hopper request and provider diagnostic on a remote failure"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: detached provider diagnostics"
+          ],
+          "benchmarks": [],
+          "duration": 0.8249389999998584,
+          "failureMessages": [],
+          "fullName": "analysis error projection: detached provider diagnostics preserves detached, actionable diagnostics for adapter errors",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves detached, actionable diagnostics for adapter errors"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: detached provider diagnostics"
+          ],
+          "benchmarks": [],
+          "duration": 0.41321399999992536,
+          "failureMessages": [],
+          "fullName": "analysis error projection: detached provider diagnostics preserves detached, actionable diagnostics for cancelled errors",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves detached, actionable diagnostics for cancelled errors"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: detached provider diagnostics"
+          ],
+          "benchmarks": [],
+          "duration": 0.617966000000024,
+          "failureMessages": [],
+          "fullName": "analysis error projection: detached provider diagnostics preserves detached, actionable diagnostics for timeout errors",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves detached, actionable diagnostics for timeout errors"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: Hopper startup failures"
+          ],
+          "benchmarks": [],
+          "duration": 3.9337820000000647,
+          "failureMessages": [],
+          "fullName": "analysis error projection: Hopper startup failures maps the Linux startup compatibility exit codes without host internals",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "maps the Linux startup compatibility exit codes without host internals"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: retry guidance"
+          ],
+          "benchmarks": [],
+          "duration": 0.5592910000000302,
+          "failureMessages": [],
+          "fullName": "analysis error projection: retry guidance does not recommend an unchanged retry for non-retryable unreadable output",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not recommend an unchanged retry for non-retryable unreadable output"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: retry guidance"
+          ],
+          "benchmarks": [],
+          "duration": 0.2892540000000281,
+          "failureMessages": [],
+          "fullName": "analysis error projection: retry guidance does not recommend an unchanged retry for non-retryable adapter failure",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not recommend an unchanged retry for non-retryable adapter failure"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: retry guidance"
+          ],
+          "benchmarks": [],
+          "duration": 0.14116400000011708,
+          "failureMessages": [],
+          "fullName": "analysis error projection: retry guidance does not recommend an unchanged retry for non-retryable Hopper remote failure",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not recommend an unchanged retry for non-retryable Hopper remote failure"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: caller contract"
+          ],
+          "benchmarks": [],
+          "duration": 0.22699400000010428,
+          "failureMessages": [],
+          "fullName": "analysis error projection: caller contract preserves the reported output constraint without exposing its internal cause",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves the reported output constraint without exposing its internal cause"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: caller contract"
+          ],
+          "benchmarks": [],
+          "duration": 0.6327360000000226,
+          "failureMessages": [],
+          "fullName": "analysis error projection: caller contract maps representative failures without exposing causes",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "maps representative failures without exposing causes"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: caller contract"
+          ],
+          "benchmarks": [],
+          "duration": 0.25362600000016755,
+          "failureMessages": [],
+          "fullName": "analysis error projection: caller contract reports a target the host refused to read (EACCES) as access_denied",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports a target the host refused to read (EACCES) as access_denied"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: caller contract"
+          ],
+          "benchmarks": [],
+          "duration": 0.19702900000015688,
+          "failureMessages": [],
+          "fullName": "analysis error projection: caller contract reports a target the host refused to read (EPERM) as access_denied",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "reports a target the host refused to read (EPERM) as access_denied"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: caller contract"
+          ],
+          "benchmarks": [],
+          "duration": 0.4744799999998577,
+          "failureMessages": [],
+          "fullName": "analysis error projection: caller contract uses explicit capability recovery while retaining the constraint",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses explicit capability recovery while retaining the constraint"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: caller contract"
+          ],
+          "benchmarks": [],
+          "duration": 0.6115109999998367,
+          "failureMessages": [],
+          "fullName": "analysis error projection: caller contract preserves exact artifact-integrity coordinates",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves exact artifact-integrity coordinates"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: caller contract"
+          ],
+          "benchmarks": [],
+          "duration": 0.5657810000000154,
+          "failureMessages": [],
+          "fullName": "analysis error projection: caller contract gives missing residual unknowns lookup-specific remediation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "gives missing residual unknowns lookup-specific remediation"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: operational diagnostics"
+          ],
+          "benchmarks": [],
+          "duration": 0.6233899999999721,
+          "failureMessages": [],
+          "fullName": "analysis error projection: operational diagnostics distinguishes an observed Hopper exit from an undetermined provider failure",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "distinguishes an observed Hopper exit from an undetermined provider failure"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: evidence files"
+          ],
+          "benchmarks": [],
+          "duration": 0.9184060000000045,
+          "failureMessages": [],
+          "fullName": "analysis error projection: evidence files classifies a read missing evidence file by who can correct it",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "classifies a read missing evidence file by who can correct it"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: evidence files"
+          ],
+          "benchmarks": [],
+          "duration": 0.20567599999981212,
+          "failureMessages": [],
+          "fullName": "analysis error projection: evidence files classifies a read not-file evidence file by who can correct it",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "classifies a read not-file evidence file by who can correct it"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: evidence files"
+          ],
+          "benchmarks": [],
+          "duration": 0.1955239999999776,
+          "failureMessages": [],
+          "fullName": "analysis error projection: evidence files classifies a write missing evidence file by who can correct it",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "classifies a write missing evidence file by who can correct it"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: evidence files"
+          ],
+          "benchmarks": [],
+          "duration": 0.1977750000000924,
+          "failureMessages": [],
+          "fullName": "analysis error projection: evidence files classifies a write exists evidence file by who can correct it",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "classifies a write exists evidence file by who can correct it"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: evidence files"
+          ],
+          "benchmarks": [],
+          "duration": 0.515626999999995,
+          "failureMessages": [],
+          "fullName": "analysis error projection: evidence files classifies a read invalid-json evidence file by who can correct it",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "classifies a read invalid-json evidence file by who can correct it"
+        },
+        {
+          "ancestorTitles": [
+            "analysis error projection: evidence files"
+          ],
+          "benchmarks": [],
+          "duration": 0.505621999999903,
+          "failureMessages": [],
+          "fullName": "analysis error projection: evidence files classifies a read io evidence file by who can correct it",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "classifies a read io evidence file by who can correct it"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.847046999999975,
+          "failureMessages": [],
+          "fullName": "retains the primary failure and both cleanup reports after a secondary failure",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains the primary failure and both cleanup reports after a secondary failure"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.3538770000000113,
+          "failureMessages": [],
+          "fullName": "preserves producer capability recovery with retryable=false",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves producer capability recovery with retryable=false"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.17481799999995928,
+          "failureMessages": [],
+          "fullName": "preserves producer capability recovery with retryable=true",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves producer capability recovery with retryable=true"
+        }
+      ],
+      "endTime": 1792321673137.3538,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/analysisErrorProjection.test.ts",
+      "startTime": 1792321673094,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "evidence bundle failure classification"
+          ],
+          "benchmarks": [],
+          "duration": 8.267407000000048,
+          "failureMessages": [],
+          "fullName": "evidence bundle failure classification tags valid-shaped bundles that fail canonical ordering",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "tags valid-shaped bundles that fail canonical ordering"
+        },
+        {
+          "ancestorTitles": [
+            "evidence bundle failure classification"
+          ],
+          "benchmarks": [],
+          "duration": 3.305470000000014,
+          "failureMessages": [],
+          "fullName": "evidence bundle failure classification treats only authenticated standalone Evidence as the wrong input kind",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "treats only authenticated standalone Evidence as the wrong input kind"
+        },
+        {
+          "ancestorTitles": [
+            "evidenceBundleForTarget"
+          ],
+          "benchmarks": [],
+          "duration": 10.088300000000118,
+          "failureMessages": [],
+          "fullName": "evidenceBundleForTarget retains mutation evidence from other targets for complete revision histories",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "retains mutation evidence from other targets for complete revision histories"
+        },
+        {
+          "ancestorTitles": [
+            "evidenceBundleForTarget"
+          ],
+          "benchmarks": [],
+          "duration": 7.129159999999956,
+          "failureMessages": [],
+          "fullName": "evidenceBundleForTarget removes whole histories and their dependents when a revision requires foreign evidence",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "removes whole histories and their dependents when a revision requires foreign evidence"
+        },
+        {
+          "ancestorTitles": [
+            "evidenceBundleForTarget"
+          ],
+          "benchmarks": [],
+          "duration": 3.858071999999993,
+          "failureMessages": [],
+          "fullName": "evidenceBundleForTarget removes whole histories and their dependents when a revision requires foreign relationship",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "removes whole histories and their dependents when a revision requires foreign relationship"
+        },
+        {
+          "ancestorTitles": [
+            "evidenceBundleForTarget relationship pruning"
+          ],
+          "benchmarks": [],
+          "duration": 1.7926170000000639,
+          "failureMessages": [],
+          "fullName": "evidenceBundleForTarget relationship pruning removes dependent unknowns when their foreign-scope root is excluded",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "removes dependent unknowns when their foreign-scope root is excluded"
+        },
+        {
+          "ancestorTitles": [
+            "evidenceBundleForTarget relationship pruning"
+          ],
+          "benchmarks": [],
+          "duration": 10276.427588999999,
+          "failureMessages": [],
+          "fullName": "evidenceBundleForTarget relationship pruning projects a valid graph with more than 125,000 dependents",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "projects a valid graph with more than 125,000 dependents"
+        },
+        {
+          "ancestorTitles": [
+            "immutable serialization bundles"
+          ],
+          "benchmarks": [],
+          "duration": 5.917068999999174,
+          "failureMessages": [],
+          "fullName": "immutable serialization bundles authenticates sealed records while revalidating detached and malformed input",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "authenticates sealed records while revalidating detached and malformed input"
+        }
+      ],
+      "endTime": 1792321683491.917,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/evidenceBundle.test.ts",
+      "startTime": 1792321673173,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Evidence completion ledger"
+          ],
+          "benchmarks": [],
+          "duration": 2.1042489999999816,
+          "failureMessages": [],
+          "fullName": "Evidence completion ledger marks only an all-pass ledger complete",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "marks only an all-pass ledger complete"
+        },
+        {
+          "ancestorTitles": [
+            "Evidence completion ledger"
+          ],
+          "benchmarks": [],
+          "duration": 0.7976289999999153,
+          "failureMessages": [],
+          "fullName": "Evidence completion ledger does not count fail as pass",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not count fail as pass"
+        },
+        {
+          "ancestorTitles": [
+            "Evidence completion ledger"
+          ],
+          "benchmarks": [],
+          "duration": 0.4714939999998933,
+          "failureMessages": [],
+          "fullName": "Evidence completion ledger does not count unsupported as pass",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not count unsupported as pass"
+        },
+        {
+          "ancestorTitles": [
+            "Evidence completion ledger"
+          ],
+          "benchmarks": [],
+          "duration": 0.425284000000147,
+          "failureMessages": [],
+          "fullName": "Evidence completion ledger does not count truncated as pass",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not count truncated as pass"
+        },
+        {
+          "ancestorTitles": [
+            "Evidence completion ledger"
+          ],
+          "benchmarks": [],
+          "duration": 0.28568399999994654,
+          "failureMessages": [],
+          "fullName": "Evidence completion ledger does not count unknown as pass",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not count unknown as pass"
+        },
+        {
+          "ancestorTitles": [
+            "Evidence completion ledger"
+          ],
+          "benchmarks": [],
+          "duration": 1.0562220000001616,
+          "failureMessages": [],
+          "fullName": "Evidence completion ledger canonicalizes claim and Evidence ID ordering",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "canonicalizes claim and Evidence ID ordering"
+        },
+        {
+          "ancestorTitles": [
+            "Evidence completion ledger"
+          ],
+          "benchmarks": [],
+          "duration": 1.807198999999855,
+          "failureMessages": [],
+          "fullName": "Evidence completion ledger accepts every Evidence ID supplied for one claim",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "accepts every Evidence ID supplied for one claim"
+        },
+        {
+          "ancestorTitles": [
+            "Evidence completion ledger"
+          ],
+          "benchmarks": [],
+          "duration": 1.6378709999999046,
+          "failureMessages": [],
+          "fullName": "Evidence completion ledger rejects missing, malformed, and duplicate Evidence IDs",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects missing, malformed, and duplicate Evidence IDs"
+        },
+        {
+          "ancestorTitles": [
+            "Evidence completion ledger"
+          ],
+          "benchmarks": [],
+          "duration": 2.458415999999943,
+          "failureMessages": [],
+          "fullName": "Evidence completion ledger rejects duplicate claims and tampered derived fields",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects duplicate claims and tampered derived fields"
+        },
+        {
+          "ancestorTitles": [
+            "Evidence completion ledger"
+          ],
+          "benchmarks": [],
+          "duration": 0.7975269999999455,
+          "failureMessages": [],
+          "fullName": "Evidence completion ledger rejects path-bearing fields and emits path-independent output",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rejects path-bearing fields and emits path-independent output"
+        }
+      ],
+      "endTime": 1792321673253.7976,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/evidenceCompletionLedger.test.ts",
+      "startTime": 1792321673242,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.8893239999999878,
+          "failureMessages": [],
+          "fullName": "preserves sanitized common context for undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves sanitized common context for undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.36172099999998863,
+          "failureMessages": [],
+          "fullName": "preserves sanitized common context for undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves sanitized common context for undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.2759169999999358,
+          "failureMessages": [],
+          "fullName": "preserves sanitized common context for undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves sanitized common context for undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.22383600000011938,
+          "failureMessages": [],
+          "fullName": "preserves sanitized common context for undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves sanitized common context for undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.19158599999991566,
+          "failureMessages": [],
+          "fullName": "preserves sanitized common context for undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves sanitized common context for undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.22453300000006493,
+          "failureMessages": [],
+          "fullName": "preserves sanitized common context for undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves sanitized common context for undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.16801300000020092,
+          "failureMessages": [],
+          "fullName": "preserves sanitized common context for undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves sanitized common context for undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.18043899999997848,
+          "failureMessages": [],
+          "fullName": "preserves sanitized common context for undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves sanitized common context for undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.20473000000015418,
+          "failureMessages": [],
+          "fullName": "preserves sanitized common context for undefined",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves sanitized common context for undefined"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.22098699999992277,
+          "failureMessages": [],
+          "fullName": "preserves a real parent for excluded pointer identities: /metadata/private~1~0/numeric",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a real parent for excluded pointer identities: /metadata/private~1~0/numeric"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.09048200000006545,
+          "failureMessages": [],
+          "fullName": "preserves a real parent for excluded pointer identities: /metadata/private/child",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a real parent for excluded pointer identities: /metadata/private/child"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.04554999999982101,
+          "failureMessages": [],
+          "fullName": "preserves a real parent for excluded pointer identities: /ordinary/path",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a real parent for excluded pointer identities: /ordinary/path"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.6589509999998882,
+          "failureMessages": [],
+          "fullName": "preserves cleanup failure authority and resources while excluding diagnostics",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves cleanup failure authority and resources while excluding diagnostics"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.49087200000008124,
+          "failureMessages": [],
+          "fullName": "keeps unsupported profile reasons distinct from malformed input",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "keeps unsupported profile reasons distinct from malformed input"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.27108000000021093,
+          "failureMessages": [],
+          "fullName": "preserves a retryable capability failure through explicit-value redaction",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves a retryable capability failure through explicit-value redaction"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.5974260000000413,
+          "failureMessages": [],
+          "fullName": "coarsens format issue pointers without creating replacement coordinates",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "coarsens format issue pointers without creating replacement coordinates"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.26083199999993667,
+          "failureMessages": [],
+          "fullName": "excludes a marked permission-denied path without losing its host error code",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "excludes a marked permission-denied path without losing its host error code"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.24782200000004195,
+          "failureMessages": [],
+          "fullName": "coarsens ordinary sensitive issue-path segments to their real parent",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "coarsens ordinary sensitive issue-path segments to their real parent"
+        },
+        {
+          "ancestorTitles": [],
+          "benchmarks": [],
+          "duration": 0.12464900000009038,
+          "failureMessages": [],
+          "fullName": "does not reinterpret an unknown argument name as a JSON pointer",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "does not reinterpret an unknown argument name as a JSON pointer"
+        }
+      ],
+      "endTime": 1792321673171.2478,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/domain/explicitSensitiveFailure.test.ts",
+      "startTime": 1792321673165,
+      "status": "passed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Linux process start identities"
+          ],
+          "benchmarks": [],
+          "duration": 13.234955000000014,
+          "failureMessages": [
+            "AssertionError: expected { state: 'unavailable', …(1) } to match object { state: 'readable', …(1) }\n(1 matching property omitted from actual)\n    at Proxy.<anonymous> (file:///workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/node_modules/vitest/dist/chunks/index.C4tKZ0yW.js:2050:10)\n    at Proxy.<anonymous> (file:///workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/node_modules/vitest/dist/chunks/index.C4tKZ0yW.js:1944:14)\n    at Proxy.methodWrapper (file:///workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/node_modules/chai/index.js:1737:25)\n    at /workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/process/ProcessOwnership.identity.test.ts:28:50\n    at file:///workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/node_modules/vitest/dist/chunks/run.BTlFXlnv.js:2783:20"
+          ],
+          "fullName": "Linux process start identities reads Linux process start identities from proc stat",
+          "meta": {},
+          "status": "failed",
+          "tags": [],
+          "title": "reads Linux process start identities from proc stat"
+        },
+        {
+          "ancestorTitles": [
+            "Linux process start identities"
+          ],
+          "benchmarks": [],
+          "duration": 0.6533719999999903,
+          "failureMessages": [],
+          "fullName": "Linux process start identities parses stat start time after a command name containing parentheses",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "parses stat start time after a command name containing parentheses"
+        },
+        {
+          "ancestorTitles": [
+            "capture-local process ownership"
+          ],
+          "benchmarks": [],
+          "duration": 3.28473299999996,
+          "failureMessages": [],
+          "fullName": "capture-local process ownership validates and cleans an exact-token owner without a capture baseline",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "validates and cleans an exact-token owner without a capture baseline"
+        },
+        {
+          "ancestorTitles": [
+            "capture-local process ownership"
+          ],
+          "benchmarks": [],
+          "duration": 122.55225200000007,
+          "failureMessages": [],
+          "fullName": "capture-local process ownership cleans verified owners and records unrelated opaque candidates as unverified",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "cleans verified owners and records unrelated opaque candidates as unverified"
+        },
+        {
+          "ancestorTitles": [
+            "capture-local process identity baselines"
+          ],
+          "benchmarks": [],
+          "duration": 0.884584000000018,
+          "failureMessages": [],
+          "fullName": "capture-local process identity baselines checks reused and unknown PIDs while skipping unchanged identities",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "checks reused and unknown PIDs while skipping unchanged identities"
+        },
+        {
+          "ancestorTitles": [
+            "capture-local process identity baselines"
+          ],
+          "benchmarks": [],
+          "duration": 0.7423420000000078,
+          "failureMessages": [],
+          "fullName": "capture-local process identity baselines revalidates fallback environment owners before signaling after PID reuse",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "revalidates fallback environment owners before signaling after PID reuse"
+        },
+        {
+          "ancestorTitles": [
+            "process identity during token validation"
+          ],
+          "benchmarks": [],
+          "duration": 0.596251000000052,
+          "failureMessages": [],
+          "fullName": "process identity during token validation revalidates identity after the final environment token read",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "revalidates identity after the final environment token read"
+        },
+        {
+          "ancestorTitles": [
+            "process identity during token validation"
+          ],
+          "benchmarks": [],
+          "duration": 2.924066000000039,
+          "failureMessages": [],
+          "fullName": "process identity during token validation fails closed when candidate PIDs change identity during token reading",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "fails closed when candidate PIDs change identity during token reading"
+        },
+        {
+          "ancestorTitles": [
+            "process identity before signaling"
+          ],
+          "benchmarks": [],
+          "duration": 0.7756729999999834,
+          "failureMessages": [],
+          "fullName": "process identity before signaling refuses to signal when PID identity changes after token validation",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "refuses to signal when PID identity changes after token validation"
+        }
+      ],
+      "endTime": 1792321672744.7756,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/process/ProcessOwnership.identity.test.ts",
+      "startTime": 1792321672599,
+      "status": "failed"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "multi-group ownership observation"
+          ],
+          "benchmarks": [],
+          "duration": 6.071466999999984,
+          "failureMessages": [],
+          "fullName": "multi-group ownership observation observes multiple groups from one process snapshot and token batch",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "observes multiple groups from one process snapshot and token batch"
+        },
+        {
+          "ancestorTitles": [
+            "multi-group ownership observation"
+          ],
+          "benchmarks": [],
+          "duration": 1.7057549999999537,
+          "failureMessages": [],
+          "fullName": "multi-group ownership observation rechecks unavailable members individually before classifying their groups",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rechecks unavailable members individually before classifying their groups"
+        },
+        {
+          "ancestorTitles": [
+            "multi-group observation short-circuit"
+          ],
+          "benchmarks": [],
+          "duration": 1.6614210000000185,
+          "failureMessages": [],
+          "fullName": "multi-group observation short-circuit stops missing-row fallbacks once every live group is unverifiable",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "stops missing-row fallbacks once every live group is unverifiable"
+        },
+        {
+          "ancestorTitles": [
+            "batched ownership observation"
+          ],
+          "benchmarks": [],
+          "duration": 2.8615859999999884,
+          "failureMessages": [],
+          "fullName": "batched ownership observation observes group and lineage with one batch each and falls back only for missing rows",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "observes group and lineage with one batch each and falls back only for missing rows"
+        },
+        {
+          "ancestorTitles": [
+            "batched ownership observation"
+          ],
+          "benchmarks": [],
+          "duration": 1.8050009999999475,
+          "failureMessages": [],
+          "fullName": "batched ownership observation preserves cancellation during batch reads, including successful completion races",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves cancellation during batch reads, including successful completion races"
+        },
+        {
+          "ancestorTitles": [
+            "batched ownership observation"
+          ],
+          "benchmarks": [],
+          "duration": 0.6739760000000388,
+          "failureMessages": [],
+          "fullName": "batched ownership observation preserves cancellation during environment reads, including successful completion races",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "preserves cancellation during environment reads, including successful completion races"
+        },
+        {
+          "ancestorTitles": [
+            "batched ownership observation"
+          ],
+          "benchmarks": [],
+          "duration": 0.6812280000000328,
+          "failureMessages": [],
+          "fullName": "batched ownership observation rechecks unavailable batch rows for exited PID 100 without overriding them through fallback",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rechecks unavailable batch rows for exited PID 100 without overriding them through fallback"
+        },
+        {
+          "ancestorTitles": [
+            "batched ownership observation"
+          ],
+          "benchmarks": [],
+          "duration": 0.3305330000000595,
+          "failureMessages": [],
+          "fullName": "batched ownership observation rechecks unavailable batch rows for exited PID 101 without overriding them through fallback",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "rechecks unavailable batch rows for exited PID 101 without overriding them through fallback"
+        },
+        {
+          "ancestorTitles": [
+            "token sweep batch failures"
+          ],
+          "benchmarks": [],
+          "duration": 3.0891040000000203,
+          "failureMessages": [],
+          "fullName": "token sweep batch failures cleans token-owned groups when a failed batch has readable fallback observations",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "cleans token-owned groups when a failed batch has readable fallback observations"
+        },
+        {
+          "ancestorTitles": [
+            "token sweep batch failures"
+          ],
+          "benchmarks": [],
+          "duration": 123.99069799999995,
+          "failureMessages": [],
+          "fullName": "token sweep batch failures uses fallback ownership when the initial batch fails and preserves both failures through retries",
+          "meta": {},
+          "status": "passed",
+          "tags": [],
+          "title": "uses fallback ownership when the initial batch fails and preserves both failures through retries"
+        }
+      ],
+      "endTime": 1792321672753.9907,
+      "message": "",
+      "name": "/workspace/scratch/6bb7fb0e98ea/rea-exam-c12d9ed/src/process/ProcessOwnership.observation.test.ts",
+      "startTime": 1792321672610,
+      "status": "passed"
+    }
+  ]
+}
