@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "scope": "BOUNDED_SEED_NOT_EXHAUSTIVE",
+  "authority": "NONE",
+  "sources": [
+    {
+      "id": "industrial-rfl",
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/REPOSITORY_FAILURE_LEARNING_V1.md",
+      "git_blob_sha": "2ab370363dcb42623d3bb34e4a53bed44ac3f73b",
+      "evidence_mode": "PRIVATE_REFERENCE_PIN_ONLY",
+      "source_sha256": "7409b2b265023ad4d90fa2e83dd4e4dc307173feaf31e2c414726084638f4079"
+    },
+    {
+      "id": "industrial-rlr",
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/repository_learning/REPOSITORY_LEARNING_RUNTIME_V1.md",
+      "git_blob_sha": "ac00bdf821ddd2f36e6fe721552b58306c71086f",
+      "evidence_mode": "PRIVATE_REFERENCE_PIN_ONLY",
+      "source_sha256": "924a017035937492d2063a721807d55a8ba4d9674d7ad38f259f348b7eed9c0f"
+    },
+    {
+      "id": "industrial-topology",
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "SYSTEM_MAP.md",
+      "git_blob_sha": "048c2c46e436b993c61588f1bc2e64f8125a77b9",
+      "evidence_mode": "PRIVATE_REFERENCE_PIN_ONLY",
+      "source_sha256": "4a0b698aa7e5d154345b847ceb209e4e818fbbe413e81ea2bf31a5f99056a1d8"
+    },
+    {
+      "id": "industrial-020",
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-020-B3B1-HOSTILE-HARDCODE-BLOCKS-PROMOTION.json",
+      "git_blob_sha": "52a6696a6c9a365d37968ac11d6881b803203a97",
+      "evidence_mode": "PRIVATE_REFERENCE_PIN_ONLY",
+      "source_sha256": "b1beb8ae86bc47f54d0a5ed525da63ad76c8a304a64666dc3e8157125adad79a"
+    },
+    {
+      "id": "industrial-028",
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-028-INQUIRY-OUTPUT-PRESENT-NE-SHARED-EPISTEMIC-INPUT.json",
+      "git_blob_sha": "706e8fd6aa38e07f40d511422218be23faf4c76e",
+      "evidence_mode": "PRIVATE_REFERENCE_PIN_ONLY",
+      "source_sha256": "aa4374eba717c17e4327ccfe2b814a579306dd3696db1313db1e6acb89312bda"
+    },
+    {
+      "id": "industrial-032",
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "path": "docs/doctrine/failure_learning/learning_records/RFL-2026-032-REPEATED-LOCAL-REPAIR-BEFORE-COMPLETE-SYSTEMIC-SURFACE.json",
+      "git_blob_sha": "004aa10194cdba955e5cddeca9f04cddea30a2ad",
+      "evidence_mode": "PRIVATE_REFERENCE_PIN_ONLY",
+      "source_sha256": "e6f5d7acc721467f1c21f677ff9897fa6b18e1fa38d83748e19b97286794101b"
+    },
+    {
+      "id": "oxycok-doctrine",
+      "repository": "chr1stopherwallace156-svg/oxycok-Ercomerce-",
+      "commit": "01c0a268b9c91e65d4bc90a9cf8b4e12453f4df6",
+      "path": "doctrine",
+      "git_blob_sha": "4c0f11d616e941abbc9f24b7e0d419eadee7a110",
+      "snapshot": "docs/knowledge_transfer/sources/oxycok-doctrine.txt",
+      "snapshot_sha256": "1f7db1fa5c5b722a65d58e70b24b2ff17cd015385190b9d18968bd912c0d25fb",
+      "snapshot_git_blob_sha": "4c0f11d616e941abbc9f24b7e0d419eadee7a110",
+      "snapshot_representation": "EXACT_BLOB",
+      "evidence_mode": "PUBLIC_EXACT_SNAPSHOT"
+    }
+  ]
+}

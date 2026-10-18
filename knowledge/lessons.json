@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "lessons": [
+    {
+      "id": "UKL-001",
+      "mechanism": "evidence-authority-separation",
+      "sources": [
+        "industrial-topology",
+        "oxycok-doctrine"
+      ],
+      "requires_all": [
+        "derived-claim",
+        "authoritative-source"
+      ],
+      "excludes_any": [
+        "pure-display-no-claim"
+      ],
+      "principle": "A derived observation, model output or visualization does not become authoritative state merely because it exists or has a hash.",
+      "failure": "Representation or content identity is mistaken for approval or transactional truth.",
+      "positive": "Keep observation, source evidence, interpretation, decision, authorization and receipt distinct.",
+      "adapter": "Keep customer sentiment and recommendations separate from order/payment state; cite the authoritative commerce observation.",
+      "tests": [
+        "Contradict model output with authoritative evidence and preserve both with explicit dispositions.",
+        "Verify a hash match cannot authorize a refund."
+      ],
+      "source_status": "SOURCE_RECORD_ONLY_NOT_REQUALIFIED",
+      "target_status": "TRANSFER_CANDIDATE",
+      "authority": "NONE",
+      "limits": "This is a mechanism-level transfer proposal, not proof of universal applicability or an implemented commerce safeguard."
+    },
+    {
+      "id": "UKL-002",
+      "mechanism": "evidence-consumption",
+      "sources": [
+        "industrial-028"
+      ],
+      "requires_all": [
+        "artifact-produced",
+        "downstream-consumer"
+      ],
+      "excludes_any": [
+        "storage-only-contract"
+      ],
+      "principle": "Produced or persisted evidence is not proof that a downstream consumer used its meaning.",
+      "failure": "Inquiry output existed while downstream observers did not receive its contradictions and missing evidence.",
+      "positive": "Use typed consumer inputs and a counterfactual that changes a meaningful downstream field.",
+      "adapter": "Verify retrieved inventory uncertainty changes a recommendation's readiness or blockers, rather than only its timestamp or citation count.",
+      "tests": [
+        "Withhold relevant evidence and require a semantic result difference.",
+        "Keep an irrelevant artifact from changing the conclusion.",
+        "Test every declared consumer separately."
+      ],
+      "source_status": "SOURCE_RECORD_ONLY_NOT_REQUALIFIED",
+      "target_status": "TRANSFER_CANDIDATE",
+      "authority": "NONE",
+      "limits": "This is a mechanism-level transfer proposal, not proof of universal applicability or an implemented commerce safeguard."
+    },
+    {
+      "id": "UKL-003",
+      "mechanism": "systemic-repair",
+      "sources": [
+        "industrial-032",
+        "industrial-rlr"
+      ],
+      "requires_all": [
+        "repeated-same-family-fresh-failure",
+        "transitive-effects"
+      ],
+      "excludes_any": [
+        "independently-bounded-local-bug",
+        "unrelated-failure-family",
+        "environment-only-failure"
+      ],
+      "principle": "Repeated same-family repairs require a bounded effect census and an external frozen test denominator before another closure repair.",
+      "failure": "Success against the visible defect list concealed deeper reachable effects and repeated qualification failures.",
+      "positive": "Map reachable effects, preserve unknowns, freeze scope and falsification rules, cluster mechanisms, then repair and independently challenge.",
+      "adapter": "For repeated duplicate-action failures, map event receipt, retries, queues, policy, execution and result reconciliation before claiming closure.",
+      "tests": [
+        "Find a reachable effect outside the census and invalidate the closure claim.",
+        "Distinguish a local defect from the same transitive mechanism.",
+        "Require broken-control failure and repaired-control success."
+      ],
+      "source_status": "SOURCE_RECORD_ONLY_NOT_REQUALIFIED",
+      "target_status": "TRANSFER_CANDIDATE",
+      "authority": "NONE",
+      "limits": "This is a mechanism-level transfer proposal, not proof of universal applicability or an implemented commerce safeguard."
+    },
+    {
+      "id": "UKL-004",
+      "mechanism": "historical-current-qualification",
+      "sources": [
+        "industrial-020"
+      ],
+      "requires_all": [
+        "historical-result",
+        "changed-subject"
+      ],
+      "excludes_any": [
+        "same-subject-same-envelope"
+      ],
+      "principle": "Historical results stay bound to their exact subjects; current claims follow current evidence and state transitions.",
+      "failure": "Tests encoded a temporary prequalification ceiling forever and blocked later valid promotion.",
+      "positive": "Preserve the old result, bind claims to subject and envelope, and reseal/requalify changed executable subjects.",
+      "adapter": "An earlier webhook replay PASS does not qualify a changed refund executor; also do not hardcode current status to remain unqualified forever.",
+      "tests": [
+        "Preserve old FAIL and PASS records after successor qualification.",
+        "Change executable identity and reject reuse of old qualification.",
+        "Allow evidence-based future transitions under a separately implemented gate."
+      ],
+      "source_status": "SOURCE_RECORD_ONLY_NOT_REQUALIFIED",
+      "target_status": "TRANSFER_CANDIDATE",
+      "authority": "NONE",
+      "limits": "This is a mechanism-level transfer proposal, not proof of universal applicability or an implemented commerce safeguard."
+    },
+    {
+      "id": "UKL-005",
+      "mechanism": "failure-learning-closure",
+      "sources": [
+        "industrial-rfl",
+        "industrial-rlr"
+      ],
+      "requires_all": [
+        "material-failure",
+        "future-consumer"
+      ],
+      "excludes_any": [
+        "nonmaterial-observation"
+      ],
+      "principle": "Immediate repair and repository learning are separate closure obligations.",
+      "failure": "A local correction can leave the violated assumption and reusable protection unavailable to future tasks.",
+      "positive": "Record the twelve-field failure analysis, shared owner, affected family, hard negatives, prior evidence, authority impact and inherited behavior.",
+      "adapter": "Turn a webhook duplication incident into a reusable retry/idempotency lesson with exclusions and different future examples.",
+      "tests": [
+        "Close the local issue while missing inheritance and require repository learning to stay open.",
+        "Reject a proposed universal rule without hard negatives.",
+        "Test a different target and document non-applicability."
+      ],
+      "source_status": "SOURCE_RECORD_ONLY_NOT_REQUALIFIED",
+      "target_status": "TRANSFER_CANDIDATE",
+      "authority": "NONE",
+      "limits": "This is a mechanism-level transfer proposal, not proof of universal applicability or an implemented commerce safeguard."
+    },
+    {
+      "id": "UKL-006",
+      "mechanism": "additive-composition",
+      "sources": [
+        "industrial-rlr"
+      ],
+      "requires_all": [
+        "new-capability",
+        "existing-owner"
+      ],
+      "excludes_any": [
+        "owner-proven-absent"
+      ],
+      "principle": "Discover existing owners and compose through explicit interfaces before creating parallel systems.",
+      "failure": "A named or admitted subsystem can remain isolated from actual system participation.",
+      "positive": "Census owners, reuse or extend, test interactions, record learning and bind relevant future consumers.",
+      "adapter": "Use the existing commerce domain registry for commerce identity; this method catalog owns engineering lessons and must not replace customer memory or transactional ledgers.",
+      "tests": [
+        "Demonstrate an interaction path rather than checking file presence.",
+        "Detect two conflicting owners for the same authority.",
+        "Preserve domain-specific exclusions during transfer."
+      ],
+      "source_status": "SOURCE_RECORD_ONLY_NOT_REQUALIFIED",
+      "target_status": "TRANSFER_CANDIDATE",
+      "authority": "NONE",
+      "limits": "This is a mechanism-level transfer proposal, not proof of universal applicability or an implemented commerce safeguard."
+    },
+    {
+      "id": "UKL-007",
+      "mechanism": "earned-automation",
+      "sources": [
+        "oxycok-doctrine"
+      ],
+      "requires_all": [
+        "automation-proposal",
+        "consequential-action"
+      ],
+      "excludes_any": [
+        "read-only-local-analysis"
+      ],
+      "principle": "Reusable knowledge and repeated success do not grant action authority.",
+      "failure": "Activity or a passing fixture is confused with permission and a validated operating envelope.",
+      "positive": "Establish a baseline, unseen transfer, failure envelope, monitoring, rollback and explicit capability-specific authorization.",
+      "adapter": "Begin with read-only recommendations. Refunds, prices, messaging and spending need separately qualified execution and authority.",
+      "tests": [
+        "Retrieve a lesson and verify no action is executed or authorized.",
+        "Test stale approval, wrong target, replay and unknown outcomes before action promotion.",
+        "Measure outcome and counter-metrics against a declared baseline."
+      ],
+      "source_status": "SOURCE_RECORD_ONLY_NOT_REQUALIFIED",
+      "target_status": "TRANSFER_CANDIDATE",
+      "authority": "NONE",
+      "limits": "This is a mechanism-level transfer proposal, not proof of universal applicability or an implemented commerce safeguard."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "relations": [
+    {
+      "id": "REL-001",
+      "lesson_id": "UKL-001",
+      "left": "content-identity-verified",
+      "relation": "DOES_NOT_IMPLY",
+      "right": "action-authorized",
+      "conditions": [
+        "a protected action needs independent authority"
+      ],
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "REL-002",
+      "lesson_id": "UKL-002",
+      "left": "artifact-produced",
+      "relation": "DOES_NOT_IMPLY",
+      "right": "evidence-consumed",
+      "conditions": [
+        "the consumer must receive and use semantic content"
+      ],
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "REL-003",
+      "lesson_id": "UKL-003",
+      "left": "visible-defects-repaired",
+      "relation": "DOES_NOT_IMPLY",
+      "right": "transitive-failure-surface-closed",
+      "conditions": [
+        "closure scope must include reachable effects and explicit unknowns"
+      ],
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "REL-004",
+      "lesson_id": "UKL-004",
+      "left": "historical-subject-qualified",
+      "relation": "DOES_NOT_IMPLY",
+      "right": "changed-subject-qualified",
+      "conditions": [
+        "subject identity or operating envelope changed"
+      ],
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "REL-005",
+      "lesson_id": "UKL-005",
+      "left": "local-repair-complete",
+      "relation": "NOT_EQUIVALENT",
+      "right": "repository-learning-complete",
+      "conditions": [
+        "future inheritance is a separate closure obligation"
+      ],
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "REL-006",
+      "lesson_id": "UKL-006",
+      "left": "same-general-mechanism",
+      "relation": "ANALOGOUS_UNDER_CONDITIONS",
+      "right": "different-domain-application",
+      "conditions": [
+        "target applicability tested",
+        "hard negatives excluded",
+        "authority preserved"
+      ],
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "REL-007",
+      "lesson_id": "UKL-007",
+      "left": "repeated-test-success",
+      "relation": "DOES_NOT_IMPLY",
+      "right": "autonomous-action-permitted",
+      "conditions": [
+        "authority and current operating envelope separately established"
+      ],
+      "status": "CANDIDATE"
+    }
+  ]
+}

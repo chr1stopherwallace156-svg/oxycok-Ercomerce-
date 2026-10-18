@@ -1,3 +1,42 @@
+# Current additive assessment — 2026-10-18
+
+This dated assessment supersedes the current-tense inventory below. The original
+Gen0 snapshot is preserved verbatim as historical context.
+
+- Knowledge transfer: IMPLEMENTED_SEED_AWAITING_INDEPENDENT_TRANSFER_QUALIFICATION.
+- See [foundation](docs/knowledge_transfer/FOUNDATION_V1.md),
+  [roadmap](ROADMAP.md) and [handoff](handoff/CURRENT_HANDOFF.md).
+- Six private source pins and one public source snapshot; seven mechanism-level lesson candidates;
+  read-only offline Python retrieval with applicability/exclusion reporting.
+- Local knowledge tests: 19/19 PASS; two-runtime tests: 15/15 PASS.
+  These are implementer evidence, not independent qualification.
+- Runtime A produces a strict abstract brief from curated knowledge. Runtime B
+  creates an offline applicability planner from its own template in a new local
+  directory. Separate-process isolation and generated consumer behavior tested.
+- Seven scoped relation candidates distinguish non-implication, non-equivalence
+  and analogy. No general theorem prover or full application builder is claimed.
+- Owner authorized publication of derived lessons/source pins on 2026-10-18.
+  See docs/knowledge_transfer/TWO_RUNTIME_CONTRACT_V1.md. Raw private source
+  documents remain excluded. REA expansion remains unresolved.
+- Existing TypeScript/Python commerce code is present, including Shopify,
+  webhooks, customer service and agentic modules. The older absence claims
+  below are not a current file inventory.
+- Baseline package.json has invalid JSON at the engines/scripts boundary.
+  It remains unchanged in this pass; whole-project build was not qualified.
+- Commerce live connectivity, durable replay correctness, action safeguards
+  and production commerce consumer use: NOT_ESTABLISHED by this work.
+- AI default authority remains observe/analyze/recommend as defined in existing
+  doctrine. This knowledge component grants NO action authority.
+- Industrial source writes: NONE. No capability or qualification status is
+  copied from source to destination.
+- Next exact action: independently freeze and run an unfamiliar transfer exam;
+  establish the commerce package/build baseline separately. Full source coverage
+  and the definition of REA remain open.
+
+---
+
+# Historical Gen0 snapshot (preserved)
+
 # OXYCOK Commerce — Current State
 
 > Canonical snapshot of what is actually implemented, what is planned, what is authoritative, and what should happen next.

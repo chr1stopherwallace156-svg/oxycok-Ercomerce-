@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "source_repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+  "source_commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+  "tree_truncated": false,
+  "coverage": "COUNTS_ONLY_MAIN_TREE_PATH_ENUMERATION_NOT_EXHAUSTIVE_HISTORY",
+  "main_learning_records_enumerated": 39,
+  "main_learning_records_read_for_seed": 3,
+  "open_pr_metadata_sample_size": 30,
+  "remaining_disposition": "NOT_IMPORTED_NOT_QUALIFIED",
+  "publication_boundary": "PRIVATE_DOCUMENT_BYTES_AND_BRANCH_INVENTORY_NOT_PUBLISHED"
+}
