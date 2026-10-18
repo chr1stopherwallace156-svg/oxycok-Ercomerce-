@@ -12,7 +12,7 @@ sys.path.insert(0, str(ROOT / "scripts/knowledge"))
 import knowledge
 
 
-def analyze(*, domain, mechanisms, facts, root=ROOT):
+def analyze(*, domain, mechanisms, facts, root=ROOT, target_evidence=None):
     manifest, catalog = knowledge.load(root)
     retrieval = knowledge.retrieve(manifest, catalog, domain=domain,
                                    mechanisms=mechanisms, facts=facts)
@@ -37,6 +37,9 @@ def analyze(*, domain, mechanisms, facts, root=ROOT):
         "evidence_pins": [{k: s[k] for k in ("id", "repository", "commit", "path", "git_blob_sha")}
                           for s in retrieval["sources"]],
     }
+    if target_evidence is not None:
+        brief["version"] = 2
+        brief["target_evidence"] = target_evidence
     brief["brief_sha256"] = digest(brief)
     return validate(brief)
 

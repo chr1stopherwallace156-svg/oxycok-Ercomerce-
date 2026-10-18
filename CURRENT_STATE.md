@@ -1,3 +1,26 @@
+# Connected REA mission assessment — 2026-10-18
+
+- REA resolved: https://github.com/morluto/rea (Reverse Engineer Anything).
+- New OXYCOK mission coordinator composes inspection, evidence custody,
+  target-aware abstraction, original planner construction, guard testing,
+  learning and durable restart. See docs/rea/MISSION_RUNTIME_V1.md.
+- SQLite state and content-addressed artifacts stay outside the inspected target.
+  Graph edges trace the mission and observed syntax relationships.
+- Continuity is bounded step/run/resume; no 24/7 service requirement.
+- Own Python static path: implemented and locally tested end to end.
+- External REA 6.7.0 path: real owned-target probe ENVIRONMENT_BLOCKED because
+  the upstream process-ownership ps prerequisite fails on this host. Original
+  failure and partial evidence are retained; no provider check was bypassed.
+- Local test suites: 19 knowledge + 15 transfer + 20 mission tests passed during
+  implementation; see final qualification results for the current exact subject.
+- Real REA success, independent qualification, feature reconstruction equivalence,
+  full Industrial knowledge transfer, general code synthesis and legal clearance:
+  NOT_ESTABLISHED.
+- Authority remains NONE for this mission. Industrial remains unchanged.
+- Prior assessment and its original snapshots are retained below as history.
+
+---
+
 # Current additive assessment — 2026-10-18
 
 This dated assessment supersedes the current-tense inventory below. The original

@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "independent_qualification": "NOT_ESTABLISHED",
+  "scope": "IMPLEMENTER_SUITES_AND_EXTERNAL_PROVIDER_DISPOSITIONS",
+  "frozen_denominator_commit": "3bca7e199b1254a956f733aa349b3c6c63f1adb5",
+  "suites": [
+    {
+      "suite": "knowledge",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/knowledge",
+        "-v"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.212,
+      "output": "test_corrupted_source_is_blocked (test_knowledge.KnowledgeTests.test_corrupted_source_is_blocked) ... ok\ntest_counterfactual_retrieval_changes_semantic_context (test_knowledge.KnowledgeTests.test_counterfactual_retrieval_changes_semantic_context) ... ok\ntest_duplicate_json_key_is_blocked (test_knowledge.KnowledgeTests.test_duplicate_json_key_is_blocked) ... ok\ntest_duplicate_lesson_id_is_blocked (test_knowledge.KnowledgeTests.test_duplicate_lesson_id_is_blocked) ... ok\ntest_empty_query_is_blocked (test_knowledge.KnowledgeTests.test_empty_query_is_blocked) ... ok\ntest_forged_target_qualification_is_blocked (test_knowledge.KnowledgeTests.test_forged_target_qualification_is_blocked) ... ok\ntest_hard_negative_overrides_positive (test_knowledge.KnowledgeTests.test_hard_negative_overrides_positive) ... ok\ntest_missing_context_stays_unknown (test_knowledge.KnowledgeTests.test_missing_context_stays_unknown) ... ok\ntest_open_domain_does_not_claim_universal_proof (test_knowledge.KnowledgeTests.test_open_domain_does_not_claim_universal_proof) ... ok\ntest_positive_mechanism_with_traceable_sources (test_knowledge.KnowledgeTests.test_positive_mechanism_with_traceable_sources) ... ok\ntest_private_pins_and_public_snapshot_have_distinct_validation (test_knowledge.KnowledgeTests.test_private_pins_and_public_snapshot_have_distinct_validation) ... ok\ntest_private_source_bytes_are_not_accepted (test_knowledge.KnowledgeTests.test_private_source_bytes_are_not_accepted) ... ok\ntest_separate_process_replay_is_deterministic_and_read_only (test_knowledge.KnowledgeTests.test_separate_process_replay_is_deterministic_and_read_only) ... ok\ntest_snapshot_path_escape_is_blocked (test_knowledge.KnowledgeTests.test_snapshot_path_escape_is_blocked) ... ok\ntest_source_blob_identity_is_checked_even_if_sha256_updated (test_knowledge.KnowledgeTests.test_source_blob_identity_is_checked_even_if_sha256_updated) ... ok\ntest_systemic_repair_excludes_independently_bounded_local_bug (test_knowledge.KnowledgeTests.test_systemic_repair_excludes_independently_bounded_local_bug) ... ok\ntest_unknown_source_is_blocked (test_knowledge.KnowledgeTests.test_unknown_source_is_blocked) ... ok\ntest_unrelated_facts_do_not_change_applicability (test_knowledge.KnowledgeTests.test_unrelated_facts_do_not_change_applicability) ... ok\ntest_vacuous_applicability_is_blocked (test_knowledge.KnowledgeTests.test_vacuous_applicability_is_blocked) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 0.139s\n\nOK\n"
+    },
+    {
+      "suite": "transfer",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/transfer",
+        "-v"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.374,
+      "output": "test_authority_escalation_rejected (test_runtimes.RuntimeTests.test_authority_escalation_rejected) ... ok\ntest_each_seed_builds_a_scoped_brief (test_runtimes.RuntimeTests.test_each_seed_builds_a_scoped_brief) ... ok\ntest_evidence_preserves_failure_success_exclusions_and_relations (test_runtimes.RuntimeTests.test_evidence_preserves_failure_success_exclusions_and_relations) ... ok\ntest_existing_output_cannot_be_overwritten (test_runtimes.RuntimeTests.test_existing_output_cannot_be_overwritten) ... ok\ntest_generated_runtime_rejects_malformed_facts (test_runtimes.RuntimeTests.test_generated_runtime_rejects_malformed_facts) ... ok\ntest_hash_drift_rejected (test_runtimes.RuntimeTests.test_hash_drift_rejected) ... ok\ntest_independence_of_created_artifact_hashes (test_runtimes.RuntimeTests.test_independence_of_created_artifact_hashes) ... ok\ntest_legal_clearance_cannot_be_inferred (test_runtimes.RuntimeTests.test_legal_clearance_cannot_be_inferred) ... ok\ntest_named_source_repository_write_is_blocked (test_runtimes.RuntimeTests.test_named_source_repository_write_is_blocked) ... ok\ntest_no_match_does_not_produce_empty_success_project (test_runtimes.RuntimeTests.test_no_match_does_not_produce_empty_success_project) ... ok\ntest_oversized_or_duplicate_key_input_rejected (test_runtimes.RuntimeTests.test_oversized_or_duplicate_key_input_rejected) ... ok\ntest_raw_code_field_rejected_even_if_hash_recomputed (test_runtimes.RuntimeTests.test_raw_code_field_rejected_even_if_hash_recomputed) ... ok\ntest_separate_processes_construct_without_knowledge_checkout (test_runtimes.RuntimeTests.test_separate_processes_construct_without_knowledge_checkout) ... ok\ntest_source_strings_are_never_executed (test_runtimes.RuntimeTests.test_source_strings_are_never_executed) ... ok\ntest_unknown_relation_or_unscoped_equivalence_rejected (test_runtimes.RuntimeTests.test_unknown_relation_or_unscoped_equivalence_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.304s\n\nOK\n"
+    },
+    {
+      "suite": "mission",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/mission",
+        "-v"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 1.791,
+      "output": "test_bounded_end_to_end_preserves_target_and_learning (test_runtime.MissionTests.test_bounded_end_to_end_preserves_target_and_learning) ... ok\ntest_broken_control_fails_behavioral_gate (test_runtime.MissionTests.test_broken_control_fails_behavioral_gate) ... ok\ntest_changed_subject_is_blocked_and_failure_is_not_rewritten (test_runtime.MissionTests.test_changed_subject_is_blocked_and_failure_is_not_rewritten) ... ok\ntest_empty_or_unsupported_target_does_not_pass (test_runtime.MissionTests.test_empty_or_unsupported_target_does_not_pass) ... ok\ntest_fresh_process_cli_resume (test_runtime.MissionTests.test_fresh_process_cli_resume) ... ok\ntest_graph_connects_all_mission_artifacts (test_runtime.MissionTests.test_graph_connects_all_mission_artifacts) ... ok\ntest_malformed_rea_reply_rejected (test_runtime.MissionTests.test_malformed_rea_reply_rejected) ... ok\ntest_missing_rea_provider_blocks_without_success_fallback (test_runtime.MissionTests.test_missing_rea_provider_blocks_without_success_fallback) ... ok\ntest_observation_corruption_blocks_abstraction (test_runtime.MissionTests.test_observation_corruption_blocks_abstraction) ... ok\ntest_output_budget_and_timeout_are_not_green (test_runtime.MissionTests.test_output_budget_and_timeout_are_not_green) ... ok\ntest_partial_constructor_output_is_preserved_and_blocked (test_runtime.MissionTests.test_partial_constructor_output_is_preserved_and_blocked) ... ok\ntest_provider_failure_retains_original_diagnostic (test_runtime.MissionTests.test_provider_failure_retains_original_diagnostic) ... ok\ntest_resume_and_duplicate_start_keep_identity (test_runtime.MissionTests.test_resume_and_duplicate_start_keep_identity) ... ok\ntest_runtime_subject_change_blocks_unfinished_mission (test_runtime.MissionTests.test_runtime_subject_change_blocks_unfinished_mission) ... ok\ntest_state_cannot_be_written_inside_target_via_cli (test_runtime.MissionTests.test_state_cannot_be_written_inside_target_via_cli) ... ok\ntest_static_inspection_never_executes_target (test_runtime.MissionTests.test_static_inspection_never_executes_target) ... ok\ntest_symlink_target_entry_is_rejected (test_runtime.MissionTests.test_symlink_target_entry_is_rejected) ... ok\ntest_two_workers_commit_distinct_transitions (test_runtime.MissionTests.test_two_workers_commit_distinct_transitions) ... ok\ntest_unknown_evidence_changes_generated_consumer_result (test_runtime.MissionTests.test_unknown_evidence_changes_generated_consumer_result) ... ok\ntest_valid_constructor_orphan_is_recovered (test_runtime.MissionTests.test_valid_constructor_orphan_is_recovered) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 1.690s\n\nOK\n"
+    }
+  ],
+  "real_rea_lane": {
+    "status": "ENVIRONMENT_BLOCKED",
+    "reason": "Upstream process-ownership ps prerequisite fails: fatal library error, lookup self",
+    "failure_preserved": "evidence/REA_HOST_FAILURE_V2.json",
+    "prior_failure_preserved": "evidence/REA_HOST_FAILURE_V1.json"
+  },
+  "overall": "PARTIAL_REAL_PROVIDER_BLOCKED",
+  "test_total": 54,
+  "own_static_lane": {
+    "status": "COMPLETE",
+    "scope": "STATIC_INSPECTION_AND_GENERATED_PLANNER_GUARDS",
+    "evidence": "evidence/OWN_PATH_END_TO_END_V1.json"
+  }
+}
