@@ -23,3 +23,16 @@ Two-runtime extension: see docs/knowledge_transfer/TWO_RUNTIME_CONTRACT_V1.md.
 The current constructor emits an original offline applicability planner from a
 project-authored template. Broader application generation, full corpus ingestion,
 semantic understanding and independent transfer qualification remain open.
+
+## Owner clarification: REA and connected missions
+
+REA is now the specific morluto/rea reverse-engineering tool. The mission runtime
+composes providers, custody, graph, abstract brief, original construction,
+behavioral guards and learning with on-demand continuation. Own Python static
+inspection works end to end; real REA 6.7.0 is environment-blocked on this host.
+
+Next gates: supported-host real REA qualification without bypassing prerequisites;
+feature-level behavioral contracts; independent unfamiliar holdouts; broader
+authorized method ingestion; original implementation workers beyond the current
+planner template; then action-specific autonomy. Existing commerce package/build
+baseline remains a separate open task.

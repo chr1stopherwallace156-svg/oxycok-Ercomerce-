@@ -24,7 +24,9 @@ def evaluate(contract, facts):
     for rule in contract["rules"]:
         exclusions = sorted(known.intersection(rule["excludes_any"]))
         missing = sorted(set(rule["requires_all"]).difference(known))
-        state = "EXCLUDED" if exclusions else "NEEDS_CONTEXT" if missing else "REVIEW_REQUIRED"
+        state = ("EXCLUDED" if exclusions else "NEEDS_CONTEXT" if missing else
+                 "EVIDENCE_INCOMPLETE" if contract.get("target_evidence", {}).get("coverage_status") == "UNKNOWN"
+                 else "REVIEW_REQUIRED")
         rows.append({"id": rule["id"], "state": state, "missing": missing,
                      "exclusions": exclusions, "obligations": rule["test_obligations"]
                      if state == "REVIEW_REQUIRED" else []})

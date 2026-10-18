@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "rea_reference": {
+    "repository": "morluto/rea",
+    "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+    "source_code_vendored": false
+  },
+  "rea_package": {
+    "name": "rea-agents",
+    "version": "6.7.0",
+    "registry_integrity": "sha512-yhIx2ioJYYT1C/tONfYeitC6LhnKmCh+ZwRUOgYuhSc733lGhkkt73zhug9WmLgxoMdKuqIYGCoBfD4fXkOhFw==",
+    "source_package_equivalence": "NOT_ESTABLISHED"
+  },
+  "records": [
+    {
+      "repository": "morluto/rea",
+      "path": "LICENSE",
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "git_blob_sha": "2d476d24fa5a9ae2ab35e5fd121494049eb2ee5d",
+      "read_scope": "FULL",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    },
+    {
+      "repository": "morluto/rea",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "git_blob_sha": "2648af329b7e1c4cbb3e139d9f6474cceaa99f3d",
+      "read_scope": "LINES_1_TO_180_OR_LESS",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    },
+    {
+      "repository": "morluto/rea",
+      "path": "docs/architecture.mermaid",
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "git_blob_sha": "94b31723e0aafeb3ef33db8256df184980299b67",
+      "read_scope": "LINES_1_TO_180_OR_LESS",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    },
+    {
+      "repository": "morluto/rea",
+      "path": "docs/mcp-contracts.md",
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "git_blob_sha": "7cb3a7cdc7aaf1dd2cb915b4a2e360b89a5c2f7b",
+      "read_scope": "LINES_1_TO_180_OR_LESS",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    },
+    {
+      "repository": "morluto/rea",
+      "path": "docs/testing.md",
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "git_blob_sha": "1987abe58b432324ce707ad6c80ea8b024605272",
+      "read_scope": "LINES_1_TO_180_OR_LESS",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    },
+    {
+      "repository": "morluto/rea",
+      "path": "src/server/runDerivedOperation.ts",
+      "commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+      "git_blob_sha": "f34a2b21e3834a258e1cf84f1e00e91c2e36c5fb",
+      "read_scope": "LINES_1_TO_180_OR_LESS",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "path": "docs/doctrine/ENGINEERING_TASK_RUNTIME_V1.md",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "git_blob_sha": "e7d51672fc358871d693d574f9b12a194c5037a1",
+      "read_scope": "LINES_1_TO_180_OR_LESS",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "path": "tests/failure_learning/test_failure_trap_runtime_hostile.py",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "git_blob_sha": "75ec5ce1acfcb41591513524c7344b5ae0d6fe66",
+      "read_scope": "LINES_1_TO_180_OR_LESS",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "path": "tests/method_transfer/test_cts_method_transfer.py",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "git_blob_sha": "4f8b9560dc0c99902c0f3866ff9582dc23a48dd5",
+      "read_scope": "LINES_1_TO_180_OR_LESS",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "path": "scripts/proving_ground/qualify_local_v1.py",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "git_blob_sha": "079d7158a499ea08232f058e060287f28917bd73",
+      "read_scope": "LINES_1_TO_180_OR_LESS",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "path": "docs/governance/qualification/B3B1_CURRENT_MAIN_QUALIFICATION/B3B1_CURRENT_MAIN_PRISTINE_INDEPENDENT_QUALIFICATION_RECEIPT_V1_FAIL_ATTEMPT_001.json",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "git_blob_sha": "1ee0e1e8f40f0f952104ec397f9bbfc15bae9816",
+      "read_scope": "FULL",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "path": "docs/governance/qualification/B3B1_CURRENT_MAIN_QUALIFICATION/B3B1_CURRENT_MAIN_PRISTINE_INDEPENDENT_QUALIFICATION_RECEIPT_V1_PASS_ATTEMPT_002_PRE_HOSTILE_REPAIR.json",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "git_blob_sha": "d6e6e13d6a9669fa973cf4203a9f47da1b5a644d",
+      "read_scope": "FULL",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    },
+    {
+      "repository": "chr1stopherwallace156-svg/oxyballs-Industrial",
+      "path": "docs/governance/qualification/B3B_FULL_CONTINUOUS_RUNTIME/B3B_FULL_CONTINUOUS_RUNTIME_PRISTINE_INDEPENDENT_QUALIFICATION_RECEIPT_V1.json",
+      "commit": "f2573f95bfa988e358d89d4180a783059b70a21d",
+      "git_blob_sha": "b6708399d0b09d02c4e47c108021b18a975f23b0",
+      "read_scope": "FULL",
+      "use": "REFERENCE_ANALYSIS_NOT_IMPORTED_QUALIFICATION",
+      "raw_source_published": false
+    }
+  ]
+}

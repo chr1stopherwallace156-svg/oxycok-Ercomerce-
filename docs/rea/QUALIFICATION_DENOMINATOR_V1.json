@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "authority": "NONE",
+  "status": "IMPLEMENTER_PREREGISTERED_NOT_INDEPENDENT",
+  "scope": "STATIC_LOCAL_INSPECTION_TO_ABSTRACT_BRIEF_TO_ORIGINAL_PLANNER",
+  "reference_repo": "morluto/rea",
+  "reference_commit": "c12d9eda87aa5a022ee7e18ea96d8d03bfd12e96",
+  "base_subject": "540f6e65449bd7dde26b093334fd0ef55830bae4",
+  "cases": [
+    {
+      "id": "M01",
+      "requirement": "Resume a bounded mission across fresh processes without losing identity"
+    },
+    {
+      "id": "M02",
+      "requirement": "Duplicate start reuses the same mission and events are not duplicated"
+    },
+    {
+      "id": "M03",
+      "requirement": "Changed target invalidates a previously admitted subject"
+    },
+    {
+      "id": "M04",
+      "requirement": "Corrupted content-addressed artifacts block progression"
+    },
+    {
+      "id": "M05",
+      "requirement": "Incomplete construction artifacts cannot be silently reused"
+    },
+    {
+      "id": "M06",
+      "requirement": "Target code is inspected statically and never imported or executed"
+    },
+    {
+      "id": "M07",
+      "requirement": "Generated consumer changes behavior under missing/excluded evidence"
+    },
+    {
+      "id": "M08",
+      "requirement": "Unknown evidence coverage blocks readiness; it cannot become equality"
+    },
+    {
+      "id": "M09",
+      "requirement": "Non-JSON, oversized, failed or missing REA provider blocks honestly"
+    },
+    {
+      "id": "M10",
+      "requirement": "Graph edges trace target, observation, brief, candidate, tests and lesson"
+    },
+    {
+      "id": "M11",
+      "requirement": "Failed missions remain preserved; successor attempts get distinct identities"
+    },
+    {
+      "id": "M12",
+      "requirement": "A deliberately broken consumer must fail the behavioral qualification"
+    },
+    {
+      "id": "M13",
+      "requirement": "Real pinned REA package inspects an owned JavaScript fixture"
+    },
+    {
+      "id": "M14",
+      "requirement": "Source files remain byte-identical; mission state cannot live in target"
+    },
+    {
+      "id": "M15",
+      "requirement": "Runtime code changes invalidate unfinished mission continuation"
+    },
+    {
+      "id": "M16",
+      "requirement": "Two workers do not commit the same transition twice"
+    }
+  ],
+  "excluded_claims": [
+    "ALL_REA_CAPABILITIES_REIMPLEMENTED",
+    "INDEPENDENT_QUALIFICATION",
+    "COPYRIGHT_CLEARANCE",
+    "HOST_SUPERVISION_24_7",
+    "AUTONOMOUS_COMMERCE",
+    "GENERAL_CODE_SYNTHESIS",
+    "BINARY_DECOMPILATION_PROVIDER_QUALIFICATION"
+  ],
+  "falsification": "A reachable path that permits target/source mutation, stale-subject reuse, false-green qualification, or silent loss of a failed attempt invalidates this bounded denominator and requires a new version."
+}

@@ -5,20 +5,26 @@ on:
     paths:
       - "knowledge/**"
       - "docs/knowledge_transfer/**"
+      - "docs/rea/**"
       - "scripts/knowledge/**"
       - "scripts/transfer/**"
+      - "scripts/mission/**"
       - "tests/knowledge/**"
       - "tests/transfer/**"
+      - "tests/mission/**"
       - ".github/workflows/knowledge.yml"
   push:
     branches: [main]
     paths:
       - "knowledge/**"
       - "docs/knowledge_transfer/**"
+      - "docs/rea/**"
       - "scripts/knowledge/**"
       - "scripts/transfer/**"
+      - "scripts/mission/**"
       - "tests/knowledge/**"
       - "tests/transfer/**"
+      - "tests/mission/**"
       - ".github/workflows/knowledge.yml"
 
 permissions:
@@ -35,3 +41,4 @@ jobs:
       - run: python3 scripts/knowledge/knowledge.py validate
       - run: python3 -m unittest discover -s tests/knowledge -v
       - run: python3 -m unittest discover -s tests/transfer -v
+      - run: python3 -m unittest discover -s tests/mission -v

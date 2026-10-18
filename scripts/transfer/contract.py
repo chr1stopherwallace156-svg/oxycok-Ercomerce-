@@ -57,10 +57,13 @@ def parse(raw):
 
 
 def validate(brief):
-    exact(brief, ["version", "kind", "authority", "action_authorized", "domain",
+    require(isinstance(brief, dict), "INVALID_BRIEF")
+    version = brief.get("version")
+    fields = ["version", "kind", "authority", "action_authorized", "domain",
                   "facts", "facts_basis", "rights", "rules", "relations",
-                  "evidence_pins", "coverage", "brief_sha256"])
-    require(type(brief["version"]) is int and brief["version"] == 1, "INVALID_VERSION")
+                  "evidence_pins", "coverage", "brief_sha256"]
+    exact(brief, fields + (["target_evidence"] if version == 2 else []))
+    require(type(brief["version"]) is int and brief["version"] in (1, 2), "INVALID_VERSION")
     require(brief["kind"] == "ABSTRACT_TRANSFER_BRIEF", "INVALID_KIND")
     require(brief["authority"] == "NONE" and brief["action_authorized"] is False,
             "AUTHORITY_ESCALATION")
@@ -110,6 +113,15 @@ def validate(brief):
         pin_ids.add(pin["id"])
         require(all(len(pin[key]) == 40 and all(c in "0123456789abcdef" for c in pin[key])
                     for key in ("commit", "git_blob_sha")), "UNPINNED_EVIDENCE")
+    if version == 2:
+        evidence = brief["target_evidence"]
+        exact(evidence, ["artifact_sha256", "observation_sha256", "provider", "coverage_status", "limitations"])
+        for key in ("artifact_sha256", "observation_sha256"):
+            require(isinstance(evidence[key], str) and len(evidence[key]) == 64
+                    and all(c in "0123456789abcdef" for c in evidence[key]), "INVALID_TARGET_DIGEST")
+        require(string(evidence["provider"]) and evidence["coverage_status"] in
+                ("BOUNDED_STATIC", "UNKNOWN"), "INVALID_TARGET_COVERAGE")
+        require(strings(evidence["limitations"], True), "TARGET_LIMITATIONS_REQUIRED")
     unsigned = {k: v for k, v in brief.items() if k != "brief_sha256"}
     require(brief["brief_sha256"] == digest(unsigned), "BRIEF_HASH_MISMATCH")
     return brief

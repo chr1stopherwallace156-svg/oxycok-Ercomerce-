@@ -23,9 +23,21 @@ Read docs/knowledge_transfer/TWO_RUNTIME_CONTRACT_V1.md for the current boundary
 Runtime A curates reference evidence; Runtime B accepts only an abstract brief
 and creates a new project from project-authored implementation templates.
 Never treat a code rewrite, matching behavior or successful test as legal clearance.
-Do not redefine REA until its meaning is established. Preserve scoped relation
+REA is morluto/rea (Reverse Engineer Anything), as clarified by the owner. Preserve scoped relation
 types: non-equivalence, non-implication, conditional equivalence, analogy and
 contradiction must not collapse into each other.
 Also run `python3 -m unittest discover -s tests/transfer -v`.
 The owner authorized public generalized lessons/source pins on 2026-10-18;
 Industrial remains read-only and raw private source bytes remain excluded.
+
+## Connected mission runtime
+
+Read docs/rea/SOURCE_REVIEW_V1.md, docs/rea/MISSION_RUNTIME_V1.md and the
+preregistered qualification denominator before extending this mission.
+The mission coordinator composes the evidence and construction boundaries.
+Continuity means resumable bounded workflow, not mandatory 24/7 operation.
+Use only owned/authorized analysis targets. Retain original provider failures
+and partial evidence; never bypass provider ownership checks or call simulated
+results real-provider proof. Unknown coverage must affect readiness.
+Run `python3 -m unittest discover -s tests/mission -v` as well as both prior suites.
+Industrial remains read-only. No REA source code is vendored in this change.

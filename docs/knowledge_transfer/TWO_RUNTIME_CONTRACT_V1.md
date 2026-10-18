@@ -1,3 +1,8 @@
+> Superseding owner clarification (2026-10-18): REA is morluto/rea, Reverse
+> Engineer Anything. The unresolved-name statements below describe the earlier
+> foundation stage. The connected implementation is specified in
+> ../rea/MISSION_RUNTIME_V1.md; the evidence/construction boundary remains active.
+
 # Evidence and original construction runtimes v1
 
 Status: IMPLEMENTED_BOUNDED_CANDIDATE. Independent qualification: NOT_ESTABLISHED.
